@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="fr" xml:lang="fr" class="_Skins_Side_navigation_IQ3" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../" data-mc-has-content-body="True" data-mc-toc-path="FORMULES DE CALCUL (script)|Syntaxe du langage" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="msapplication-config" content="../Skins/Favicons/browserconfig.xml" />
+        <link rel="shortcut icon" href="../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="168x168" href="../Skins/Favicons/favicon.png" />
+        <link rel="icon" sizes="32x32" href="../Skins/Favicons/favicon.png" />
+        <link rel="icon" sizes="168x168" href="../Skins/Favicons/favicon.png" /><title>STRUCTURES&#160;DE&#160;CONTRÔLE</title>
+        <link href="../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Resources/Stylesheets/Styles.css" rel="stylesheet" type="text/css" />
+        <link href="../Resources/Scripts/search-dropdown.css" rel="stylesheet" type="text/css" />
+        <style>/*&lt;meta /&gt;*/
+
+.button.remove-highlight-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.separator-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.select-language-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.separator-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.expand-all-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.separator-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.print-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.collapse-all-button
+{
+	-pie-background: linear-gradient(transparent, #ececec);
+}
+
+.needs-pie
+{
+	behavior: url('../Resources/Scripts/PIE-no-motw.htc');
+}
+
+</style>
+        <link href="../Resources/TableStyles/Table.css" rel="stylesheet" data-mc-stylesheet-type="table" />
+        <link href="../Resources/Stylesheets/MainStyles.css" rel="stylesheet" />
+        <link rel="shortcut icon" href="../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="168x168" href="../Skins/Favicons/favicon.png" />
+        <link rel="icon" sizes="32x32" href="../Skins/Favicons/favicon.png" />
+        <link rel="icon" sizes="168x168" href="../Skins/Favicons/favicon.png" />
+        <script src="../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../Resources/Scripts/purify.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/require.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/require.config.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/foundation.6.2.3_custom.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/plugins.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/MadCapAll.js" type="text/javascript" defer="defer">
+        </script>
+        <script type="text/javascript" src="../Resources/Scripts/search-dropdown.js">
+        </script>
+        <script type="text/javascript" src="../Skins/Default/Scripts/TopicToolBar.js">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-right" role="complementary" id="offCanvas" data-off-canvas="" data-position="right" data-mc-ignore="true">
+                    <ul class="off-canvas-accordion vertical menu off-canvas-list" data-accordion-menu="" data-mc-back-link="Retour" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expanded-event="down.zf.accordionMenu up.zf.accordionMenu" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div data-sticky-container="" class="title-bar-container">
+                        <nav class="title-bar tab-bar sticky" aria-label="Main navigation and search" data-sticky="" data-options="marginTop:0" style="width:100%" data-sticky-on="only screen and (max-width: 1279px)" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="#">Passer au contenu principal</a>
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="menu-icon-container relative clearfix">
+                                    <div class="central-account-wrapper">
+                                        <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Compte</span></a>
+                                            <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Paramètres</a>
+                                                <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Déconnexion</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="menu-icon" aria-label="Afficher le volet de navigation" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="title-bar-layout outer-row">
+                                <div class="logo-wrapper"><a class="logo" href="../Home.htm" alt="Logo"></a>
+                                </div>
+                                <div class="navigation-wrapper nocontent">
+                                    <ul class="navigation clearfix" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                        <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="central-account-wrapper">
+                                    <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Compte</span></a>
+                                        <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Paramètres</a>
+                                            <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Déconnexion</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nav-search-wrapper">
+                                    <div class="nav-search row">
+                                        <form class="search" action="#">
+                                            <div class="search-bar search-bar-container needs-pie">
+                                                <input class="search-field needs-pie" type="search" aria-label="Champ de recherche" placeholder="Rechercher" />
+                                                <div class="search-filter-wrapper"><span class="invisible-label" id="search-filters-label">Filtrer&#160;:</span>
+                                                    <div class="search-filter" aria-haspopup="true" aria-controls="sf-content" aria-expanded="false" aria-label="Filtre de recherche" title="Tous les fichiers" role="button" tabindex="0">
+                                                    </div>
+                                                    <div class="search-filter-content" id="sf-content">
+                                                        <ul>
+                                                            <li>
+                                                                <button class="mc-dropdown-item" aria-labelledby="search-filters-label filterSelectorLabel-00001"><span id="filterSelectorLabel-00001">Tous les fichiers</span>
+                                                                </button>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="search-submit-wrapper" dir="ltr">
+                                                    <div class="search-submit" title="Rechercher" role="button" tabindex="0"><span class="invisible-label">Démarrer la recherche</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="main-section">
+                        <div class="row outer-row sidenav-layout">
+                            <nav class="sidenav-wrapper">
+                                <div class="sidenav-container">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expanded-event="down.zf.accordionMenu up.zf.accordionMenu" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
+                                    </ul>
+                                </div>
+                            </nav>
+                            <div class="body-container">
+                                <div data-mc-content-body="True"><a href="#" class="scrollToTop"></a>
+                                    <div class="buttons popup-container clearfix topicToolbarProxy _Skins_TopicToolBar mc-component nocontent" style="float: right; mc-topic-toolbar-items: ;">
+                                        <div class="button-group-container-left">
+                                            <button class="button needs-pie remove-highlight-button" title="Supprimer les surlignages">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                            <div class="button-separator">
+                                            </div>
+                                            <button class="button needs-pie select-language-button" title="Changer de langue">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper" aria-label="Changer de langue">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                            <div class="button-separator">
+                                            </div>
+                                            <button class="button needs-pie expand-all-button" data-state1-class="expand-all-button" data-state2-class="collapse-all-button" data-state2-title="Réduire tout" title="Développer tout" data-state1-title="Développer tout">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper" aria-label="Développer tout">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                            <div class="button-separator">
+                                            </div>
+                                            <button class="button needs-pie print-button" title="Imprimer">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper" aria-label="Imprimer">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="nocontent">
+                                        <div class="MCBreadcrumbsBox_0 breadcrumbs" role="navigation" aria-label="Pistes de navigation" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="3" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">Vous êtes ici&#160;:</span>
+                                        </div>
+                                    </div>
+                                    <div role="main" id="mc-main-content">
+                                        <h1>STRUCTURES&#160;DE&#160;CONTRÔLE</h1>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" /></a><a name="faire"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" aria-expanded="false">Faire </a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p><span class="bold">Description&#160;:</span>
+                                                </p>
+                                                <p>Répète un groupe d’instructions tant que les conditions d’exécution sont vérifiées.</p>
+                                                <p><span class="bold">Syntaxe&#160;:</span>
+                                                </p>
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Table.css');margin-left: 0;margin-right: auto;" class="TableStyle-Table" cellspacing="0">
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>Faire </p>
+                                                            <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;instructions&gt;</p>
+                                                            <p>Boucle TantQue &lt;condition&gt;</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body1">
+                                                            <p>Répété tant que la condition est vraie.</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>Do </p>
+                                                            <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt; instructions &gt;</p>
+                                                            <p>Loop While &lt; condition &gt;</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body2">
+                                                            <p>Répété tant que la condition est vraie.</p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                    <br />Pour calculer le nombre d'occurrences d'un caractère «&#160;p&#160;» ou d'un mot&#160;dans V1&#160;:<br />TexteApres = V1<br />Caractere = "p"<br />NombreDeFois = 0<br />indice = 1<br />ResultatSouhaite = 3<br />Faire TantQue indice &lt;&gt; 0<br />&#160;&#160;&#160; indice = DansChaîne(TexteApres,Caractere)<br />&#160;&#160;&#160; Si indice &gt; 0 Alors<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160; NombreDeFois = NombreDeFois + 1<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160; TexteApres = SousChaîne(TexteApres,indice)<br />&#160;&#160;&#160; FinSi<br />Boucle<br />Selon Cas ResultatSouhaite<br />Cas 1<br />&#160;&#160;&#160; V = NombreDeFois<br />Cas 2<br />&#160;&#160;&#160; V = TexteApres<br />Cas 3<br />&#160;&#160;&#160; V = NumChaîne(NombreDeFois) &amp; "&#160; :&#160; " &amp; TexteApres<br />FinSelon</p>
+                                                <p>&#160;</p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" /></a><a name="jusque"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" aria-expanded="false">Jusque</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p><span class="bold">Description&#160;:</span>
+                                                </p>
+                                                <p>Répète un groupe d’instructions jusqu’à ce que les conditions d’exécution soient vérifiées.</p>
+                                                <p><span class="bold">Syntaxe&#160;:</span>
+                                                </p>
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Table.css');margin-left: 0;margin-right: auto;" class="TableStyle-Table" cellspacing="0">
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>Faire Jusque  &lt;condition&gt;</p>
+                                                            <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;instructions&gt;</p>
+                                                            <p>Boucle</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body1">
+                                                            <p>Répété jusqu’à ce que la condition devienne vraie.</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>Do Until  &lt;condition&gt;</p>
+                                                            <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;instructions&gt;</p>
+                                                            <p>Loop</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body2">
+                                                            <p>Répété jusqu’à ce que la condition devienne vraie.</p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />Pour </a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p><span class="bold">Description&#160;:</span>
+                                                </p>
+                                                <p>Répète un groupe d’instructions autant de fois que précisé.</p>
+                                                <p><span class="bold">Syntaxe&#160;:</span>
+                                                </p>
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Table.css');margin-left: 0;margin-right: auto;" class="TableStyle-Table" cellspacing="0">
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>Pour &lt;compteur&gt; = &lt;premier&gt; à  &lt;dernier&gt; [ParPasDe  &lt;pas&gt;]</p>
+                                                            <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;instructions&gt;</p>
+                                                            <p>Suivant  [&lt;compteur&gt;]</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body1">
+                                                            <p>Répété tant que la condition est vraie.</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>For  &lt;counter&gt; = &lt;first&gt; To  &lt;last&gt; [Step  &lt;step&gt;]&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </p>
+                                                            <p>&#160;&#160;&#160;&#160;&#160;&#160; &lt; instructions &gt;</p>
+                                                            <p>Next  [&lt;counter&gt;]</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body2">
+                                                            <p>Répété tant que la condition est vraie.</p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" /></a><a name="seloncas"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" aria-expanded="false">Selon cas</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p><span class="bold">Description&#160;:</span>
+                                                </p>
+                                                <p>Exécute un groupe d’instructions si les conditions d’exécution sont vérifiées.</p>
+                                                <p><span class="bold">Syntaxe&#160;:</span>
+                                                </p>
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Table.css');margin-left: 0;margin-right: auto;" class="TableStyle-Table" cellspacing="0">
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>Selon Cas  &lt;expression&gt;</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body1">
+                                                            <p>&#160;</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>Cas&#160; <br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;instructions1&gt;</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body2">
+                                                            <p>Répété zéro ou plusieurs fois.</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>CasSinon<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;instructions2&gt;</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body1">
+                                                            <p>Répété zéro ou une fois.</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>FinSelon</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body2">
+                                                            <p>&#160;</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>Select Case  &lt;expression&gt;</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body1">
+                                                            <p>&#160;</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>Case&#160; <br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;instructions1&gt;</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body2">
+                                                            <p>Répété zéro ou plusieurs fois.</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>CaseElse<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;instructions2&gt;</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body1">
+                                                            <p>Répété zéro ou une fois.</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>EndSelect</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body2">
+                                                            <p>&#160;</p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <p>&#160;</p>
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Table.css');margin-left: 0;margin-right: auto;" class="TableStyle-Table" cellspacing="0">
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <thead>
+                                                        <tr class="TableStyle-Table-Head-Header1">
+                                                            <th class="TableStyle-Table-HeadE-Column1-Header1">
+                                                                <p style="text-align: center;">Exemple</p>
+                                                            </th>
+                                                            <th class="TableStyle-Table-HeadD-Column1-Header1">
+                                                                <p style="text-align: center;">Commentaires</p>
+                                                            </th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                                <p>Selon Cas [Note]</p>
+                                                                <p>&#160;&#160;&#160; Cas 20</p>
+                                                                <p>&#160;&#160;&#160; V = "Excellent"</p>
+                                                                <p>&#160;&#160;&#160; CasSinon</p>
+                                                                <p>&#160;&#160;&#160; V = "A étudier" </p>
+                                                                <p>FinSelon</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">
+                                                                <p>Une variable est créée en fonction de la valeur de Note.</p>
+                                                                <p>Si Note de l’observation est à 20 alors la variable prend la valeur «&#160;Excellent&#160;», sinon elle prend la valeur «&#160;A étudier&#160;».</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                                <p>ref = 20</p>
+                                                                <p>Selon Cas ref</p>
+                                                                <p>&#160;&#160;&#160; Cas [note]</p>
+                                                                <p>&#160;&#160;&#160; V = "Excellent"</p>
+                                                                <p>&#160;&#160;&#160; CasSinon</p>
+                                                                <p>&#160;&#160;&#160; V = "A étudier"</p>
+                                                                <p>FinSelon</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body2">
+                                                                <p>Une variable est créée.</p>
+                                                                <p>ref est la valeur de référence. Elle est de 20 dans l’exemple.</p>
+                                                                <p>L’instruction est exécutée par observation&#160;: si la note de l’observation est à 20 alors la variable calculée prend la valeur «&#160;Excellent&#160;», sinon elle prend la valeur «&#160;A étudier&#160;».</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                                <p>Selon Cas [Note]</p>
+                                                                <p>&#160;&#160;&#160; Cas 20</p>
+                                                                <p>&#160;&#160;&#160; Cas 19</p>
+                                                                <p>&#160;&#160;&#160; V = "Excellent"</p>
+                                                                <p>&#160;&#160;&#160; Cas 18</p>
+                                                                <p>&#160;&#160;&#160; Cas 17</p>
+                                                                <p>&#160;&#160;&#160; V = "Bien"</p>
+                                                                <p>&#160;&#160;&#160; CasSinon</p>
+                                                                <p>&#160;&#160;&#160; V = "A étudier" </p>
+                                                                <p>FinSelon</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">
+                                                                <p>Dans ce cas, si la note de l’observation est à 19 ou 20 alors la variable calculée prend la valeur «&#160;Excellent&#160;», si la note est à 17 ou 18 alors la variable prend la valeur «&#160;Bien&#160;» sinon, c’est la valeur «&#160;A étudier&#160;».</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyB-Column1-Body2">
+                                                                <p>ref = "MERCEDES"</p>
+                                                                <p>Selon Cas ref</p>
+                                                                <p>&#160;&#160;&#160; Cas [Marque]</p>
+                                                                <p>&#160;&#160;&#160; V="OK"</p>
+                                                                <p>FinSelon</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyA-Column1-Body2">
+                                                                <p>La valeur de référence est MERCEDES.</p>
+                                                                <p>L’instruction vérifie par observation si la variable maque est Mercédès (sans tenir de la casse et des accents). Dans ce cas, la variable créée prend la valeur "OK". </p>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" /></a><a name="siSinonFinSi"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" aria-expanded="false">Si … Sinon … FinSi</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p><span class="bold">Description&#160;:</span>
+                                                </p>
+                                                <p>Exécute un groupe d’instructions en fonction de conditions.</p>
+                                                <p><span class="bold">Syntaxe&#160;:</span>
+                                                </p>
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Table.css');" class="TableStyle-Table" cellspacing="0">
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p><a name="kanchor1"></a>Si &lt;condition1&gt; Alors<br />&lt;instructions1&gt;</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body1">
+                                                            <p>&#160;</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p><a name="kanchor2"></a>SinonSi &lt;condition2&gt; Alors<br />&lt;instructions2&gt;&#160; </p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body2">
+                                                            <p>Optionnel<br />Répété zéro ou plusieurs fois.</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p><a name="kanchor3"></a>Sinon &lt;condition3&gt; Alors<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;instructions3&gt;</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body1">
+                                                            <p>Optionnel<br />Répété zéro ou une fois.</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p><a name="kanchor4"></a>FinSi</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body2">
+                                                            <p>&#160;</p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <p>&#160;</p>
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Table.css');" class="TableStyle-Table" cellspacing="0">
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p><a name="kanchor5"></a>If &lt;condition1&gt; Then<br />&lt;instructions1&gt;</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body1">
+                                                            <p>&#160;</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p><a name="kanchor6"></a>ElseIf &lt;condition2&gt; Then&#160; <br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;instructions2&gt;</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body2">
+                                                            <p>Optionnel <br />Répété zéro ou plusieurs fois.</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p><a name="kanchor7"></a>Else &lt;condition3&gt; Then<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;instructions3&gt;</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body1">
+                                                            <p>Optionnel <br />Répété zéro ou une fois.</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p><a name="kanchor8"></a>EndIf</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body2">
+                                                            <p>&#160;</p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <p>&#160;</p>
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Table.css');margin-left: 0;margin-right: auto;" class="TableStyle-Table" cellspacing="0">
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <thead>
+                                                        <tr class="TableStyle-Table-Head-Header1">
+                                                            <th class="TableStyle-Table-HeadE-Column1-Header1">
+                                                                <p style="text-align: center;">Exemple</p>
+                                                            </th>
+                                                            <th class="TableStyle-Table-HeadD-Column1-Header1">
+                                                                <p style="text-align: center;">Commentaires</p>
+                                                            </th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                                <p>Si Note = 20 Alors</p>
+                                                                <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160; V = "Excellent"</p>
+                                                                <p>&#160;&#160;&#160; Sinon</p>
+                                                                <p>&#160;&#160;&#160; &#160;&#160;&#160; V = "A étudier" </p>
+                                                                <p>FinSi</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">
+                                                                <p>Une variable est créée en fonction de la valeur de Note.</p>
+                                                                <p>Si Note de l’observation est à 20 alors la variable prend la valeur «&#160;Excellent&#160;», sinon elle prend la valeur «&#160;A étudier&#160;».</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyB-Column1-Body2">
+                                                                <p>Si Note &gt;=19 Alors</p>
+                                                                <p>&#160;&#160;&#160; V = "Excellent"</p>
+                                                                <p>SinonSi Note &gt;=17 et Note &lt;19 Alors</p>
+                                                                <p>&#160;&#160;&#160; V = "Bien"</p>
+                                                                <p>&#160;&#160;&#160; Sinon</p>
+                                                                <p>&#160;&#160;&#160; V = "A étudier" </p>
+                                                                <p>FinSi</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyA-Column1-Body2">
+                                                                <p>&#160;</p>
+                                                                <p>Dans ce cas, si la note de l’observation est à 19 ou 20 alors la variable calculée prend la valeur «&#160;Excellent&#160;», si la note est à 17 ou 18 alors la variable prend la valeur «&#160;Bien&#160;» sinon, c’est la valeur «&#160;A étudier&#160;».</p>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" /></a><a name="tantque"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" aria-expanded="false">Tantque </a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p><span class="bold">Description&#160;:</span>
+                                                </p>
+                                                <p>Répète un groupe d’instructions tant que les conditions d’exécution sont vérifiées.</p>
+                                                <p><span class="bold">Syntaxe&#160;:</span>
+                                                </p>
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Table.css');" class="TableStyle-Table" cellspacing="0">
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <tbody>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                                <p><a name="kanchor9"></a>Faire TantQue  &lt;condition&gt;</p>
+                                                                <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;instructions&gt;</p>
+                                                                <p>Boucle</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">
+                                                                <p>Répété tant que la condition est vraie.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyB-Column1-Body2">
+                                                                <p><a name="kanchor10"></a>Do While  &lt;condition&gt;</p>
+                                                                <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;instructions&gt;</p>
+                                                                <p>Loop</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyA-Column1-Body2">
+                                                                <p>Répété tant que la condition est vraie.</p>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                <p>&#160;</p>
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Table.css');margin-left: 0;margin-right: auto;" class="TableStyle-Table" cellspacing="0">
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <thead>
+                                                        <tr class="TableStyle-Table-Head-Header1">
+                                                            <th class="TableStyle-Table-HeadE-Column1-Header1">
+                                                                <p style="text-align: center;">Exemple</p>
+                                                            </th>
+                                                            <th class="TableStyle-Table-HeadD-Column1-Header1">
+                                                                <p style="text-align: center;">Commentaires</p>
+                                                            </th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyB-Column1-Body1">
+                                                                <p>T(1) = V1.Nombre</p>
+                                                                <p>N(1) = V1.Libellé</p>
+                                                                <p>T(2) = V2.Nombre</p>
+                                                                <p>N(2) = V2.Libellé</p>
+                                                                <p>T(3) = V3.Nombre</p>
+                                                                <p>N(3) = V3.Libellé</p>
+                                                                <p>T(4) = V4.Nombre</p>
+                                                                <p>N(4) = V4.Libellé</p>
+                                                                <p>T(5) = V5.Nombre</p>
+                                                                <p>N(5) = v5.Libellé</p>
+                                                                <p>permut = Vrai</p>
+                                                                <p>Faire TantQue permut = Vrai</p>
+                                                                <p>&#160;&#160;&#160; permut = Faux</p>
+                                                                <p>&#160;&#160;&#160; Pour cpt = 1 à 4</p>
+                                                                <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160; Si T(cpt) &lt; T(cpt + 1) Alors</p>
+                                                                <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; permut = Vrai</p>
+                                                                <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; tmp = T(cpt)</p>
+                                                                <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; T(cpt) = T(cpt + 1)</p>
+                                                                <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; T(cpt + 1) = tmp</p>
+                                                                <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; tmpch = N(cpt)</p>
+                                                                <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; N(cpt) = N(cpt + 1)</p>
+                                                                <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; N(cpt + 1) = tmpch</p>
+                                                                <p>&#160;&#160;&#160;&#160;&#160;&#160;&#160; FinSi</p>
+                                                                <p>&#160;&#160;&#160; Suivant cpt</p>
+                                                                <p>Boucle</p>
+                                                                <p>V = N(1) &amp; ";" &amp; N(2) &amp; ";" &amp; N(3) &amp; ";" &amp; N(4) &amp; ";" &amp; N(5)</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyA-Column1-Body1">
+                                                                <p>Les variables de 1 à 5 évaluent 5 critères sur une échelle de 5 niveaux (pas du tout d’accord, pas d’accord, moyennement d’accord, d’accord, tout à fait d’accord).</p>
+                                                                <p>&#160;</p>
+                                                                <p>L’objectif de cette boucle est de calculer le niveau d’importance de chaque critère à partir des réponses aux échelles. </p>
+                                                                <p>&#160;</p>
+                                                                <p>A l’issue de la boucle, une variable fermée à plusieurs réponses est créée. Les modalités de cette variable sont enregistrées dans l’ordre d’importance des critères pour chaque observation. </p>
+                                                                <p>&#160;</p>
+                                                                <p>Exemple&#160;: </p>
+                                                                <p>V1 correspond à sécurité, V2 à vitesse&#160;; V3 à esthétique&#160;; V4 à confort et V5 à espace.</p>
+                                                                <p>&#160;</p>
+                                                                <p>Le résultat de cette boucle sera : </p>
+                                                                <p>Observation1&#160;: sécurité&#160;; esthétique&#160;; espace&#160;; vitesse&#160;; confort</p>
+                                                                <p>Observation2&#160;: vitesse&#160;; confort ; espace&#160;; sécurité&#160;; esthétique&#160;</p>
+                                                                <p>…</p>
+                                                                <p>&#160;</p>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><a data-close="true"></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

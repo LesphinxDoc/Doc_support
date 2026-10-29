@@ -1,0 +1,1092 @@
+/*<meta />*/
+
+@namespace MadCap url(http://www.madcapsoftware.com/Schemas/MadCap.xsd);
+
+@font-face 
+{
+	font-family: 'Raleway';
+	src: url(../Fonts/Raleway-Regular.ttf);
+}
+
+.micro-response1705003508 .body-container
+{
+	flex: 1 1;
+	padding-left: 2em;
+	padding-right: 2em;
+	overflow: auto;
+}
+
+.micro-response1705003508
+{
+	font-family: Arial;
+}
+
+.micro-response1705003508 html.home-topic	/*Used on home topic to override padding set in the skin*/
+{
+	
+}
+
+.micro-response1705003508 html.home-topic .body-container	/*Overrides padding set in the skin*/
+{
+	padding: 0;
+}
+
+.micro-response1705003508 html.home-topic .main-section > .outer-row	/*Overrides padding set in the skin when in tablet/mobile*/
+{
+	max-width: 100%;
+	padding: 0;
+}
+
+.micro-response1705003508 .button
+{
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 35px 52px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+.micro-response1705003508 h1
+{
+	font-weight: bold;
+	font-size: 24.0pt;
+	color: #45494c;
+	font-family: raleway;
+}
+
+.micro-response1705003508 h2
+{
+	font-weight: bold;
+	font-size: 18.0pt;
+	font-family: Raleway;
+}
+
+.micro-response1705003508 h3
+{
+	font-weight: bold;
+	font-size: 14.0pt;
+}
+
+.micro-response1705003508 h4
+{
+	font-weight: bold;
+	font-size: 12.0pt;
+	font-family: Raleway;
+}
+
+.micro-response1705003508 h5
+{
+	font-weight: bold;
+	font-size: 10.0pt;
+}
+
+.micro-response1705003508 h6
+{
+	font-weight: bold;
+	font-size: 8.0pt;
+}
+
+.micro-response1705003508 p
+{
+	font-size: 12.0pt;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	line-height: 20pt;
+	letter-spacing: 0.25;
+	font-family: Raleway;
+}
+
+.micro-response1705003508 p.footer
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	line-height: 13pt;
+	color: #fff;
+}
+
+.micro-response1705003508 ol,
+.micro-response1705003508 ul
+{
+	letter-spacing: .25;
+	line-height: 20pt;
+}
+
+.micro-response1705003508 img
+{
+	border: none;
+	max-width: 100%;
+}
+
+.micro-response1705003508 a.Popup
+{
+	
+}
+
+.micro-response1705003508 MadCap|expandingHead
+{
+	font-style: italic;
+	font-weight: normal;
+	cursor: hand;
+	text-decoration: none;
+	color: #006600;
+}
+
+.micro-response1705003508 MadCap|expandingBody
+{
+	color: #777777;
+	font-style: italic;
+}
+
+.micro-response1705003508 MadCap|dropDownHotspot
+{
+	cursor: hand;
+	text-decoration: none;
+	font-weight: bold;
+	border-bottom: none;
+	font-size: 13pt;
+	color: #65205b;
+	font-family: Raleway;
+}
+
+.micro-response1705003508 MadCap|xref
+{
+	color: #076685;
+	font-weight: bold;
+	mc-format: '{para}';
+	text-decoration: underline;
+}
+
+.micro-response1705003508 div.home-layout
+{
+	padding: 0% 5% 2%;
+}
+
+.micro-response1705003508 div.home-section
+{
+	padding: 2% 0;
+}
+
+.micro-response1705003508 MadCap|breadcrumbsProxy
+{
+	border-bottom-width: 0;
+	color: #888888;
+	font-size: 8pt;
+}
+
+.micro-response1705003508 a:link
+{
+	color: #4136ff;
+}
+
+.micro-response1705003508 a:visited
+{
+	color: #076685;
+}
+
+.micro-response1705003508 ul.menu._Skins_SideMenu.mc-component li > a:hover
+{
+	background-color: #65205b;
+	border-radius: 0px;
+}
+
+.micro-response1705003508 ul.menu._Skins_SideMenu.mc-component ul > li > a:hover
+{
+	background-color: #65205b;
+	border-radius: 0px;
+}
+
+.micro-response1705003508 ul.menu._Skins_SideMenu.mc-component ul ul > li > a:hover
+{
+	background-color: #65205b;
+	border-radius: 0px;
+}
+
+.micro-response1705003508 ul.menu._Skins_SideMenu.mc-component ul ul ul > li > a:hover
+{
+	background-color: #65205b;
+	border-radius: 0px;
+}
+
+.micro-response1705003508 ul.menu._Skins_SideMenu.mc-component ul ul ul ul > li > a:hover
+{
+	background-color: #65205b;
+	border-radius: 0px;
+}
+
+.micro-response1705003508 MadCap|dropDownBody
+{
+	padding: 10px 30px 0;
+}
+
+.micro-response1705003508 MadCap|dropDown
+{
+	border-bottom: 1px solid #dadada;
+	mc-image-position: left;
+	mc-image-spacing: 10px;
+	padding: 10px 0;
+	font-family: Raleway;
+	mc-closed-image: url('../../Resources/Images/right_purple.png');
+	mc-open-image: url('../../Resources/Images/down_pink.png');
+}
+
+.micro-response1705003508 div.topic-hero
+{
+	background-size: cover;
+	background-attachment: inherit;
+	background-image: url('../../Resources/Images/homeimg2.png');
+	background-position: center;
+	padding: 14%;
+}
+
+.micro-response1705003508 div.topic-hero h1
+{
+	color: #fff;
+	font-family: Arial;
+	font-size: 48pt;
+	text-align: center;
+}
+
+.micro-response1705003508 div.home-tiles::before
+{
+	content: ' ';
+	display: table;
+}
+
+.micro-response1705003508 div.home-tiles::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+.micro-response1705003508 div.home-tiles > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	color: #242424;
+	background-color: #f2f4f7;
+	padding: 2%;
+	padding-left: 2.5px;
+	padding-right: 2.5px;
+}
+
+.micro-response1705003508 div.home-tiles > div:nth-child(1)
+{
+	margin-left: 0%;
+	width: 48%;
+}
+
+.micro-response1705003508 div.home-tiles > div:nth-child(2)
+{
+	margin-left: 4%;
+	width: 48%;
+}
+
+.micro-response1705003508 div.home-tiles-layout	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.micro-response1705003508 div.home-tiles-layout::before
+{
+	content: ' ';
+	display: table;
+}
+
+.micro-response1705003508 div.home-tiles-layout::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+.micro-response1705003508 div.home-tiles-layout > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.micro-response1705003508 div.home-tiles-layout > div:nth-child(1)
+{
+	width: 16.667%;
+	margin-left: 2%;
+}
+
+.micro-response1705003508 div.home-tiles-layout > div:nth-child(2)
+{
+	width: 66.667%;
+	margin-left: 0%;
+}
+
+.micro-response1705003508 div.home-tiles-layout p
+{
+	line-height: 1.2;
+}
+
+.micro-response1705003508 div.quick-links	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.micro-response1705003508 div.quick-links::before
+{
+	content: ' ';
+	display: table;
+}
+
+.micro-response1705003508 div.quick-links::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+.micro-response1705003508 div.quick-links > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.micro-response1705003508 div.quick-links > div:nth-child(1)
+{
+	width: 16.66666%;
+	margin-left: 2%;
+}
+
+.micro-response1705003508 div.quick-links > div:nth-child(2)
+{
+	width: 16.667%;
+	margin-left: 3%;
+}
+
+.micro-response1705003508 div.quick-links > div:nth-child(3)
+{
+	width: 16.66666%;
+	margin-left: 3%;
+}
+
+.micro-response1705003508 div.quick-links > div:nth-child(4)
+{
+	width: 16.667%;
+	margin-left: 3%;
+}
+
+.micro-response1705003508 div.quick-links *	/*Text-align center set to all elements within div.quick-links*/
+{
+	text-align: center;
+}
+
+.micro-response1705003508 div.home-footer
+{
+	padding: 2% 5%;
+	background-color: #632459;
+}
+
+.micro-response1705003508 MadCap|dropDownHotspot:focus
+{
+	color: #65205b;
+	font-size: 13pt;
+	font-family: Raleway;
+}
+
+.micro-response1705003508 MadCap|dropDownHotspot:hover
+{
+	font-family: Raleway;
+	font-size: 13pt;
+	color: #b04284;
+}
+
+.micro-response1705003508 ol
+{
+	font-size: 12pt;
+	font-family: raleway;
+}
+
+.micro-response1705003508 ul
+{
+	font-family: Raleway;
+	font-size: 15pt;
+}
+
+@media only screen and (max-width: 1279px)
+{
+	.micro-response1705003508 html.home-topic .body-container
+	{
+		margin-left: 0;
+	}
+
+	.micro-response1705003508 div.home-tiles > div:nth-child(1)
+	{
+		width: 49%;
+		margin-left: 0%;
+	}
+
+	.micro-response1705003508 div.home-tiles > div:nth-child(2)
+	{
+		width: 49%;
+		margin-left: 2%;
+	}
+
+	.micro-response1705003508 div.home-tiles-layout > div:nth-child(1)
+	{
+		width: 40%;
+		margin-left: 30%;
+	}
+
+	.micro-response1705003508 div.home-tiles-layout > div:nth-child(2)
+	{
+		width: 90%;
+		margin-left: 5%;
+	}
+
+	.micro-response1705003508 div.quick-links > div:nth-child(1)
+	{
+		width: 24%;
+		margin-left: 0%;
+	}
+
+	.micro-response1705003508 div.quick-links > div:nth-child(2)
+	{
+		width: 24%;
+		margin-left: 14%;
+	}
+
+	.micro-response1705003508 div.quick-links > div:nth-child(3)
+	{
+		width: 24%;
+		margin-left: 19%;
+	}
+
+	.micro-response1705003508 div.quick-links > div:nth-child(4)
+	{
+		width: 24%;
+		margin-left: 14%;
+	}
+}
+
+@media only screen and (max-width: 767px)
+{
+	.micro-response1705003508 div.home-tiles > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	.micro-response1705003508 div.home-tiles > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+		margin-top: 5%;
+	}
+
+	.micro-response1705003508 div.home-tiles-layout p
+	{
+		line-height: 1.2;
+	}
+
+	.micro-response1705003508 div.quick-links > div:nth-child(1)
+	{
+		width: 49%;
+		margin-left: 0;
+	}
+
+	.micro-response1705003508 div.quick-links > div:nth-child(2)
+	{
+		width: 49%;
+		margin-left: 2%;
+	}
+
+	.micro-response1705003508 div.quick-links > div:nth-child(3)
+	{
+		width: 49%;
+		margin-left: 2%;
+	}
+
+	.micro-response1705003508 div.quick-links > div:nth-child(4)
+	{
+		width: 49%;
+		margin-left: 25.5%;
+	}
+
+	.micro-response1705003508 ol
+	{
+		
+	}
+
+	.micro-response1705003508 h1
+	{
+		line-height: normal;
+	}
+
+	.micro-response1705003508 h2
+	{
+		line-height: normal;
+	}
+
+	.micro-response1705003508 h3
+	{
+		line-height: normal;
+	}
+}
+
+@media print
+{
+	.micro-response1705003508 MadCap|xref
+	{
+		font-weight: normal;
+		mc-format: '{quote}{para}{quote} {pageref}';
+		text-decoration: none;
+	}
+}
+
+.micro-response1705003508 .micro-content-container > .micro-content > .micro-response
+{
+	overflow: hidden;
+	max-height: 350px;
+}
+
+.micro-response1705003508 div.home-tiles	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@namespace MadCap url(http://www.madcapsoftware.com/Schemas/MadCap.xsd);
+
+/*===========================================================================================================================================================
+
+Hello! If this is your first time looking at a stylesheet within the text editor view, what you are reading right now is a "comment". Comments are added throughout this stylesheet with the purpose of making the source code easier to understand, comments will not be interpreted during the compile process. Since comments are not interpreted during the compile process, feel free to add or remove any comments.
+
+For help with MadCap Flare go to Help Ribbon > Topics Section > Open Help. Alternatively visit the Flare Online Help at help.madcapsoftware.com
+
+If you have any questions regarding how to work with this stylesheet or template project, please contact MadCap Technical Support. 
+https://www.madcapsoftware.com/support/contact-options.aspx
+
+NOTE: Generally, this stylesheet has elements listed out in the order that they appear in the topic from top to bottom. The exception are General styles which are at the top and the stylesheet mediums which are at the bottom.
+
+EXAMPLE: Since the search-bar is at the top of the topic page, it will be listed closer to the top of this stylesheet.
+
+===========================================================================================================================================================*/
+
+/*==Topic General Styles==*/
+
+@font-face 
+{
+	font-family: 'Raleway';
+	src: url(../Fonts/Raleway-Regular.ttf);
+}
+
+.micro-response1705003508
+{
+	color: #404040;
+	line-height: 1.3em;
+	background-color: #fff;
+	font-family: Arial;
+}
+
+.micro-response1705003508 h1
+{
+	font-size: 1.8em;
+	font-weight: normal;
+	font-family: raleway;
+	margin-top: 25px;
+	color: #303335;
+	border-left-color: #64255A;
+	margin-bottom: 35px;
+	border-left: solid 0px #000000;
+	text-transform: uppercase;
+}
+
+.micro-response1705003508 h2
+{
+	font-size: 1.5em;
+	font-weight: normal;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	border-left: solid 7px #000000;
+	border-left-color: #c02f8e;
+	padding-left: 10px;
+	color: #303335;
+	line-height: normal;
+}
+
+.micro-response1705003508 h3
+{
+	font-size: 1.1em;
+	font-weight: normal;
+	margin-bottom: 4px;
+	margin-top: 16px;
+}
+
+.micro-response1705003508 h4
+{
+	
+}
+
+.micro-response1705003508 li
+{
+	margin-bottom: 6px;
+	margin-top: 6px;
+}
+
+.micro-response1705003508 p
+{
+	margin-bottom: 8px;
+	margin-top: 8px;
+	line-height: 20pt;
+	text-align: justify;
+}
+
+.micro-response1705003508 img	/*Setting max-width: 100%; property makes images always fit the width of the container*/
+{
+	max-width: 100%;
+}
+
+.micro-response1705003508 img.thumbnail
+{
+	mc-thumbnail: popup;
+}
+
+.micro-response1705003508 .center
+{
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	float: none !important;
+	text-align: center;
+}
+
+.micro-response1705003508 a.MCBreadcrumbsLink
+{
+	font-style: italic;
+	text-decoration: underline;
+	color: #632459;
+}
+
+.micro-response1705003508 a.MCBreadcrumbsLink:visited
+{
+	color: #D9443F;
+}
+
+.micro-response1705003508 a.MCBreadcrumbsLink:hover
+{
+	color: #f18e00;
+}
+
+.micro-response1705003508 MadCap|breadcrumbsProxy
+{
+	border-bottom: none;
+	font-size: 0.8em;
+	font-family: Raleway;
+}
+
+.micro-response1705003508 MadCap|xref
+{
+	color: #2D8DCC;
+	font-weight: bold;
+	mc-format: '{para}';
+	text-decoration: underline;
+}
+
+.micro-response1705003508 MadCap|xref:hover
+{
+	color: #D9443F;
+}
+
+.micro-response1705003508 MadCap|dropDownHotspot
+{
+	color: #65205b;
+	font-family: Raleway;
+	font-weight: bold;
+	font-size: 13pt;
+}
+
+.micro-response1705003508 MadCap|dropDownBody
+{
+	
+}
+
+.micro-response1705003508 MadCap|dropDown	/*Change the "mc-open-image" and "mc-closed-image" properties to change the icons used in drop-downs*/
+{
+	padding: 5px;
+	border-bottom-style: solid;
+	border-bottom-color: #f3f4f4;
+	border-bottom-width: 2px;
+	mc-image-spacing: 10px;
+}
+
+.micro-response1705003508 .row.nav-search
+{
+	display: block;
+}
+
+/*==Master Page Topic Layout==*/
+
+.micro-response1705003508 nav.title-bar	/*Adds bottom border on top navigation bar*/
+{
+	border-bottom: 1px solid #d3d3d3;
+}
+
+.micro-response1705003508 div.top-bar	/*Contains the breadcrumbs and toolbar*/
+{
+	min-height: 10px;
+	/*Min-height is necessary for topics that are not included in a TOC*/
+}
+
+.micro-response1705003508 div.search-container
+{
+	padding-bottom: 10px;
+}
+
+/*==Elements for the left side of Master Page layout==*/
+
+.micro-response1705003508 div.side-menu	/*This is the div that the menu proxy is contained in*/
+{
+	padding-left: 10px;
+	margin-top: 15px;
+}
+
+/*Styles that provide the border radius to the menu proxy items*/
+
+.micro-response1705003508 ul.menu._Skins_SideMenu.mc-component li > a.selected
+{
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border-radius: 0px;
+}
+
+.micro-response1705003508 div.topic-layout	/*This layout was created using the Responsive Layout Editor in MadCap Flare. Go to: Home Ribbon > Styles Section > Responsive Layout*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.micro-response1705003508 div.topic-layout::before
+{
+	content: ' ';
+	display: table;
+}
+
+.micro-response1705003508 div.topic-layout::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+.micro-response1705003508 div.topic-layout > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.micro-response1705003508 div.topic-layout > div:nth-child(1)	/*Menu Proxy container*/
+{
+	width: 25%;
+	margin-left: 0%;
+}
+
+.micro-response1705003508 div.topic-layout > div:nth-child(2)
+{
+	width: 73%;
+	margin-left: 2%;
+}
+
+.micro-response1705003508 p.note
+{
+	color: #000000;
+	border-left: solid 4px #125C85;
+	border-radius: 4px;
+	background-color: #E0F6F9;
+	padding-bottom: 10px;
+	padding-left: 45px;
+	padding-right: 20px;
+	padding-top: 10px;
+	background-image: url('../../Resources/Images/p_remarque.png');
+	background-repeat: no-repeat;
+	background-position: 10px 10px;
+	background-size: 26px 25px;
+	margin: 20px 10px 20px 0;
+	mc-auto-number-format: '{b}REMARQUE : {/b}';
+}
+
+.micro-response1705003508 p.warning
+{
+	color: #000000;
+	border-left: solid 4px #FFB300;
+	border-radius: 4px;
+	background-color: #FFF2D0;
+	padding-bottom: 10px;
+	padding-left: 45px;
+	padding-right: 20px;
+	padding-top: 10px;
+	background-image: url('../../Resources/Images/p_attention.png');
+	background-repeat: no-repeat;
+	background-position: 10px 10px;
+	background-size: 29px 20px;
+	margin: 20px 10px 20px 0;
+	mc-auto-number-format: '{b}ATTENTION : {/b}';
+}
+
+.micro-response1705003508 p.exemple
+{
+	color: #000000;
+	border-left: solid 4px #216634;
+	border-radius: 4px;
+	background-color: #EAF6ED;
+	padding-bottom: 10px;
+	padding-left: 45px;
+	padding-right: 20px;
+	padding-top: 10px;
+	background-image: url('../../Resources/Images/p_example.png');
+	background-repeat: no-repeat;
+	background-position: 10px 10px;
+	background-size: 21px 26px;
+	margin: 20px 10px 20px 0;
+	mc-auto-number-format: '{b}EXEMPLE : {/b}';
+}
+
+.micro-response1705003508 p.syntaxe
+{
+	color: #2B292A;
+	border-left: solid 5px #646667;
+	border-radius: 4px;
+	background-color: #cccccc;
+	padding: 14px 20px;
+}
+
+.micro-response1705003508 p.video
+{
+	color: #ffffff;
+	border: solid 2px #696969;
+	background-color: #708090;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 7px;
+	padding-bottom: 10px;
+	padding-left: 40px;
+	padding-right: 10px;
+	padding-top: 10px;
+	background-repeat: no-repeat;
+	background-position: 100px center;
+	text-align: center;
+}
+
+.micro-response1705003508 html
+{
+	
+}
+
+.micro-response1705003508 object
+{
+	width: 372px;
+	height: 210px;
+	border: solid 2px #ffffff;
+	border-radius: 3px;
+}
+
+.micro-response1705003508 MadCap|dropDownHead
+{
+	
+}
+
+.micro-response1705003508 MadCap|dropDownHotspot:focus
+{
+	
+}
+
+.micro-response1705003508 MadCap|dropDownHotspot:hover
+{
+	color: #f18e00;
+}
+
+.micro-response1705003508 span.SearchHighlight
+{
+	background-color: #fbf20c;
+}
+
+.micro-response1705003508 ul
+{
+	
+}
+
+.micro-response1705003508 MadCap|codeSnippetBody
+{
+	mc-code-border: solid 2px #000000;
+	tab-size: 4;
+}
+
+/*===========================================================================================================================================================
+Styles after this point are styles that are for specific mediums. If any additional styles are added to this template they will be listed after mediums.
+[@media tablet] declares styles that will apply when the screen is in tablet view
+[@media mobile] declares styles that will apply when the screen is in mobile view
+===========================================================================================================================================================*/
+
+@media only screen and (max-width: 1279px)
+{
+	.micro-response1705003508 .row.nav-search
+	{
+		display: block;
+	}
+
+	.micro-response1705003508 div.search-container
+	{
+		display: none;
+	}
+
+	.micro-response1705003508 div.topic-layout > div:nth-child(1)
+	{
+		display: none;
+	}
+
+	.micro-response1705003508 div.topic-layout > div:nth-child(2)
+	{
+		width: 98%;
+		margin-left: 2%;
+	}
+}
+
+@media only screen and (max-width: 767px)
+{
+	.micro-response1705003508 div.top-bar
+	{
+		min-height: 0;
+	}
+
+	.micro-response1705003508 .row.nav-search
+	{
+		display: block;
+	}
+
+	.micro-response1705003508 div.search-container
+	{
+		display: none;
+	}
+
+	.micro-response1705003508 div.topic-layout > div:nth-child(1)
+	{
+		display: none;
+	}
+
+	.micro-response1705003508 div.topic-layout > div:nth-child(2)
+	{
+		width: 98%;
+		margin-left: 2%;
+	}
+
+	.micro-response1705003508 ul.menu
+	{
+		overflow: auto;
+	}
+}
+
+.micro-response1705003508 img.popup
+{
+	mc-thumbnail: popup;
+	mc-thumbnail-max-height: 200px;
+	mc-thumbnail-max-width: 200px;
+}
+
+.micro-response1705003508 span.bold
+{
+	font-weight: bold;
+	font-family: Raleway;
+}
+
+.micro-response1705003508 html.Cal_basiques
+{
+	mc-master-page: url('../../../../Sphinx iQ2 FR/Content/Resources/MasterPages/Calculs_basiques.flmsp');
+}
+
+/* base state: hidden (no flash), pinned, on top */
+
+.micro-response1705003508 a.scrollToTop
+{
+	position: fixed;
+	right: 40px;
+	bottom: 75px;
+	width: 64px;
+	height: 64px;
+	display: block;
+	/* keep it in layout; we'll hide via opacity/visibility */
+	background: url('../../Resources/Images/Ui/top.svg') no-repeat center center;
+	background-size: contain;
+	z-index: 9999;
+	opacity: 0;
+	visibility: hidden;
+	pointer-events: none;
+	transition: opacity .2s ease, visibility .2s ease;
+}
+
+/* visible after scroll */
+
+.micro-response1705003508 a.scrollToTop.is-visible
+{
+	opacity: 1;
+	visibility: visible;
+	pointer-events: auto;
+}
+
+/* hover */
+
+.micro-response1705003508 a.scrollToTop:hover
+{
+	background: url('../../Resources/Images/Ui/tophover.svg') no-repeat center center;
+	background-size: contain;
+	text-decoration: none;
+}
+
+.micro-response1705003508 td.syntaxe
+{
+	border: solid 1px #000000;
+	border-radius: 2px;
+	text-align: center;
+}
+
+.micro-response1705003508 object.video
+{
+	border: solid 2px #ffffff;
+	border-radius: 3px;
+	width: 560px;
+	height: 315px;
+	margin-left: 4px;
+	margin-right: 4px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-left-color: #000000;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+}
+

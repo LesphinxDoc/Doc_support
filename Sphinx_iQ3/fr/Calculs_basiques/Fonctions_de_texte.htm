@@ -1,0 +1,1283 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="fr" xml:lang="fr" class="_Skins_Side_navigation_IQ3" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../" data-mc-has-content-body="True" data-mc-toc-path="FORMULES DE CALCUL (script)|Syntaxe du langage" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="msapplication-config" content="../Skins/Favicons/browserconfig.xml" />
+        <link rel="shortcut icon" href="../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="168x168" href="../Skins/Favicons/favicon.png" />
+        <link rel="icon" sizes="32x32" href="../Skins/Favicons/favicon.png" />
+        <link rel="icon" sizes="168x168" href="../Skins/Favicons/favicon.png" /><title>FONCTIONS&#160;DE&#160;TEXTE</title>
+        <link href="../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Resources/Stylesheets/Styles.css" rel="stylesheet" type="text/css" />
+        <link href="../Resources/Scripts/search-dropdown.css" rel="stylesheet" type="text/css" />
+        <style>/*&lt;meta /&gt;*/
+
+.button.remove-highlight-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.separator-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.select-language-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.separator-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.expand-all-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.separator-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.print-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.collapse-all-button
+{
+	-pie-background: linear-gradient(transparent, #ececec);
+}
+
+.needs-pie
+{
+	behavior: url('../Resources/Scripts/PIE-no-motw.htc');
+}
+
+</style>
+        <link href="../Resources/TableStyles/Table.css" rel="stylesheet" data-mc-stylesheet-type="table" />
+        <link href="../Resources/Stylesheets/MainStyles.css" rel="stylesheet" />
+        <link rel="shortcut icon" href="../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="168x168" href="../Skins/Favicons/favicon.png" />
+        <link rel="icon" sizes="32x32" href="../Skins/Favicons/favicon.png" />
+        <link rel="icon" sizes="168x168" href="../Skins/Favicons/favicon.png" />
+        <script src="../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../Resources/Scripts/purify.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/require.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/require.config.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/foundation.6.2.3_custom.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/plugins.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/MadCapAll.js" type="text/javascript" defer="defer">
+        </script>
+        <script type="text/javascript" src="../Resources/Scripts/search-dropdown.js">
+        </script>
+        <script type="text/javascript" src="../Skins/Default/Scripts/TopicToolBar.js">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-right" role="complementary" id="offCanvas" data-off-canvas="" data-position="right" data-mc-ignore="true">
+                    <ul class="off-canvas-accordion vertical menu off-canvas-list" data-accordion-menu="" data-mc-back-link="Retour" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expanded-event="down.zf.accordionMenu up.zf.accordionMenu" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div data-sticky-container="" class="title-bar-container">
+                        <nav class="title-bar tab-bar sticky" aria-label="Main navigation and search" data-sticky="" data-options="marginTop:0" style="width:100%" data-sticky-on="only screen and (max-width: 1279px)" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="#">Passer au contenu principal</a>
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="menu-icon-container relative clearfix">
+                                    <div class="central-account-wrapper">
+                                        <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Compte</span></a>
+                                            <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Paramètres</a>
+                                                <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Déconnexion</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="menu-icon" aria-label="Afficher le volet de navigation" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="title-bar-layout outer-row">
+                                <div class="logo-wrapper"><a class="logo" href="../Home.htm" alt="Logo"></a>
+                                </div>
+                                <div class="navigation-wrapper nocontent">
+                                    <ul class="navigation clearfix" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                        <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="central-account-wrapper">
+                                    <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Compte</span></a>
+                                        <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Paramètres</a>
+                                            <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Déconnexion</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nav-search-wrapper">
+                                    <div class="nav-search row">
+                                        <form class="search" action="#">
+                                            <div class="search-bar search-bar-container needs-pie">
+                                                <input class="search-field needs-pie" type="search" aria-label="Champ de recherche" placeholder="Rechercher" />
+                                                <div class="search-filter-wrapper"><span class="invisible-label" id="search-filters-label">Filtrer&#160;:</span>
+                                                    <div class="search-filter" aria-haspopup="true" aria-controls="sf-content" aria-expanded="false" aria-label="Filtre de recherche" title="Tous les fichiers" role="button" tabindex="0">
+                                                    </div>
+                                                    <div class="search-filter-content" id="sf-content">
+                                                        <ul>
+                                                            <li>
+                                                                <button class="mc-dropdown-item" aria-labelledby="search-filters-label filterSelectorLabel-00001"><span id="filterSelectorLabel-00001">Tous les fichiers</span>
+                                                                </button>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="search-submit-wrapper" dir="ltr">
+                                                    <div class="search-submit" title="Rechercher" role="button" tabindex="0"><span class="invisible-label">Démarrer la recherche</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="main-section">
+                        <div class="row outer-row sidenav-layout">
+                            <nav class="sidenav-wrapper">
+                                <div class="sidenav-container">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expanded-event="down.zf.accordionMenu up.zf.accordionMenu" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
+                                    </ul>
+                                </div>
+                            </nav>
+                            <div class="body-container">
+                                <div data-mc-content-body="True"><a href="#" class="scrollToTop"></a>
+                                    <div class="buttons popup-container clearfix topicToolbarProxy _Skins_TopicToolBar mc-component nocontent" style="float: right; mc-topic-toolbar-items: ;">
+                                        <div class="button-group-container-left">
+                                            <button class="button needs-pie remove-highlight-button" title="Supprimer les surlignages">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                            <div class="button-separator">
+                                            </div>
+                                            <button class="button needs-pie select-language-button" title="Changer de langue">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper" aria-label="Changer de langue">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                            <div class="button-separator">
+                                            </div>
+                                            <button class="button needs-pie expand-all-button" data-state1-class="expand-all-button" data-state2-class="collapse-all-button" data-state2-title="Réduire tout" title="Développer tout" data-state1-title="Développer tout">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper" aria-label="Développer tout">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                            <div class="button-separator">
+                                            </div>
+                                            <button class="button needs-pie print-button" title="Imprimer">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper" aria-label="Imprimer">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="nocontent">
+                                        <div class="MCBreadcrumbsBox_0 breadcrumbs" role="navigation" aria-label="Pistes de navigation" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="3" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">Vous êtes ici&#160;:</span>
+                                        </div>
+                                    </div>
+                                    <div role="main" id="mc-main-content">
+                                        <h1>FONCTIONS&#160;DE&#160;TEXTE</h1>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="Avec"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />Avec&#160;: Vérification de la présence d’une liste de mots dans un texte</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p>Vérifie la présence d’une liste de mots ou de parties de mots dans la chaîne indiquée.</p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">Texte avec "mot1&#160;; mot2&#160;; mot3"</p>
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                    <br />Pour vérifier la présence des mots «&#160;rouge&#160;», «&#160;rougeâtre&#160;», «&#160;bleu&#160;» dans la variable V1, écrire&#160;:<br />V1 Avec "rouge&#160;; bleu"</p>
+                                                <p>La formule renvoie la valeur 1 si l’un des mots (ou parties de mots) est présent dans le texte et la valeur 0 dans le cas inverse.</p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="avecListe"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />AvecListe&#160;: Vérification de la présence d’un mot dans un texte</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p>Vérifie, pour chaque observation de la variable texte, la présence d’un mot ou d’une série de mots.</p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">AvecListe(texte, "liste de mots", ignore)<br />WithList(text, "list of words", ignore)<br />Ignore est optionnel. Il prend deux valeurs&#160;: <br />Vrai pour ignorer la casse et les accents.<br />Faux pour prendre en compte la casse et les accents (valeur par défaut).</p>
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                    <br />AvecListe (DescriptionVoiture, "rouge ; bleu") renvoie la valeur «&#160;1&#160;» si l’observation contient les mots «&#160;rouge&#160;» ou «&#160;bleu&#160;», sinon la valeur «&#160;0&#160;». <br />AvecListe (DescriptionVoiture, "mercedes", vrai) renvoie la valeur «&#160;1&#160;» si l’observation contient les mots «&#160;MERCEDES&#160;» ou «&#160;mercedès&#160;», sinon la valeur «&#160;0&#160;».</p>
+                                                <p><a href="Definition_options_de_calcul.htm#_Syntaxe_et_traitement_2">En savoir plus sur la définition des textes</a>
+                                                </p>
+                                                <p>Calcul de «&#160;AvecListe&#160;» d’une variable</p>
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Table.css');margin-left: 0;margin-right: auto;" class="TableStyle-Table" cellspacing="0">
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>Obs</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>V1</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>AvecListe(v1, "compacte&#160;; automatique")</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body1" style="text-align: center;">
+                                                            <p>AvecListe(v1, "compacte&#160;; automatique", vrai)</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>1</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>2 options de rêve : voiture volante, stationnement automatique</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>1</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body2" style="text-align: center;">
+                                                            <p>1</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>2</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>Compacte et pratique</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>0</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body1" style="text-align: center;">
+                                                            <p>1</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>3</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>CHANGE DE taille pour faciliter le stationnement</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>0</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body2" style="text-align: center;">
+                                                            <p>0</p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <p>*NR = Non-réponse</p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="avecMots"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />AvecMots&#160;: Vérification de la présence d’une liste de mots entiers dans un texte</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p>Vérifie pour chaque observation, la présence d’une liste de mots entiers dans la variable texte indiquée.</p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">Texte avec "mot1&#160;; mot2&#160;; mot3"</p>
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                    <br />Pour vérifier la présence des mots «&#160;rouge&#160;», «&#160;bleu&#160;» dans la variable V1, écrire&#160;:<br />V1 AvecMots "rouge&#160;; bleu"</p>
+                                                <p>La formule renvoie la valeur 1 si l’un des mots est présent dans le texte et la valeur 0 dans le cas inverse.</p>
+                                                <p><a href="Definition_options_de_calcul.htm#_Syntaxe_et_traitement_2">En savoir plus sur la définition des textes</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="car"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />Car&#160;: Renvoi de la lettre correspondant à un code ASCII</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p>Renvoie le caractère correspondant au code ASCII indiqué.</p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">Car(nombre) <br />Chr(number)</p>
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                    <br />Pour obtenir le caractère «&#160;K&#160;», écrire&#160;: <br />Car (75)</p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="chaine"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />Chaîne&#160;: Renvoi d’une suite répétitive du caractère indiqué</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p>Renvoie une chaîne contenant le caractère indiqué, répété autant de fois que le précise la longueur. </p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">Chaine(longueur, caractère)<br />String(length, character)</p>
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                    <br />Chaine (5, "g") restitue la chaine ggggg.</p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="chaineNum"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />ChaîneNum&#160;: Renvoie le nombre contenu dans un texte</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p>Renvoie la valeur numérique contenue dans ‘texte’.</p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">ChaineNum(texte)<br />ChaîneNum(texte)<br />Val(string)</p>
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                    <br />ChaineNum("24") renvoie la valeur 24. </p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="Comme"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />Comme&#160;: Comparaison d’une expression avec un texte</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p>Compare le texte avec l’expression indiquée (insensible à la casse).</p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">Texte comme "expression"</p>
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                    <br />Pour comparer l’expression «&#160;compacte et pratique&#160;» avec la valeur de la variable V1, écrire&#160;:<br />V1 comme "compacte et pratique"</p>
+                                                <p>La formule renvoie la valeur 1 si l’expression est identique avec la chaîne et la valeur 0 dans le cas inverse.</p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="CommeChaine"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />CommeChaine&#160;: vérification de la présence d’une expression dans un texte</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p>Vérifie, pour chaque observation de la variable texte, la présence d’une expression exacte et complète.</p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">CommeChaine(texte1, texte2, ignore)<br />CommeChaîne (texte1, texte2, ignore)<br />LikeStr(text1, text2; ignore)<br />Ignore est optionnel. Il prend deux valeurs&#160;:<br />Vrai pour ignorer la casse et les accents.<br />Faux pour prendre en compte la casse et les accents (valeur par défaut).</p>
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                    <br />CommeChaine(DescriptionVoiture, "Une limousine avec un bar") renvoie la valeur «&#160;1&#160;» si l’observation contient l’expression exacte, sinon la valeur «&#160;0&#160;». </p>
+                                                <p><a href="Definition_options_de_calcul.htm#_Syntaxe_et_traitement_2">En savoir plus sur la définition des textes</a>
+                                                </p>
+                                                <p>Calcul de «&#160;CommeChaine&#160;» d’une variable</p>
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Table.css');margin-left: 0;margin-right: auto;" class="TableStyle-Table" cellspacing="0">
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>Obs</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>V1</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>CommeChaine(v1, "voiture volante")</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>CommeChaine (v1, "compacte et pratique")</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body1" style="text-align: center;">
+                                                            <p>CommeChaine (v1, "Compacte et pratique", vrai)</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>1</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>2 options de rêve : voiture volante, stationnement automatique</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>0</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>0</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body2" style="text-align: center;">
+                                                            <p>0</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>2</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>Compacte et pratique</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>0</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>0</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body1" style="text-align: center;">
+                                                            <p>1</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>3</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>CHANGE DE taille pour faciliter le stationnement</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>0</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>0</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body2" style="text-align: center;">
+                                                            <p>0</p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <p>*NR = Non-réponse</p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="CompChaine"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />CompChaine&#160;: vérification de la présence d’une expression dans un texte</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p>Renvoie 1, -1 ou 0 selon que ‘texte1’ est respectivement supérieure, inférieure ou identique à ‘texte2’ (sensible à la casse si comparaison est faux).</p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">CompChaine(texte1, texte2, [comparaison])<br />CompChaîne (chaîne1, chaîne2, [comparaison])<br />comparaison est optionnel. Il prend deux valeurs&#160;:<br />Vrai pour ignorer la casse et les accents.<br />Faux pour prendre en compte la casse et les accents (valeur par défaut).</p>
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                    <br />CompChaine(DescriptionVoiture, "Une limousine avec un bar") renvoie la valeur «&#160;1&#160;» si l’observation contient l’expression exacte, sinon la valeur «&#160;0&#160;». </p>
+                                                <p><a href="Definition_options_de_calcul.htm#_Syntaxe_et_traitement_2">En savoir plus sur la définition des textes</a>
+                                                </p>
+                                                <p>Calcul de «&#160;CompChaine&#160;» d’une variable</p>
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Table.css');margin-left: 0;margin-right: auto;" class="TableStyle-Table" cellspacing="0">
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>Obs</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>V1</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>CompChaine(v1, "voiture volante")</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>CompChaine (v1, "compacte et pratique")</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyD-Column1-Body1">
+                                                            <p>CompChaine (v1, "Compacte et pratique", vrai)</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>1</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>2 options de rêve : voiture volante, stationnement automatique</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>0</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>0</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyD-Column1-Body2">
+                                                            <p>0</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>2</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>Compacte et pratique</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>0</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>0</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyD-Column1-Body1">
+                                                            <p>1</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>3</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>CHANGE DE taille pour faciliter le stationnement</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>0</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>0</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyD-Column1-Body2">
+                                                            <p>0</p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <p>*NR = Non-réponse</p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="contient"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />Contient&#160;: Renvoi de la position d’un mot ou d’une partie de mot dans un texte</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p>Renvoie la position de la première occurrence de ‘texte22’ dans ‘texte1’ (insensible à la casse).</p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">Texte1 contient Texte2</p>
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                    <br />Pour connaitre la position de l’extension «&#160;.com&#160;» dans la variable mail, écrire&#160;:<br />mail contient ".com"</p>
+                                                <p>La formule renvoie la position de la chaîne lorsqu’elle est trouvée et la valeur 0 dans le cas inverse.</p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="dansChaine"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />DansChaine&#160;: calcul de la position d’un mot dans un texte</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p>Vérifie, pour chaque observation de la variable texte, la présence d’un mot ou d’une expression et en retourne la position.</p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">DansChaine([début], texte, "mot", ignore)<br />DansChaîne([début], texte, "mot", ignore)<br />InStr([start], text, "succession of words ", ignore)<br />Début est optionnel. Il indique la position à partir de laquelle commence la vérification. <br />C’est un entier dont la valeur par défaut est 1.<br />Ignore est optionnel. Il prend deux valeurs&#160;: <br />Vrai pour ignorer la casse et les accents.<br />Faux pour prendre en compte la casse et les accents (valeur par défaut).</p>
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                    <br />DansChaine(2, DescriptionVoiture, "options") renvoie un entier qui indique la position du mot options, sinon la valeur 0. </p>
+                                                <p>Calcul de «&#160;DansChaine&#160;» d’une variable</p>
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Table.css');margin-left: 0;margin-right: auto;" class="TableStyle-Table" cellspacing="0">
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>Obs</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>V1</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>DansChaine(v1, "voiture volante")</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>DansChaine (v1, "VOITURE volante")</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyD-Column1-Body1">
+                                                            <p>DansChaine (v1, "VOITURE volante", vrai)</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>1</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>2 options de rêve : voiture volante, stationnement automatique</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>21</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>0</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyD-Column1-Body2">
+                                                            <p>21</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>2</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>Compacte et pratique</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>0</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>0</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyD-Column1-Body1">
+                                                            <p>0</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>3</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>CHANGE DE taille pour faciliter le stationnement</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>0</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>0</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyD-Column1-Body2">
+                                                            <p>0</p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <p>*NR = Non-réponse</p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="dansListe"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />DansListe&#160;: vérification de la présence d’une liste d’expressions dans un texte</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p>Vérifie, pour chaque observation de la variable texte, la présence d’une expression exacte.</p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">DansListe(texte, "liste de mots", ignore)<br />Ignore est optionnel. Il prend deux valeurs&#160;: <br />Vrai pour ignorer la casse et les accents.<br />Faux pour prendre en compte la casse et les accents (valeur par défaut).</p>
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                    <br />DansListe(DescriptionVoiture,"Une limousine avec un bar") renvoie la valeur «&#160;1&#160;» si l’observation contient l’expression exacte, sinon la valeur «&#160;0&#160;». <br />Lorsqu’on recherche plusieurs mots, ils doivent être séparées par un&#160;; comme dans l’exemple DansListe(Avis,"Satisfait;Comblé")</p>
+                                                <p><a href="Definition_options_de_calcul.htm#_Syntaxe_et_traitement_2">En savoir plus sur la définition des textes</a>
+                                                </p>
+                                                <p>Calcul de «&#160;DansListe&#160;» d’une variable</p>
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Table.css');margin-left: 0;margin-right: auto;" class="TableStyle-Table" cellspacing="0">
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>Obs</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>V1</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>DansListe(v1, "compacte et pratique ; change de taille pour faciliter le stationnement")</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body1" style="text-align: center;">
+                                                            <p>DansListe(v1, "compacte et pratique ; change de taille pour faciliter le stationnement", vrai)</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>1</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>2 options de rêve : voiture volante, stationnement automatique</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>0</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body2" style="text-align: center;">
+                                                            <p>0</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>2</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>Compacte et pratique</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>0</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body1" style="text-align: center;">
+                                                            <p>1</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>3</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>CHANGE DE taille pour faciliter le stationnement</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>0</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body2" style="text-align: center;">
+                                                            <p>1</p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <p>*NR = Non-réponse</p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="Droite"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />Droite&#160;: extraction des derniers caractères d’un texte</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p>Restitue, pour chaque observation, les derniers caractères de la variable texte indiquée. Le nombre de caractères est défini par l’indicateur «&#160;&#160;longueur&#160;».</p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">Droite(texte, longueur)<br />Right(text, length)</p>
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                    <br />Pour obtenir la chaine «&#160;ons&#160;» à partir du texte «&#160;rouge avec plein d’options&#160;», écrire&#160;:<br />Droite(V1, 3)</p>
+                                                <p>Calcul de «&#160;Droite&#160;» d’une variable</p>
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Table.css');margin-left: 0;margin-right: auto;" class="TableStyle-Table" cellspacing="0">
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>Obs</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>V1</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyD-Column1-Body1">
+                                                            <p>Droite(v1, 4)</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>1</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>2 options de rêve : voiture volante, parking automatique</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyD-Column1-Body2">
+                                                            <p>ique</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>2</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>Compacte et pratique</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyD-Column1-Body1">
+                                                            <p>ique</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>3</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>CHANGE DE taille pour faciliter le stationnement</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyD-Column1-Body2">
+                                                            <p>ment</p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <p>*NR = Non-réponse</p>
+                                                <p><span class="bold">Cas d’utilisation&#160;:</span> </p>
+                                                <p>La fonction <span class="bold">Droite</span> peut être utilisée pour anonymiser des adresses mails&#160;: par exemple remplacer l’adresse <a href="mailto:contact@lesphinx.eu">contact@lesphinx.eu</a> par «&#160;@lesphinx.eu&#160;».</p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="Espace"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />Espace&#160;: renvoi d’une suite répétitive d’espaces</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p>Renvoie le caractère «&#160;espace&#160;», répété autant de fois que le précise la longueur.</p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">Espace(longueur)<br />Space(length)</p>
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                    <br />Espace (5) restitue ‘’&#160;&#160;&#160;&#160;&#160; ‘’&#160;&#160;</p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="Formatduree"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />FormatDurée&#160;: Calcul un intervalle de temps</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p>Retourne une chaîne qui représente un intervalle de temps en tenant compte de l'unité utilisée et du format à appliquer.</p>
+                                                <p>Le paramètre 'unité' est optionnel. Ses valeurs possibles sont "d" ou "j" pour les jours, "H" ou "h" pour les heures, "m" pour les minutes, "s" pour les secondes.</p>
+                                                <p>Le paramètre 'format' est optionnel. Par défaut, le nombre est converti en une chaîne compacte, dans laquelle les valeurs vides sont ignorées.</p>
+                                                <p>La syntaxe du format personnalisé est celle du langage de programmation C#.</p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">FormatDurée(nombre, [unité], [format])</p>
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                    <br />FormatDurée(456.2341) =&gt; "456j5h37m6s"<br />FormatDurée(456.2341, "h") =&gt; "19j14m2s"<br />FormatDurée(457.2341, "s") =&gt; "7m37s"<br />FormatDurée(458.5,"h","dd\ \j\o\u\r\s\ hh\ \h\e\u\r\e\s") =&gt; "19 jours 02 heures"<br /></p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="Gauche"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />Gauche&#160;: extraction des premiers caractères d’un texte</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p>Restitue, pour chaque observation, les premiers caractères de la variable texte indiquée. Le nombre de caractères est défini par l’indicateur «&#160;longueur.&#160;»</p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">Gauche(texte, longueur)<br />Left(text, length)</p>
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                    <br />Pour obtenir la chaine «&#160;rou&#160;» à partir du texte «&#160;rouge avec plein d’options&#160;», écrire&#160;:<br />Gauche (V1, 3)</p>
+                                                <p>Exemple : calcul de «&#160;Gauche&#160;» d’une variable</p>
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Table.css');margin-left: 0;margin-right: auto;" class="TableStyle-Table" cellspacing="0">
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>Obs</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>V1</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyD-Column1-Body1">
+                                                            <p>Gauche(v1, 4)</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>1</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>2 options de rêve : voiture volante, parking automatique</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyD-Column1-Body2">
+                                                            <p>2 op</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>2</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>Compacte et pratique</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyD-Column1-Body1">
+                                                            <p>Comp</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>3</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>CHANGE DE taille pour faciliter le stationnement</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyD-Column1-Body2">
+                                                            <p>CHAN</p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <p>*NR = Non-réponse</p>
+                                                <p><span class="bold">Cas d’utilisation&#160;: </span>
+                                                </p>
+                                                <p>La fonction <span class="bold">Gauche</span> peut être utilisée pour les origines des adresses mails&#160;: par exemple remplacer l’adresse <a href="mailto:contact@lesphinx.eu">contact@lesphinx.eu</a> par «&#160;contact@&#160;».</p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="Majuscule"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />Majuscule&#160;: conversion d’un texte en majuscule</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p>Convertit, pour chaque observation, la variable texte indiquée en majuscule.</p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">Majuscule(texte)<br />UCase(text)</p>
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                    <br />Majuscule(V1) convertit le texte «&#160;rouge avec plein d’options&#160;» en «&#160;ROUGE AVEC PLEIN D’OPTIONS&#160;»</p>
+                                                <p><a href="Definition_options_de_calcul.htm#_Syntaxe_et_traitement_2">En savoir plus sur la définition des textes</a>
+                                                </p>
+                                                <p>Calcul de «&#160;Majuscule&#160;» d’une variable</p>
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Table.css');margin-left: 0;margin-right: auto;" class="TableStyle-Table" cellspacing="0">
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>Obs</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>V1</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body1" style="text-align: center;">
+                                                            <p>Majuscule(v1)</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>1</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>2 options de rêve : voiture volante, parking automatique</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body2" style="text-align: center;">
+                                                            <p>2 OPTIONS DE REVE&#160;: VOITURE VOLANTE, PARKING AUTOMATIQUE</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>2</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>Compacte et pratique</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body1" style="text-align: center;">
+                                                            <p>COMPACTE ET PRATIQUE</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>3</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>CHANGE DE taille pour faciliter le stationnement</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body2" style="text-align: center;">
+                                                            <p>CHANGE DE TAILLE POUR FACILITER LE STATIONNEMENT</p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <p>*NR = Non-réponse</p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="Minuscule"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />Minuscule&#160;: conversion d’un texte en minuscule</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p>Convertit, pour chaque observation, la variable texte indiquée en minuscule.</p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">Minuscule(texte)<br />LCase(text)</p>
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                    <br />Minuscule(V1) convertit le texte «&#160;ROUGE AVEC PLEIN D’OPTIONS&#160;» en «&#160;rouge avec plein d’options&#160;». </p>
+                                                <p><a href="Definition_options_de_calcul.htm#_Syntaxe_et_traitement_2">En savoir plus sur la définition des textes</a>
+                                                </p>
+                                                <p>Calcul de «&#160;Minuscule&#160;» d’une variable</p>
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Table.css');margin-left: 0;margin-right: auto;" class="TableStyle-Table" cellspacing="0">
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>Obs</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>V1</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body1" style="text-align: center;">
+                                                            <p>Minuscule(v1)</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>1</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>2 options de rêve : voiture volante, parking automatique</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body2" style="text-align: center;">
+                                                            <p>2 options de rêve : voiture volante, parking automatique</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>2</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>Compacte et pratique</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body1" style="text-align: center;">
+                                                            <p>compacte et pratique</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>3</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>CHANGE DE taille pour faciliter le stationnement</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body2" style="text-align: center;">
+                                                            <p>change de taille pour faciliter le stationnement</p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <p>*NR = Non-réponse</p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="NbCar"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />NbrCar&#160;: calcul du nombre de caractères d’un texte</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p>Renvoie, pour chaque observation, le nombre de caractères de la variable texte indiquée (nombre de lettres, espaces compris).</p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">NbrCar(texte) <br />Len(text)</p>
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                    <br />Pour obtenir le nombre de caractères contenus dans la variable «&#160;opinion&#160;», écrire&#160;: <br />nbrcar(opinion)</p>
+                                                <p>Variables autorisées&#160;et valeurs prises en compte&#160;:</p>
+                                                <p>Cette fonction s’applique sur des variables textes.</p>
+                                                <p><a href="Definition_options_de_calcul.htm#_Syntaxe_et_traitement_2">En savoir plus sur la définition des textes</a>
+                                                </p>
+                                                <p>Traitement des non-réponses&#160;:</p>
+                                                <p>Calcul de «&#160;NbrCar&#160;» d’une variable</p>
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Table.css');margin-left: 0;margin-right: auto;" class="TableStyle-Table" cellspacing="0">
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>Obs</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>V1</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyD-Column1-Body1">
+                                                            <p>NbrCar(v1)</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>1</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>2 options de rêve : voiture volante, parking automatique</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyD-Column1-Body2">
+                                                            <p>56</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>2</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>compacte et pratique</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyD-Column1-Body1">
+                                                            <p>20</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>3</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>change de taille pour faciliter le stationnement</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyD-Column1-Body2">
+                                                            <p>48</p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <p>*NR = Non-réponse</p>
+                                                <p><a href="Definition_options_de_calcul.htm#_Traitement_des_non-réponses">En savoir plus sur le traitement des non-réponses</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="NbrMots"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />NbrMots&#160;: calcul du nombre de mots composant un texte</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p>Renvoie, pour chaque observation, le nombre de mots de la variable texte indiquée.</p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">NbrMots(texte)<br />NbrMots(texte, sansmotsoutils, sansdoublons) <br />NumWds(text)<br />NumWds(text, notoolwords, noduplicates)<br />Sansmotsoutils et sansdoublons sont optionnels.</p>
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                    <br />Pour obtenir le nombre de mots contenus dans la variable «&#160;opinion&#160;», écrire&#160;: <br />nbrmots(opinion)</p>
+                                                <p>Variables autorisées&#160;et valeurs prises en compte&#160;:</p>
+                                                <p>Cette fonction s’applique sur des variables textes.</p>
+                                                <p><a href="Definition_options_de_calcul.htm#_Syntaxe_et_traitement_2">En savoir plus sur la définition des textes</a>
+                                                </p>
+                                                <p><span class="bold">Traitement des non-réponses&#160;:</span>
+                                                </p>
+                                                <p>Calcul de «&#160;NbrMots&#160;» d’une variable</p>
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Table.css');margin-left: 0;margin-right: auto;" class="TableStyle-Table" cellspacing="0">
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>Obs</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>V1</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body1" style="text-align: center;">
+                                                            <p>NbrMots(v1)</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>1</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>2 options de rêve : voiture volante, parking automatique</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body2" style="text-align: center;">
+                                                            <p>8</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>2</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>compacte et pratique</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body1" style="text-align: center;">
+                                                            <p>3</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>3</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>change de taille pour faciliter le stationnement</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body2" style="text-align: center;">
+                                                            <p>7</p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <p>*NR = Non-réponse</p>
+                                                <p><a href="Definition_options_de_calcul.htm#_Traitement_des_non-réponses">En savoir plus sur le traitement des non-réponses</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="Numchaine"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />NumChaine&#160;: Ajout d’une unité pour un nombre</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p>Renvoie une chaîne qui représente le ‘nombre’ selon le format par défaut (10.60 qui devient 10.6) ou un format spécifique (exp&#160;: % ou €).</p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">NumChaine(nombre)<br />NumChaine(nombre, [Format])<br />Str(nombre)<br />Str(nombre, [Format])<br />Format est optionnel. Voir le récapitulatif des formats possibles&#160;: <br /><a href="http://msdn.microsoft.com/fr-fr/library/dwhawy9k(v=vs.110).aspx">Chaînes de format numériques standard<br /><a href="http://msdn.microsoft.com/fr-fr/library/0c899ak8(v=vs.110).aspx">Chaînes de format numériques personnalisées</a></a></p>
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                    <br />Pour exprimer le contenu de la variable «&#160;TauxSatisfaction&#160;» en pourcentage, écrire&#160;: <br />numchaine(TauxSatisfaction, "p")</p>
+                                                <p><a href="Definition_options_de_calcul.htm#_Syntaxe_et_traitement_1">En savoir plus sur la définition des nombres</a>
+                                                </p>
+                                                <p>Variables autorisées&#160;et valeurs prises en compte&#160;:</p>
+                                                <p>Cette fonction s’applique sur des variables numériques et échelle.</p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="Parmi"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />Parmi&#160;: Vérification de la présence d’une expression ou d’une liste d’expressions dans un texte</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p>Renvoie le résultat de la comparaison de ‘texte’ avec une ‘liste’ (chaînes séparées par des points virgules).</p>
+                                                <p>La formule renvoie la valeur 1 si l’une des chaînes est présente et la valeur 0 dans le cas inverse.</p>
+                                                <p>Insensible à la casse.</p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">Texte Parmi Liste</p>
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                    <br />Pour vérifier la présence des expressions «&#160;compacte et pratique&#160;», «&#160;voiture de sport&#160;» dans la variable opinions (texte), écrire&#160;:<br />opinions Parmi "compacte et pratique&#160;; voiture de sport"<br />Pour vérifier la présence d’une réponse parmi différentes modalités d’une variable satisfaction (fermée), écrire&#160;:<br />Satisfaction Parmi "Assez satisfait&#160;; Très satisfait&#160;"</p>
+                                                <p>La formule renvoie la valeur 1 si l’une des expressions est présente et la valeur 0 dans le cas inverse.</p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="Remplacer"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />Remplacer&#160;: Remplacement d’une chaîne de caractères dans un texte</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p>Remplace, pour chaque observation, les occurrences de l’expression indiquée par une autre.</p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">Remplacer(texte, expression1, expression2, ignore)<br />Replace(string, expression1, expression2, ignore)<br />Ignore est optionnel. Il prend deux valeurs&#160;: <br />Vrai pour ignorer la casse et les accents.<br />Faux pour prendre en compte la casse et les accents (valeur par défaut).</p>
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                    <br />Pour remplacer «&#160;rouge&#160;» par «&#160;bleu&#160;» dans le texte «&#160;rouge avec plein d’options&#160;», écrire&#160;:<br />Remplacer(rouge avec plein d’options, "rouge", "bleu")</p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="Scinde"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />Scinde</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p>Scinde ‘chaîne’ dans un tableau en utilisant ‘separateur’.</p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">Scinde(chaîne, separateur)</p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="Souschaine"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />SousChaine&#160;: Extraction d’une série de caractères dans un texte</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p>Restitue, pour chaque observation, une série de caractères de la variable texte indiquée. L’extraction commence à partir de l’indicateur «&#160;début&#160;», le nombre de caractères extraits est défini par l’indicateur «&#160;&#160;longueur&#160;».</p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">SousChaine(texte, début)<br />SousChaine(texte, début, longueur)<br />Mid(text, start)<br />Mid(text, start, length)</p>
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                    <br />Pour obtenir la chaine «&#160;ge avec plein d’options&#160;» à partir du texte «&#160;Rouge avec plein d’options&#160;», écrire&#160;:<br />SousChaine ("rouge avec plein d’options", 3)<br />Pour extraire la chaine située après le 3<sup>ème</sup> caractère de la variable v1, écrire&#160;: <br />SousChaine (V1, 3)</p>
+                                                <p>Calcul de «&#160;Souschaine&#160;» d’une variable</p>
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Table.css');margin-left: 0;margin-right: auto;" class="TableStyle-Table" cellspacing="0">
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <tr class="TableStyle-Table-Body-Body2" data-mc-pattern="2">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>Obs</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>V1</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body2" style="text-align: center;">
+                                                            <p>SousChaine(v1, 10)</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>1</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>2 options de rêve : voiture volante, parking automatique</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body2" style="text-align: center;">
+                                                            <p>de rêve : voiture volante, parking automatique</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2" data-mc-pattern="2">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>2</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>Compacte et pratique</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body2" style="text-align: center;">
+                                                            <p>t tique</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>3</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>CHANGE DE taille pour faciliter le stationnement</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body2" style="text-align: center;">
+                                                            <p>taille pour faciliter le stationnement</p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <p>*NR = Non-réponse</p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="SupprEsp"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />SupprEsp&#160;: Suppression des espaces au début et à la fin d’un texte</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p>Renvoie une copie de ‘texte’ en supprimant les espaces de gauche et ceux de droite.</p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">SupprEsp(texte)<br />Trim(text)</p>
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                    <br />Pour supprimer les espaces présents au début et à la fin contenu dans&#160;la variable «&#160;opinions&#160;», écrire&#160;:<br />SupprEsp(opinions)</p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="SupprEspD"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />SupprEspD&#160;: Suppression des espaces à la fin d’un texte</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p>Supprime, pour chaque observation, les espaces présents à la fin d’un texte.</p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">SupprEspD(texte)<br />RTrim(text)</p>
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                    <br />Pour supprimer les espaces présents à la fin du texte dans les observations de la variable «&#160;opinions&#160;», écrire&#160;:<br />SupprEspD(opinions)</p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="SupprEspG"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />SupprEspG&#160;: Suppression des espaces au début d’un texte</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p>Renvoie une copie de ‘texte’ en supprimant les espaces de gauche.</p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">SupprEspG(texte)<br />LTrim(text)</p>
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                    <br />Pour supprimer les espaces présents en début de texte dans les observations de la variable «&#160;opinions&#160;», écrire&#160;:<br />SupprEspG(opinions)</p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="&amp;"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />&amp;&#160;: Renvoie la concaténation de deux textes</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p>Concatène, pour chaque observation, les textes indiqués.</p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">Texte1 &amp; Texte2</p>
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                    <br />Pour concaténer les textes «&#160;Pierre&#160;» et «&#160;Martin&#160;» en insérant un espace entre les deux mots, écrire&#160;:<br />Pierre &amp; "&#160; " &amp; Martin<br />Pour concaténer les variables 1 et 2 en insérant un «&#160;/&#160;» entre leurs contenus, écrire&#160;:<br />V1 &amp; " / " &amp; V2</p>
+                                                <p><a href="Definition_options_de_calcul.htm#_Syntaxe_et_traitement_2">En savoir plus sur la définition des textes</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><a data-close="true"></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

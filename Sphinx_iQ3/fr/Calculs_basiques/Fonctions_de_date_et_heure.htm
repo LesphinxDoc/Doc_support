@@ -1,0 +1,1219 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="fr" xml:lang="fr" class="_Skins_Side_navigation_IQ3" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../" data-mc-has-content-body="True" data-mc-toc-path="FORMULES DE CALCUL (script)|Syntaxe du langage" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="msapplication-config" content="../Skins/Favicons/browserconfig.xml" />
+        <link rel="shortcut icon" href="../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="168x168" href="../Skins/Favicons/favicon.png" />
+        <link rel="icon" sizes="32x32" href="../Skins/Favicons/favicon.png" />
+        <link rel="icon" sizes="168x168" href="../Skins/Favicons/favicon.png" /><title>FONCTIONS&#160;DE&#160;DATE&#160;ET&#160;D'HEURE</title>
+        <link href="../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Resources/Stylesheets/Styles.css" rel="stylesheet" type="text/css" />
+        <link href="../Resources/Scripts/search-dropdown.css" rel="stylesheet" type="text/css" />
+        <style>/*&lt;meta /&gt;*/
+
+.button.remove-highlight-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.separator-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.select-language-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.separator-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.expand-all-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.separator-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.print-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.collapse-all-button
+{
+	-pie-background: linear-gradient(transparent, #ececec);
+}
+
+.needs-pie
+{
+	behavior: url('../Resources/Scripts/PIE-no-motw.htc');
+}
+
+</style>
+        <link href="../Resources/TableStyles/Table.css" rel="stylesheet" data-mc-stylesheet-type="table" />
+        <link href="../Resources/Stylesheets/MainStyles.css" rel="stylesheet" />
+        <link rel="shortcut icon" href="../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="168x168" href="../Skins/Favicons/favicon.png" />
+        <link rel="icon" sizes="32x32" href="../Skins/Favicons/favicon.png" />
+        <link rel="icon" sizes="168x168" href="../Skins/Favicons/favicon.png" />
+        <script src="../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../Resources/Scripts/purify.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/require.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/require.config.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/foundation.6.2.3_custom.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/plugins.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/MadCapAll.js" type="text/javascript" defer="defer">
+        </script>
+        <script type="text/javascript" src="../Resources/Scripts/search-dropdown.js">
+        </script>
+        <script type="text/javascript" src="../Skins/Default/Scripts/TopicToolBar.js">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-right" role="complementary" id="offCanvas" data-off-canvas="" data-position="right" data-mc-ignore="true">
+                    <ul class="off-canvas-accordion vertical menu off-canvas-list" data-accordion-menu="" data-mc-back-link="Retour" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expanded-event="down.zf.accordionMenu up.zf.accordionMenu" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div data-sticky-container="" class="title-bar-container">
+                        <nav class="title-bar tab-bar sticky" aria-label="Main navigation and search" data-sticky="" data-options="marginTop:0" style="width:100%" data-sticky-on="only screen and (max-width: 1279px)" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="#">Passer au contenu principal</a>
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="menu-icon-container relative clearfix">
+                                    <div class="central-account-wrapper">
+                                        <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Compte</span></a>
+                                            <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Paramètres</a>
+                                                <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Déconnexion</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="menu-icon" aria-label="Afficher le volet de navigation" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="title-bar-layout outer-row">
+                                <div class="logo-wrapper"><a class="logo" href="../Home.htm" alt="Logo"></a>
+                                </div>
+                                <div class="navigation-wrapper nocontent">
+                                    <ul class="navigation clearfix" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                        <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="central-account-wrapper">
+                                    <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Compte</span></a>
+                                        <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Paramètres</a>
+                                            <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Déconnexion</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nav-search-wrapper">
+                                    <div class="nav-search row">
+                                        <form class="search" action="#">
+                                            <div class="search-bar search-bar-container needs-pie">
+                                                <input class="search-field needs-pie" type="search" aria-label="Champ de recherche" placeholder="Rechercher" />
+                                                <div class="search-filter-wrapper"><span class="invisible-label" id="search-filters-label">Filtrer&#160;:</span>
+                                                    <div class="search-filter" aria-haspopup="true" aria-controls="sf-content" aria-expanded="false" aria-label="Filtre de recherche" title="Tous les fichiers" role="button" tabindex="0">
+                                                    </div>
+                                                    <div class="search-filter-content" id="sf-content">
+                                                        <ul>
+                                                            <li>
+                                                                <button class="mc-dropdown-item" aria-labelledby="search-filters-label filterSelectorLabel-00001"><span id="filterSelectorLabel-00001">Tous les fichiers</span>
+                                                                </button>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="search-submit-wrapper" dir="ltr">
+                                                    <div class="search-submit" title="Rechercher" role="button" tabindex="0"><span class="invisible-label">Démarrer la recherche</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="main-section">
+                        <div class="row outer-row sidenav-layout">
+                            <nav class="sidenav-wrapper">
+                                <div class="sidenav-container">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expanded-event="down.zf.accordionMenu up.zf.accordionMenu" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
+                                    </ul>
+                                </div>
+                            </nav>
+                            <div class="body-container">
+                                <div data-mc-content-body="True"><a href="#" class="scrollToTop"></a>
+                                    <div class="buttons popup-container clearfix topicToolbarProxy _Skins_TopicToolBar mc-component nocontent" style="float: right; mc-topic-toolbar-items: ;">
+                                        <div class="button-group-container-left">
+                                            <button class="button needs-pie remove-highlight-button" title="Supprimer les surlignages">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                            <div class="button-separator">
+                                            </div>
+                                            <button class="button needs-pie select-language-button" title="Changer de langue">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper" aria-label="Changer de langue">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                            <div class="button-separator">
+                                            </div>
+                                            <button class="button needs-pie expand-all-button" data-state1-class="expand-all-button" data-state2-class="collapse-all-button" data-state2-title="Réduire tout" title="Développer tout" data-state1-title="Développer tout">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper" aria-label="Développer tout">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                            <div class="button-separator">
+                                            </div>
+                                            <button class="button needs-pie print-button" title="Imprimer">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper" aria-label="Imprimer">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="nocontent">
+                                        <div class="MCBreadcrumbsBox_0 breadcrumbs" role="navigation" aria-label="Pistes de navigation" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="3" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">Vous êtes ici&#160;:</span>
+                                        </div>
+                                    </div>
+                                    <div role="main" id="mc-main-content">
+                                        <h1>FONCTIONS&#160;DE&#160;DATE&#160;ET&#160;D'HEURE</h1>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="age"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />Age&#160;: calcul de la durée écoulée entre deux dates</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p>Renvoie, pour chaque observation, la durée écoulée entre deux dates. Celle-ci est exprimée dans l’unité souhaitée (mois, jour ou année si l’unité n’est pas précisée).</p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">Age(variable date1, "unité")<br />Age(variable date1, variable date2, "unité")<br />L’unité est optionnelle. Si elle n’est pas définie, le résultat est exprimé en années.<br />La syntaxe des unités est la suivante&#160;:<br />"aa" ou "yy"&#160;: nombre entier d’années<br />"aa.a" ou "yy.y"&#160;: nombre décimal d’années<br />"mm"&#160;: nombre entier de mois<br />"mm.m"&#160;: nombre décimal de mois<br />"jj" ou "dd"&#160;: nombre entier de jours<br />"jj.j" ou "dd.d"&#160;: nombre décimal de jours</p>
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                    <br />Pour obtenir l’âge calculé entre la date d’aujourd’hui et la variable naissance, écrire&#160;:<br />Age (naissance)<br />Pour obtenir le résultat précédent en années, écrire&#160;:<br />Age (naissance, "aa")<br />Pour obtenir l’ancienneté du collaborateur, écrire&#160;:<br />Age ([date embauche], [date départ])</p>
+                                                <p><span class="bold">Variables autorisées&#160;et valeurs prises en compte&#160;:</span>
+                                                </p>
+                                                <p>Cette fonction s’applique sur des variables dates.</p>
+                                                <p><a href="Definition_options_de_calcul.htm#_Syntaxe_et_traitement">En savoir plus sur la définition des dates</a>
+                                                </p>
+                                                <p>Calcul de «&#160;Age&#160;» </p>
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Table.css');margin-left: 0;margin-right: auto;" class="TableStyle-Table" cellspacing="0">
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>Obs</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>V1</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>V2</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>Age (V1&#160;, V2 , "aa")</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>Age (V1&#160;, V2 , "aa.a")</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyD-Column1-Body1">
+                                                            <p>Age (V1&#160;, V2 , "mm")</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>1</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>03/07/2013</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>16/07/2014</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>1</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>1.04</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyD-Column1-Body2">
+                                                            <p>12</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>2</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>11/06/2014</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>03/07/2014</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>0</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>0.06</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyD-Column1-Body1">
+                                                            <p>0</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>3</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>24/02/2000</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>24/09/2014</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>14</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>14.58</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyD-Column1-Body2">
+                                                            <p>174</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>4</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>24/09/2014</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>NR</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>NR</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>NR</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyD-Column1-Body1">
+                                                            <p>NR</p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <p>*Non-réponse</p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="AjouterAnnees"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />AjouterAnnées : Ajoute des années aux valeurs d'une variable / à une date spécifique</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p style="font-weight: normal;">Renvoie, pour chaque observation, la date augmentée du nombre d'années spécifiées en paramètre.</p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">AjouterAnnée(date, nombre)</p>
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                    <br />Pour ajouter 2 ans aux valeurs de la variable naissance, écrire :<br />AjouterAnnées(naissance,2)<br />Pour ajouter 2 ans à une date spécifique, écrire :<br />AjouterAnnées("12/04/2022",2)</p>
+                                                <p><span class="bold">Variables autorisées&#160;et valeurs prises en compte&#160;:</span>
+                                                </p>
+                                                <p>Cette fonction s’applique sur des variables dates.</p>
+                                                <p><a href="Definition_options_de_calcul.htm#_Syntaxe_et_traitement">En savoir plus sur la définition des dates</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="AjouterHeures"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />AjouterHeures : Ajoute des heures aux valeurs d'une variable / à une date spécifique</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p style="font-weight: normal;">Renvoie, pour chaque observation, la date augmentée du nombre d'heures spécifiées en paramètre.</p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">AjouterHeures(date, nombre)</p>
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                    <br />Pour ajouter 2 heures aux valeurs de la variable naissance, écrire :<br />AjouterHeures(naissance,2)<br />Pour ajouter 2 heures à une date spécifique, écrire :<br />AjouterHeures("12/04/2022 10:24:38", 2)</p>
+                                                <p><span class="bold">Variables autorisées&#160;et valeurs prises en compte&#160;:</span>
+                                                </p>
+                                                <p>Cette fonction s’applique sur des variables dates.</p>
+                                                <p><a href="Definition_options_de_calcul.htm#_Syntaxe_et_traitement">En savoir plus sur la définition des dates</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="AjouterJours"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />AjouterJours : Ajoute des jours aux valeurs d'une variable / à une date spécifique</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p style="font-weight: normal;">Renvoie, pour chaque observation, la date augmentée du nombre de jours spécifiés en paramètre.</p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">AjouterJours(date, nombre)</p>
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                    <br />Pour ajouter 2 jours aux valeurs de la variable naissance, écrire :<br />AjouterJours(naissance,2)<br />Pour ajouter 2 jours à une date spécifique, écrire :<br />AjouterJours("12/04/2022", 2)</p>
+                                                <p><span class="bold">Variables autorisées&#160;et valeurs prises en compte&#160;:</span>
+                                                </p>
+                                                <p>Cette fonction s’applique sur des variables dates.</p>
+                                                <p><a href="Definition_options_de_calcul.htm#_Syntaxe_et_traitement">En savoir plus sur la définition des dates</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="AjouterMinutes"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />AjouterMinutes : Ajoute des minutes aux valeurs d'une variable / à une date spécifique</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p style="font-weight: normal;">Renvoie, pour chaque observation, la date augmentée du nombre de minutes spécifiées en paramètre.</p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">AjouterMinutes(date, nombre)</p>
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                    <br />Pour ajouter 2 minutes aux valeurs de la variable naissance, écrire :<br />AjouterMinutes(naissance,2)<br />Pour ajouter 2 minutes à une date spécifique, écrire :<br />AjouterMinutes("12/04/2022 10:24:38", 2)</p>
+                                                <p><span class="bold">Variables autorisées&#160;et valeurs prises en compte&#160;:</span>
+                                                </p>
+                                                <p>Cette fonction s’applique sur des variables dates.</p>
+                                                <p><a href="Definition_options_de_calcul.htm#_Syntaxe_et_traitement">En savoir plus sur la définition des dates</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="AjouterMois"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />AjouterMois : Ajoute des mois aux valeurs d'une variable / à une date spécifique</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p style="font-weight: normal;">Renvoie, pour chaque observation, la date augmentée du nombre de mois spécifiés en paramètre.</p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">AjouterMois(date, nombre)</p>
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                    <br />Pour ajouter 2 mois aux valeurs de la variable naissance, écrire :<br />AjouterMois(naissance,2)<br />Pour ajouter 2 mois à une date spécifique, écrire :<br />AjouterMois("12/04/2022", 2)</p>
+                                                <p><span class="bold">Variables autorisées&#160;et valeurs prises en compte&#160;:</span>
+                                                </p>
+                                                <p>Cette fonction s’applique sur des variables dates.</p>
+                                                <p><a href="Definition_options_de_calcul.htm#_Syntaxe_et_traitement">En savoir plus sur la définition des dates</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="AjouterSecondes"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />AjouterSecondes : Ajoute des secondes aux valeurs d'une variable / à une date spécifique</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p style="font-weight: normal;">Renvoie, pour chaque observation, la date augmentée du nombre de secondes spécifiées en paramètre.</p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">AjouterSecondes(date, nombre)</p>
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                    <br />Pour ajouter 2 secondes aux valeurs de la variable naissance, écrire :<br />AjouterSecondes(naissance,2)<br />Pour ajouter 2 secondes à une date spécifique, écrire :<br />AjouterSecondes("12/04/2022 10:24:38", 2)</p>
+                                                <p><span class="bold">Variables autorisées&#160;et valeurs prises en compte&#160;:</span>
+                                                </p>
+                                                <p>Cette fonction s’applique sur des variables dates.</p>
+                                                <p><a href="Definition_options_de_calcul.htm#_Syntaxe_et_traitement">En savoir plus sur la définition des dates</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="année"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />Année&#160;: calcul de l’année d’une variable date</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p>Renvoie, pour chaque observation, l’année de la variable date indiquée. Celle-ci est exprimée sous forme de nombre entier.</p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">Année(date) <br />Annee(date) <br />Year(date)</p>
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                    <br />Pour obtenir l’année de la variable date portant le numéro 1, écrire&#160;: <br />Année(date) ou Année(V1)<br />Pour obtenir l’année en cours, écrire&#160;: <br />Année (maintenant)</p>
+                                                <p><span class="bold">Variables autorisées&#160;et valeurs prises en compte&#160;:</span>
+                                                </p>
+                                                <p>Cette fonction s’applique sur des variables dates.</p>
+                                                <p><a href="Definition_options_de_calcul.htm#_Syntaxe_et_traitement">En savoir plus sur la définition des dates</a>
+                                                </p>
+                                                <p>Calcul de «&#160;Année&#160;» d’une variable</p>
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Table.css');margin-left: 0;margin-right: auto;" class="TableStyle-Table" cellspacing="0">
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>Obs</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>V1</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyD-Column1-Body1">
+                                                            <p>Année(v1)</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>1</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>29/07/2012 19:40:03</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyD-Column1-Body2">
+                                                            <p>2012</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>2</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>13/08/2014 09:43:13</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyD-Column1-Body1">
+                                                            <p>2014</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>3</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>20/06/2013 19:40:08</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyD-Column1-Body2">
+                                                            <p>2013</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>4</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>NR</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyD-Column1-Body1">
+                                                            <p>NR</p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <p>*NR = Non-réponse</p>
+                                                <p><a href="Definition_options_de_calcul.htm#_Traitement_des_non-réponses">En savoir plus sur le traitement des non-réponses</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="Durée"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />Durée&#160;: calcul de la durée écoulée entre deux dates (en nombre de jours)</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p>Renvoie, pour chaque observation, la durée écoulée entre deux dates. Celle-ci est exprimée en nombre de jours.</p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">Duree(variable date début, variable date fin) <br />Durée(variable date début, variable date fin) <br />Duration(begin, end)</p>
+                                                <p><span class="bold">Variables autorisées&#160;et valeurs prises en compte&#160;:</span>
+                                                </p>
+                                                <p>Cette fonction s’applique sur des variables dates.</p>
+                                                <p><a href="Definition_options_de_calcul.htm#_Syntaxe_et_traitement">En savoir plus sur la définition des dates</a>
+                                                </p>
+                                                <p>Calcul de «&#160;Durée&#160;» </p>
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Table.css');margin-left: 0;margin-right: auto;" class="TableStyle-Table" cellspacing="0">
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>Obs</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>V1</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>V2</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyD-Column1-Body1">
+                                                            <p>Duree (V1&#160;, V2)</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>1</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>03/07/2013</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>16/07/2014</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyD-Column1-Body2">
+                                                            <p>378</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>2</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>11/06/2014</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>03/07/2014</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyD-Column1-Body1">
+                                                            <p>22</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>3</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>24/02/2000</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>24/09/2014</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyD-Column1-Body2">
+                                                            <p>5326</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>4</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>24/09/2014</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>NR</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyD-Column1-Body1">
+                                                            <p>NR</p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <p>*Non-réponse</p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="Heure"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />Heure&#160;: renvoie l’heure d’une variable date</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p>Renvoie, pour chaque observation, l’heure de la variable indiquée. Celle-ci est exprimée sous forme de nombre compris entre 0 et 23.</p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">Heure(date) <br />Hour(date) </p>
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                    <br />Pour obtenir l’heure de la variable date portant le numéro 1, écrire&#160;: <br />Heure (date) ou Heure (V1)<br />Pour obtenir l’heure en cours, écrire&#160;:<br />Heure (maintenant)</p>
+                                                <p><span class="bold">Variables autorisées&#160;et valeurs prises en compte&#160;:</span>
+                                                </p>
+                                                <p>Cette fonction s’applique sur des variables dates.</p>
+                                                <p><a href="Definition_options_de_calcul.htm#_Syntaxe_et_traitement">En savoir plus sur la définition des dates</a>
+                                                </p>
+                                                <p>Calcul de «&#160;Heure&#160;» d’une variable</p>
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Table.css');margin-left: 0;margin-right: auto;" class="TableStyle-Table" cellspacing="0">
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>Obs</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>V1</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body1" style="text-align: center;">
+                                                            <p>Heure(v1)</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>1</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>29/07/2012 19:40:03</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body2" style="text-align: center;">
+                                                            <p>19</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>2</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>13/08/2014 09:43:13</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body1" style="text-align: center;">
+                                                            <p>9</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>3</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>20/06/2013 19:40:08</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body2" style="text-align: center;">
+                                                            <p>19</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>4</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>NR</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body1" style="text-align: center;">
+                                                            <p>NR</p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <p>*NR = Non-réponse</p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="jour"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />Jour&#160;: renvoie le jour d’une variable date</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p>Renvoie, pour chaque observation, le jour de la variable date indiquée. Celui-ci est exprimé sous forme de nombre compris entre 1 et 31.</p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">Jour(date) <br />Day(date) </p>
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                    <br />Pour obtenir le mois de la variable date portant le numéro 1, écrire&#160;:<br />Jour (date) ou Jour (V1)<br />Pour obtenir le jour en cours, écrire&#160;: <br />Jour (maintenant)</p>
+                                                <p><span class="bold">Variables autorisées&#160;et valeurs prises en compte&#160;:</span>
+                                                </p>
+                                                <p>Cette fonction s’applique sur des variables dates.</p>
+                                                <p><a href="Definition_options_de_calcul.htm#_Syntaxe_et_traitement">En savoir plus sur la définition des dates</a>
+                                                </p>
+                                                <p>Calcul de «&#160;Jour&#160;» d’une variable</p>
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Table.css');margin-left: 0;margin-right: auto;" class="TableStyle-Table" cellspacing="0">
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>Obs</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>V1</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body1" style="text-align: center;">
+                                                            <p>Jour(v1)</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>1</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>29/07/2012 19:40:03</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body2" style="text-align: center;">
+                                                            <p>29</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>2</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>13/08/2014 09:43:13</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body1" style="text-align: center;">
+                                                            <p>13</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>3</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>20/06/2013 19:40:08</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body2" style="text-align: center;">
+                                                            <p>20</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>4</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>NR</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body1" style="text-align: center;">
+                                                            <p>NR</p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <p>*NR = Non-réponse</p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="JourSem"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />JourSem&#160;: renvoie le jour de la semaine d’une variable date</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p>Renvoie, pour chaque observation, le jour de la semaine de la variable indiquée. Celui-ci est exprimé sous forme de nombre compris entre 1 (pour lundi) et 7 (pour dimanche).</p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">JourSem(date) <br />WeekDay(date) </p>
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                    <br />Pour obtenir le jour de la semaine de la variable date portant le numéro 1, écrire&#160;: <br />JourSem (date) ou JourSem (V1)<br />Pour obtenir le jour de la semaine en cours, écrire&#160;: <br />JourSem (maintenant)</p>
+                                                <p><span class="bold">Variables autorisées&#160;et valeurs prises en compte&#160;:</span>
+                                                </p>
+                                                <p>Cette fonction s’applique sur des variables dates.</p>
+                                                <p><a href="Definition_options_de_calcul.htm#_Syntaxe_et_traitement">En savoir plus sur la définition des dates</a>
+                                                </p>
+                                                <p>Calcul de «&#160;JourSem&#160;» d’une variable</p>
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Table.css');margin-left: 0;margin-right: auto;" class="TableStyle-Table" cellspacing="0">
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>Obs</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>V1</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body1" style="text-align: center;">
+                                                            <p>JourSem(v1)</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>1</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>29/07/2012 19:40:03</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body2" style="text-align: center;">
+                                                            <p>7</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>2</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>13/08/2014 09:43:13</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body1" style="text-align: center;">
+                                                            <p>3</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>3</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>20/06/2013 19:40:08</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body2" style="text-align: center;">
+                                                            <p>4</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>4</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>NR</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body1" style="text-align: center;">
+                                                            <p>NR</p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <p>*NR = Non-réponse</p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="Maintenant"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />Maintenant&#160;: calcul de la date du jour</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p>Renvoie la date et l’heure courantes.</p>
+                                                <p>Le résultat de cette expression change à chaque exécution du calcul.</p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">Maintenant() <br />Maintenant <br />Now <br />Now()</p>
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                    <br />Pour obtenir la date du jour et l’heure à laquelle le calcul a été demandé, écrire&#160;: <br />maintenant()<br />maintenant("ss") pour obtenir les secondes<br />maintenant("s") pour obtenir la date heure : 2023-11-24T15:24:52<br />maintenant("mm") pour obtenir les minutes<br />maintenant("hh") pour obtenir les heures<br />maintenant("d") pour obtenir le jour : 24/11/2023<br />maintenant("D") pour obtenir le jour : vendredi 24 novembre<br />maintenant("m") ou maintenant("M") pour obtenir le mois : 24 novembre<br />maintenant("y") ou maintenant("Y") pour obtenir l'année : novembre 2023</p>
+                                                <p>Calcul de «&#160;Maintenant&#160;»</p>
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Table.css');margin-left: 0;margin-right: auto;" class="TableStyle-Table" cellspacing="0">
+                                                    <col class="TableStyle-Table-Column-Column1">
+                                                    </col>
+                                                    <col class="TableStyle-Table-Column-Column1">
+                                                    </col>
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>Obs</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body1" style="text-align: center;">
+                                                            <p>Maintenant()</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>1</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body2" style="text-align: center;">
+                                                            <p>24/09/2014 16:30:22</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>2</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body1" style="text-align: center;">
+                                                            <p>24/09/2014 16:30:22</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>3</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body2" style="text-align: center;">
+                                                            <p>24/09/2014 16:30:22</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>4</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body1" style="text-align: center;">
+                                                            <p>24/09/2014 16:30:22</p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <p>*NR = Non-réponse</p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="Minute"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />Minute&#160;: renvoie la minute d’une variable date</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p>Renvoie, pour chaque observation, la minute de la variable indiquée. Celle-ci est exprimée sous forme de nombre compris entre 0 et 59.</p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">Minute(date) </p>
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                    <br />Pour obtenir la minute de la variable date portant le numéro 1, écrire&#160;: <br />Minute (date) ou Minute (V1)<br />Pour obtenir l’heure en cours, écrire&#160;: <br />Minute (maintenant)</p>
+                                                <p><span class="bold">Variables autorisées&#160;et valeurs prises en compte&#160;:</span>
+                                                </p>
+                                                <p>Cette fonction s’applique sur des variables dates.</p>
+                                                <p><a href="Definition_options_de_calcul.htm#_Syntaxe_et_traitement">En savoir plus sur la définition des dates</a>
+                                                </p>
+                                                <p>Calcul de «&#160;Minute&#160;» d’une variable</p>
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Table.css');margin-left: 0;margin-right: auto;" class="TableStyle-Table" cellspacing="0">
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>Obs</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>V1</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyD-Column1-Body1">
+                                                            <p>Minute(v1)</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>1</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>29/07/2012 19:40:03</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyD-Column1-Body2">
+                                                            <p>40</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>2</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>13/08/2014 09:43:13</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyD-Column1-Body1">
+                                                            <p>43</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>3</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>20/06/2013 19:40:08</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyD-Column1-Body2">
+                                                            <p>40</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>4</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>NR</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyD-Column1-Body1">
+                                                            <p>NR</p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <p>*NR = Non-réponse</p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="Mois"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />Mois&#160;: renvoie le mois d’une variable date</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p>Renvoie le mois de la variable date indiquée. Celui-ci est exprimé sous forme de nombre compris entre 1 et 12.</p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">Mois(date) <br />Month(date) </p>
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                    <br />Pour obtenir le mois en cours, écrire&#160;: <br />Mois (maintenant)<br />Si pour une observation, la variable Date égale &#160;à «&#160;29/07/2012 19:40:03&#160;»,&#160; Mois (Date) renvoie 7.<br />Mois("09/10/2012 08:30:42") renvoie 10</p>
+                                                <p><span class="bold">Variables autorisées&#160;et valeurs prises en compte&#160;:</span>
+                                                </p>
+                                                <p>Cette fonction s’applique sur des variables dates.</p>
+                                                <p><a href="Definition_options_de_calcul.htm#_Syntaxe_et_traitement">En savoir plus sur la définition des dates</a>
+                                                </p>
+                                                <p>Calcul de «&#160;Mois&#160;» d’une variable</p>
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Table.css');margin-left: 0;margin-right: auto;" class="TableStyle-Table" cellspacing="0">
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>Obs</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>V1</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body1" style="text-align: center;">
+                                                            <p>Mois(v1)</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>1</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>29/07/2012 19:40:03</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body2" style="text-align: center;">
+                                                            <p>7</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>2</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>13/08/2014 09:43:13</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body1" style="text-align: center;">
+                                                            <p>8</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>3</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>20/06/2013 19:40:08</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body2" style="text-align: center;">
+                                                            <p>6</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>4</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>NR</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body1" style="text-align: center;">
+                                                            <p>NR</p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <p>*NR = Non-réponse</p>
+                                                <p><a href="Definition_options_de_calcul.htm#_Traitement_des_non-réponses">En savoir plus sur le traitement des non-réponses</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="Seconde"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />Seconde&#160;: renvoie la seconde d’une variable date</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p>Renvoie, pour chaque observation, la seconde de la variable indiquée. Celle-ci est exprimée sous forme de nombre compris entre 0 et 59.</p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">Seconde(date) <br />Second(date) </p>
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                    <br />Pour obtenir la seconde de la variable date portant le numéro 1, écrire&#160;:<br />Seconde(date) ou Seconde(V1)<br />Pour obtenir l’heure en cours, écrire&#160;:<br />Seconde(maintenant)</p>
+                                                <p><span class="bold">Variables autorisées&#160;et valeurs prises en compte&#160;:</span>
+                                                </p>
+                                                <p>Cette fonction s’applique sur des variables dates.</p>
+                                                <p><a href="Definition_options_de_calcul.htm#_Syntaxe_et_traitement">En savoir plus sur la définition des dates</a>
+                                                </p>
+                                                <p>Calcul de «&#160;Seconde&#160;» d’une variable</p>
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Table.css');margin-left: 0;margin-right: auto;" class="TableStyle-Table" cellspacing="0">
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>Obs</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>V1</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyD-Column1-Body1">
+                                                            <p>Seconde(v1)</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>1</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>29/07/2012 19:40:03</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyD-Column1-Body2">
+                                                            <p>3</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr style="height: 13px;" class="TableStyle-Table-Body-Body1">
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>2</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>13/08/2014 09:43:13</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyD-Column1-Body1">
+                                                            <p>13</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>3</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>20/06/2013 19:40:08</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyD-Column1-Body2">
+                                                            <p>8</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>4</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>NR</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyD-Column1-Body1">
+                                                            <p>NR</p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <p>*NR = Non-réponse</p>
+                                                <p><a href="Definition_options_de_calcul.htm#_Traitement_des_non-réponses">En savoir plus sur le traitement des non-réponses</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="Semaine"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />Semaine&#160;: renvoie le numéro de la semaine d’une variable date</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p>Renvoie, pour chaque observation, la semaine de la variable indiquée. Celle-ci est exprimée sous forme de nombre compris entre 1 et 53.</p>
+                                                <p>La règle retenue pour déterminer la 1re semaine de l’année correspond à la langue de l’enquête&#160;: une enquête en langue de référence française considère que la première semaine commence le premier jour de l’année.</p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">Semaine(date) <br />Week(date) </p>
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                    <br />Pour obtenir le numéro de la semaine de la variable date portant le numéro 1, écrire&#160;: <br />Semaine (date) ou Semaine (V1)<br />Pour obtenir le numéro de la semaine en cours, écrire&#160;:<br />Semaine (maintenant)</p>
+                                                <p><span class="bold">Variables autorisées&#160;et valeurs prises en compte&#160;:</span>
+                                                </p>
+                                                <p>Cette fonction s’applique sur des variables dates.</p>
+                                                <p><a href="Definition_options_de_calcul.htm#_Syntaxe_et_traitement">En savoir plus sur la définition des dates</a>
+                                                </p>
+                                                <p>Calcul de «&#160;Semaine&#160;» d’une variable</p>
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Table.css');margin-left: 0;margin-right: auto;" class="TableStyle-Table" cellspacing="0">
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>Obs</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>V1</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyD-Column1-Body1">
+                                                            <p>Semaine(v1)</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>1</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>29/07/2012 19:40:03</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyD-Column1-Body2">
+                                                            <p>31</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>2</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>13/08/2014 09:43:13</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyD-Column1-Body1">
+                                                            <p>33</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>3</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>20/06/2013 19:40:08</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyD-Column1-Body2">
+                                                            <p>25</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>4</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>NR</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyD-Column1-Body1">
+                                                            <p>NR</p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <p>*NR = Non-réponse</p>
+                                                <p><a href="Definition_options_de_calcul.htm#_Traitement_des_non-réponses">En savoir plus sur le traitement des non-réponses</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><a data-close="true"></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

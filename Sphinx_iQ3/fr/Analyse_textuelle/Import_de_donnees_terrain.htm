@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="fr" xml:lang="fr" class="_Skins_Side_navigation_IQ3" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../" data-mc-has-content-body="True" data-mc-toc-path="ANALYSE DES RÉSULTATS|Atelier lexical (ancien environnement)|Créer une analyse lexicale" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="msapplication-config" content="../Skins/Favicons/browserconfig.xml" />
+        <link rel="shortcut icon" href="../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="168x168" href="../Skins/Favicons/favicon.png" />
+        <link rel="icon" sizes="32x32" href="../Skins/Favicons/favicon.png" />
+        <link rel="icon" sizes="168x168" href="../Skins/Favicons/favicon.png" /><title>Import de données terrain documentaire</title>
+        <link href="../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Resources/Stylesheets/Styles.css" rel="stylesheet" type="text/css" />
+        <link href="../Resources/Scripts/search-dropdown.css" rel="stylesheet" type="text/css" />
+        <style>/*&lt;meta /&gt;*/
+
+.button.remove-highlight-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.separator-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.select-language-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.separator-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.expand-all-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.separator-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.print-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.collapse-all-button
+{
+	-pie-background: linear-gradient(transparent, #ececec);
+}
+
+.needs-pie
+{
+	behavior: url('../Resources/Scripts/PIE-no-motw.htc');
+}
+
+</style>
+        <link href="../Resources/Stylesheets/MainStyles.css" rel="stylesheet" />
+        <link rel="shortcut icon" href="../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="168x168" href="../Skins/Favicons/favicon.png" />
+        <link rel="icon" sizes="32x32" href="../Skins/Favicons/favicon.png" />
+        <link rel="icon" sizes="168x168" href="../Skins/Favicons/favicon.png" />
+        <script src="../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../Resources/Scripts/purify.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/require.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/require.config.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/foundation.6.2.3_custom.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/plugins.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/MadCapAll.js" type="text/javascript" defer="defer">
+        </script>
+        <script type="text/javascript" src="../Resources/Scripts/search-dropdown.js">
+        </script>
+        <script type="text/javascript" src="../Skins/Default/Scripts/TopicToolBar.js">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-right" role="complementary" id="offCanvas" data-off-canvas="" data-position="right" data-mc-ignore="true">
+                    <ul class="off-canvas-accordion vertical menu off-canvas-list" data-accordion-menu="" data-mc-back-link="Retour" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expanded-event="down.zf.accordionMenu up.zf.accordionMenu" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div data-sticky-container="" class="title-bar-container">
+                        <nav class="title-bar tab-bar sticky" aria-label="Main navigation and search" data-sticky="" data-options="marginTop:0" style="width:100%" data-sticky-on="only screen and (max-width: 1279px)" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="#">Passer au contenu principal</a>
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="menu-icon-container relative clearfix">
+                                    <div class="central-account-wrapper">
+                                        <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Compte</span></a>
+                                            <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Paramètres</a>
+                                                <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Déconnexion</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="menu-icon" aria-label="Afficher le volet de navigation" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="title-bar-layout outer-row">
+                                <div class="logo-wrapper"><a class="logo" href="../Home.htm" alt="Logo"></a>
+                                </div>
+                                <div class="navigation-wrapper nocontent">
+                                    <ul class="navigation clearfix" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                        <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="central-account-wrapper">
+                                    <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Compte</span></a>
+                                        <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Paramètres</a>
+                                            <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Déconnexion</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nav-search-wrapper">
+                                    <div class="nav-search row">
+                                        <form class="search" action="#">
+                                            <div class="search-bar search-bar-container needs-pie">
+                                                <input class="search-field needs-pie" type="search" aria-label="Champ de recherche" placeholder="Rechercher" />
+                                                <div class="search-filter-wrapper"><span class="invisible-label" id="search-filters-label">Filtrer&#160;:</span>
+                                                    <div class="search-filter" aria-haspopup="true" aria-controls="sf-content" aria-expanded="false" aria-label="Filtre de recherche" title="Tous les fichiers" role="button" tabindex="0">
+                                                    </div>
+                                                    <div class="search-filter-content" id="sf-content">
+                                                        <ul>
+                                                            <li>
+                                                                <button class="mc-dropdown-item" aria-labelledby="search-filters-label filterSelectorLabel-00001"><span id="filterSelectorLabel-00001">Tous les fichiers</span>
+                                                                </button>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="search-submit-wrapper" dir="ltr">
+                                                    <div class="search-submit" title="Rechercher" role="button" tabindex="0"><span class="invisible-label">Démarrer la recherche</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="main-section">
+                        <div class="row outer-row sidenav-layout">
+                            <nav class="sidenav-wrapper">
+                                <div class="sidenav-container">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expanded-event="down.zf.accordionMenu up.zf.accordionMenu" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
+                                    </ul>
+                                </div>
+                            </nav>
+                            <div class="body-container">
+                                <div data-mc-content-body="True"><a href="#" class="scrollToTop"></a>
+                                    <div class="buttons popup-container clearfix topicToolbarProxy _Skins_TopicToolBar mc-component nocontent" style="float: right; mc-topic-toolbar-items: ;">
+                                        <div class="button-group-container-left">
+                                            <button class="button needs-pie remove-highlight-button" title="Supprimer les surlignages">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                            <div class="button-separator">
+                                            </div>
+                                            <button class="button needs-pie select-language-button" title="Changer de langue">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper" aria-label="Changer de langue">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                            <div class="button-separator">
+                                            </div>
+                                            <button class="button needs-pie expand-all-button" data-state1-class="expand-all-button" data-state2-class="collapse-all-button" data-state2-title="Réduire tout" title="Développer tout" data-state1-title="Développer tout">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper" aria-label="Développer tout">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                            <div class="button-separator">
+                                            </div>
+                                            <button class="button needs-pie print-button" title="Imprimer">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper" aria-label="Imprimer">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="nocontent">
+                                        <div class="MCBreadcrumbsBox_0 breadcrumbs" role="navigation" aria-label="Pistes de navigation" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="3" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">Vous êtes ici&#160;:</span>
+                                        </div>
+                                    </div>
+                                    <div role="main" id="mc-main-content">
+                                        <h1>IMPORT DE DONNÉES TERRAIN OU DOCUMENTAIRES</h1>
+                                        <p>Sphinx iQ3 permet l'import de documents textuels de différentes natures : entretiens dirigés ou non-dirigés, focus groupes, articles ou document. Ainsi, vous pouvez créer une nouvelle enquête directement à partir d'un de ces documents. Pour ce faire :</p>
+                                        <ol>
+                                            <li value="1">
+                                                <p>À partir de l’écran d’accueil, cliquez sur <span class="bold">Créer une étude</span>.</p>
+                                            </li>
+                                            <li value="2">
+                                                <p>Cliquez sur <span class="bold">Textes : Données de terrain ou documentaires</span>.</p>
+                                                <p>
+                                                    <img src="../Resources/Images/import_documents.png" alt="" title="" />
+                                                </p>
+                                            </li>
+                                            <li value="3">
+                                                <p>Sélectionnez la méthode de collecte employée ou la nature du document importé :</p>
+                                                <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" /></a><a name="Nondirectif"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" aria-expanded="false">ENTRETIEN&#160;NON&#160;DIRIGÉ</a></span>
+                                                    <div class="MCDropDownBody dropDownBody">
+                                                        <p>L’entretien (ou interview) se déroule sur le mode de la conversation.</p>
+                                                        <p>La retranscription se fait en alternant les couples&#160;<span class="bold">question / réponse</span>. On utilise les balises&#160;<span class="bold">Q :</span>&#160;ou&#160;<span class="bold">R :</span> en début de ligne de chaque question ou réponse.</p>
+                                                        <p>Plusieurs entretiens peuvent être retranscrits à la suite. On utilise la balise&#160;<span class="bold">E :</span>&#160;pour repérer les différents entretiens. En tête de la retranscription d’un entretien figurent les&#160;<span class="bold">données caractérisant l’interview</span>. Elles sont définies par des balises, par exemple&#160;:&#160;Nom,&#160;Prénom,&#160;Age,&#160;CSP,&#160;Date… Ces indications figurent en début de ligne. Le signe&#160;<span class="bold">":"</span>&#160;sépare la balise de son contenu.</p>
+                                                        <p>Des&#160;annotations&#160;peuvent être ajoutées au moment de la retranscription pour marquer des expressions non verbales ou tout autre commentaire ne faisant pas partie du texte retranscrit. Ces annotations sont portées entre crochets et sont placées avant le point de la phrase à annoter. Par exemple : "Si vous insistez <span class="bold">[Résistance]</span>".</p>
+                                                        <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                            <br /><span class="bold">E :</span>&#160;Entretien avec Jean Durand<br /><span class="bold">Nom :</span>&#160;Jean<br /><span class="bold">Age :</span>&#160;31<br /><span class="bold">CSP :</span>&#160;Ouvrier<br /><span class="bold">Date :</span>&#160;12/4/2013<br /><span class="bold">Q :</span>&#160;Comment ça va ?<br /><span class="bold">R :</span>&#160;Bien merci.<br /><span class="bold">Q :</span>&#160;Mais encore ?<br /><span class="bold">R :</span>&#160;Si vous insistez&#160;<span class="bold">[Résistance]</span>. Je vais vous dire que c'est super.<br /><span class="bold">Q :</span>&#160;Pouvez-vous préciser ?<br /><span class="bold">R :</span>&#160;Je parle des gens que je rencontre. Ils sont tous très intéressant. J'aime faire de nouvelles rencontres&#160;<span class="bold">[Intérêt]</span>. C'est toujours l'occasion d'apprendre.<br /><br /><span class="bold">E :</span>&#160;Entretien avec Anne Blanc<br /><span class="bold">Nom :</span>&#160;Anne<br /><span class="bold">Age :</span>&#160;50<br /><span class="bold">CSP :</span>&#160;Employé<br /><span class="bold">Date :</span>&#160;25/6/2013<br /><span class="bold">Q :</span>&#160;Acceptez-vous de répondre ?<br /><span class="bold">R :</span>&#160;Oui bien sûr si cela ne prend pas trop de temps.<br /><span class="bold">Q :</span>&#160;Parlez-moi de ce qui compte dans votre vie.<br /><span class="bold">R :</span>&#160;Moi j'aime manger. Je ne me préoccupe pas de ma ligne. J'aime faire la cuisine et préparer mes propres plats.<br /><span class="bold">Q :</span>&#160;Quel type de cuisine préférez vous ?<br /><span class="bold">R :</span>&#160;Toutes mais surtout quand elle est préparée avec des produits frais.<br /><br /><span class="bold">E :</span>&#160;Entretien avec Jules Martin<br /><span class="bold">Nom :</span>&#160;Jules<br /><span class="bold">CSP :</span>&#160;Employé<br /><span class="bold">Age :</span>&#160;<br /><span class="bold">Date :</span>&#160;23/7/2013<br /><span class="bold">Q :</span>&#160;Acceptez-vous de répondre ?<br /><span class="bold">R :</span>&#160;Oui avec grand plaisir.<br /><span class="bold">Q :</span>&#160;Parlez-moi de ce qui compte dans votre vie.<br /><span class="bold">R :</span>&#160;Marcher et rêver. J’adore m’évader même en restant sur place.<br /><span class="bold">Q :</span>&#160;Vous êtes un drôle d’oiseau. Qu’est ce qui vous donne des ailes ?<br /><span class="bold">R :</span>&#160;Vous me trouvez étrange&#160;<span class="bold">[Rire]</span>. Mais c’est ma manière d’être !<br /><span class="bold">Q :</span>&#160;Quel type de rêves préférez vous?<br /><span class="bold">R :</span> Tous sauf les cauchemars bien sûr.</p>
+                                                        <p>Le corpus ci-dessus retranscrit 3 interviews,&#160; il comporte 10 couples questions réponses (balises&#160;<span class="bold">Q :</span>&#160;et&#160;&#160;<span class="bold">R :</span>). Les interviews sont définies par les balises&#160;<span class="bold">Nom,&#160;Age,&#160;CSP,&#160;Date</span>. Des annotations ont été ajoutées :&#160;<span class="bold">[Résistance]</span>,&#160;<span class="bold">[Intérêt]</span>&#160;et&#160;<span class="bold">[Rire]</span>.</p>
+                                                        <p>Il conduit à définir des champs (ou variables) relatifs à&#160;:</p>
+                                                        <ul>
+                                                            <li>
+                                                                <p>L’identification de l’interview&#160;: Nom, Age, CSP, Date.</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>Aux 2 types de textes à analyser&#160;: Questions, Réponses.</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>Aux annotations.</p>
+                                                            </li>
+                                                        </ul>
+                                                        <p>Il peut être analysé selon&#160;2 types d’unités statistiques conduisant à l’une des tables de données suivantes&#160;:</p>
+                                                        <p><span class="bold">Base entretien&#160;:</span> En colonne, 5 variables &#160;Nom, Age, CSP, Date, Question, Réponse, Annotation. En ligne, 3 entretiens, le texte de toutes les questions et de toutes les réponses de chaque interview est regroupé en dans les champs Question et Réponse. Toutes les annotations d’une même interview figurent à la suite dans le champ Annotation.</p>
+                                                        <p>Exemple :</p>
+                                                        <p style="text-align: left;"><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/Sphinx_iQ2/0300016F.png"><img class="MCPopupThumbnail img imgpopup" data-mc-width="728" data-mc-height="94" src="../Resources/Images/Sphinx_iQ2/0300016F.png" tabindex="" style="max-width: 200px;max-height: 200px;" /></a>
+                                                        </p>
+                                                        <p><span class="bold">Base couple question-réponse</span>&#160;: En colonne, 5 variables&#160; Nom, Age, CSP, Date, Questions, Réponses, Annotation. En ligne, 10 couples question-réponse. Les champs Question et Réponse ne contiennent que le texte relatif à chaque couple. Le champ Annotation ne contient que les annotations du couple concerné. L’identification de l’interview est reprise pour chaque couple Question, Réponse.</p>
+                                                        <p>Exemple&#160;:</p>
+                                                        <p style="text-align: left;">&#160;&#160;<a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/Sphinx_iQ2/03000170.png"><img class="MCPopupThumbnail img imgpopup" data-mc-width="760" data-mc-height="244" src="../Resources/Images/Sphinx_iQ2/03000170.png" tabindex="" style="max-width: 200px;max-height: 200px;" /></a></p>
+                                                    </div>
+                                                </div>
+                                                <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" /></a><a name="Directif"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" aria-expanded="false">ENTRETIEN&#160;DIRIGÉ OU&#160;SEMI-DIRECTIF</a></span>
+                                                    <div class="MCDropDownBody dropDownBody">
+                                                        <p>L’entretien est dirigé (ou semi-directif) lorsqu’il se déroule à l’aide d’un guide ou d’un plan sans pour autant correspondre à un questionnaire. La formulation des questions et leur ordre peuvent varier en fonction de l’interlocuteur et de ses réponses. La retranscription se fait en alternant les couples&#160;<span class="bold">question / réponse</span>. On utilise les balises&#160;<span class="bold">Q :</span>&#160;ou&#160;<span class="bold">R :</span> en début de ligne de chaque question ou réponse.</p>
+                                                        <p>Plusieurs entretiens peuvent être retranscrits à la suite. On utilise la balise&#160;<span class="bold">E :</span>&#160;pour repérer les différents entretiens. En tête de la retranscription d’un entretien figurent les&#160;<span class="bold">données caractérisant l’interview</span>. Elles sont définies par des balises, par exemple&#160;:&#160;Nom,&#160;Prénom,&#160;Age,&#160;CSP,&#160;Date… Ces indications figurent en début de ligne. Le signe&#160;<span class="bold">":"</span>&#160;sépare la balise de son contenu.</p>
+                                                        <p>Des&#160;annotations&#160;peuvent être ajoutées au moment de la retranscription pour marquer des expressions non verbales ou tout autre commentaire ne faisant pas partie du texte retranscrit. Ces annotations sont portées entre crochets et sont placées avant le point de la phrase à annoter. Par exemple : "Si vous insistez <span class="bold">[Résistance]</span>".</p>
+                                                        <p>L’indication des différents thèmes abordés ou différentes parties de l’entretien se fait par l’ajout de repères (jalon) <span class="bold">"&gt;"</span> suivi d’un mot. Par exemple&#160;<span class="bold">&gt;introduction</span>,&#160;<span class="bold">&gt;première partie</span>,&#160;<span class="bold">&gt;hobbies</span>.&#160;</p>
+                                                        <p class="note" data-mc-autonum="&lt;b&gt;REMARQUE : &lt;/b&gt;"><span class="autonumber"><span><b>REMARQUE : </b></span></span>Il ne doit y avoir aucun espace entre le caractère <span class="bold">"&gt;"</span> et le <span class="bold">mot</span>.</p>
+                                                        <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                            <br /><span class="bold">E :</span>&#160;Entretien avec Jean Durand<br /><span class="bold">Nom :</span>&#160;Jean<br /><span class="bold">Age :</span>&#160;31<br /><span class="bold">CSP :</span>&#160;Ouvrier<br /><span class="bold">&gt;Intro</span><br /><span class="bold">Q :</span>&#160;Comment ça va ?<br /><span class="bold">R :</span>&#160;Bien merci.<br /><span class="bold">Q :</span>&#160;Mais encore ?<br /><span class="bold">R :</span>&#160;Si vous insistez&#160;<span class="bold">[Résistance]</span>. Je vais vous dire que c'est super.<br /><span class="bold">&gt;Hobbies</span><br /><span class="bold">Q :</span>&#160;Pouvez-vous préciser ?<br /><span class="bold">R :</span>&#160;Je parle des gens que je rencontre. Ils sont tous très intéressant. J'aime faire de nouvelles rencontres&#160;<span class="bold">[Intérêt]</span>. C'est toujours l'occasion d'apprendre.<br /><br /><span class="bold">E :</span>&#160;Entretien avec Anne Blanc<br /><span class="bold">Nom :</span>&#160;Anne<br /><span class="bold">Age :</span>&#160;50<br /><span class="bold">CSP :</span>&#160;Employé<br /><span class="bold">&gt;Intro</span><br /><span class="bold">Q :</span>&#160;Acceptez-vous de répondre ?<br /><span class="bold">R :</span>&#160;Oui bien sûr si cela ne prend pas trop de temps.<br /><span class="bold">&gt;Hobbies</span><br /><span class="bold">Q :</span>&#160;Parlez-moi de ce qui compte dans votre vie.<br /><span class="bold">R :</span>&#160;Moi j'aime manger. Je ne me préoccupe pas de ma ligne. J'aime faire la cuisine et préparer mes propres plats.<br /><span class="bold">Q :</span>&#160;Quel type de cuisine préférez vous ?<br /><span class="bold">R :</span>&#160;Toutes mais surtout quand elle est préparée avec des produits frais.</p>
+                                                        <p>Dans le corpus ci-dessus, 2 entretiens sont retranscrits. Il comporte 6 couples question-réponse. Les entretiens sont définis par les balises&#160;<span class="bold">Nom,&#160;Age,&#160;CSP,&#160;Date</span>. Des annotations ont été ajoutées (<span class="bold">[Résistance]</span>,&#160;<span class="bold">[Intérêt]</span>). Les jalons :&#160;<span class="bold">&gt;Intro</span>&#160;et&#160;<span class="bold">&gt;Hobbies</span>&#160;conduisent à la création d’un champ supplémentaire&#160;"Jalon"&#160;indiquant pour chaque couple de question-réponse, le point auquel il se rattache, ou pour chaque interview les thèmes abordés (le nombre et la nature des thèmes abordés dans chaque&#160;interview peut varier).</p>
+                                                        <p>Tout comme l’entretien non directif, il conduit à définir des champs (ou variables) relatifs à&#160;:</p>
+                                                        <ul>
+                                                            <li>
+                                                                <p>L’identification de l’entretien&#160;: Nom, Age, CSP, Date.</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>Aux 2 types de textes à analyser&#160;: Question, Réponse.</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>Aux annotations.</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>Aux parties et thèmes de l’entretien.</p>
+                                                            </li>
+                                                        </ul>
+                                                        <p>&#160;Il peut être analysé selon 2 types d’unités statistiques conduisant à l’une des tables de données suivantes&#160;:</p>
+                                                        <p><span class="bold">Base entretien</span>&#160;: En colonne 6 variables&#160;Nom, Age, CSP, Date, Question, Réponse, Annotation, Jalon. En ligne 2 interviews, le texte de toutes les questions et de toutes les réponses de chaque interview est regroupé dans les champs "Question" et "Réponse". Toutes les annotations et jalons d’une même interview figurent à la suite dans les champs "Annotations" et "Jalon".</p>
+                                                        <p class="p_64">Exemple&#160;:</p>
+                                                        <p style="text-align: left;"><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/Sphinx_iQ2/03000171.png"><img class="MCPopupThumbnail img imgpopup" data-mc-width="725" data-mc-height="69" src="../Resources/Images/Sphinx_iQ2/03000171.png" tabindex="" style="max-width: 200px;max-height: 200px;" /></a>
+                                                        </p>
+                                                        <p><span class="bold">Base couple question-réponse</span>&#160;: reprend les mêmes colonnes que la base précédente. En ligne 6 couples question-réponse. Les champs "Question", "Réponse" ne contiennent que le texte relatif à chaque couple. Le champ "Annotation" ne contient que les annotations du couple concerné. Le champ "Jalon" contient le point auquel le couple question-réponse se rattache. L’identification de l’interview est reprise pour chaque couple question-réponse.</p>
+                                                        <p class="p_64">Exemple&#160;:</p>
+                                                        <p style="text-align: left;"><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/Sphinx_iQ2/03000172.png"><img class="MCPopupThumbnail img imgpopup" data-mc-width="725" data-mc-height="157" src="../Resources/Images/Sphinx_iQ2/03000172.png" tabindex="" style="max-width: 200px;max-height: 200px;" /></a>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" /></a><a name="Focus"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" aria-expanded="false">FOCUS&#160;GROUP</a></span>
+                                                    <div class="MCDropDownBody dropDownBody">
+                                                        <p>C’est une discussion de groupe dans laquelle un animateur fait parler des participants. Il lance des sujets et laisse les participants s’exprimer. Ils interviennent librement et dialoguent entre eux…</p>
+                                                        <p>La retranscription se fait en notant le&#160;<span class="bold">nom de chaque intervenant</span>&#160;suivi de <span class="bold">":"</span> pour chaque prise de parole. Une prise de parole peut être retranscrite sur plusieurs lignes. À chaque changement de locuteur, un retour à la ligne pour noter son nom (suivi de <span class="bold"> ":"</span>) est obligatoire.</p>
+                                                        <p>Des&#160;annotations&#160;saisies entre crochets dans le texte (par exemple&#160;<span class="bold">[Rire]</span>) permettent d’ajouter de l’information complémentaire relative aux tours de parole.</p>
+                                                        <p>Les différentes parties de la discussion peuvent être indiquées par des&#160;<span class="bold">repères&#160;"&gt;"</span> suivi du nom de la partie. </p>
+                                                        <p class="note" data-mc-autonum="&lt;b&gt;REMARQUE : &lt;/b&gt;"><span class="autonumber"><span><b>REMARQUE : </b></span></span>Il ne doit y avoir aucun espace entre le caractère <span class="bold">"&gt;"</span> et le <span class="bold">titre de la partie</span>.</p>
+                                                        <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                            <br /><span class="bold">&gt;Présentation</span>
+                                                            <br /><span class="bold">Animatrice :</span>&#160;Nous allons aujourd’hui parler de yaourt, mais avant cela pourriez-vous vous présenter en indiquant vos préférences culinaires ?<br /><span class="bold">Jeannette :</span>&#160;J’ai un mari et 2 enfants et je suis au régime. Alors pour moi faire les courses c’est une torture. Je veux faire plaisir aux miens mais aussi éviter les tentations.<br /><span class="bold">Nicole :</span>&#160;J’ai 50 ans et je vis seule. J’aime bien manger et faire la cuisine.<br /><span class="bold">Béatrice :</span>&#160;Moi vous savez…<br /><span class="bold">Animatrice :</span>&#160;Vous êtes timide Béatrice, mettez-vous à l’aise, dites-nous ce que vous aimez.<br /><span class="bold">Béatrice :</span>&#160;Le chocolat et les pommes.<br /><span class="bold">Monique :</span>&#160;j’ai 20 ans et fais beaucoup de sport. Je surveille mon alimentation.<br /><span class="bold">&gt;Le yaourt dans l’alimentation</span><br /><span class="bold">Animatrice :</span>&#160;Voyons maintenant la place du yaourt dans votre alimentation. Béatrice, vous voulez bien commencer ?<br /><span class="bold">Béatrice :</span>&#160;Je suis allergique aux produits lactés et je ne mange pas de yaourt.<br /><span class="bold">Jeannette :</span>&#160;Heureusement mes enfants aiment beaucoup le yaourt. Les yaourts parfumés&#160;<span class="bold">[Goût]</span>. Pour moi je prends du 0%.<br /><span class="bold">Nicole :</span>&#160;j’en mange un peu, et je fais beaucoup de plat à base de yaourt. Les escargots pruneaux yaourt sont ma spécialité. C’est particulièrement onctueux.<br /><span class="bold">Animatrice :</span>&#160;D’autres personnes ont-elles des recettes originales comme Nicole ?<br /><span class="bold">Béatrice :</span>&#160;Ma mère m’a appris à faire de la tarte au flanc. Moi j’y ajoute maintenant des pommes et du chocolat et je remplace le flanc par du yaourt battu en neige.<br /><span class="bold">Monique :</span>&#160;Vous croyez ? Moi les yaourts je les fais cuire.<br /><span class="bold">&gt;Les critères d’achat</span><br /><span class="bold">Animatrice :</span>&#160;Comment choisissez-vous vos yaourts et où l’achetez vous ?<br /><span class="bold">Nicole :</span>&#160;Je préfère les pots en verre, je les récupère pour mes confitures&#160;<span class="bold">[Conditionnement]</span>. Je fais beaucoup de confitures pour parfumer les yaourts nature que j’achète à Carrefour.<br /><span class="bold">Jeannette :</span>&#160;Je prends toujours ce qui est en promo, les packs de 12 cela me fait la semaine&#160;<span class="bold">[Economie]</span>. J’aime aussi essayer les nouveautés bio ou taille fine.&#160;<br /><span class="bold">Béatrice :</span>&#160;j’aime bien les couleurs surtout le violet, alors j’achète des yaourts violet.<br /><span class="bold">Animatrice :</span>&#160;Merci beaucoup.</p>
+                                                        <p>Dans ce focus groupe il y a 5 interlocuteurs dont une animatrice : Animatrice et 4 participantes&#160;: Jeannette, Nicole, Béatrice et Monique. Des repères indiquent les différentes parties de la discussion et des annotations (<span class="bold">[Goût]</span>,<span class="bold">[Conditionnement]</span>,<span class="bold">[Economie]</span>) ont été ajoutées au moment de la transcription.</p>
+                                                        <p>&#160;Ce corpus peut s’analyser de 2 manières différentes :</p>
+                                                        <p>L’unité statistique est la&#160;<span class="bold">prise de parole</span>. On construit une table contenant 19 lignes correspondant à chacune des 19 interventions. En colonne un champ "locuteur" indique qui parle, et un champ "texte" contient le texte du tour de parole. Un troisième champ "Jalon" contient la partie correspondant au tour de parole (uniquement si des jalons, repérés par <span class="bold">"&gt;"</span> ont été ajoutés). Un dernier champ contient les annotations éventuellement ajoutées au tour de parole.</p>
+                                                        <p>Exemple&#160;:</p>
+                                                        <p style="text-align: left;"><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/Sphinx_iQ2/03000173.png"><img class="MCPopupThumbnail img imgpopup" data-mc-width="432" data-mc-height="242" src="../Resources/Images/Sphinx_iQ2/03000173.png" tabindex="" style="max-width: 200px;max-height: 200px;" /></a>
+                                                        </p>
+                                                        <p>L’unité statistique est le&#160;<span class="bold">locuteur</span>. On construit une table contenant 5 lignes (une par locuteur). Il y a 4 colonnes contenant le nom de l’intervenant (champ "locuteur"), le texte&#160;regroupé des tours de parole de l’intervenant (champ "texte"), les parties de l’entretien dans lesquelles le participant est intervenu (champ "Jalon") et enfin les annotations regroupées (champ "Annotations").</p>
+                                                        <p>Exemple&#160;:</p>
+                                                        <p style="text-align: left;"><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/Sphinx_iQ2/03000174.png"><img class="MCPopupThumbnail img imgpopup" data-mc-width="428" data-mc-height="137" src="../Resources/Images/Sphinx_iQ2/03000174.png" tabindex="" style="max-width: 200px;max-height: 200px;" /></a>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" /></a><a name="Documents"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" aria-expanded="false">DOCUMENTS</a></span>
+                                                    <div class="MCDropDownBody dropDownBody">
+                                                        <p>Articles, rapports… de nombreux documents numérisés sont disponibles sur le web ou sous forme de fichiers informatiques.</p>
+                                                        <p>Ils peuvent être analysés comme textes indifférenciés ou en distinguant les éléments qui les constituent&#160;: résumé, développement, bibliographie, titres. Il convient pour cela de recopier les documents en les mettant bout à bout et en indiquant le nom de chaque document, ses caractéristiques et le cas échéant les éléments qui le composent complétés par d’éventuelles annotations.</p>
+                                                        <p>On utilise des&#160;<span class="bold">balises</span>&#160;pour définir le document (<span class="bold">Titre,&#160;Auteur</span>) et les éléments qui le composent (<span class="bold">Résumé,&#160;Mots clés,&#160;Corps,&#160;Références</span>). Une balise est séparée de son contenu par le signe <span class="bold">":"</span>, par exemple : "<span class="bold">Mots clés&#160;: chasse, Dahut</span>". Les annotations portées entre crochets permettent de qualifier des fragments de texte en fonction de leur statut ou de leur contenu. C’est ainsi qu’on peut isoler et qualifier les fragments à citer.</p>
+                                                        <p class="note" data-mc-autonum="&lt;b&gt;REMARQUE : &lt;/b&gt;"><span class="autonumber"><span><b>REMARQUE : </b></span></span>Chaque document doit commencer&#160;par la même&#160;balise.&#160;</p>
+                                                        <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                            <br /><span class="bold">Article :</span>&#160;La chasse au Dahut<br /><span class="bold">Auteur :</span>&#160;Pierre et Paul<br /><span class="bold">Résumé :</span>&#160;Il était une fois dans les alpages.<br /><span class="bold">Mots clés :</span>&#160;Chasse, Dahut<br /><span class="bold">Corps :</span><br />Introduction&#160;<span class="bold">[Titre]</span><br />Le Dahut est un animal étrange. Il se nourrit d’herbes poussant drues sur les pentes à forte déclivité.<br />C’est aussi un mythe vivace en altitude.<br />Le cadre montagnard&#160;<span class="bold">[Titre]</span><br />La géographie&#160;<span class="bold">[Sous Titre]</span>. Les montagnes, les ravins les ruisseaux sont l’habitat du Dahut. Alpes, Pyrénées, Karpatte au-dessus de 2000 mètre. Dans les zones non habitées le plus souvent.&#160;<br />La société&#160;<span class="bold">[Sous Titre]</span>. Les gens du pays sont des montagnards robustes mais petits. Ils habitent dans des cavernes, les plus riches ont construit des chalets. Depuis quelques années le tourisme a modifié la sociologie de la région ce qui aide beaucoup à la prolifération de l’espèce.<br />L’animal&#160;<span class="bold">[Titre]</span>.<br />4 pattes, 6 têtes et déséquilibré. Mange de la luzerne et du trèfle. Le pelage est assez dense : poils blonds qui tombent jusqu’aux pattes. Les mâles plus robustes sont également assez stupides, les femelles servent d’appât et dansent sur les cimes enneigées.<br /><span class="bold">Références :</span><br />Jacques Steinli et Yvette Hornaire : Mœurs et faune des alpes. Geneviève, Edition1987<br />Antoine Dupond : Morphopsychologie et déséquilibres moteur. Artus, Edition 2002<br /><br /><span class="bold">Article :</span>&#160;La vie des angles<br /><span class="bold">Auteur :</span>&#160;Jeanne Biche<br /><span class="bold">Résumé :</span>&#160;Le rendez vous de la géométrie.<br /><span class="bold">Mots clé&#160;:</span> rond, carré<br /><span class="bold">Corps :</span><br />La géométrie&#160;<span class="bold">[Titre]</span><br />Les formes géométriques ont des angles durs à la différence des informelles rondeurs des natures gazeuses. Leur étude remonte à l’âge des curiosités précieuses consignées dans un sabir abscons. Vive ou morte la géométrie est à prendre ou à laisser. Elle s’impose au géomètre collectionneur. Qu’il soit contemplatif ou mesureur il en révèle les degrés.<br />Les formes non géométriques ont des angles mous et vaporeux.<br />Le triangle&#160;<span class="bold">[Titre]</span><br />D’or ou des Bermudes en première approximation, tripode tripier ou tripoteur, le triangle conflue significativement sans angle mort. Franc maçon et sainte trinité il se décline en étoile plus fréquemment qu’en étole. L’école lui donne sa magnificence en lui enlevant son mystère.<br />Le carré&#160;<span class="bold">[Titre]</span><br />Un cercle avec des coins, tel nous apparaît le carré dans sa majesté. Triangle à 4 côté il dérive du cercle comme l’homme descend du singe.<br />Le carré Hermès constitue une exception notable défi improbable à la géométrie.<br /><span class="bold">Références :</span><br />Serge Cosinus : La poésie des angles. Dufil, Edition 2005<br />Antoine Dupond : Retour à la raison. Paradigme, Edition 2001</p>
+                                                        <p>Ce corpus est formé de 2 articles composés de 4 champs texte&#160;:&#160;<span class="bold">Résumé,&#160;Mots clé,&#160;Corps&#160;et Référence</span>.</p>
+                                                        <p>Les balises&#160;<span class="bold">Article</span>&#160;et&#160;<span class="bold">Auteur</span>&#160;définissent les champs (variables) qui donnent les caractéristiques des documents étudiés. Les balises&#160;<span class="bold">Résumé,&#160;Mots clé,&#160;Corps,&#160;Références</span>&#160;définissent les champs texte contenant les textes de chaque article. Les annotations&#160;<span class="bold">[Titre]</span>&#160;et&#160;<span class="bold">[Sous Titre]</span>&#160;qualifient le statut ou le contenu des fragments qui les contiennent.</p>
+                                                        <p>Ce corpus peut s’analyser de 2 manières différentes :</p>
+                                                        <p>L’unité statistique est le&#160;<span class="bold">document</span>. On construit une table contenant 2 lignes correspondant à chacun des 2 articles étudiés. En colonnes 7 champs (variables)&#160;: "Article" et "Auteur" définissent les textes étudiés, "Résumé", "Mots clé", "Corps", "Références" donnent les contenus correspondants pour chaque article, Annotation regroupe les annotations présentes dans chacun des articles.</p>
+                                                        <p>Exemple&#160;:</p>
+                                                        <p style="text-align: left;"><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/Sphinx_iQ2/03000175.png"><img class="MCPopupThumbnail img imgpopup" data-mc-width="625" data-mc-height="72" src="../Resources/Images/Sphinx_iQ2/03000175.png" tabindex="" style="max-width: 200px;max-height: 200px;" /></a>
+                                                        </p>
+                                                        <p>L’unité statistique est la&#160;<span class="bold">phrase</span>&#160;du champ "Corps". Le texte du corps de chaque article est découpé en phrase. Le tableau résultant contient alors autant de lignes qu’il y a de phrases dans le corps des articles. Les colonnes sont inchangées.</p>
+                                                        <p>Exemple&#160;:</p>
+                                                        <p style="text-align: left;"><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/Sphinx_iQ2/03000176.png"><img class="MCPopupThumbnail img imgpopup" data-mc-width="633" data-mc-height="158" src="../Resources/Images/Sphinx_iQ2/03000176.png" tabindex="" style="max-width: 200px;max-height: 200px;" /></a>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li value="4">
+                                                <p>Sélectionnez les balises, les jalons et annotations à utiliser.</p>
+                                            </li>
+                                            <li value="5">
+                                                <p>Cliquez sur <span class="bold">Suivant</span>.</p>
+                                            </li>
+                                            <li value="6">
+                                                <p>Sélectionnez le document à importer.</p>
+                                            </li>
+                                            <li value="7">
+                                                <p>Cliquez sur <span class="bold">Suivant</span>.</p>
+                                            </li>
+                                            <li value="8">
+                                                <p>Sélectionnez la base que vous souhaitez utiliser :</p>
+                                                <ul>
+                                                    <li>
+                                                        <p> <span class="bold">Couple réponses</span> ou <span class="bold">Entretien</span> pour les entretiens dirigé et non dirigé.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p><span class="bold">Prise de parole</span> ou <span class="bold">Locuteur</span> pour le focus group.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p><span class="bold">Phrase du corps</span> ou <span class="bold">Document</span> pour les documents.</p>
+                                                        <p>Pour plus d'informations sur la base à utiliser, veuillez consulter la partie correspondante à l'étape <span class="bold">3</span>.</p>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li value="9">
+                                                <p>Sélectionnez la langue de l'étude,</p>
+                                            </li>
+                                            <li value="10">
+                                                <p>Cliquez sur <span class="bold">Terminer</span>.</p>
+                                            </li>
+                                        </ol>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><a data-close="true"></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

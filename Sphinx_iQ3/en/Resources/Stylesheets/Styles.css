@@ -1,0 +1,519 @@
+/*<meta />*/
+
+@namespace MadCap url(http://www.madcapsoftware.com/Schemas/MadCap.xsd);
+
+@font-face 
+{
+	font-family: 'Raleway';
+	src: url(../Fonts/Raleway-Regular.ttf);
+}
+
+.body-container
+{
+	flex: 1 1;
+	padding-left: 2em;
+	padding-right: 2em;
+	overflow: auto;
+}
+
+body
+{
+	font-family: Arial;
+}
+
+html.home-topic	/*Used on home topic to override padding set in the skin*/
+{
+	
+}
+
+html.home-topic .body-container	/*Overrides padding set in the skin*/
+{
+	padding: 0;
+}
+
+html.home-topic .main-section > .outer-row	/*Overrides padding set in the skin when in tablet/mobile*/
+{
+	max-width: 100%;
+	padding: 0;
+}
+
+.button
+{
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 35px 52px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+h1
+{
+	font-weight: bold;
+	font-size: 24.0pt;
+	color: #45494c;
+	font-family: raleway;
+}
+
+h2
+{
+	font-weight: bold;
+	font-size: 18.0pt;
+	font-family: Raleway;
+}
+
+h3
+{
+	font-weight: bold;
+	font-size: 14.0pt;
+}
+
+h4
+{
+	font-weight: bold;
+	font-size: 12.0pt;
+	font-family: raleway;
+}
+
+h5
+{
+	font-weight: bold;
+	font-size: 10.0pt;
+}
+
+h6
+{
+	font-weight: bold;
+	font-size: 8.0pt;
+}
+
+p
+{
+	font-size: 12.0pt;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	line-height: 20pt;
+	letter-spacing: 0.25;
+	font-family: Raleway;
+}
+
+p.footer
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	line-height: 13pt;
+	color: #fff;
+}
+
+ol,
+ul
+{
+	letter-spacing: .25;
+	line-height: 20pt;
+}
+
+img
+{
+	border: none;
+	max-width: 100%;
+}
+
+a.Popup
+{
+	
+}
+
+MadCap|expandingHead
+{
+	font-style: italic;
+	font-weight: normal;
+	cursor: hand;
+	text-decoration: none;
+	color: #006600;
+}
+
+MadCap|expandingBody
+{
+	color: #777777;
+	font-style: italic;
+}
+
+MadCap|dropDownHotspot
+{
+	cursor: hand;
+	text-decoration: none;
+	font-weight: bold;
+	border-bottom: none;
+	font-size: 13pt;
+	color: #65205b;
+	font-family: Raleway;
+}
+
+MadCap|xref
+{
+	color: #076685;
+	font-weight: bold;
+	mc-format: '{para}';
+	text-decoration: underline;
+}
+
+div.home-layout
+{
+	padding: 0% 5% 2%;
+}
+
+div.home-section
+{
+	padding: 2% 0;
+}
+
+MadCap|breadcrumbsProxy
+{
+	border-bottom-width: 0;
+	color: #888888;
+	font-size: 8pt;
+}
+
+a:link
+{
+	color: #4136ff;
+}
+
+a:visited
+{
+	color: #076685;
+}
+
+MadCap|dropDownBody
+{
+	padding: 10px 30px 0;
+}
+
+MadCap|dropDown
+{
+	border-bottom: 1px solid #dadada;
+	mc-image-position: left;
+	mc-image-spacing: 10px;
+	padding: 10px 0;
+	font-family: Raleway;
+	mc-closed-image: url('../Images/right_purple.png');
+	mc-open-image: url('../Images/down_pink.png');
+}
+
+div.topic-hero
+{
+	background-size: cover;
+	background-attachment: inherit;
+	background-image: url('../Images/homeimg2.png');
+	background-position: center;
+	padding: 14%;
+}
+
+div.topic-hero h1
+{
+	color: #fff;
+	font-family: Arial;
+	font-size: 48pt;
+	text-align: center;
+}
+
+div.home-tiles	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.home-tiles::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.home-tiles::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.home-tiles > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	color: #242424;
+	background-color: #f2f4f7;
+	padding: 2%;
+}
+
+div.home-tiles > div:nth-child(1)
+{
+	width: 48%;
+	margin-left: 0%;
+}
+
+div.home-tiles > div:nth-child(2)
+{
+	width: 48%;
+	margin-left: 4%;
+}
+
+div.home-tiles-layout	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.home-tiles-layout::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.home-tiles-layout::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.home-tiles-layout > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.home-tiles-layout > div:nth-child(1)
+{
+	width: 16.667%;
+	margin-left: 0%;
+}
+
+div.home-tiles-layout > div:nth-child(2)
+{
+	width: 66.66667%;
+	margin-left: 0%;
+}
+
+div.home-tiles-layout p
+{
+	line-height: 1.2;
+}
+
+div.quick-links	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.quick-links::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.quick-links::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.quick-links > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.quick-links > div:nth-child(1)
+{
+	width: 16.66666%;
+	margin-left: 2%;
+}
+
+div.quick-links > div:nth-child(2)
+{
+	width: 16.667%;
+	margin-left: 3%;
+}
+
+div.quick-links > div:nth-child(3)
+{
+	width: 16.66666%;
+	margin-left: 3%;
+}
+
+div.quick-links > div:nth-child(4)
+{
+	width: 16.667%;
+	margin-left: 3%;
+}
+
+div.quick-links *	/*Text-align center set to all elements within div.quick-links*/
+{
+	text-align: center;
+}
+
+div.home-footer
+{
+	padding: 2% 5%;
+	background-color: #632459;
+}
+
+MadCap|dropDownHotspot:focus
+{
+	color: #65205b;
+	font-size: 13pt;
+	font-family: Raleway;
+}
+
+MadCap|dropDownHotspot:hover
+{
+	font-family: Raleway;
+	font-size: 13pt;
+	color: #b04284;
+}
+
+ol
+{
+	font-family: raleway;
+	font-size: 15pt;
+}
+
+ul
+{
+	font-family: Raleway;
+	font-size: 15pt;
+}
+
+@media only screen and (max-width: 1279px)
+{
+	html.home-topic .body-container
+	{
+		margin-left: 0;
+	}
+
+	div.home-tiles > div:nth-child(1)
+	{
+		width: 49%;
+		margin-left: 0%;
+	}
+
+	div.home-tiles > div:nth-child(2)
+	{
+		width: 49%;
+		margin-left: 2%;
+	}
+
+	div.home-tiles-layout > div:nth-child(1)
+	{
+		width: 40%;
+		margin-left: 30%;
+	}
+
+	div.home-tiles-layout > div:nth-child(2)
+	{
+		width: 90%;
+		margin-left: 5%;
+	}
+
+	div.quick-links > div:nth-child(1)
+	{
+		width: 24%;
+		margin-left: 0%;
+	}
+
+	div.quick-links > div:nth-child(2)
+	{
+		width: 24%;
+		margin-left: 14%;
+	}
+
+	div.quick-links > div:nth-child(3)
+	{
+		width: 24%;
+		margin-left: 19%;
+	}
+
+	div.quick-links > div:nth-child(4)
+	{
+		width: 24%;
+		margin-left: 14%;
+	}
+}
+
+@media only screen and (max-width: 767px)
+{
+	div.home-tiles > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.home-tiles > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+		margin-top: 5%;
+	}
+
+	div.home-tiles-layout p
+	{
+		line-height: 1.2;
+	}
+
+	div.quick-links > div:nth-child(1)
+	{
+		width: 49%;
+		margin-left: 0;
+	}
+
+	div.quick-links > div:nth-child(2)
+	{
+		width: 49%;
+		margin-left: 2%;
+	}
+
+	div.quick-links > div:nth-child(3)
+	{
+		width: 49%;
+		margin-left: 2%;
+	}
+
+	div.quick-links > div:nth-child(4)
+	{
+		width: 49%;
+		margin-left: 25.5%;
+	}
+
+	ol
+	{
+		font-size: 12pt;
+	}
+}
+
+@media print
+{
+	MadCap|xref
+	{
+		font-weight: normal;
+		mc-format: '{quote}{para}{quote} {pageref}';
+		text-decoration: none;
+	}
+}
+
+.micro-content-container > .micro-content > .micro-response
+{
+	overflow: hidden;
+	max-height: 350px;
+}
+

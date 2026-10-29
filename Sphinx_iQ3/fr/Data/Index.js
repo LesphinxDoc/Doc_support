@@ -1,0 +1,1 @@
+define({numchunks:1,prefix:'Index_Chunk',terms:[{t:'CaseElse',c:0,$:1},{t:'Casei',c:0,$:1},{t:'CatCode : Qualification d’une variable Code',c:0,$:1},{t:'EndSelect',c:0,$:1},{t:'Faire',c:0,$:1},{t:'Selecti',c:0,$:1},{t:'TantQue',c:0,$:1}]});

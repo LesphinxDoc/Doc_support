@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="fr" xml:lang="fr" class="_Skins_Side_navigation_IQ3" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../" data-mc-has-content-body="True" data-mc-toc-path="GESTION DE DONNÉES" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="msapplication-config" content="../../Skins/Favicons/browserconfig.xml" />
+        <link rel="shortcut icon" href="../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="168x168" href="../../Skins/Favicons/favicon.png" />
+        <link rel="icon" sizes="32x32" href="../../Skins/Favicons/favicon.png" />
+        <link rel="icon" sizes="168x168" href="../../Skins/Favicons/favicon.png" /><title>REPÉRER ET SUPPRIMER LES DOUBLONS</title>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Fluid/Stylesheets/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Resources/Stylesheets/Styles.css" rel="stylesheet" type="text/css" />
+        <link href="../../Resources/Scripts/search-dropdown.css" rel="stylesheet" type="text/css" />
+        <style>/*&lt;meta /&gt;*/
+
+.button.remove-highlight-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.separator-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.select-language-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.separator-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.expand-all-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.separator-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.print-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.collapse-all-button
+{
+	-pie-background: linear-gradient(transparent, #ececec);
+}
+
+.needs-pie
+{
+	behavior: url('../../Resources/Scripts/PIE-no-motw.htc');
+}
+
+</style>
+        <link href="../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" />
+        <link rel="shortcut icon" href="../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="168x168" href="../../Skins/Favicons/favicon.png" />
+        <link rel="icon" sizes="32x32" href="../../Skins/Favicons/favicon.png" />
+        <link rel="icon" sizes="168x168" href="../../Skins/Favicons/favicon.png" />
+        <script src="../../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/purify.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/foundation.6.2.3_custom.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js" type="text/javascript" defer="defer">
+        </script>
+        <script type="text/javascript" src="../../Resources/Scripts/search-dropdown.js">
+        </script>
+        <script type="text/javascript" src="../../Skins/Default/Scripts/TopicToolBar.js">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-right" role="complementary" id="offCanvas" data-off-canvas="" data-position="right" data-mc-ignore="true">
+                    <ul class="off-canvas-accordion vertical menu off-canvas-list" data-accordion-menu="" data-mc-back-link="Retour" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expanded-event="down.zf.accordionMenu up.zf.accordionMenu" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div data-sticky-container="" class="title-bar-container">
+                        <nav class="title-bar tab-bar sticky" aria-label="Main navigation and search" data-sticky="" data-options="marginTop:0" style="width:100%" data-sticky-on="only screen and (max-width: 1279px)" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="#">Passer au contenu principal</a>
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="menu-icon-container relative clearfix">
+                                    <div class="central-account-wrapper">
+                                        <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Compte</span></a>
+                                            <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Paramètres</a>
+                                                <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Déconnexion</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="menu-icon" aria-label="Afficher le volet de navigation" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="title-bar-layout outer-row">
+                                <div class="logo-wrapper"><a class="logo" href="../../Home.htm" alt="Logo"></a>
+                                </div>
+                                <div class="navigation-wrapper nocontent">
+                                    <ul class="navigation clearfix" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                        <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="central-account-wrapper">
+                                    <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Compte</span></a>
+                                        <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Paramètres</a>
+                                            <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Déconnexion</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nav-search-wrapper">
+                                    <div class="nav-search row">
+                                        <form class="search" action="#">
+                                            <div class="search-bar search-bar-container needs-pie">
+                                                <input class="search-field needs-pie" type="search" aria-label="Champ de recherche" placeholder="Rechercher" />
+                                                <div class="search-filter-wrapper"><span class="invisible-label" id="search-filters-label">Filtrer&#160;:</span>
+                                                    <div class="search-filter" aria-haspopup="true" aria-controls="sf-content" aria-expanded="false" aria-label="Filtre de recherche" title="Tous les fichiers" role="button" tabindex="0">
+                                                    </div>
+                                                    <div class="search-filter-content" id="sf-content">
+                                                        <ul>
+                                                            <li>
+                                                                <button class="mc-dropdown-item" aria-labelledby="search-filters-label filterSelectorLabel-00001"><span id="filterSelectorLabel-00001">Tous les fichiers</span>
+                                                                </button>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="search-submit-wrapper" dir="ltr">
+                                                    <div class="search-submit" title="Rechercher" role="button" tabindex="0"><span class="invisible-label">Démarrer la recherche</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="main-section">
+                        <div class="row outer-row sidenav-layout">
+                            <nav class="sidenav-wrapper">
+                                <div class="sidenav-container">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expanded-event="down.zf.accordionMenu up.zf.accordionMenu" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
+                                    </ul>
+                                </div>
+                            </nav>
+                            <div class="body-container">
+                                <div data-mc-content-body="True"><a href="#" class="scrollToTop"></a>
+                                    <div class="buttons popup-container clearfix topicToolbarProxy _Skins_TopicToolBar mc-component nocontent" style="float: right; mc-topic-toolbar-items: ;">
+                                        <div class="button-group-container-left">
+                                            <button class="button needs-pie remove-highlight-button" title="Supprimer les surlignages">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                            <div class="button-separator">
+                                            </div>
+                                            <button class="button needs-pie select-language-button" title="Changer de langue">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper" aria-label="Changer de langue">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                            <div class="button-separator">
+                                            </div>
+                                            <button class="button needs-pie expand-all-button" data-state1-class="expand-all-button" data-state2-class="collapse-all-button" data-state2-title="Réduire tout" title="Développer tout" data-state1-title="Développer tout">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper" aria-label="Développer tout">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                            <div class="button-separator">
+                                            </div>
+                                            <button class="button needs-pie print-button" title="Imprimer">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper" aria-label="Imprimer">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="nocontent">
+                                        <div class="MCBreadcrumbsBox_0 breadcrumbs" role="navigation" aria-label="Pistes de navigation" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="3" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">Vous êtes ici&#160;:</span>
+                                        </div>
+                                    </div>
+                                    <div role="main" id="mc-main-content">
+                                        <h1>REPÉRER ET SUPPRIMER LES DOUBLONS</h1>
+                                        <p>Il peut parfois être utile de repérer les doublons, voire de les supprimer. Des doublons peuvent être présents dans plusieurs cas :</p>
+                                        <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                            <br />Une personne a répondu deux fois au questionnaire (une fois par voie postale et une fois en ligne).<br />Une fusion avec une autre base de données qui a été réalisée et des doublons sont apparus.<br />Lorsque l’on a un fichier de ciblage clients en vue d’un e-mailing, il peut arriver que l’on ait plusieurs fois la même adresse mail pour des personnes différentes (mari et femme peuvent avoir une adresse mail commune). On a donc deux contacts (Monsieur et Madame) et on souhaite faire uniquement un envoi par foyer. Dans ce cas, il faut repérer les doublons sur l’adresse mail et supprimer l’un des deux contacts (monsieur ou madame).</p>
+                                        <p>Le repérage des doublons crée une variable appelée <span class="bold">POSITION</span> qui permet de catégoriser les observations.</p>
+                                        <p> Elle a quatre valeurs possibles : <span class="bold">Unique</span> pour indiquer les observations qui ne sont pas en double, <span class="bold">Mini</span>, <span class="bold">Maxi</span> et éventuellement <span class="bold">Inter</span> pour désigner les observations qui ont des doublons. </p>
+                                        <p>La suppression des observations s’effectue par élimination des premières ou dernières réponses selon le choix de l'utilisateur.</p>
+                                        <p>Dans tous les cas, les doublons sont repérés par le biais d’une ou plusieurs variable(s) d’identification de l’observation (identifiant, clé, adresse mail, code client, …).</p>
+                                        <p>Pour repérer ou supprimer les doublons, procédez comme suit :</p>
+                                        <ol>
+                                            <li value="1">
+                                                <p class="li_3">Dans l’onglet&#160;<span class="bold">Données</span>, cliquez sur le bouton&#160;<span class="bold">Dédoublonner</span>.</p>
+                                            </li>
+                                            <li value="2">
+                                                <p>Sélectionnez l'action à utiliser : <span class="bold">Repérer les doublons</span> ou <span class="bold">Supprimer les doublons</span>.</p>
+                                                <p style="text-align: left;"><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../../Resources/Images/reperer_supp_doublons.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="473" data-mc-height="388" src="../../Resources/Images/reperer_supp_doublons.png" alt="" title="" tabindex="" style="max-width: 200px;max-height: 200px;" /></a>
+                                                </p>
+                                            </li>
+                                        </ol>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />REPÉRER LES DOUBLONS</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <ol start="3">
+                                                    <li value="3">
+                                                        <p>Sélectionnez la/les variable(s) dont les réponses sont potentiellement concernées par des doublons.</p>
+                                                        <p class="note" data-mc-autonum="&lt;b&gt;REMARQUE : &lt;/b&gt;"><span class="autonumber"><span><b>REMARQUE : </b></span></span>Il est recommandé de repérer les doublons variable par variable, et de refaire cette manipulation autant de fois que nécessaire.</p>
+                                                    </li>
+                                                    <li value="4">
+                                                        <p>Définissez l’ordre dans lequel seront affichées les observations lors du repérage des doublons.</p>
+                                                        <p>Il est possible de les trier par rapport à leur ordre d’enregistrement, ou par rapport aux valeurs d’une variable choisie.</p>
+                                                        <p>Si vous avez choisi de déterminer la position des doublons par rapport à l'<span class="bold">ordre d’enregistrement des observations</span>, une variable <span class="bold">IDEM</span> sera créée, dans laquelle apparaîtra le numéro de la première observation identique par rapport à la variable sélectionnée. Une deuxième variable <span class="bold">POSITION</span> vous indiquera « <span class="bold">l’état</span> » de chaque observation. Cette variable a quatre valeurs possibles :</p>
+                                                        <ul>
+                                                            <li>
+                                                                <p><span class="bold">Unique</span> : signifie que l’observation ne possède aucun doublon.</p>
+                                                            </li>
+                                                            <li>
+                                                                <p><span class="bold">Mini</span> : signifie que l’observation est la première observation d’une liste de doublons.</p>
+                                                            </li>
+                                                            <li>
+                                                                <p><span class="bold">Inter</span> : l’observation est un doublon intermédiaire de la liste de doublons.</p>
+                                                            </li>
+                                                            <li>
+                                                                <p><span class="bold">Maxi</span> : l’observation est la dernière observation d’une liste de doublons.</p>
+                                                            </li>
+                                                        </ul>
+                                                        <p class="note" data-mc-autonum="&lt;b&gt;REMARQUE : &lt;/b&gt;"><span class="autonumber"><span><b>REMARQUE : </b></span></span>Notez que vous pouvez lister les doublons soit par l’ordre d’enregistrement des observations (pour trois doublons, l’observation qui contiendra la modalité <span class="bold">MINI</span> sera donc celle ayant été enregistrée en premier) soit par la valeur d’une variable à sélectionner, par exemple la variable CLE, ainsi les doublons seront classés selon la valeur de cette variable.</p>
+                                                    </li>
+                                                    <li value="5">
+                                                        <p>Cliquez sur&#160;<span class="bold">OK</span>&#160;pour valider votre choix et afficher le résultat dans la zone centrale.</p>
+                                                        <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../../Resources/Images/reperer_doublons.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="355" data-mc-height="146" src="../../Resources/Images/reperer_doublons.png" alt="" title="" tabindex="" style="max-width: 200px;max-height: 200px;" /></a>
+                                                        </p>
+                                                    </li>
+                                                </ol>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />SUPPRIMER LES DOUBLONS</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <ol start="3">
+                                                    <li value="3">
+                                                        <p>Sélectionnez la variable dont les réponses sont concernées par des doublons et que vous souhaitez supprimer. </p>
+                                                        <p class="note" data-mc-autonum="&lt;b&gt;REMARQUE : &lt;/b&gt;"><span class="autonumber"><span><b>REMARQUE : </b></span></span>Il est recommandé de supprimer les doublons variable par variable, et de refaire cette manipulation autant de fois que nécessaire.</p>
+                                                    </li>
+                                                    <li value="4">
+                                                        <p>Définissez si vous souhaitez garder la première ou la dernière réponse.</p>
+                                                        <ul>
+                                                            <li>
+                                                                <p>Dans le cas de deux doublons, il est possible soit de conserver la première réponse (<span class="bold">Mini</span>), soit la dernière (<span class="bold">Maxi</span>) lors de la suppression des doublons. Lorsque vous cliquez sur <span class="bold">OK</span>, cela générera un nouveau fichier d'enquête afin de ne pas écraser vos données actuelles.</p>
+                                                            </li>
+                                                            <li>
+                                                                <p> Dans le cas où il existe au moins trois doublons (le même e-mail est par exemple présent trois fois dans la base de données), alors il est nécessaire de supprimer toutes les observations mentionnées comme « <span class="bold">Inter</span> » et de supprimer l’observation « <span class="bold">Mini</span> » ou « <span class="bold">Maxi</span> ».</p>
+                                                                <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../../Resources/Images/supp_doublons.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="473" data-mc-height="388" src="../../Resources/Images/supp_doublons.png" alt="" title="" tabindex="" style="max-width: 200px;max-height: 200px;" /></a>
+                                                                </p>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li value="5">
+                                                        <p>Cliquez sur&#160;<span class="bold">OK</span>&#160;pour valider votre choix.</p>
+                                                        <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../../Resources/Images/supprimer_doublons.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="328" data-mc-height="102" src="../../Resources/Images/supprimer_doublons.png" alt="" title="" tabindex="" style="max-width: 200px;max-height: 200px;" /></a>
+                                                        </p>
+                                                    </li>
+                                                </ol>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><a data-close="true"></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

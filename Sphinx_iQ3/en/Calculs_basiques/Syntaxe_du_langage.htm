@@ -1,0 +1,1546 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en" xml:lang="en" class="_Skins_Side_navigation_IQ3" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../" data-mc-has-content-body="True" data-mc-toc-path="SCRIPTING LANGUAGE" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="msapplication-config" content="../Skins/Favicons/browserconfig.xml" />
+        <link rel="shortcut icon" href="../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="168x168" href="../Skins/Favicons/favicon.png" />
+        <link rel="icon" sizes="32x32" href="../Skins/Favicons/favicon.png" />
+        <link rel="icon" sizes="168x168" href="../Skins/Favicons/favicon.png" /><title>Language syntax</title>
+        <link href="../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Resources/Stylesheets/Styles.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="../Resources/Scripts/search-dropdown.css" />
+        <style>/*&lt;meta /&gt;*/
+
+.button.remove-highlight-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.separator-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.select-language-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.separator-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.expand-all-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.separator-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.print-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.collapse-all-button
+{
+	-pie-background: linear-gradient(transparent, #ececec);
+}
+
+.needs-pie
+{
+	behavior: url('../Resources/Scripts/PIE-no-motw.htc');
+}
+
+</style>
+        <link href="../Resources/TableStyles/Table.css" rel="stylesheet" data-mc-stylesheet-type="table" />
+        <link href="../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+        <link rel="shortcut icon" href="../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="168x168" href="../Skins/Favicons/favicon.png" />
+        <link rel="icon" sizes="32x32" href="../Skins/Favicons/favicon.png" />
+        <link rel="icon" sizes="168x168" href="../Skins/Favicons/favicon.png" />
+        <script src="../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../Resources/Scripts/purify.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/require.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/require.config.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/foundation.6.2.3_custom.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/plugins.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/MadCapAll.js" type="text/javascript" defer="defer">
+        </script>
+        <script type="text/javascript" src="../Resources/Scripts/search-dropdown.js">
+        </script>
+        <script type="text/javascript" src="../Skins/Default/Scripts/TopicToolBar.js">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-right" role="complementary" id="offCanvas" data-off-canvas="" data-position="right" data-mc-ignore="true">
+                    <ul class="off-canvas-accordion vertical menu off-canvas-list" data-accordion-menu="" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expanded-event="down.zf.accordionMenu up.zf.accordionMenu" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div data-sticky-container="" class="title-bar-container">
+                        <nav class="title-bar tab-bar sticky" aria-label="Main navigation and search" data-sticky="" data-options="marginTop:0" style="width:100%" data-sticky-on="only screen and (max-width: 1279px)" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="#">Skip To Main Content</a>
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="menu-icon-container relative clearfix">
+                                    <div class="central-account-wrapper">
+                                        <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                            <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                                <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="menu-icon" aria-label="Show Navigation Panel" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="title-bar-layout outer-row">
+                                <div class="logo-wrapper"><a class="logo" href="../Home.htm" alt="Logo"></a>
+                                </div>
+                                <div class="navigation-wrapper nocontent">
+                                    <ul class="navigation clearfix" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                        <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="central-account-wrapper">
+                                    <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                        <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                            <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nav-search-wrapper">
+                                    <div class="nav-search row">
+                                        <form class="search" action="#">
+                                            <div class="search-bar search-bar-container needs-pie">
+                                                <input class="search-field needs-pie" type="search" aria-label="Search Field" placeholder="Search" />
+                                                <div class="search-filter-wrapper"><span class="invisible-label" id="search-filters-label">Filter: </span>
+                                                    <div class="search-filter" aria-haspopup="true" aria-controls="sf-content" aria-expanded="false" aria-label="Search Filter" title="All Files" role="button" tabindex="0">
+                                                    </div>
+                                                    <div class="search-filter-content" id="sf-content">
+                                                        <ul>
+                                                            <li>
+                                                                <button class="mc-dropdown-item" aria-labelledby="search-filters-label filterSelectorLabel-00001"><span id="filterSelectorLabel-00001">All Files</span>
+                                                                </button>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="search-submit-wrapper" dir="ltr">
+                                                    <div class="search-submit" title="Search" role="button" tabindex="0"><span class="invisible-label">Submit Search</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="main-section">
+                        <div class="row outer-row sidenav-layout">
+                            <nav class="sidenav-wrapper">
+                                <div class="sidenav-container">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expanded-event="down.zf.accordionMenu up.zf.accordionMenu" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
+                                    </ul>
+                                </div>
+                            </nav>
+                            <div class="body-container">
+                                <div data-mc-content-body="True"><a href="#" class="scrollToTop"></a>
+                                    <div class="buttons popup-container clearfix topicToolbarProxy _Skins_TopicToolBar mc-component nocontent" style="float: right; mc-topic-toolbar-items: ;">
+                                        <div class="button-group-container-left">
+                                            <button class="button needs-pie remove-highlight-button" title="Remove Highlights">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper" aria-label="Remove Highlights">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                            <div class="button-separator">
+                                            </div>
+                                            <button class="button needs-pie select-language-button" title="Change language">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper" aria-label="Change language">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                            <div class="button-separator">
+                                            </div>
+                                            <button class="button needs-pie expand-all-button" data-state1-class="expand-all-button" data-state2-class="collapse-all-button" data-state2-title="Collapse all" title="Expand all" data-state1-title="Expand all">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper" aria-label="Expand all">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                            <div class="button-separator">
+                                            </div>
+                                            <button class="button needs-pie print-button" title="Print">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper" aria-label="Print">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="nocontent">
+                                        <div class="MCBreadcrumbsBox_0 breadcrumbs" role="navigation" aria-label="Breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="3" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+                                        </div>
+                                    </div>
+                                    <div role="main" id="mc-main-content">
+                                        <h2 class="Titre2">Language syntax</h2>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" />Characteristics of a variable</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Table.css');margin-left: auto;margin-right: auto;" class="TableStyle-Table" cellspacing="0">
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <thead>
+                                                        <tr class="TableStyle-Table-Head-Header1">
+                                                            <th class="TableStyle-Table-HeadE-Column1-Header1">
+                                                                <p style="text-align: center;"><span class="bold">Name</span>
+                                                                </p>
+                                                            </th>
+                                                            <th class="TableStyle-Table-HeadE-Column1-Header1">
+                                                                <p style="text-align: center;"><span class="bold">Syntax</span>
+                                                                </p>
+                                                            </th>
+                                                            <th class="TableStyle-Table-HeadD-Column1-Header1">
+                                                                <p style="text-align: center;"><span class="bold">Description</span>
+                                                                </p>
+                                                            </th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                                <p><a href="Caracteristiques_variable.htm#_CatCode_:_Qualification">CatCode</a>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                                <p>Variable.CatCode(n)</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">
+                                                                <p>Qualification of a variable Code</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                                <p><a href="Caracteristiques_variable.htm#1">String</a>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                                <p>Variable.String</p>
+                                                                <p>&#160;</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body2">
+                                                                <p>Restitution of the response to a variable </p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1"><a href="Caracteristiques_variable.htm#Classement">Ranking</a>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">Variable.Ranking(formula,Variable2)</td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">Obtain the ranking (calculation of rank) of a modality</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                                <p><a href="Caracteristiques_variable.htm#2">Correlation</a>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                                <p>Variable1.Correlation("variable2")</p>
+                                                                <p>&#160;</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body2">
+                                                                <p>Calculation of correlation between two variables</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                                <p><a href="Caracteristiques_variable.htm#_EcartType_:_calcul">StDev</a>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                                <p>Variable.StDev</p>
+                                                                <p>&#160;</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">
+                                                                <p>Calculation of the standard deviation of a variable</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                                <p><a href="Caracteristiques_variable.htm#Effectif">Frequency</a>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                                <p>Variable.Frequency</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body2">
+                                                                <p>Calculation of the frequency of a variable or a modality</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                                <p><a href="Caracteristiques_variable.htm#3">IsNull</a>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                                <p>Variable.IsNull</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">
+                                                                <p>Verification of Non-response to a variable</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                                <p><a href="Caracteristiques_variable.htm#4">IsFilled</a>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                                <p>Variable.IsFilled</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body2">
+                                                                <p>Verification of response to a variable</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                                <p><a href="Caracteristiques_variable.htm#5">Label</a>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                                <p>Variable.Label</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">
+                                                                <p>Restitution of the label of a variable</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                                <p><a href="Caracteristiques_variable.htm#Maximum">Maximum</a>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                                <p>Variable.Maximum</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body2">
+                                                                <p>Calculation of the maximum of a variable</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                                <p><a href="Caracteristiques_variable.htm#6">Median</a>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                                <p>Variable.Median</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">
+                                                                <p>Calculation of the median of a variable</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                                <p><a href="Caracteristiques_variable.htm#_Minimum_:_calcul">Minimum</a>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                                <p>Variable.Minimum</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body2">
+                                                                <p>Calculation of the minimum of a variable</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                                <p><a href="Caracteristiques_variable.htm#7">Modalities</a>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                                <p>Variable.Modalities</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">
+                                                                <p>Restitution of the modalities of a closed variable </p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                                <p><a href="Caracteristiques_variable.htm#_Mode_:_calcul">Mode</a>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                                <p>Variable.mode</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body2">
+                                                                <p>Calculation of the mode of a variable</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                                <p><a href="Caracteristiques_variable.htm#_Mode(n)_:_calcul">Mode(n)</a>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                                <p>Variable.mode(n)</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">
+                                                                <p>Calculation of the nth most frequent value of a variable</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                                <p><a href="Caracteristiques_variable.htm#8">MonthYear</a>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                                <p>Variable.MonthYear</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body2">
+                                                                <p>Restitution of the month and year of a date variable</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                                <p><a href="Caracteristiques_variable.htm#_Moyenne_:_calcul">Mean</a>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                                <p>Variable.Mean</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">Calculation of a mean of a variable</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                                <p><a href="Caracteristiques_variable.htm#9">NbEffectiveResponses</a>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                                <p>Variable. NbEffectiveResponses</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body2">
+                                                                <p>Restitution of the number of effective responses to a variable</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                                <p><a href="Caracteristiques_variable.htm#10">NbPossibleResponses</a>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                                <p>Variable.NbPossibleResponses</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">
+                                                                <p>Restitution of the number of possible responses to a variable</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                                <p><a href="Caracteristiques_variable.htm#NbValeurs">NbValues</a>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                                <p>Variable.NbValues</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body2">
+                                                                <p>Calculation of the number of responses taken by a variable</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                                <p><a href="Caracteristiques_variable.htm#Nombre">Number</a>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                                <p>Variable.Number</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">
+                                                                <p>Restitution of the response to a variable in numerical form</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                                <p><a href="Caracteristiques_variable.htm#Observation">Observation</a>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                                <p>Observation</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body2"> Restitution of the number of the current observation</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                                <p><a href="Caracteristiques_variable.htm#Percentile">Percentile</a>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                                <p>Variable.Percentile(number)</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">
+                                                                <p>Calculation of the value of the requested percentile</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                                <p><a href="Caracteristiques_variable.htm#Pourcentage">Percentage</a>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                                <p>Variable.percentage("list of modalities", "profile")</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body2">
+                                                                <p>Calculation of the percentage of the indicated modality, Non-responses excluded</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                                <p><a href="Caracteristiques_variable.htm#PourcentageCit">PercentageCit</a>
+                                                                </p>
+                                                                <p>&#160;</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                                <p>Variable.percentageCit("list of modalities", "profile")</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">
+                                                                <p> Calculation of the percentage of the citations of the indicated modality, Non-responses excluded</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                                <p><a href="Caracteristiques_variable.htm#PourcentageCit0">PercentageCit0</a>
+                                                                </p>
+                                                                <p>&#160;</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                                <p>Variable.percentageCit0("list of modalities", "profile")</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body2">
+                                                                <p>Calculation of the percentage of the citations of the indicated modality, Non-responses included</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                                <p><a href="Caracteristiques_variable.htm#PourcentageObs">PercentageObs</a>
+                                                                </p>
+                                                                <p>&#160;</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                                <p>Variable.percentageObs("list of modalities", "profile")</p>
+                                                                <p>&#160;</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">
+                                                                <p>Calculation of the percentage of the indicated modality, Non-responses and Non-concerned excluded</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                                <p><a href="Caracteristiques_variable.htm#PourcentageObs0">PercentageObs0</a>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                                <p>Variable.percentageObs0("list of modalities", "profile")</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body2">
+                                                                <p>Calculation of the percentage of the indicated modality, Non-responses and Non-concerned included</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                                <p><a href="Caracteristiques_variable.htm#PourcentageRep">PercentageRep</a>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                                <p>Variable.percentageRep("list of modalities", "profil")</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">Calculation of the percentage of the indicated modality, Non-responses excluded</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                                <p><a href="Caracteristiques_variable.htm#Somme">Sum</a>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                                <p>V.Somme</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body2">Calculation of a sum of a variable</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyB-Column1-Body1">
+                                                                <p><a href="Caracteristiques_variable.htm#Valeurs">Values</a>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyB-Column1-Body1">
+                                                                <p>Variable.values</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyA-Column1-Body1">
+                                                                <p>List of values taken by a variable</p>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" />Calculation functions</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Table.css');margin-left: auto;margin-right: auto;" class="TableStyle-Table" cellspacing="0">
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <thead>
+                                                        <tr class="TableStyle-Table-Head-Header1">
+                                                            <th class="TableStyle-Table-HeadE-Column1-Header1">
+                                                                <p style="text-align: center;"><span class="bold">Name</span>
+                                                                </p>
+                                                            </th>
+                                                            <th class="TableStyle-Table-HeadE-Column1-Header1">
+                                                                <p style="text-align: center;"><span class="bold">Syntax</span>
+                                                                </p>
+                                                            </th>
+                                                            <th class="TableStyle-Table-HeadD-Column1-Header1">
+                                                                <p style="text-align: center;"><span class="bold">Description</span>
+                                                                </p>
+                                                            </th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                                <p><a href="Fonctions_de_calcul.htm#_Toc412715100">StDev</a>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                                <p>StDev("List of variables")</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">Calculation of the standard deviation of several variables</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                                <p><a href="Fonctions_de_calcul.htm#_Maximum_:_calcul">Maximum</a>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                                <p>Maximum("List of variables")</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body2">
+                                                                <p>Calculation of the maximum of several variables</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                                <p><a href="Fonctions_de_calcul.htm#_minimum_:_calcul">Minimum</a>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                                <p>Minimum("List of variables")</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">
+                                                                <p>Calculation of the minimum of several variables</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                                <p><a href="Fonctions_de_calcul.htm#moyenne">Mean</a>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                                <p>Mean("List of variables")</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body2">
+                                                                <p>Calculation of the mean of several variables</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                                <p><a href="Fonctions_de_calcul.htm#nbvaleurs">NbValues</a>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                                <p>NbValues ("List of variables")</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">
+                                                                <p> Calculation of the number of effective responses for a set of variables </p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                                <p><a href="Fonctions_de_calcul.htm#Nombre_observation">NumberOfObservations</a>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                                <p>NumberOfObservations</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body2">
+                                                                <p>Calculation of the number of observations of the survey or profile</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                                <p><a href="Fonctions_de_calcul.htm#observation">Observation</a>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                                <p>Observation</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">
+                                                                <p>Restitution of the number of the current observation</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                                <p><a href="Fonctions_de_calcul.htm#Quiz">Quiz</a>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                                <p>Quiz</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body2">
+                                                                <p>Restitution of a 'list' of closed questions quiz separated by semicolons.</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                                <p><a href="Fonctions_de_calcul.htm#QuizMax">QuizMax</a>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                                <p>QuizMax</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">
+                                                                <p>Restitution of the maximum possible quiz of a 'list' of closed questions separated by semicolons</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                                <p><a href="Fonctions_de_calcul.htm#somme">Sum</a>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                                <p>Sum("List of variables")</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body2">
+                                                                <p>Calculation of the sum of several variables</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyB-Column1-Body1">
+                                                                <p><a href="Fonctions_de_calcul.htm#table_externe">ExternTable</a>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyB-Column1-Body1">
+                                                                <p>ExternTable(file, value, columns)</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyA-Column1-Body1">
+                                                                <p>Recovery of a value in a code file</p>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" />Mathematical functions</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Table.css');margin-left: auto;margin-right: auto;" class="TableStyle-Table" cellspacing="0">
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <thead>
+                                                        <tr class="TableStyle-Table-Head-Header1">
+                                                            <th class="TableStyle-Table-HeadE-Column1-Header1">
+                                                                <p style="text-align: center;"><span class="bold">Name</span>
+                                                                </p>
+                                                            </th>
+                                                            <th class="TableStyle-Table-HeadE-Column1-Header1">
+                                                                <p style="text-align: center;"><span class="bold">Syntax</span>
+                                                                </p>
+                                                            </th>
+                                                            <th class="TableStyle-Table-HeadD-Column1-Header1">
+                                                                <p style="text-align: center;"><span class="bold">Description</span>
+                                                                </p>
+                                                            </th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                                <p><a href="Fonctions_mathematiques.htm#abs">Abs</a>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                                <p>Abs(number)</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">
+                                                                <p>Calculation of the absolute value of a variable</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2"><a href="Fonctions_mathematiques.htm#Arctan">Atn</a>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">Atn(number)</td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body2">Calculation of the arc tangent of a variable</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1"><a href="Fonctions_mathematiques.htm#arrondi">Round</a>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">Round(variable)</td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">Returns the value of a rounded number</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2"><a href="Fonctions_mathematiques.htm#Cos">Cos</a>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">Cos(number)</td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body2">Calculation of the cosine of a variable</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1"><a href="Fonctions_mathematiques.htm#Exp">Exp</a>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">Exp(number)</td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">Calculation of the exponential function of a variable</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2"><a href="Fonctions_mathematiques.htm#Log">Log</a>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">Log(number)</td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body2">Calculation of Napierian log of a variable</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1"><a href="Fonctions_mathematiques.htm#partie_entiere">Fix</a>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">Fix(number)</td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">Calculation of the integer part of a variable</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2"><a href="Fonctions_mathematiques.htm#rac2">Sqr</a>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">Sqr(number)</td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body2">Calculation of the square root of a variable</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1"><a href="Fonctions_mathematiques.htm#signe">Sgn</a>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">Sgn(number)</td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1"> Calculation of the sign (positive or negative) of a variable</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2"><a href="Fonctions_mathematiques.htm#Sin">Sin</a>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">sin(variable)</td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body2">Calculation of the sine of a variable</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1"><a href="Fonctions_mathematiques.htm#Tan">Tan</a>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">Tan(variable)</td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">Calculation of the tangent of a variable</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2"><a href="Fonctions_mathematiques.htm#Val_aleatoire">Rnd</a>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">Rnd()</td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body2">Calculation of a random number</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1"><a href="Fonctions_mathematiques.htm#Val_Entiere">Int</a>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">Int(number))</td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">Calculation of the integer value of a variable</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2"><a href="Fonctions_mathematiques.htm#Soustraction">-</a>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">Number1 - Number2</td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body2">Subtraction</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1"><a href="Fonctions_mathematiques.htm#Multiplication">*</a>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">Number1 * Number2</td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">Multiplication</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2"><a href="Fonctions_mathematiques.htm#Division">/</a>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">Number1 / Number2</td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body2">Division</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1"><a href="Fonctions_mathematiques.htm#Division_entiere">\</a>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">Number1 \ Number2</td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">Integer division</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2"><a href="Fonctions_mathematiques.htm#Exposant">^</a>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">Number ^ exponent</td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body2">Exponent</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1"><a href="Fonctions_mathematiques.htm#Addition">+</a>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">Number1 + Number2</td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">Addition</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2"><a href="Fonctions_mathematiques.htm#Mod">Mod</a>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">Number1 Mod Number2</td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body2">Remainder of division</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1"><a href="Fonctions_mathematiques.htm#e">e</a>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">e</td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">Constant 2.71</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyB-Column1-Body2"><a href="Fonctions_mathematiques.htm#Pi">Pi</a>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyB-Column1-Body2">pi</td>
+                                                            <td class="TableStyle-Table-BodyA-Column1-Body2">Constant 3.14</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" />String functions</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Table.css');margin-left: auto;margin-right: auto;" class="TableStyle-Table" cellspacing="0">
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <thead>
+                                                        <tr class="TableStyle-Table-Head-Header1">
+                                                            <th class="TableStyle-Table-HeadE-Column1-Header1">
+                                                                <p style="text-align: center;"><span class="bold">Name</span>
+                                                                </p>
+                                                            </th>
+                                                            <th class="TableStyle-Table-HeadE-Column1-Header1">
+                                                                <p style="text-align: center;"><span class="bold">Syntax</span>
+                                                                </p>
+                                                            </th>
+                                                            <th class="TableStyle-Table-HeadD-Column1-Header1">
+                                                                <p style="text-align: center;"><span class="bold">Description</span>
+                                                                </p>
+                                                            </th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                                <p><a href="Fonctions_de_texte.htm#Avec">With</a>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                                <p>Text with "word1&#160;; word2&#160;; word3"</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">
+                                                                <p>Verification of the presence of a list of words in a text</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2"><a href="Fonctions_de_texte.htm#avecListe">WithList</a>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">WithList(text, "list of words", ignore)</td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body2">
+                                                                <p>Verification of the presence of a word in a text</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                                <p><a href="Fonctions_de_texte.htm#avecMots">WthMots</a>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">Text withWords "word1&#160;; word2&#160;; word3"</td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">
+                                                                <p>Verification of the presence of a list of entire words in a text</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                                <p><a href="Fonctions_de_texte.htm#car">Chr</a>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">Chr(number) </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body2">
+                                                                <p>Returning the letter corresponding to an ASCII code</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1"><a href="Fonctions_de_texte.htm#chaine">String</a>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">String(length, character)</td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1"> Returning a repetition of the indicated character</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2"><a href="Fonctions_de_texte.htm#chaineNum">Val</a>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">Val(string)</td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body2">Returning the number contained in a text</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1"><a href="Fonctions_de_texte.htm#Comme">Like</a>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">Text Like "expression"</td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">
+Comparison of an expression with a text</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2"><a href="Fonctions_de_texte.htm#CommeChaine">LikeStr</a>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">LikeStr(text1, text2; ignore)</td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body2">Verification of the presence of an expression in a text</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1"><a href="Fonctions_de_texte.htm#CompChaine">StrComp</a>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">StrComp(string1, string2, [compare])</td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">Verification of the presence of an expression in a text</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2"><a href="Fonctions_de_texte.htm#contient">Containing</a>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">text1 Containing text2</td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body2">Returning the position of a word or a part of one word in text</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1"><a href="Fonctions_de_texte.htm#dansChaine">InStr</a>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">InStr([start], text, "succession of words ", ignore)</td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">Calculating the position of a word in one text</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2"><a href="Fonctions_de_texte.htm#dansListe">Inlist</a>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">InList(string, "list of words", ignore)</td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body2">Verifying the presence of a list of expressions in a text</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1"><a href="Fonctions_de_texte.htm#Droite">Right</a>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">Right(text, length)</td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">Extraction of the last characters of a text</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2"><a href="Fonctions_de_texte.htm#Espace">Space</a>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">Space(length)</td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body2">Returning a repetition of spaces</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1"><a href="Fonctions_de_texte.htm#Formatduree">FormatDuration</a>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">FormatDuration(number, [unit], [format])</td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">Calculating a time slot</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2"><a href="Fonctions_de_texte.htm#Gauche">Left</a>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">Left(text, length)</td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body2">Extraction of the first characters of text</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1"><a href="Fonctions_de_texte.htm#Majuscule">Ucase</a>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">UCase(text)</td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">Converting a text to uppercase</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2"><a href="Fonctions_de_texte.htm#Minuscule">LCase</a>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">LCase(text)</td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body2">Converting a text to lowercase</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1"><a href="Fonctions_de_texte.htm#NbCar">Len</a>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">Len(text)</td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">Calculating the number of characters in a text</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2"><a href="Fonctions_de_texte.htm#NbrMots">numwds</a>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">NumWds(text)</td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body2">Calculating the number of words composing a text </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1"><a href="Fonctions_de_texte.htm#Numchaine">Str</a>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">Str(number)</td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">Adding a unit for a number</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2"><a href="Fonctions_de_texte.htm#Parmi">In</a>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">Text In List</td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body2">Verification of the presence of an expression or a list of expressions in a text</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1"><a href="Fonctions_de_texte.htm#Remplacer">Replace</a>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">Replace(string, expression1, expression2, ignore)</td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">Replacing a character string in a text</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2"><a href="Fonctions_de_texte.htm#Scinde">Scinde</a>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">Scinde(chaîne, separateur)</td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body2">Splits 'string' in a table using 'separator'</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1"><a href="Fonctions_de_texte.htm#Souschaine">Mid</a>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">Mid(text, start)</td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">
+Extraction of a series of characters in a text</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2"><a href="Fonctions_de_texte.htm#SupprEsp">Trim</a>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">Trim(text)</td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body2"> Deleting the spaces at the beginning and end of a text</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1"><a href="Fonctions_de_texte.htm#SupprEspD">RTrim</a>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">RTrim(text)</td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">Deleting spaces at the end of a text</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2"><a href="Fonctions_de_texte.htm#SupprEspG">LTrim</a>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">LTrim(text)</td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body2">Deleting the spaces at the beginning of a text</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyB-Column1-Body1"><a href="Fonctions_de_texte.htm#&amp;">&amp;</a>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyB-Column1-Body1">Text1 &amp; Text2</td>
+                                                            <td class="TableStyle-Table-BodyA-Column1-Body1">Returning the concatenation of two texts</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" />Date and time functions</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Table.css');margin-left: auto;margin-right: auto;" class="TableStyle-Table" cellspacing="0">
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <thead>
+                                                        <tr class="TableStyle-Table-Head-Header1">
+                                                            <th class="TableStyle-Table-HeadE-Column1-Header1">
+                                                                <p style="text-align: center;"><span class="bold">Name</span>
+                                                                </p>
+                                                            </th>
+                                                            <th class="TableStyle-Table-HeadE-Column1-Header1">
+                                                                <p style="text-align: center;"><span class="bold">Syntax</span>
+                                                                </p>
+                                                            </th>
+                                                            <th class="TableStyle-Table-HeadD-Column1-Header1">
+                                                                <p style="text-align: center;"><span class="bold">Description</span>
+                                                                </p>
+                                                            </th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                                <p><a href="Fonctions_de_date_et_heure.htm#age">Age</a>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                                <p>Age(date1,&#160; date2, "unit")</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">
+                                                                <p>Calculating the time between two dates</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2"><a href="Fonctions_de_date_et_heure.htm#AjouterAnnees">AddYears</a>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">AddYears(date, number)</td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body2">Returns  the date increased by the number of years specified in the parameter, for each record.</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1"><a href="Fonctions_de_date_et_heure.htm#AjouterHeures">AddHours</a>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">AddHours(date, number)</td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">Returns  the date increased by the number of hours specified in the parameter, for each record.</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2"><a href="Fonctions_de_date_et_heure.htm#AjouterJours">AddDays</a>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">AddDays(date,number)</td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body2">Returns  the date increased by the number of days specified in the parameter, for each record.</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1"><a href="Fonctions_de_date_et_heure.htm#AjouterMinutes">AddMinutes</a>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">AddMinutes(date, number)</td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">Returns  the date increased by the number of minutes specified in the parameter, for each record.</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2"><a href="Fonctions_de_date_et_heure.htm#AjouterMois">AddMonths</a>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">AddMonths(date, number)</td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body2">Returns  the date increased by the number of months specified in the parameter, for each record.</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1"><a href="Fonctions_de_date_et_heure.htm#AjouterSecondes">AddSeconds</a>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">AddSeconds(date, number)</td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">Returns  the date increased by the number of seconds specified in the parameter, for each record.</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2"><a href="Fonctions_de_date_et_heure.htm#année">Year</a>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">Year(date) </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body2">Calculating the year of a date variable</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1"><a href="Fonctions_de_date_et_heure.htm#Durée">Duration</a>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">Duration(begin, end) </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1"> Calculating the duration between two dates (in days)</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2"><a href="Fonctions_de_date_et_heure.htm#Heure">Hour</a>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">Hour(date) </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body2">Returning the hour of a date variable</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1"><a href="Fonctions_de_date_et_heure.htm#jour">Day</a>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">Day(date) </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">Returning the day of a date variable</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2"><a href="Fonctions_de_date_et_heure.htm#JourSem">Weekday</a>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">WeekDay(date) </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body2">Returning the day of week of a date variable</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1"><a href="Fonctions_de_date_et_heure.htm#Maintenant">Now</a>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">Now() </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">Calculating the date of a day</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2"><a href="Fonctions_de_date_et_heure.htm#Minute">Minute</a>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">Minute(date)</td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body2"> Returning the minute of a date variable</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1"><a href="Fonctions_de_date_et_heure.htm#Mois">Month</a>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">Month(date) </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">Returning the month of a date variable</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2"><a href="Fonctions_de_date_et_heure.htm#Seconde">Second</a>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">Second(date) </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body2">Returning the second of a date variable</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyB-Column1-Body1"><a href="Fonctions_de_date_et_heure.htm#Semaine">Week</a>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyB-Column1-Body1">Week(date) </td>
+                                                            <td class="TableStyle-Table-BodyA-Column1-Body1">Returning the week number of a date variable</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" />Logical operators</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Table.css');margin-left: auto;margin-right: auto;" class="TableStyle-Table" cellspacing="0">
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <thead>
+                                                        <tr class="TableStyle-Table-Head-Header1">
+                                                            <th class="TableStyle-Table-HeadE-Column1-Header1">
+                                                                <p style="text-align: center;"><span class="bold">Name</span>
+                                                                </p>
+                                                            </th>
+                                                            <th class="TableStyle-Table-HeadD-Column1-Header1">
+                                                                <p style="text-align: center;"><span class="bold">Description</span>
+                                                                </p>
+                                                            </th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                                <p><a href="Operateurs_logiques.htm#et">And</a>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">
+                                                                <p>Verifying the conjunction of two expressions</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                                <p><a href="Operateurs_logiques.htm#faux">False</a>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body2">
+                                                                <p>Verifying whether an expression is false</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                                <p><a href="#non"><a href="Operateurs_logiques.htm#Non">Not</a></a>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">
+                                                                <p>Verifying the negation of an expression</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                                <p><a href="Operateurs_logiques.htm#nonréponse">NonReponse</a>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body2">
+                                                                <p>Verifying the value NonResponse for a variable</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                                <p><a href="Operateurs_logiques.htm#ou">Or</a>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">
+                                                                <p>Verifying the disjunction of two expressions</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                                <p><a href="Operateurs_logiques.htm#ouX">XOr</a>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body2">
+                                                                <p>Verifying the exclusion of two expressions</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                                <p><a href="Operateurs_logiques.htm#vrai">True</a>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">
+                                                                <p>Verifying if an expression is true</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                                <p><a href="Operateurs_logiques.htm#inférieure">&lt;</a>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body2">
+                                                                <p>Verifying whether an expression is less than another</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                                <p><a href="Operateurs_logiques.htm#inférieureou">&lt;=</a>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">
+                                                                <p>Verifying whether an expression is less than or equal to another</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                                <p><a href="Operateurs_logiques.htm#différente">&lt;&gt;</a>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body2">
+                                                                <p>Verifying whether an expression is different from another</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                                <p><a href="Operateurs_logiques.htm#égale">=</a>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">
+                                                                <p>Verifying whether an expression is equal to another</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                                <p><a href="Operateurs_logiques.htm#Supérieure">&gt;</a>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body2">
+                                                                <p>Verifying whether an expression is superior to another</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyB-Column1-Body1">
+                                                                <p><a href="Operateurs_logiques.htm#supérieureou">&gt;=</a>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyA-Column1-Body1">
+                                                                <p>Verifying whether an expression is superior or equal to another</p>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" /> Control structures</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Table.css');margin-left: auto;margin-right: auto;" class="TableStyle-Table" cellspacing="0">
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <thead>
+                                                        <tr class="TableStyle-Table-Head-Header1">
+                                                            <th class="TableStyle-Table-HeadD-Column1-Header1">
+                                                                <p style="text-align: center;"><span class="bold">Name</span>
+                                                                </p>
+                                                            </th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">
+                                                                <p><a href="Structures_de_controle.htm#faire">Do</a>
+                                                                </p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body2">
+                                                                <p><a href="Structures_de_controle.htm#jusque">Until</a>
+                                                                </p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">
+                                                                <p><a href="Structures_de_controle.htm#seloncas">Select Case</a>
+                                                                </p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body2">
+                                                                <p><a href="Structures_de_controle.htm#siSinonFinSi">If … Else … EndIf</a>
+                                                                </p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyA-Column1-Body1">
+                                                                <p><a href="Structures_de_controle.htm#tantque">While</a>
+                                                                </p>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" />Study properties</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Table.css');margin-left: auto;margin-right: auto;" class="TableStyle-Table" cellspacing="0">
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <thead>
+                                                        <tr class="TableStyle-Table-Head-Header1">
+                                                            <th class="TableStyle-Table-HeadE-Column1-Header1">
+                                                                <p style="text-align: center;"><span class="bold">Name</span>
+                                                                </p>
+                                                            </th>
+                                                            <th class="TableStyle-Table-HeadE-Column1-Header1">
+                                                                <p style="text-align: center;"><span class="bold">Syntax</span>
+                                                                </p>
+                                                            </th>
+                                                            <th class="TableStyle-Table-HeadD-Column1-Header1">
+                                                                <p style="text-align: center;"><span class="bold">Description</span>
+                                                                </p>
+                                                            </th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                                <p><a href="Proprietes_etude.htm#langue">Language</a>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                                <p>Survey.Language</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">
+                                                                <p>Restitution of the survey language </p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                                <p><a href="Proprietes_etude.htm#nom">Name</a>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                                <p>Survey.Name</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body2">
+                                                                <p>Restitution of the survey name </p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyB-Column1-Body1">
+                                                                <p><a href="Proprietes_etude.htm#titre">Title</a>
+                                                                </p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyB-Column1-Body1">
+                                                                <p>Survey.Title</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyA-Column1-Body1">
+                                                                <p>Restitution of the survey title</p>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><a data-close="true"></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

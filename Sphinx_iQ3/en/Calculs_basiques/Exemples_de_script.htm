@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en" xml:lang="en" class="_Skins_Side_navigation_IQ3" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../" data-mc-has-content-body="True" data-mc-toc-path="SCRIPTING LANGUAGE" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="msapplication-config" content="../Skins/Favicons/browserconfig.xml" />
+        <link rel="shortcut icon" href="../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="168x168" href="../Skins/Favicons/favicon.png" />
+        <link rel="icon" sizes="32x32" href="../Skins/Favicons/favicon.png" />
+        <link rel="icon" sizes="168x168" href="../Skins/Favicons/favicon.png" /><title>SCRIPT&#160;EXAMPLES</title>
+        <link href="../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Resources/Stylesheets/Styles.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="../Resources/Scripts/search-dropdown.css" />
+        <style>/*&lt;meta /&gt;*/
+
+.button.remove-highlight-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.separator-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.select-language-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.separator-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.expand-all-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.separator-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.print-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.collapse-all-button
+{
+	-pie-background: linear-gradient(transparent, #ececec);
+}
+
+.needs-pie
+{
+	behavior: url('../Resources/Scripts/PIE-no-motw.htc');
+}
+
+</style>
+        <link href="../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+        <link rel="shortcut icon" href="../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="168x168" href="../Skins/Favicons/favicon.png" />
+        <link rel="icon" sizes="32x32" href="../Skins/Favicons/favicon.png" />
+        <link rel="icon" sizes="168x168" href="../Skins/Favicons/favicon.png" />
+        <script src="../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../Resources/Scripts/purify.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/require.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/require.config.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/foundation.6.2.3_custom.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/plugins.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/MadCapAll.js" type="text/javascript" defer="defer">
+        </script>
+        <script type="text/javascript" src="../Resources/Scripts/search-dropdown.js">
+        </script>
+        <script type="text/javascript" src="../Skins/Default/Scripts/TopicToolBar.js">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-right" role="complementary" id="offCanvas" data-off-canvas="" data-position="right" data-mc-ignore="true">
+                    <ul class="off-canvas-accordion vertical menu off-canvas-list" data-accordion-menu="" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expanded-event="down.zf.accordionMenu up.zf.accordionMenu" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div data-sticky-container="" class="title-bar-container">
+                        <nav class="title-bar tab-bar sticky" aria-label="Main navigation and search" data-sticky="" data-options="marginTop:0" style="width:100%" data-sticky-on="only screen and (max-width: 1279px)" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="#">Skip To Main Content</a>
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="menu-icon-container relative clearfix">
+                                    <div class="central-account-wrapper">
+                                        <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                            <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                                <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="menu-icon" aria-label="Show Navigation Panel" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="title-bar-layout outer-row">
+                                <div class="logo-wrapper"><a class="logo" href="../Home.htm" alt="Logo"></a>
+                                </div>
+                                <div class="navigation-wrapper nocontent">
+                                    <ul class="navigation clearfix" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                        <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="central-account-wrapper">
+                                    <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                        <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                            <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nav-search-wrapper">
+                                    <div class="nav-search row">
+                                        <form class="search" action="#">
+                                            <div class="search-bar search-bar-container needs-pie">
+                                                <input class="search-field needs-pie" type="search" aria-label="Search Field" placeholder="Search" />
+                                                <div class="search-filter-wrapper"><span class="invisible-label" id="search-filters-label">Filter: </span>
+                                                    <div class="search-filter" aria-haspopup="true" aria-controls="sf-content" aria-expanded="false" aria-label="Search Filter" title="All Files" role="button" tabindex="0">
+                                                    </div>
+                                                    <div class="search-filter-content" id="sf-content">
+                                                        <ul>
+                                                            <li>
+                                                                <button class="mc-dropdown-item" aria-labelledby="search-filters-label filterSelectorLabel-00001"><span id="filterSelectorLabel-00001">All Files</span>
+                                                                </button>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="search-submit-wrapper" dir="ltr">
+                                                    <div class="search-submit" title="Search" role="button" tabindex="0"><span class="invisible-label">Submit Search</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="main-section">
+                        <div class="row outer-row sidenav-layout">
+                            <nav class="sidenav-wrapper">
+                                <div class="sidenav-container">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expanded-event="down.zf.accordionMenu up.zf.accordionMenu" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
+                                    </ul>
+                                </div>
+                            </nav>
+                            <div class="body-container">
+                                <div data-mc-content-body="True"><a href="#" class="scrollToTop"></a>
+                                    <div class="buttons popup-container clearfix topicToolbarProxy _Skins_TopicToolBar mc-component nocontent" style="float: right; mc-topic-toolbar-items: ;">
+                                        <div class="button-group-container-left">
+                                            <button class="button needs-pie remove-highlight-button" title="Remove Highlights">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper" aria-label="Remove Highlights">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                            <div class="button-separator">
+                                            </div>
+                                            <button class="button needs-pie select-language-button" title="Change language">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper" aria-label="Change language">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                            <div class="button-separator">
+                                            </div>
+                                            <button class="button needs-pie expand-all-button" data-state1-class="expand-all-button" data-state2-class="collapse-all-button" data-state2-title="Collapse all" title="Expand all" data-state1-title="Expand all">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper" aria-label="Expand all">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                            <div class="button-separator">
+                                            </div>
+                                            <button class="button needs-pie print-button" title="Print">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper" aria-label="Print">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="nocontent">
+                                        <div class="MCBreadcrumbsBox_0 breadcrumbs" role="navigation" aria-label="Breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="3" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+                                        </div>
+                                    </div>
+                                    <div role="main" id="mc-main-content">
+                                        <h1>SCRIPT&#160;EXAMPLES</h1>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" />Insert a comment in a calculation formula</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p>It is possible to insert a comment to give more details on the calculation formula used. After inserting the calculation formula, just add an apostrophe "<span class="bold">'</span>" and fill in your comment.</p>
+                                                <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/commentaire_calcul.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="512" data-mc-height="79" src="../Resources/Images/commentaire_calcul.png" alt="" title="" tabindex="" style="max-width: 200px;max-height: 200px;" /></a>
+                                                </p>
+                                                <div class="codeSnippet"><a class="codeSnippetCopyButton" role="button" href="javascript:void(0);">Copy</a>
+                                                    <div style="mc-code-lang: Go;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="True"><pre><span class="codeSnippetLineNumbers" style="border-right: solid 2px #000000;" aria-hidden="true">1
+</span><code><span style="color: #df5000; ">'this formula allows to calculate the average expenses per person.</span></code></pre>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" />Calculating the mean of several variables</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <div class="codeSnippet"><a class="codeSnippetCopyButton" role="button" href="javascript:void(0);">Copy</a>
+                                                    <div style="mc-code-lang: Haskell;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="True"><pre><span class="codeSnippetLineNumbers" style="border-right: solid 2px #000000;" aria-hidden="true">1
+</span><code><span style="color: #a71d5d; ">Mean</span>(<span style="color: #df5000; ">"V1;V3;V5-V7"</span>)</code></pre>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" />Calculating a weighted average</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <div class="codeSnippet"><a class="codeSnippetCopyButton" role="button" href="javascript:void(0);">Copy</a>
+                                                    <div style="mc-code-lang: Haskell;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="True"><pre><span class="codeSnippetLineNumbers" style="border-right: solid 2px #000000;" aria-hidden="true">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+</span><code><span style="color: #a71d5d; font-weight: bold; ">tot</span> = <span style="color: #a71d5d; ">0</span><br /><span style="color: #a71d5d; font-weight: bold; ">nb</span> = <span style="color: #a71d5d; ">0</span><br /><span style="color: #a71d5d; ">If</span> <span style="color: #a71d5d; ">Not</span> <span style="color: #a71d5d; ">V1</span>.<span style="color: #a71d5d; ">Estnonreponse</span> <span style="color: #333333; font-weight: bold; ">then</span><br /><span style="color: #a71d5d; font-weight: bold; ">tot</span> = tot + <span style="color: #a71d5d; ">2</span> * <span style="color: #a71d5d; ">V1</span><br /><span style="color: #a71d5d; font-weight: bold; ">nb</span> = nb + <span style="color: #a71d5d; ">2</span><br /><span style="color: #a71d5d; ">EndIf</span><br /><span style="color: #a71d5d; ">If</span> <span style="color: #a71d5d; ">Not</span> <span style="color: #a71d5d; ">V2</span>.<span style="color: #a71d5d; ">Estnonreponse</span> <span style="color: #333333; font-weight: bold; ">then</span><br /><span style="color: #a71d5d; font-weight: bold; ">tot</span> = tot + <span style="color: #a71d5d; ">5</span> * <span style="color: #a71d5d; ">V2</span><br /><span style="color: #a71d5d; font-weight: bold; ">nb</span> = nb + <span style="color: #a71d5d; ">5</span><br /><span style="color: #a71d5d; ">EndIf</span><br /><span style="color: #a71d5d; ">If</span> <span style="color: #a71d5d; ">Not</span> <span style="color: #a71d5d; ">V3</span>.<span style="color: #a71d5d; ">Estnonreponse</span> <span style="color: #333333; font-weight: bold; ">then</span><br /><span style="color: #a71d5d; font-weight: bold; ">tot</span> = tot + <span style="color: #a71d5d; ">3</span> * <span style="color: #a71d5d; ">V3</span><br /><span style="color: #a71d5d; font-weight: bold; ">nb</span> = nb + <span style="color: #a71d5d; ">3</span><br /><span style="color: #a71d5d; ">EndIf</span><br /><span style="color: #a71d5d; ">If</span> <span style="color: #a71d5d; ">Not</span> <span style="color: #a71d5d; ">V4</span>.<span style="color: #a71d5d; ">Estnonreponse</span> <span style="color: #333333; font-weight: bold; ">then</span><br /><span style="color: #a71d5d; font-weight: bold; ">tot</span> = tot + <span style="color: #a71d5d; ">3</span> * <span style="color: #a71d5d; ">V4</span><br /><span style="color: #a71d5d; font-weight: bold; ">nb</span> = nb + <span style="color: #a71d5d; ">3</span><br /><span style="color: #a71d5d; ">EndIf</span><br /><span style="color: #a71d5d; ">If</span> <span style="color: #a71d5d; ">Not</span> <span style="color: #a71d5d; ">V5</span>.<span style="color: #a71d5d; ">Estnonreponse</span> <span style="color: #333333; font-weight: bold; ">then</span><br /><span style="color: #a71d5d; font-weight: bold; ">tot</span> = tot + <span style="color: #a71d5d; ">3</span> * <span style="color: #a71d5d; ">V5</span><br /><span style="color: #a71d5d; font-weight: bold; ">nb</span> = nb + <span style="color: #a71d5d; ">3</span><br /><span style="color: #a71d5d; ">EndIf</span><br /><span style="color: #a71d5d; ">If</span> nb &lt;&gt; <span style="color: #a71d5d; ">0</span> <span style="color: #333333; font-weight: bold; ">then</span><br /><span style="color: #a71d5d; ">V</span> = tot / nb<br /><span style="color: #a71d5d; ">EndIf</span></code></pre>
+                                                    </div>
+                                                </div>
+                                                <p>This script will calculate the weighted average of 3 marks managing the non responses to one of the marks.</p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" />Creating a non-linear scale</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <div class="codeSnippet"><a class="codeSnippetCopyButton" role="button" href="javascript:void(0);">Copy</a>
+                                                    <div style="mc-code-lang: Haskell;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="True"><pre><span class="codeSnippetLineNumbers" style="border-right: solid 2px #000000;" aria-hidden="true">1
+2
+3
+4
+5
+6
+7
+8
+9
+</span><code><span style="color: #a71d5d; ">If</span> <span style="color: #a71d5d; ">V1</span> = <span style="color: #a71d5d; ">1</span> <span style="color: #333333; font-weight: bold; ">then</span><br /><span style="color: #a71d5d; ">V</span> = <span style="color: #a71d5d; ">0</span><br /><span style="color: #a71d5d; ">ElseIf</span> <span style="color: #a71d5d; ">V1</span> = <span style="color: #a71d5d; ">2</span> <span style="color: #333333; font-weight: bold; ">then</span><br /><span style="color: #a71d5d; ">V</span> = <span style="color: #a71d5d; ">5</span><br /><span style="color: #a71d5d; ">ElseIf</span> <span style="color: #a71d5d; ">V1</span> = <span style="color: #a71d5d; ">3</span> <span style="color: #333333; font-weight: bold; ">then</span><br /><span style="color: #a71d5d; ">V</span> = <span style="color: #a71d5d; ">10</span><br /><span style="color: #a71d5d; ">ElseIf</span> <span style="color: #a71d5d; ">V1</span> = <span style="color: #a71d5d; ">4</span> <span style="color: #333333; font-weight: bold; ">then</span><br /><span style="color: #a71d5d; ">V</span> = <span style="color: #a71d5d; ">20</span><br /><span style="color: #a71d5d; ">EndIf</span></code></pre>
+                                                    </div>
+                                                </div>
+                                                <p>Replace V1 by the scale variable of your choice</p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" />Qualifying individuals by the number of Non-responses</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <div class="codeSnippet"><a class="codeSnippetCopyButton" role="button" href="javascript:void(0);">Copy</a>
+                                                    <div style="mc-code-lang: Haskell;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="True"><pre><span class="codeSnippetLineNumbers" style="border-right: solid 2px #000000;" aria-hidden="true">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+</span><code><span style="color: #a71d5d; font-weight: bold; ">n</span> = <span style="color: #a71d5d; ">0</span><br /><span style="color: #a71d5d; ">If</span> <span style="color: #a71d5d; ">V1</span>.<span style="color: #a71d5d; ">EstNonreponse</span> <span style="color: #333333; font-weight: bold; ">then</span><br /><span style="color: #a71d5d; font-weight: bold; ">n</span> = n + <span style="color: #a71d5d; ">1</span><br /><span style="color: #a71d5d; ">EndIf</span><br /><span style="color: #a71d5d; ">If</span> <span style="color: #a71d5d; ">V2</span>.<span style="color: #a71d5d; ">EstNonreponse</span> <span style="color: #333333; font-weight: bold; ">then</span><br /><span style="color: #a71d5d; font-weight: bold; ">n</span> = n + <span style="color: #a71d5d; ">1</span><br /><span style="color: #a71d5d; ">EndIf</span><br /><span style="color: #a71d5d; ">If</span> <span style="color: #a71d5d; ">V3</span>.<span style="color: #a71d5d; ">EstNonreponse</span> <span style="color: #333333; font-weight: bold; ">then</span><br /><span style="color: #a71d5d; font-weight: bold; ">n</span> = n + <span style="color: #a71d5d; ">1</span><br /><span style="color: #a71d5d; ">EndIf</span><br /><span style="color: #a71d5d; ">If</span> <span style="color: #a71d5d; ">V4</span>.<span style="color: #a71d5d; ">EstNonreponse</span> <span style="color: #333333; font-weight: bold; ">then</span><br /><span style="color: #a71d5d; font-weight: bold; ">n</span> = n + <span style="color: #a71d5d; ">1</span><br /><span style="color: #a71d5d; ">EndIf</span><br /><span style="color: #a71d5d; ">If</span> <span style="color: #a71d5d; ">V5</span>.<span style="color: #a71d5d; ">EstNonreponse</span> <span style="color: #333333; font-weight: bold; ">then</span><br /><span style="color: #a71d5d; font-weight: bold; ">n</span> = n + <span style="color: #a71d5d; ">1</span><br /><span style="color: #a71d5d; ">EndIf</span><br /><span style="color: #a71d5d; ">V</span> = n</code></pre>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" />Creating a standard score</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <div class="codeSnippet"><a class="codeSnippetCopyButton" role="button" href="javascript:void(0);">Copy</a>
+                                                    <div style="mc-code-lang: Haskell;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="True"><pre><span class="codeSnippetLineNumbers" style="border-right: solid 2px #000000;" aria-hidden="true">1
+</span><code>(<span style="color: #a71d5d; ">V1</span> - <span style="color: #a71d5d; ">V1</span>.<span style="color: #a71d5d; ">Mean</span>) / <span style="color: #a71d5d; ">V1</span>.<span style="color: #a71d5d; ">StDev</span></code></pre>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" />Counting the number of characters in a text</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <div class="codeSnippet"><a class="codeSnippetCopyButton" role="button" href="javascript:void(0);">Copy</a>
+                                                    <div style="mc-code-lang: Haskell;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="True"><pre><span class="codeSnippetLineNumbers" style="border-right: solid 2px #000000;" aria-hidden="true">1
+</span><code><span style="color: #a71d5d; ">Len</span>(<span style="color: #a71d5d; ">V1</span>)</code></pre>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" />Combining with the open question "Other, specify"</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <div class="codeSnippet"><a class="codeSnippetCopyButton" role="button" href="javascript:void(0);">Copy</a>
+                                                    <div style="mc-code-lang: Haskell;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="True"><pre><span class="codeSnippetLineNumbers" style="border-right: solid 2px #000000;" aria-hidden="true">1
+2
+3
+4
+5
+</span><code><span style="color: #a71d5d; ">If</span> <span style="color: #a71d5d; ">V1</span> <span style="color: #a71d5d; ">Like</span> <span style="color: #df5000; ">"Other"</span> <span style="color: #333333; font-weight: bold; ">then</span><br /><span style="color: #a71d5d; ">V</span> = <span style="color: #a71d5d; ">V2</span><br /><span style="color: #a71d5d; ">Else</span><br /><span style="color: #a71d5d; ">V</span> = <span style="color: #a71d5d; ">V1</span><br /><span style="color: #a71d5d; ">EndIf</span></code></pre>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" />Replacing the Non-responses by the mean</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <div class="codeSnippet"><a class="codeSnippetCopyButton" role="button" href="javascript:void(0);">Copy</a>
+                                                    <div style="mc-code-lang: Haskell;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="True"><pre><span class="codeSnippetLineNumbers" style="border-right: solid 2px #000000;" aria-hidden="true">1
+2
+3
+</span><code><span style="color: #a71d5d; ">If</span> <span style="color: #a71d5d; ">V1</span>.<span style="color: #a71d5d; ">EstNonReponse</span> <span style="color: #333333; font-weight: bold; ">then</span><br /><span style="color: #a71d5d; ">V1</span> = <span style="color: #a71d5d; ">V1</span>.<span style="color: #a71d5d; ">Mean</span><br /><span style="color: #a71d5d; ">EndIf</span></code></pre>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" />Replacing the Non-responses by the most cited modality</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <div class="codeSnippet"><a class="codeSnippetCopyButton" role="button" href="javascript:void(0);">Copy</a>
+                                                    <div style="mc-code-lang: Haskell;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="True"><pre><span class="codeSnippetLineNumbers" style="border-right: solid 2px #000000;" aria-hidden="true">1
+2
+3
+</span><code><span style="color: #a71d5d; ">If</span> <span style="color: #a71d5d; ">V1</span>.<span style="color: #a71d5d; ">EstNonReponse</span> <span style="color: #333333; font-weight: bold; ">then</span><br /><span style="color: #a71d5d; ">V1</span> = <span style="color: #a71d5d; ">V1</span>.<span style="color: #a71d5d; ">Mode</span><br /><span style="color: #a71d5d; ">EndIf</span></code></pre>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" />Extracting a character string into a text variable </a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <div class="codeSnippet"><a class="codeSnippetCopyButton" role="button" href="javascript:void(0);">Copy</a>
+                                                    <div style="mc-code-lang: Haskell;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="True"><pre><span class="codeSnippetLineNumbers" style="border-right: solid 2px #000000;" aria-hidden="true">1
+</span><code><span style="color: #a71d5d; ">Mid</span>(<span style="color: #a71d5d; ">V1</span>,<span style="color: #a71d5d; ">0</span>,<span style="color: #a71d5d; ">InStr</span>(<span style="color: #a71d5d; ">V1</span>,<span style="color: #df5000; ">","</span>) - <span style="color: #a71d5d; ">1</span>)</code></pre>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" />Calculating the number of occurrences of a character or a word</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <div class="codeSnippet"><a class="codeSnippetCopyButton" role="button" href="javascript:void(0);">Copy</a>
+                                                    <div style="mc-code-lang: Haskell;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="True"><pre><span class="codeSnippetLineNumbers" style="border-right: solid 2px #000000;" aria-hidden="true">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+</span><code><span style="color: #a71d5d; ">TextAfter</span> = <span style="color: #a71d5d; ">V1</span><br /><span style="color: #a71d5d; ">Character</span> = <span style="color: #df5000; ">"f"</span><br /><span style="color: #a71d5d; ">NumberOfTimes</span> = <span style="color: #a71d5d; ">0</span><br /><span style="color: #a71d5d; ">Hint</span> = <span style="color: #a71d5d; ">1</span><br /><span style="color: #a71d5d; ">DesiredResult</span> = <span style="color: #a71d5d; ">3</span><br /><span style="color: #a71d5d; ">Do</span> <span style="color: #a71d5d; ">While</span> <span style="color: #a71d5d; ">Hint</span> &lt;&gt; <span style="color: #a71d5d; ">0</span><br />&#160;&#160;&#160;<span style="color: #a71d5d; ">Hint</span> = <span style="color: #a71d5d; ">InStr</span>(<span style="color: #a71d5d; ">TextAfter</span>,<span style="color: #a71d5d; ">Character</span>)<br />&#160;&#160;&#160;<span style="color: #a71d5d; ">If</span> <span style="color: #a71d5d; ">Hint</span> &gt; <span style="color: #a71d5d; ">0</span> <span style="color: #333333; font-weight: bold; ">then</span><br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;<span style="color: #a71d5d; ">NumberOfTimes</span> = <span style="color: #a71d5d; ">NumberOfTimes</span> + <span style="color: #a71d5d; ">1</span><br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;<span style="color: #a71d5d; ">TextAfter</span> = <span style="color: #a71d5d; ">Mid</span>(<span style="color: #a71d5d; ">TextAfter</span>, <span style="color: #a71d5d; ">Hint</span>)<br />&#160;&#160;&#160;<span style="color: #a71d5d; ">EndIf</span><br /><span style="color: #a71d5d; ">Loop</span><br /><span style="color: #a71d5d; ">Select</span> <span style="color: #a71d5d; ">Case</span> <span style="color: #a71d5d; ">DesiredResult</span><br /><span style="color: #a71d5d; ">Case</span> <span style="color: #a71d5d; ">1</span><br />&#160;&#160;&#160;&#160;&#160;<span style="color: #a71d5d; ">V</span> = <span style="color: #a71d5d; ">NumberOfTimes</span><br /><span style="color: #a71d5d; ">Case</span> <span style="color: #a71d5d; ">2</span><br />&#160;&#160;&#160;&#160;&#160;<span style="color: #a71d5d; ">V</span> = <span style="color: #a71d5d; ">TextAfter</span><br /><span style="color: #a71d5d; ">Case</span> <span style="color: #a71d5d; ">3</span><br />&#160;&#160;&#160;&#160;&#160;<span style="color: #a71d5d; ">V</span> = <span style="color: #a71d5d; ">Str</span>(<span style="color: #a71d5d; ">NumberOfTimes</span>) &amp; <span style="color: #df5000; ">"&#160;:&#160;"</span> &amp; <span style="color: #a71d5d; ">TextAfter</span><br /><span style="color: #a71d5d; ">EndSelect</span></code></pre>
+                                                    </div>
+                                                </div>
+                                                <p>To use this script, replace the desired character in the line Character = "p". One can use Character = Chr (13) to count new lines.</p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" />Creating a random variable between 0 and 50</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <div class="codeSnippet"><a class="codeSnippetCopyButton" role="button" href="javascript:void(0);">Copy</a>
+                                                    <div style="mc-code-lang: Haskell;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="True"><pre><span class="codeSnippetLineNumbers" style="border-right: solid 2px #000000;" aria-hidden="true">1
+</span><code><span style="color: #a71d5d; ">Rnd</span>(<span style="color: #a71d5d; ">0</span>, <span style="color: #a71d5d; ">50</span>)</code></pre>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" />Calculating the age in months on a date of visit</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <div class="codeSnippet"><a class="codeSnippetCopyButton" role="button" href="javascript:void(0);">Copy</a>
+                                                    <div style="mc-code-lang: Haskell;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="True"><pre><span class="codeSnippetLineNumbers" style="border-right: solid 2px #000000;" aria-hidden="true">1
+</span><code><span style="color: #a71d5d; ">Age</span>(<span style="color: #a71d5d; ">V1</span>,<span style="color: #a71d5d; ">V2</span>,<span style="color: #df5000; ">"mm,m"</span>)</code></pre>
+                                                    </div>
+                                                </div>
+                                                <p>V1 is the date of birth, V2 is the visit date. The result is given in decimal month here, we write "yy, y" or "yy" or "mm" or "mm,m" for other formats</p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" />Ordering responses to a battery of scales</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <div class="codeSnippet"><a class="codeSnippetCopyButton" role="button" href="javascript:void(0);">Copy</a>
+                                                    <div style="mc-code-lang: Haskell;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="True"><pre><span class="codeSnippetLineNumbers" style="border-right: solid 2px #000000;" aria-hidden="true">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+</span><code><span style="color: #a71d5d; font-weight: bold; ">nb</span> = <span style="color: #a71d5d; ">0</span><br /><span style="color: #a71d5d; ">If</span> <span style="color: #a71d5d; ">V1</span> &gt; <span style="color: #a71d5d; ">0</span> <span style="color: #333333; font-weight: bold; ">then</span><br /><span style="color: #a71d5d; font-weight: bold; ">nb</span> = nb + <span style="color: #a71d5d; ">1</span><br /><span style="color: #a71d5d; ">T</span>(nb) = <span style="color: #a71d5d; ">V1</span>.<span style="color: #a71d5d; ">Number</span><br /><span style="color: #a71d5d; ">N</span>(nb) = <span style="color: #a71d5d; ">V1</span>.<span style="color: #a71d5d; ">Label</span><br /><span style="color: #a71d5d; ">EndIf</span><br /><span style="color: #a71d5d; ">If</span> <span style="color: #a71d5d; ">V2</span> &gt; <span style="color: #a71d5d; ">0</span> <span style="color: #333333; font-weight: bold; ">then</span><br /><span style="color: #a71d5d; font-weight: bold; ">nb</span> = nb + <span style="color: #a71d5d; ">1</span><br /><span style="color: #a71d5d; ">T</span>(nb) = <span style="color: #a71d5d; ">V2</span>.<span style="color: #a71d5d; ">Number</span><br /><span style="color: #a71d5d; ">N</span>(nb) = <span style="color: #a71d5d; ">V2</span>.<span style="color: #a71d5d; ">Label</span><br /><span style="color: #a71d5d; ">EndIf</span><br /><span style="color: #a71d5d; ">If</span> <span style="color: #a71d5d; ">V3</span> &gt; <span style="color: #a71d5d; ">0</span> <span style="color: #333333; font-weight: bold; ">then</span><br /><span style="color: #a71d5d; font-weight: bold; ">nb</span> = nb + <span style="color: #a71d5d; ">1</span><br /><span style="color: #a71d5d; ">T</span>(nb) = <span style="color: #a71d5d; ">V3</span>.<span style="color: #a71d5d; ">Number</span><br /><span style="color: #a71d5d; ">N</span>(nb) = <span style="color: #a71d5d; ">V3</span>.<span style="color: #a71d5d; ">Label</span><br /><span style="color: #a71d5d; ">EndIf</span><br /><span style="color: #a71d5d; ">If</span> <span style="color: #a71d5d; ">V4</span> &gt; <span style="color: #a71d5d; ">0</span> <span style="color: #333333; font-weight: bold; ">then</span><br /><span style="color: #a71d5d; font-weight: bold; ">nb</span> = nb + <span style="color: #a71d5d; ">1</span><br /><span style="color: #a71d5d; ">T</span>(nb) = <span style="color: #a71d5d; ">V4</span> .<span style="color: #a71d5d; ">Number</span><br /><span style="color: #a71d5d; ">N</span>(nb) = <span style="color: #a71d5d; ">V4</span> .<span style="color: #a71d5d; ">Label</span><br /><span style="color: #a71d5d; ">EndIf</span><br /><span style="color: #a71d5d; ">If</span> <span style="color: #a71d5d; ">V5</span> &gt; <span style="color: #a71d5d; ">0</span> <span style="color: #333333; font-weight: bold; ">then</span><br /><span style="color: #a71d5d; font-weight: bold; ">nb</span> = nb + <span style="color: #a71d5d; ">1</span><br /><span style="color: #a71d5d; ">T</span>(nb) = <span style="color: #a71d5d; ">V5</span>.<span style="color: #a71d5d; ">Number</span><br /><span style="color: #a71d5d; ">N</span>(nb) = <span style="color: #a71d5d; ">V5</span>.<span style="color: #a71d5d; ">Label</span><br /><span style="color: #a71d5d; ">EndIf</span><br /><span style="color: #a71d5d; font-weight: bold; ">permut</span> = <span style="color: #a71d5d; ">True</span><br /><span style="color: #a71d5d; ">Do</span> <span style="color: #a71d5d; ">While</span> permut = <span style="color: #a71d5d; ">True</span><br /><span style="color: #a71d5d; font-weight: bold; ">permut</span> = <span style="color: #a71d5d; ">False</span><br /><span style="color: #a71d5d; ">For</span> cpt = <span style="color: #a71d5d; ">1</span> <span style="color: #a71d5d; ">To</span> nb - <span style="color: #a71d5d; ">1</span><br /><span style="color: #a71d5d; ">If</span> <span style="color: #a71d5d; ">T</span>(cpt) &lt; <span style="color: #a71d5d; ">T</span>(cpt + <span style="color: #a71d5d; ">1</span>) <span style="color: #333333; font-weight: bold; ">then</span><br /><span style="color: #a71d5d; font-weight: bold; ">permut</span> = <span style="color: #a71d5d; ">True</span><br /><span style="color: #a71d5d; font-weight: bold; ">tmp</span> = <span style="color: #a71d5d; ">T</span>(cpt)<br /><span style="color: #a71d5d; ">T</span>(cpt) = <span style="color: #a71d5d; ">T</span>(cpt + <span style="color: #a71d5d; ">1</span>)<br /><span style="color: #a71d5d; ">T</span>(cpt + <span style="color: #a71d5d; ">1</span>) = tmp<br /><span style="color: #a71d5d; font-weight: bold; ">tmpch</span> = <span style="color: #a71d5d; ">N</span>(cpt)<br /><span style="color: #a71d5d; ">N</span>(cpt) = <span style="color: #a71d5d; ">N</span>(cpt + <span style="color: #a71d5d; ">1</span>)<br /><span style="color: #a71d5d; ">N</span>(cpt + <span style="color: #a71d5d; ">1</span>) = tmpch<br /><span style="color: #a71d5d; ">EndIf</span><br /><span style="color: #a71d5d; ">Next</span> cpt<br /><span style="color: #a71d5d; ">Loop</span><br /><span style="color: #a71d5d; font-weight: bold; ">ch</span> = <span style="color: #df5000; ">""</span><br /><span style="color: #a71d5d; ">For</span> cpt = <span style="color: #a71d5d; ">1</span> <span style="color: #a71d5d; ">To</span> nb<br /><span style="color: #a71d5d; font-weight: bold; ">ch</span> = ch &amp; <span style="color: #a71d5d; ">N</span>(cpt) &amp; <span style="color: #df5000; ">";"</span><br /><span style="color: #a71d5d; ">Next</span> cpt<br /><span style="color: #a71d5d; ">V</span> = ch</code></pre>
+                                                    </div>
+                                                </div>
+                                                <p>It is thus possible to find the best performing point and worst performing point. Validate this model then change the numbers of variables.</p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" />Converting a duration in hours minutes seconds</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <div class="codeSnippet"><a class="codeSnippetCopyButton" role="button" href="javascript:void(0);">Copy</a>
+                                                    <div style="mc-code-lang: Haskell;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="True"><pre><span class="codeSnippetLineNumbers" style="border-right: solid 2px #000000;" aria-hidden="true">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+</span><code><span style="color: #a71d5d; font-weight: bold; ">nb</span> = <span style="color: #a71d5d; ">V1</span><br /><span style="color: #a71d5d; font-weight: bold; ">vhours</span> = nb \ <span style="color: #a71d5d; ">3600</span><br /><span style="color: #a71d5d; font-weight: bold; ">vminutes</span> = (nb - vhours * <span style="color: #a71d5d; ">3600</span>) \ <span style="color: #a71d5d; ">60</span><br /><span style="color: #a71d5d; font-weight: bold; ">vseconds</span> = nb - vhours * <span style="color: #a71d5d; ">3600</span> - vminutes * <span style="color: #a71d5d; ">60</span><br /><span style="color: #a71d5d; ">If</span> vhours &lt;&gt; <span style="color: #a71d5d; ">0</span> <span style="color: #333333; font-weight: bold; ">then</span><br />&#160;&#160;&#160;sthours = <span style="color: #a71d5d; ">Str</span>(vhours) &amp; <span style="color: #df5000; ">"h "</span><br /><span style="color: #a71d5d; ">Elses</span><br />&#160;&#160;&#160;thours = <span style="color: #df5000; ">""</span><br /><span style="color: #a71d5d; ">EndIf</span><br /><span style="color: #a71d5d; ">If</span> vminutes &lt;&gt; <span style="color: #a71d5d; ">0</span> thens<br />&#160;&#160;&#160;tminutes = <span style="color: #a71d5d; ">Str</span>(vminutes) &amp; <span style="color: #df5000; ">"mn "</span><br /><span style="color: #a71d5d; ">Elses</span><br />&#160;&#160;&#160;tminutes = <span style="color: #df5000; ">""</span><br /><span style="color: #a71d5d; ">EndIf</span><br /><span style="color: #a71d5d; ">If</span> vseconds &lt;&gt; <span style="color: #a71d5d; ">0</span> <span style="color: #333333; font-weight: bold; ">then</span><br />&#160;&#160;&#160;stseconds = <span style="color: #a71d5d; ">Str</span>(vseconds) &amp; <span style="color: #df5000; ">"s "</span><br /><span style="color: #a71d5d; ">Elses</span><br />&#160;&#160;&#160;tseconds = <span style="color: #df5000; ">""</span><br /><span style="color: #a71d5d; ">EndIf</span><br /><span style="color: #a71d5d; ">V</span> = sthours &amp; stminutes &amp; stseconds</code></pre>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" />Deleting the text in parentheses</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <div class="codeSnippet"><a class="codeSnippetCopyButton" role="button" href="javascript:void(0);">Copy</a>
+                                                    <div style="mc-code-lang: Haskell;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="True"><pre><span class="codeSnippetLineNumbers" style="border-right: solid 2px #000000;" aria-hidden="true">1
+2
+3
+4
+</span><code><span style="color: #a71d5d; font-weight: bold; ">inparentheses</span>= <span style="color: #a71d5d; ">Replace</span>(v1,<span style="color: #df5000; ">"\([^\)]*\)"</span>,<span style="color: #df5000; ">"¤"</span>)<br /><span style="color: #a71d5d; font-weight: bold; ">inbrackets</span> = <span style="color: #a71d5d; ">Replace</span>(v1,<span style="color: #df5000; ">"\[[^\]]*\]"</span>,<span style="color: #df5000; ">"¤"</span>)<br /><span style="color: #a71d5d; font-weight: bold; ">betweentags</span> = <span style="color: #a71d5d; ">Replace</span>(v1,<span style="color: #df5000; ">"&lt;[^&gt;]*&gt;"</span>,<span style="color: #df5000; ">"¤"</span>)<br /><span style="color: #a71d5d; ">V</span> = betweentags</code></pre>
+                                                    </div>
+                                                </div>
+                                                <p>Remove unnecessary lines of the script and replace V1 by the variable of your choice.</p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" />Adding a zero before the postcode if it contains only 4 characters</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <div class="codeSnippet"><a class="codeSnippetCopyButton" role="button" href="javascript:void(0);">Copy</a>
+                                                    <div style="mc-code-lang: Haskell;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="True"><pre><span class="codeSnippetLineNumbers" style="border-right: solid 2px #000000;" aria-hidden="true">1
+2
+3
+4
+5
+</span><code><span style="color: #a71d5d; ">If</span> <span style="color: #a71d5d; ">Len</span>(<span style="color: #a71d5d; ">V1</span>) = <span style="color: #a71d5d; ">4</span> <span style="color: #333333; font-weight: bold; ">then</span><br />&#160;&#160;&#160;<span style="color: #a71d5d; ">V</span> =<span style="color: #df5000; ">"0"</span> &amp; <span style="color: #a71d5d; ">V1</span><br /><span style="color: #a71d5d; ">Else</span><br />&#160;&#160;&#160;<span style="color: #a71d5d; ">V</span> = <span style="color: #a71d5d; ">V1</span><br /><span style="color: #a71d5d; ">EndIf</span></code></pre>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" />Changing a date of a time zone</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <div class="codeSnippet"><a class="codeSnippetCopyButton" role="button" href="javascript:void(0);">Copy</a>
+                                                    <div style="mc-code-lang: Haskell;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="True"><pre><span class="codeSnippetLineNumbers" style="border-right: solid 2px #000000;" aria-hidden="true">1
+</span><code><span style="color: #a71d5d; font-weight: bold; ">ch</span>=<span style="color: #a71d5d; ">V1</span> - <span style="color: #a71d5d; ">5</span>/<span style="color: #a71d5d; ">24</span></code></pre>
+                                                    </div>
+                                                </div>
+                                                <p>The entry date is the date of the server, we want to rectify to adjust the hours to the those of the country where the survey took place. We add (subtracts) a portion of day for example -5/24 for Brazil, +11/24 for Western Australia.</p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" />Finding the combinations in a Closed multiple variable</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <div class="codeSnippet"><a class="codeSnippetCopyButton" role="button" href="javascript:void(0);">Copy</a>
+                                                    <div style="mc-code-lang: Haskell;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="True"><pre><span class="codeSnippetLineNumbers" style="border-right: solid 2px #000000;" aria-hidden="true">1
+2
+</span><code><span style="color: #a71d5d; font-weight: bold; ">ch</span> = <span style="color: #a71d5d; ">Replace</span> (<span style="color: #a71d5d; ">V1</span>,<span style="color: #df5000; ">" ; "</span>,<span style="color: #df5000; ">"_"</span>)<br /><span style="color: #a71d5d; ">V</span> = ch</code></pre>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" />Creating a closed multiple variable from modalities of a closed multiple variable</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p>In this example, the purpose is get the different types of sports (categories) from the activities selected in question <span class="bold">Activities</span>.</p>
+                                                <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/Calculs_variable_multiple_2.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="187" data-mc-height="423" src="../Resources/Images/Calculs_variable_multiple_2.png" alt="" title="" tabindex="" style="max-width: 200px;max-height: 200px;" /></a> <a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/Calculs_variable_multiple.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="553" data-mc-height="166" src="../Resources/Images/Calculs_variable_multiple.png" alt="" title="" tabindex="" style="max-width: 200px;max-height: 200px;" /></a></p>
+                                                <div class="codeSnippet"><a class="codeSnippetCopyButton" role="button" href="javascript:void(0);">Copy</a>
+                                                    <div style="mc-code-lang: Haskell;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="True"><pre><span class="codeSnippetLineNumbers" style="border-right: solid 2px #000000;" aria-hidden="true">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+</span><code><span style="color: #a71d5d; font-weight: bold; ">vtemp</span>= <span style="color: #df5000; ">""</span><br /><br /><span style="color: #333333; font-weight: bold; ">if</span> v2 <span style="color: #333333; font-weight: bold; ">in</span> (<span style="color: #df5000; ">"swimming;windsurfing;rafting;canoeing"</span>) <span style="color: #333333; font-weight: bold; ">then</span><br /><span style="color: #a71d5d; font-weight: bold; ">vtemp</span>=vtemp &amp; <span style="color: #df5000; ">";"</span> &amp; <span style="color: #df5000; ">"Water sport"</span><br /><span style="color: #a71d5d; font-weight: bold; ">endif</span><br /><br /><span style="color: #333333; font-weight: bold; ">if</span> v2 <span style="color: #333333; font-weight: bold; ">in</span> (<span style="color: #df5000; ">"walking;hiking;bicycle;horse riding;fishing"</span>) <span style="color: #333333; font-weight: bold; ">then</span><br /><span style="color: #a71d5d; font-weight: bold; ">vtemp</span>=vtemp &amp; <span style="color: #df5000; ">";"</span> &amp; <span style="color: #df5000; ">"Nature sport"</span><br /><span style="color: #a71d5d; font-weight: bold; ">endif</span><br /><br /><span style="color: #333333; font-weight: bold; ">if</span> v2 <span style="color: #333333; font-weight: bold; ">in</span> (<span style="color: #df5000; ">"skiing;nordic walking"</span>) <span style="color: #333333; font-weight: bold; ">then</span><br /><span style="color: #a71d5d; font-weight: bold; ">vtemp</span>=vtemp &amp; <span style="color: #df5000; ">";"</span> &amp; <span style="color: #df5000; ">"Winter sport"</span><br /><span style="color: #a71d5d; font-weight: bold; ">endif</span><br /><br /><span style="color: #333333; font-weight: bold; ">if</span> v2 <span style="color: #333333; font-weight: bold; ">in</span> (<span style="color: #df5000; ">"gliding;tennis"</span>) <span style="color: #333333; font-weight: bold; ">then</span><br /><span style="color: #a71d5d; font-weight: bold; ">vtemp</span>=vtemp &amp; <span style="color: #df5000; ">";"</span> &amp; <span style="color: #df5000; ">"Other sport"</span><br /><span style="color: #a71d5d; font-weight: bold; ">endif</span><br /><br /><span style="color: #a71d5d; font-weight: bold; ">v</span>=vtemp</code></pre>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" />Creating a closed multiple variable from several closed single variables</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p>In this example, the purpose is get the different types of sports (categories) from the answers to the questions: <span class="bold">hiking</span>, <span class="bold">canoeing</span> and <span class="bold">skiing</span>.</p>
+                                                <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/Calculs_variable_multiple_from_single.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="666" data-mc-height="146" src="../Resources/Images/Calculs_variable_multiple_from_single.png" alt="" title="" tabindex="" style="max-width: 200px;max-height: 200px;" /></a>
+                                                </p>
+                                                <div class="codeSnippet"><a class="codeSnippetCopyButton" role="button" href="javascript:void(0);">Copy</a>
+                                                    <div style="mc-code-lang: Haskell;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="True"><pre><span class="codeSnippetLineNumbers" style="border-right: solid 2px #000000;" aria-hidden="true">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+</span><code><span style="color: #a71d5d; ">If</span> hiking <span style="color: #333333; font-weight: bold; ">in</span> <span style="color: #df5000; ">"Yes"</span> <span style="color: #333333; font-weight: bold; ">then</span><br /><span style="color: #a71d5d; ">Vtemp</span>= <span style="color: #df5000; ">"Nature sport"</span><br /><span style="color: #333333; font-weight: bold; ">else</span><br /><span style="color: #a71d5d; ">Vtemp</span>=<span style="color: #df5000; ">""</span><br /><span style="color: #a71d5d; font-weight: bold; ">endif</span><br /><br /><span style="color: #a71d5d; ">If</span> canoeing <span style="color: #333333; font-weight: bold; ">in</span> <span style="color: #df5000; ">"Yes"</span> <span style="color: #333333; font-weight: bold; ">then</span><br /><span style="color: #a71d5d; ">Vtemp2</span>= <span style="color: #df5000; ">"Water sport"</span><br /><span style="color: #333333; font-weight: bold; ">else</span><br /><span style="color: #a71d5d; ">Vtemp2</span>=<span style="color: #df5000; ">""</span><br /><span style="color: #a71d5d; font-weight: bold; ">endif</span><br /><br /><span style="color: #a71d5d; ">If</span> skiing <span style="color: #333333; font-weight: bold; ">in</span> <span style="color: #df5000; ">"Yes"</span> <span style="color: #333333; font-weight: bold; ">then</span><br /><span style="color: #a71d5d; ">Vtemp3</span>= <span style="color: #df5000; ">"Winter sport"</span><br /><span style="color: #333333; font-weight: bold; ">else</span><br /><span style="color: #a71d5d; ">Vtemp3</span>=<span style="color: #df5000; ">""</span><br /><span style="color: #a71d5d; font-weight: bold; ">endif</span><br /><br /><span style="color: #a71d5d; ">V</span>= <span style="color: #a71d5d; ">Vtemp</span> &amp; <span style="color: #df5000; ">";"</span> &amp; <span style="color: #a71d5d; ">Vtemp2</span> &amp; <span style="color: #df5000; ">";"</span> &amp; <span style="color: #a71d5d; ">Vtemp3</span></code></pre>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" />Reusing the name of the variable with the highest numerical value from a list of variables</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/Calculs_variable_max.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="316" data-mc-height="233" src="../Resources/Images/Calculs_variable_max.png" alt="" title="" tabindex="" style="max-width: 200px;max-height: 200px;" /></a>
+                                                </p>
+                                                <div class="codeSnippet"><a class="codeSnippetCopyButton" role="button" href="javascript:void(0);">Copy</a>
+                                                    <div style="mc-code-lang: Haskell;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="True"><pre><span class="codeSnippetLineNumbers" style="border-right: solid 2px #000000;" aria-hidden="true">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+</span><code><span style="color: #a71d5d; ">Vtemp</span>=<span style="color: #df5000; ">""</span><br /><br /><span style="color: #a71d5d; ">If</span> <span style="color: #a71d5d; ">Maximum</span>(<span style="color: #df5000; ">"France;Spain;Italy"</span>)=<span style="color: #a71d5d; ">France</span> <span style="color: #333333; font-weight: bold; ">then</span><br /><span style="color: #a71d5d; ">Vtemp</span>=vtemp &amp; <span style="color: #df5000; ">"France"</span> &amp; <span style="color: #df5000; ">";"</span><br /><span style="color: #a71d5d; font-weight: bold; ">endif</span><br /><br /><span style="color: #a71d5d; ">If</span> <span style="color: #a71d5d; ">Maximum</span> (<span style="color: #df5000; ">"France;Spain;Italy"</span>)=<span style="color: #a71d5d; ">Spain</span> <span style="color: #333333; font-weight: bold; ">then</span><br /><span style="color: #a71d5d; ">Vtemp</span>=vtemp &amp; <span style="color: #df5000; ">"Spain"</span> &amp; <span style="color: #df5000; ">";"</span><br /><span style="color: #a71d5d; font-weight: bold; ">endif</span><br /><br /><span style="color: #a71d5d; ">If</span> <span style="color: #a71d5d; ">Maximum</span> (<span style="color: #df5000; ">"France;Spain;Italy"</span>)=<span style="color: #a71d5d; ">Italy</span> <span style="color: #333333; font-weight: bold; ">then</span><br /><span style="color: #a71d5d; ">Vtemp</span>=vtemp &amp; <span style="color: #df5000; ">"Italy"</span> &amp; <span style="color: #df5000; ">";"</span><br /><span style="color: #a71d5d; font-weight: bold; ">endif</span><br /><br /><span style="color: #a71d5d; font-weight: bold; ">v</span>=<span style="color: #a71d5d; ">Vtemp</span></code></pre>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" />Display the absolute frequency of a variable modality according to a profile</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/Calculs_effectif_selon_profil.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="739" data-mc-height="383" src="../Resources/Images/Calculs_effectif_selon_profil.png" alt="" title="" tabindex="" style="max-width: 200px;max-height: 200px;" /></a>
+                                                </p>
+                                                <p>Absolute frequency of <span class="bold">BMW</span> brand for <span class="bold">men</span>.</p>
+                                                <div class="codeSnippet"><a class="codeSnippetCopyButton" role="button" href="javascript:void(0);">Copy</a>
+                                                    <div style="mc-code-lang: Haskell;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="True"><pre><span class="codeSnippetLineNumbers" style="border-right: solid 2px #000000;" aria-hidden="true">1
+</span><code><span style="color: #a71d5d; font-weight: bold; ">brand</span>.<span style="color: #a71d5d; ">Frequency</span>(<span style="color: #df5000; ">"BMW"</span>,<span style="color: #df5000; ">"gender=\"</span><span style="color: #a71d5d; ">1</span>\<span style="color: #df5000; ">""</span>)</code></pre>
+                                                    </div>
+                                                </div>
+                                                <p>Absolute frequency of <span class="bold">BMW</span>&#160;brand for <span class="bold">men</span> using <span class="bold">diesel</span>.</p>
+                                                <div class="codeSnippet"><a class="codeSnippetCopyButton" role="button" href="javascript:void(0);">Copy</a>
+                                                    <div style="mc-code-lang: Haskell;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="True"><pre><span class="codeSnippetLineNumbers" style="border-right: solid 2px #000000;" aria-hidden="true">1
+</span><code><span style="color: #a71d5d; font-weight: bold; ">brand</span>.<span style="color: #a71d5d; ">Frequency</span>(<span style="color: #df5000; ">"BMW"</span>,<span style="color: #df5000; ">"gender=\"</span><span style="color: #a71d5d; ">1</span>\<span style="color: #df5000; ">" and fuel=\"</span><span style="color: #a71d5d; font-weight: bold; ">diesel</span>\<span style="color: #df5000; ">""</span>)</code></pre>
+                                                    </div>
+                                                </div>
+                                                <p>Absolute frequency of <span class="bold">BMW</span> brand for <span class="bold">men</span> using any type of fuel.</p>
+                                                <div class="codeSnippet"><a class="codeSnippetCopyButton" role="button" href="javascript:void(0);">Copy</a>
+                                                    <div style="mc-code-lang: Haskell;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="True"><pre><span class="codeSnippetLineNumbers" style="border-right: solid 2px #000000;" aria-hidden="true">1
+</span><code><span style="color: #a71d5d; font-weight: bold; ">brand</span>.<span style="color: #a71d5d; ">Frequency</span>(<span style="color: #df5000; ">"BMW"</span>,<span style="color: #df5000; ">"gender=\"</span><span style="color: #a71d5d; ">1</span>\<span style="color: #df5000; ">" and fuel in \"</span><span style="color: #a71d5d; ">1</span>;<span style="color: #a71d5d; ">2</span>;<span style="color: #a71d5d; ">3</span>;<span style="color: #a71d5d; ">4</span>;<span style="color: #a71d5d; ">5</span>\<span style="color: #df5000; ">""</span>)</code></pre>
+                                                    </div>
+                                                </div>
+                                                <p>Backslashes before the modalities numbers are used to specify that you are using the number of a modality, not its label (useful particularly when the labels include numbers as it would be the case for a rating between 0 and 10 for instance).</p>
+                                                <p>To filter with several modalities, you need to use the keyword <span class="bold">in</span> followed by the list of modalities divided by semi-colons framed by quotation marks.</p>
+                                                <p>If you apply a function (percentage, for example) to a profile, you have to frame the profile with quotation marks.&#160;So if you need to use quotation marks in the profile definition expression, you need to "escape" them with a backslash (\)/</p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" />Calculating a moving reference period</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <h2>6 months moving reference</h2>
+                                                <p>
+                                                    <img src="../Resources/Images/Calculs_periode_glissante_en.png" alt="" title="" />
+                                                </p>
+                                                <div class="codeSnippet"><a class="codeSnippetCopyButton" role="button" href="javascript:void(0);">Copy</a>
+                                                    <div style="mc-code-lang: Haskell;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="True"><pre><span class="codeSnippetLineNumbers" style="border-right: solid 2px #000000;" aria-hidden="true">1
+2
+3
+4
+5
+</span><code><span style="color: #333333; font-weight: bold; ">if</span> <span style="color: #a71d5d; ">Age</span>(month,<span style="color: #df5000; ">"mm"</span>)&lt;=<span style="color: #a71d5d; ">6</span> <span style="color: #333333; font-weight: bold; ">then</span><br /><span style="color: #a71d5d; font-weight: bold; ">v</span>=<span style="color: #df5000; ">"6 months and less"</span><br /><span style="color: #333333; font-weight: bold; ">else</span><br /><span style="color: #a71d5d; font-weight: bold; ">v</span>=<span style="color: #df5000; ">"More than 6 months"</span><br /><span style="color: #a71d5d; font-weight: bold; ">endif</span></code></pre>
+                                                    </div>
+                                                </div>
+                                                <h2>3 months moving reference</h2>
+                                                <p>
+                                                    <img src="../Resources/Images/Calculs_periode_glissante_3mois.png" alt="" title="" />
+                                                </p>
+                                                <div class="codeSnippet"><a class="codeSnippetCopyButton" role="button" href="javascript:void(0);">Copy</a>
+                                                    <div style="mc-code-lang: Haskell;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="True"><pre><span class="codeSnippetLineNumbers" style="border-right: solid 2px #000000;" aria-hidden="true">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+</span><code><span style="color: #a71d5d; ">If</span> year(now)=year(date_input) and ((month(now)-month(date_input))&lt;=<span style="color: #a71d5d; ">3</span>) <span style="color: #333333; font-weight: bold; ">then</span><br /><span style="color: #a71d5d; font-weight: bold; ">v</span>=<span style="color: #df5000; ">"Less than 3 months"</span><br /><br /><span style="color: #a71d5d; font-weight: bold; ">elseif</span> year(now)-year(date_input)=<span style="color: #a71d5d; ">1</span> and ((month(now)+<span style="color: #a71d5d; ">12</span>-month(date_input))&lt;=<span style="color: #a71d5d; ">3</span>) <span style="color: #333333; font-weight: bold; ">then</span><br /><span style="color: #a71d5d; font-weight: bold; ">v</span>=<span style="color: #df5000; ">"Less than 3 months"</span><br /><br /><span style="color: #333333; font-weight: bold; ">else</span><br /><span style="color: #a71d5d; font-weight: bold; ">v</span>=<span style="color: #df5000; ">"More than 3 months"</span><br /><br /><span style="color: #a71d5d; font-weight: bold; ">endif</span></code></pre>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" />Replacing a line break in a free text question with a space</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <div class="codeSnippet"><a class="codeSnippetCopyButton" role="button" href="javascript:void(0);">Copy</a>
+                                                    <div style="mc-code-lang: Haskell;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="True"><pre><span class="codeSnippetLineNumbers" style="border-right: solid 2px #000000;" aria-hidden="true">1
+</span><code><span style="color: #a71d5d; font-weight: bold; ">v</span>=<span style="color: #a71d5d; ">Replace</span>(<span style="color: #a71d5d; ">Comment</span>,<span style="color: #df5000; ">"\r\n"</span>, <span style="color: #df5000; ">" "</span>)</code></pre>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" />Random sampling of 5 modalities among 10</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <div class="codeSnippet"><a class="codeSnippetCopyButton" role="button" href="javascript:void(0);">Copy</a>
+                                                    <div style="mc-code-lang: Haskell;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="True"><pre><span class="codeSnippetLineNumbers" style="border-right: solid 2px #000000;" aria-hidden="true">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+</span><code><span style="color: #a71d5d; font-weight: bold; ">temp</span> = <span style="color: #df5000; ">""</span><br /><br /><span style="color: #a71d5d; ">For</span> i = <span style="color: #a71d5d; ">1</span> to <span style="color: #a71d5d; ">5</span><br /><br /><span style="color: #a71d5d; font-weight: bold; ">alea</span> = <span style="color: #a71d5d; ">Rnd</span>(<span style="color: #a71d5d; ">1</span>, <span style="color: #a71d5d; ">10</span>) &amp; <span style="color: #df5000; ">";"</span><br /><br /><span style="color: #a71d5d; ">Do</span> <span style="color: #a71d5d; ">While</span> temp <span style="color: #a71d5d; ">Containing</span> alea<br /><br /><span style="color: #a71d5d; font-weight: bold; ">alea</span> = <span style="color: #a71d5d; ">Rnd</span>(<span style="color: #a71d5d; ">1</span>, <span style="color: #a71d5d; ">10</span>) &amp; <span style="color: #df5000; ">";"</span><br /><br /><span style="color: #a71d5d; ">Loop</span><br /><br /><span style="color: #a71d5d; font-weight: bold; ">temp</span> = temp &amp; alea<br /><br /><span style="color: #a71d5d; ">Next</span> i<br /><br /><span style="color: #a71d5d; ">V</span>=temp</code></pre>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" />Display the turnover for a specific year</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p>In this example, the purpose is to display the turnover for 2019 from the variables <span class="bold">turnover</span> and <span class="bold">year</span> by typing the following script directly in a view analysis.</p>
+                                                <div class="codeSnippet"><a class="codeSnippetCopyButton" role="button" href="javascript:void(0);">Copy</a>
+                                                    <div style="mc-code-lang: Haskell;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="True"><pre><span class="codeSnippetLineNumbers" style="border-right: solid 2px #000000;" aria-hidden="true">1
+</span><code>[turnover.sum(<span style="color: #df5000; ">"[Year] in\"</span><span style="color: #a71d5d; ">2019</span>\<span style="color: #df5000; ">""</span>)]</code></pre>
+                                                    </div>
+                                                </div>
+                                                <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/Calculs_turnover_2019_final.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="906" data-mc-height="128" src="../Resources/Images/Calculs_turnover_2019_final.png" alt="" title="" tabindex="" style="max-width: 200px;max-height: 200px;" /></a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" />Counting the number of values in a range of variables</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p>There are 7 numerical variables (V31 =&gt; V37). </p>
+                                                <p>The goal is to count the number of 0.</p>
+                                                <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/Calculs_nb0.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="610" data-mc-height="102" src="../Resources/Images/Calculs_nb0.png" alt="" title="" tabindex="" style="max-width: 200px;max-height: 200px;" /></a>
+                                                </p>
+                                                <p>Script 1:</p>
+                                                <div class="codeSnippet"><a class="codeSnippetCopyButton" role="button" href="javascript:void(0);">Copy</a>
+                                                    <div style="mc-code-lang: Haskell;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="True"><pre><span class="codeSnippetLineNumbers" style="border-right: solid 2px #000000;" aria-hidden="true">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+</span><code><span style="color: #a71d5d; font-weight: bold; ">vtemp</span>=<span style="color: #a71d5d; ">0</span><br /><br /><span style="color: #a71d5d; font-weight: bold; ">v_val</span>(<span style="color: #a71d5d; ">1</span>)=v31<br /><span style="color: #a71d5d; font-weight: bold; ">v_val</span>(<span style="color: #a71d5d; ">2</span>)=v32<br /><span style="color: #a71d5d; font-weight: bold; ">v_val</span>(<span style="color: #a71d5d; ">3</span>)=v33<br /><span style="color: #a71d5d; font-weight: bold; ">v_val</span>(<span style="color: #a71d5d; ">4</span>)=v34<br /><span style="color: #a71d5d; font-weight: bold; ">v_val</span>(<span style="color: #a71d5d; ">5</span>)=v35<br /><span style="color: #a71d5d; font-weight: bold; ">v_val</span>(<span style="color: #a71d5d; ">6</span>)=v36<br /><span style="color: #a71d5d; font-weight: bold; ">v_val</span>(<span style="color: #a71d5d; ">7</span>)=v37<br /><br /><span style="color: #a71d5d; ">For</span> i = <span style="color: #a71d5d; ">1</span> to <span style="color: #a71d5d; ">7</span><br /><span style="color: #333333; font-weight: bold; ">if</span> v_val(i)=<span style="color: #a71d5d; ">0</span> <span style="color: #333333; font-weight: bold; ">then</span><br /><span style="color: #a71d5d; font-weight: bold; ">vtemp</span>=vtemp+<span style="color: #a71d5d; ">1</span><br /><span style="color: #a71d5d; font-weight: bold; ">endif</span><br /><span style="color: #a71d5d; ">Next</span><br /><br /><span style="color: #a71d5d; font-weight: bold; ">v</span>=vtemp</code></pre>
+                                                    </div>
+                                                </div>
+                                                <p>Script 2:</p>
+                                                <div class="codeSnippet"><a class="codeSnippetCopyButton" role="button" href="javascript:void(0);">Copy</a>
+                                                    <div style="mc-code-lang: Haskell;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="True"><pre><span class="codeSnippetLineNumbers" style="border-right: solid 2px #000000;" aria-hidden="true">1
+2
+3
+4
+5
+6
+7
+8
+9
+</span><code><span style="color: #a71d5d; font-weight: bold; ">vtemp</span>=<span style="color: #a71d5d; ">0</span><br /><br /><span style="color: #a71d5d; ">For</span> i = <span style="color: #a71d5d; ">31</span> to <span style="color: #a71d5d; ">37</span><br /><span style="color: #333333; font-weight: bold; ">if</span> eval(<span style="color: #df5000; ">"v"</span> &amp; i)=<span style="color: #a71d5d; ">0</span> <span style="color: #333333; font-weight: bold; ">then</span><br /><span style="color: #a71d5d; font-weight: bold; ">vtemp</span>=vtemp+<span style="color: #a71d5d; ">1</span><br /><span style="color: #a71d5d; font-weight: bold; ">endif</span><br /><span style="color: #a71d5d; ">Next</span><br /><br /><span style="color: #a71d5d; font-weight: bold; ">v</span>=vtemp</code></pre>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" />Getting the number of observations in relation to a date variable</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <div class="codeSnippet"><a class="codeSnippetCopyButton" role="button" href="javascript:void(0);">Copy</a>
+                                                    <div style="mc-code-lang: Haskell;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="True"><pre><span class="codeSnippetLineNumbers" style="border-right: solid 2px #000000;" aria-hidden="true">1
+</span><code>[<span style="color: #a71d5d; ">NumberOfObservations</span>(<span style="color: #df5000; ">"date_arrival&gt;\"</span><span style="color: #a71d5d; ">31</span>/<span style="color: #a71d5d; ">07</span>/<span style="color: #a71d5d; ">2020</span>\<span style="color: #df5000; ">""</span>)]</code></pre>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" />Choosing a random value among determined values</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <div class="codeSnippet"><a class="codeSnippetCopyButton" role="button" href="javascript:void(0);">Copy</a>
+                                                    <div style="mc-code-lang: Haskell;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="True"><pre><span class="codeSnippetLineNumbers" style="border-right: solid 2px #000000;" aria-hidden="true">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+</span><code><span style="color: #a71d5d; font-weight: bold; ">vtemp</span>(<span style="color: #a71d5d; ">1</span>)=<span style="color: #a71d5d; ">1</span><br /><span style="color: #a71d5d; font-weight: bold; ">vtemp</span>(<span style="color: #a71d5d; ">2</span>)=<span style="color: #a71d5d; ">2</span><br /><span style="color: #a71d5d; font-weight: bold; ">vtemp</span>(<span style="color: #a71d5d; ">3</span>)=<span style="color: #a71d5d; ">3</span><br /><span style="color: #a71d5d; font-weight: bold; ">vtemp</span>(<span style="color: #a71d5d; ">4</span>)=<span style="color: #a71d5d; ">4</span><br /><span style="color: #a71d5d; font-weight: bold; ">vtemp</span>(<span style="color: #a71d5d; ">5</span>)=<span style="color: #a71d5d; ">5</span><br /><span style="color: #a71d5d; font-weight: bold; ">vtemp</span>(<span style="color: #a71d5d; ">6</span>)=<span style="color: #a71d5d; ">6</span><br /><span style="color: #a71d5d; font-weight: bold; ">vtemp</span>(<span style="color: #a71d5d; ">7</span>)=<span style="color: #a71d5d; ">7</span><br /><br /><span style="color: #a71d5d; font-weight: bold; ">alea</span>=<span style="color: #a71d5d; ">Rnd</span>(<span style="color: #a71d5d; ">1</span>,<span style="color: #a71d5d; ">7</span>)<br /><br /><span style="color: #a71d5d; font-weight: bold; ">v</span>=eval(<span style="color: #df5000; ">"vtemp("</span> &amp; alea &amp; <span style="color: #df5000; ">")"</span>)</code></pre>
+                                                    </div>
+                                                </div>
+                                                <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/Calculs_valaleatoire_parmi_definies.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="545" data-mc-height="341" src="../Resources/Images/Calculs_valaleatoire_parmi_definies.png" alt="" title="" tabindex="" style="max-width: 200px;max-height: 200px;" /></a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" />Calculating a duration in minutes and seconds between two variables type Date/Hour</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <div class="codeSnippet"><a class="codeSnippetCopyButton" role="button" href="javascript:void(0);">Copy</a>
+                                                    <div style="mc-code-lang: Haskell;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="True"><pre><span class="codeSnippetLineNumbers" style="border-right: solid 2px #000000;" aria-hidden="true">1
+2
+</span><code><span style="color: #a71d5d; ">Vtemp</span>=<span style="color: #a71d5d; ">Duration</span>([arrival],[departure])<br /><span style="color: #a71d5d; ">V</span>=<span style="color: #a71d5d; ">FormatDuration</span>(<span style="color: #a71d5d; ">Vtemp</span>,<span style="color: #df5000; ">"j"</span>,<span style="color: #df5000; ">"h\h\ m\m\ s\s\"</span>)</code></pre>
+                                                    </div>
+                                                </div>
+                                                <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/Calculs_duree.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="782" data-mc-height="544" src="../Resources/Images/Calculs_duree.png" alt="" title="" tabindex="" style="max-width: 200px;max-height: 200px;" /></a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" />Getting the number of observations including at least one of the specified modalities in a multiple question</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <div class="codeSnippet"><a class="codeSnippetCopyButton" role="button" href="javascript:void(0);">Copy</a>
+                                                    <div style="mc-code-lang: Haskell;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="True"><pre><span class="codeSnippetLineNumbers" style="border-right: solid 2px #000000;" aria-hidden="true">1
+2
+</span><code><span style="color: #a71d5d; ">NumberOfObservations</span>(<span style="color: #df5000; ">"Activites in \"</span><span style="color: #a71d5d; ">Idleness</span>;<span style="color: #a71d5d; ">Fishing</span>;<span style="color: #a71d5d; ">Tennis</span>\<span style="color: #df5000; ">""</span>)<br /><span style="color: #a71d5d; ">NumberOfObservations</span>(<span style="color: #df5000; ">"Activites in \"</span><span style="color: #a71d5d; ">1</span>;<span style="color: #a71d5d; ">2</span>;<span style="color: #a71d5d; ">3</span>\<span style="color: #df5000; ">""</span>)</code></pre>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" />Getting the absolute frequency of a modality selected by the respondent</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <div class="codeSnippet"><a class="codeSnippetCopyButton" role="button" href="javascript:void(0);">Copy</a>
+                                                    <div style="mc-code-lang: Haskell;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="True"><pre><span class="codeSnippetLineNumbers" style="border-right: solid 2px #000000;" aria-hidden="true">1
+</span><code><span style="color: #a71d5d; font-weight: bold; ">v</span>=<span style="color: #a71d5d; ">NumberOfObservations</span>(<span style="color: #df5000; ">"v2 in\"" &amp; v2.string &amp; "</span>\<span style="color: #df5000; ">""</span>)</code></pre>
+                                                    </div>
+                                                </div>
+                                                <p>*v2 to be replaced with the variable to use in your study.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><a data-close="true"></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

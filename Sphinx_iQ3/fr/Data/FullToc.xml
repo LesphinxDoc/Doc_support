@@ -1,0 +1,421 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc Version="1" DescendantCount="350">
+    <TocEntry Title="PRISE EN MAIN" ComputedFirstTopic="false" DescendantCount="13">
+        <TocEntry Title="Installation du logiciel" Link="/Installation_iq3.htm" ComputedResetPageLayout="true" ComputedFirstTopic="true" DescendantCount="0" />
+        <TocEntry Title="Organisation du logiciel" Link="/Prise_en_main_iQ3/Organisation_du_logiciel.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Créer une étude" ComputedFirstTopic="false" DescendantCount="6">
+            <TocEntry Title="Créer une nouvelle étude vierge" Link="/Prise_en_main_iQ3/Creer_etude/Etude_vierge.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Créer une étude à partir de questions générées par l'IA" Link="/Prise_en_main_iQ3/Creer_etude/Etude_par_IA.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Créer une étude par copier/coller de questions" Link="/Prise_en_main_iQ3/Creer_etude/Etude_copier_coller.htm" ComputeToc="false" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Recopier une étude existante" Link="/Prise_en_main_iQ3/Creer_etude/Recopier_etude_existante.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Partir d'une étude exemple" Link="/Prise_en_main_iQ3/Creer_etude/Etude_modele.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Créer une étude par import de données" Link="/Prise_en_main_iQ3/Creer_etude/Etude_import_donnees.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="Structure d'une enquête Sphinx" Link="/Prise_en_main_iQ3/Structure_enquete.htm" conditions="Default.IQ3&#160;OK" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Configurer le serveur de publication" Link="/Prise_en_main_iQ3/Configurer_serveur.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Enregistrer, copier, fermer une enquête" Link="/Prise_en_main_iQ3/Enregistrer_copier_fermer.htm" conditions="Default.IQ3&#160;OK" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Protéger l'étude par mot de passe" Link="/Prise_en_main_iQ3/Proteger_enquete_mdp.htm" conditions="Default.IQ3&#160;OK" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Convertir une enquête vers Sphinx iQ3" Link="/Prise_en_main_iQ3/Convertir_une_enquete_vers_iQ.htm" conditions="Default.IQ3&#160;OK" ComputedFirstTopic="false" DescendantCount="0" />
+    </TocEntry>
+    <TocEntry Title="QUESTIONNAIRE" Link="/Conception_questionnaire/Rediger_le_questionnaire.htm" ComputedFirstTopic="false" DescendantCount="55">
+        <TocEntry Title="Créer une partie" Link="/Conception_questionnaire/Creer_une_partie.htm" conditions="Default.IQ3&#160;OK" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Créer une question" Link="/Conception_questionnaire/Creer_une_question.htm" ComputedFirstTopic="false" DescendantCount="12">
+            <TocEntry Title="Question fermée" Link="/Conception_questionnaire/Creer_une_question.htm#FERMEE" StartSection="false" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Question échelle" Link="/Conception_questionnaire/Creer_une_question.htm#ECHELLE" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Question texte / code" Link="/Conception_questionnaire/Creer_une_question.htm#TEXTECODE" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Question numérique" Link="/Conception_questionnaire/Creer_une_question.htm#NUMERIQUE" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Question date / heure" Link="/Conception_questionnaire/Creer_une_question.htm#DATEHEURE" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Question tableau" Link="/Conception_questionnaire/Creer_une_question.htm#TABLEAU" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Question tableau multiple" Link="/Conception_questionnaire/Creer_une_question.htm#TABLEAUMULTIPLE" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Question document" Link="/Conception_questionnaire/Creer_une_question.htm#DOCUMENT" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Question &quot;bloc d'adresse&quot;" Link="/Conception_questionnaire/Creer_une_question.htm#BLOCADRESSE" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Question Commune Française" Link="/Conception_questionnaire/Creer_une_question.htm#COMMUNESFRANCAISES" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Importer des questions par copier/coller" Link="/Prise_en_main_iQ3/Creer_etude/Etude_copier_coller.htm#import_copier_coller" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Masquer une question" Link="/Conception_questionnaire/Masquer_question.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="Rappeler la réponse à une question précédente" Link="/Conception_questionnaire/Rappel_reponse.htm" StartSection="false" SectionNumberReset="continue" VolumeNumberReset="same" ChapterNumberReset="continue" ComputeToc="false" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Catégoriser les modalités" Link="/Conception_questionnaire/Categoriser_modalites.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Propriétés du formulaire" Link="/Conception_questionnaire/Proprietes_du_formulaire.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Créer un nouveau formulaire" Link="/Conception_questionnaire/Creer_un_nouveau_formulaire.htm" conditions="Default.IQ3&#160;OK" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Créer un formulaire Smartphone" Link="/Conception_questionnaire/Creer_formulaire_smartphone.htm" StartSection="false" SectionNumberReset="continue" VolumeNumberReset="same" ChapterNumberReset="continue" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Utiliser la bibliothèque de questions" Link="/Conception_questionnaire/Utiliser_la_bibliotheque.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Vérifier la grammaire et l'orthographe" Link="/Conception_questionnaire/Verifier_la_grammaire.htm" conditions="Default.IQ3&#160;OK" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Insérer une illustration (texte, image, vidéo)" Link="/Conception_questionnaire/Insertion_illustrations.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Insérer des boutons d'actions" Link="/Conception_questionnaire/Boutons_actions_barre_de_progression.htm" conditions="Default.IQ3&#160;OK" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Insérer un bouton Prompt IA" Link="/Conception_questionnaire/Bouton_promptIA.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Ajouter un élément au masque" Link="/Conception_questionnaire/Inserer_zone_de_masque.htm" conditions="Default.IQ3&#160;OK" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Contrôler la saisie" ComputedFirstTopic="false" DescendantCount="5">
+            <TocEntry Title="Rendre la réponse obligatoire" Link="/Conception_questionnaire/Controler_saisie/Rendre_la_reponse_obligatoire.htm" conditions="Default.IQ3&#160;OK" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Insérer une consigne" Link="/Conception_questionnaire/Controler_saisie/Inserer_une_consigne.htm" conditions="Default.IQ3&#160;OK" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Activer une contrainte de saisie" Link="/Conception_questionnaire/Controler_saisie/Contrainte_de_saisie.htm" conditions="Default.IQ3&#160;OK" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Gérer les valeurs des non-concernées" Link="/Conception_questionnaire/Controler_saisie/Gerer_non_concernees.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Mettre en place une modalité exclusive" Link="/Conception_questionnaire/Controler_saisie/Modalites_exclusives.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="Bien présenter un formulaire" Link="/Conception_questionnaire/Bien_presenter_un_questionnaire.htm" ComputedFirstTopic="false" DescendantCount="7">
+            <TocEntry Title="Créer un modèle de présentation de formulaire" Link="/Conception_questionnaire/Presentation_formulaire/Creer_un_modele_de_presentation.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Modifier les paramètres de présentation d'une question" Link="/Conception_questionnaire/Presentation_formulaire/Modifier_les_parametres.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Placer les objets" Link="/Conception_questionnaire/Presentation_formulaire/Placer_les_objets.htm" conditions="Default.IQ3&#160;OK" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Aligner, retailler, répartir et ordonner les élements" Link="/Conception_questionnaire/Presentation_formulaire/Aligner_retailler_repartir_ordonner.htm" conditions="Default.IQ3&#160;OK" ComputeToc="false" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Gestion de l'entête, pied de page et marges" Link="/Conception_questionnaire/Presentation_formulaire/gestion_entete_marges.htm" conditions="Default.IQ3&#160;OK" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Réorganiser la liste des variables / questions" Link="/Conception_questionnaire/Presentation_formulaire/Reorganiser_la_liste_des_variables.htm" conditions="Default.IQ3&#160;OK" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Insérer une nouvelle page" Link="/Conception_questionnaire/Presentation_formulaire/Inserer_une_nouvelle_page.htm" conditions="Default.IQ3&#160;OK" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="Animer le formulaire" Link="/Conception_questionnaire/Animer_formulaire/Activer_une_condition_de_presentation.htm" ComputedFirstTopic="false" DescendantCount="8">
+            <TocEntry Title="Activer une condition de présentation" Link="/Conception_questionnaire/Animer_formulaire/Activer_une_condition_de_presentation.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Activer un renvoi de questions" Link="/Conception_questionnaire/Animer_formulaire/Activer_un_renvoi_de_questions.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Mettre en place des variables automatiques" Link="/Conception_questionnaire/Animer_formulaire/Mettre_en_place_des_variables_auto.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Présenter aléatoirement des modalités et des lignes" Link="/Conception_questionnaire/Animer_formulaire/Rotation_modalites_lignes.htm" conditions="Default.IQ3&#160;OK" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Sélectionner aléatoirement les lignes" Link="/Conception_questionnaire/Animer_formulaire/Selectionner_aleatoirement_les_lignes.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Présenter aléatoirement des pages" Link="/Conception_questionnaire/Animer_formulaire/Prensenter_pages.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Affecter une valeur par défaut" Link="/Conception_questionnaire/Animer_formulaire/Affecter_une_valeur_par_defaut.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Classer par ordre alphabétique" Link="/Conception_questionnaire/Animer_formulaire/Classer_ordre_alphabetique.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="Insérer un code HTML" Link="/Conception_questionnaire/Code_html.htm" conditions="Default.IQ3&#160;OK" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Changer le mode de navigation" Link="/Conception_questionnaire/Changer_mode_navigation.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Tester le questionnaire" Link="/Conception_questionnaire/Tester_questionnaire.htm" ComputeToc="false" conditions="Default.IQ3&#160;OK" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Traduire l'enquête" Link="/Conception_questionnaire/Traduire_enquete.htm" conditions="Default.IQ3&#160;OK" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Insérer une analyse dans un formulaire" Link="/Conception_questionnaire/Vue.htm" conditions="Default.IQ3&#160;OK" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Lancer des calculs basiques" Link="/Conception_questionnaire/Calcul_basiques.htm" conditions="Default.IQ3&#160;OK" StartSection="false" SectionNumberReset="continue" VolumeNumberReset="same" ChapterNumberReset="continue" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Automatiser le traitement au fil de l'eau" Link="/Analyse_textuelle/Automatisation_au_fil_de_leau.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Exporter le formulaire ou la liste des variables" Link="/Conception_questionnaire/Exporter_formulaire_variables.htm" StartSection="false" conditions="Default.IQ3&#160;OK" ComputedFirstTopic="false" DescendantCount="0" />
+    </TocEntry>
+    <TocEntry Title="DIFFUSION ET COLLECTE" Link="/Diffusion_collecte/Diffusion_et_collecte.htm" ComputedFirstTopic="false" DescendantCount="22">
+        <TocEntry Title="Saisir et consulter les observations" Link="/Diffusion_collecte/Saisir_et_consulter_les_observations.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Publier / republier l'étude" Link="/Diffusion_collecte/Mettre_en_ligne_enquete.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Options de publication" Link="/Diffusion_collecte/Options_de_publication.htm" ComputedFirstTopic="false" DescendantCount="6">
+            <TocEntry Title="Définir des raccourcis" Link="/Diffusion_collecte/Options_publication/Definir_des_raccourcis.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Action après enregistrement" Link="/Diffusion_collecte/Options_publication/Action_apres_enregistrement.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Notifier par e-mail" Link="/Diffusion_collecte/Options_publication/Notifier_par_email.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Notifications SphinxReport" Link="/Diffusion_collecte/Options_publication/Notifications_SphinxReport.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Contrôler l'accès à l'étude" Link="/Diffusion_collecte/Options_publication/Code_acces.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Identification du répondant" Link="/Diffusion_collecte/Options_publication/Identification_du_repondant.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="Télécharger les données depuis le compte en ligne" Link="/Diffusion_collecte/Telecharger_des_donnees.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Importer des données externes" Link="/Diffusion_collecte/Importer_donnees_externes.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Lecture scanner" Link="/Scanner/Acquisition_scanner.htm" StartSection="false" SectionNumberReset="continue" VolumeNumberReset="same" ChapterNumberReset="continue" ComputedFirstTopic="false" DescendantCount="10">
+            <TocEntry Title="Réaliser un formulaire Scanner" Link="/Scanner/Creer_formulaire.htm" ComputedFirstTopic="false" DescendantCount="3">
+                <TocEntry Title="Créer &amp; mettre en forme un formulaire" Link="/Scanner/Creer_formulaire.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Pré charger des informations dans le formulaire" Link="/Scanner/Champs_pre_remplis.htm" StartSection="false" SectionNumberReset="continue" VolumeNumberReset="same" ChapterNumberReset="continue" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Imprimer le formulaire" Link="/Scanner/Imprimer_formulaire.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="Acquérir des documents" Link="/Scanner/Importation_des_documents.htm" ComputedFirstTopic="false" DescendantCount="4">
+                <TocEntry Title="Importer les documents" Link="/Scanner/Importation_des_documents.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Relire et vérifier les documents scannés" Link="/Scanner/Relecture_verification_documents.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Collecter des éléments textuels" Link="/Scanner/Collecte_elements_textuels.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Affecter des valeurs" Link="/Scanner/Affecter_des_valeurs.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="Paramétrage avancé" Link="/Scanner/Parametrage_avance.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+    </TocEntry>
+    <TocEntry Title="GESTION DE DONNÉES" Link="/Donnees/Gestion_de_donnees.htm" ComputedFirstTopic="false" DescendantCount="38">
+        <TocEntry Title="Sélectionner les variables à afficher" Link="/Donnees/Tableur/Selectionner_les_variables.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Ajouter / Supprimer des observations" Link="/Donnees/Tableur/Ajouter_supprimer_des_observations.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Trier, Filtrer, Repérer des observations" Link="/Donnees/Tableur/Trier_filtrer_reperer.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Exporter la base de données dans MS Office" Link="/Donnees/Tableur/Explorer_la_base_de_donnees.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Mettre en place un calcul prédéfini" Link="/Donnees/Tableur/Mettre_en_place_un_calcul.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Transformer une variable" Link="/Donnees/Tableur/Transformer_une_variable.htm" ComputedFirstTopic="false" DescendantCount="6">
+            <TocEntry Title="Changer le type" Link="/Donnees/Tableur/Transformer_une_variable.htm#CHANGER" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Gérer les modalités" Link="/Donnees/Tableur/Transformer_une_variable.htm#GERER" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Mettre les nombres en classes" Link="/Donnees/Tableur/Transformer_une_variable.htm#METTRE" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Regrouper les codes" Link="/Donnees/Tableur/Transformer_une_variable.htm#CODES" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Regrouper les dates" Link="/Donnees/Tableur/Transformer_une_variable.htm#DATES" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Extraire de l'information des textes" Link="/Donnees/Tableur/Transformer_une_variable.htm#EXTRAIRE" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="Combiner des variables" Link="/Donnees/Tableur/Combiner_des_variables.htm" ComputedFirstTopic="false" DescendantCount="4">
+            <TocEntry Title="Créer une variable « Profils »" Link="/Donnees/Tableur/Combiner_des_variables.htm#PROFILS" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Fusionner" Link="/Donnees/Tableur/Combiner_des_variables.htm#FUSIONNER" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Transposer" Link="/Donnees/Tableur/Combiner_des_variables.htm#TRANSPOSER" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Concaténer" Link="/Donnees/Tableur/Combiner_des_variables.htm#CONCATENER" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="Numéroter automatiquement les observations" Link="/Donnees/Tableur/Numeroter_automatiquement.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Repérer et supprimer les doublons" Link="/Donnees/Tableur/Reperer_et_supprimer_les_doublons.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Redresser / Définir des quotas" Link="/Donnees/Tableur/Redresser_definir_des_quotas.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Qualifier les données" Link="/Donnees/Tableur/Qualifier_les_donnees.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Télécharger les données depuis le compte en ligne" Link="/Donnees/Tableur/Telecharger_des_donnees_tableur.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Importer des données externes" Link="/Diffusion_collecte/Importer_donnees_externes.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Générer des données" Link="/Donnees/Tableur/Generer_des_donnees.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Comparer des données" Link="/Donnees/Tableur/Comparer_des_donnees.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Rassembler des données" Link="/Donnees/Tableur/Rassembler_les_donnees.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Fusionner des enquêtes" Link="/Donnees/Tableur/Fusionner_des_enquetes.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Faire un changement d'unité statistique" Link="/Donnees/Tableur/Changement_unite_stat.htm" ComputedFirstTopic="false" DescendantCount="3">
+            <TocEntry Title="Regrouper" Link="/Donnees/Tableur/Changement_unite_stat.htm#REGROUPER" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Éclater" Link="/Donnees/Tableur/Changement_unite_stat.htm#ECLATER" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Diviser" Link="/Donnees/Tableur/Changement_unite_stat.htm#DIVISER" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="Vérifier l'orthographe" Link="/Donnees/Tableur/Verifier_orthographe.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Traduire les réponses" Link="/Donnees/Tableur/Traduire.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Lemmatiser" Link="/Donnees/Tableur/Lemmatiser.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Caractériser" Link="/Donnees/Tableur/Caracteriser.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Anonymiser une variable" Link="/Donnees/Tableur/Anonymiser_une_variable.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Visualiser les verbatim" Link="/Donnees/Tableur/Visualiser_les_verbatim.htm" conditions="Default.IQ3&#160;OK" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Créer des strates" Link="/Donnees/Tableur/Creer_des_strates.htm" conditions="Default.IQ3&#160;OK" ComputedFirstTopic="false" DescendantCount="0" />
+    </TocEntry>
+    <TocEntry Title="ANALYSE DES RÉSULTATS" StartSection="false" SectionNumberReset="continue" VolumeNumberReset="same" ChapterNumberReset="continue" ComputeToc="false" ReplaceMergeNode="false" ComputedFirstTopic="false" DescendantCount="189">
+        <TocEntry Title="Prise en main" Link="/Analyses_resultats/Prise_en_main/Explorer_les_vues.htm" conditions="Default.Restruc OK" ComputedFirstTopic="false" DescendantCount="21">
+            <TocEntry Title="Explorer les vues" Link="/Analyses_resultats/Prise_en_main/Explorer_les_vues.htm" conditions="Default.Restruc OK" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Créer/éditer une vue" Link="/Analyses_resultats/Prise_en_main/Creer_nouvelle_vue.htm" conditions="Default.Restruc OK" ComputedFirstTopic="false" DescendantCount="2">
+                <TocEntry Title="Générer un rapport automatique" Link="/Analyses_resultats/Prise_en_main/Depouillement_automatique.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Générateur de tris" Link="/Analyses_resultats/Prise_en_main/Generateur_tris.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="Importer une vue" Link="/Analyses_resultats/Prise_en_main/Importer_une_vue.htm" conditions="Default.Restruc OK" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Ajouter une étiquette à une vue" Link="/Analyses_resultats/Prise_en_main/Etiquettes_vue.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Importer des pages depuis une autre vue" Link="/Analyses_resultats/Prise_en_main/Importer_pages_vue.htm" conditions="Default.Restruc OK" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Créer une vue Mobile" Link="/Analyses_resultats/Prise_en_main/Creer_vue_smartphone.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Environnement d'une vue" Link="/Analyses_resultats/Prise_en_main/Environnement_vue.htm" conditions="Default.Restruc OK" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Définir un redressement" Link="/Analyses_resultats/Prise_en_main/Redressement.htm" conditions="Default.Restruc OK" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Éditer une analyse" Link="/Analyses_resultats/Prise_en_main/Editer_une_analyse.htm" conditions="Default.Restruc OK" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Boîtes de dialogue" Link="/Analyses_resultats/Prise_en_main/Boites_de_dialogue.htm" conditions="Default.Restruc OK" ComputedFirstTopic="false" DescendantCount="3">
+                <TocEntry Title="Onglet options" Link="/Analyses_resultats/Prise_en_main/Boites_de_dialogue.htm#Option" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Onglet avancé" Link="/Analyses_resultats/Prise_en_main/Boites_de_dialogue.htm#Avance" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Onglet scénario" Link="/Analyses_resultats/Prise_en_main/Boites_de_dialogue.htm#Scenario" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="Ajouter un nouvel élement" Link="/Analyses_resultats/Prise_en_main/Ajouter_nouvel_element.htm" conditions="Default.Restruc OK" ComputedFirstTopic="false" DescendantCount="4">
+                <TocEntry Title="Analyses et filtre" Link="/Analyses_resultats/Prise_en_main/Ajouter_nouvel_element.htm#ANALYSES" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Zone de texte" Link="/Analyses_resultats/Prise_en_main/Ajouter_nouvel_element.htm#TEXTE" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Image" Link="/Analyses_resultats/Prise_en_main/Ajouter_nouvel_element.htm#IMAGE" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Forme graphique" Link="/Analyses_resultats/Prise_en_main/Ajouter_nouvel_element.htm#FORME" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="Copier un élement" Link="/Analyses_resultats/Prise_en_main/Copier_element.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="Créer une analyse" ComputedFirstTopic="false" DescendantCount="72">
+            <TocEntry Title="Analyse à une variable" Link="/Analyses_resultats/Creer_une_analyse/Analyse_une_variable/Realiser_un_tri_a_plat.htm" conditions="Default.Restruc OK" ComputedFirstTopic="false" DescendantCount="11">
+                <TocEntry Title="Changer et accoler une variable" Link="/Analyses_resultats/Creer_une_analyse/Analyse_une_variable/Changer_et_accoler_une_variable.htm" conditions="Default.Restruc OK" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Mise en classe des questions numériques/dates" Link="/Analyses_resultats/Creer_une_analyse/Analyse_une_variable/Mise_en_classe_des_questions.htm" conditions="Default.Restruc OK" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Regrouper les modalités" Link="/Analyses_resultats/Creer_une_analyse/Analyse_une_variable/Regrouper_modalites.htm" conditions="Default.Restruc OK" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Choisir un barème" Link="/Analyses_resultats/Creer_une_analyse/Analyse_une_variable/Choisir_bareme.htm" conditions="Default.Restruc OK" StartSection="false" SectionNumberReset="continue" VolumeNumberReset="same" ChapterNumberReset="continue" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Les graphiques" Link="/Analyses_resultats/Creer_une_analyse/Analyse_une_variable/Les_graphiques.htm" conditions="Default.Restruc OK" ComputedFirstTopic="false" DescendantCount="6">
+                    <TocEntry Title="Axes et quadrillage" Link="/Analyses_resultats/Creer_une_analyse/Analyse_une_variable/Les_graphiques.htm#1" conditions="Default.Restruc OK" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="Légende et étiquettes de données" Link="/Analyses_resultats/Creer_une_analyse/Analyse_une_variable/Les_graphiques.htm#2" conditions="Default.Restruc OK" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="Diamètre, largeur et hauteur" Link="/Analyses_resultats/Creer_une_analyse/Analyse_une_variable/Les_graphiques.htm#3" conditions="Default.Restruc OK" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="Valeurs limites" Link="/Analyses_resultats/Creer_une_analyse/Analyse_une_variable/Les_graphiques.htm#4" conditions="Default.Restruc OK" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="Afficher la tendance" Link="/Analyses_resultats/Creer_une_analyse/Analyse_une_variable/Les_graphiques.htm#5" conditions="Default.Restruc OK" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="Modifier la couleur" Link="/Analyses_resultats/Creer_une_analyse/Analyse_une_variable/Les_graphiques.htm#6" conditions="Default.Restruc OK" ComputedFirstTopic="false" DescendantCount="0" />
+                </TocEntry>
+            </TocEntry>
+            <TocEntry Title="Analyse croisée multiple" Link="/Analyses_resultats/Creer_une_analyse/Analyse_croise/Realiser_un_tri_croise.htm" StartSection="false" conditions="Default.Restruc OK" ComputedFirstTopic="false" DescendantCount="3">
+                <TocEntry Title="Changer et permuter les variables" Link="/Analyses_resultats/Creer_une_analyse/Analyse_croise/Changer_et_permuter_les_variables.htm" conditions="Default.Restruc OK" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Configurer les tableaux" Link="/Analyses_resultats/Creer_une_analyse/Analyse_croise/Les_tableaux.htm" conditions="Default.Restruc OK" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Modifier les intitulés des en-têtes de colonnes" Link="/Analyses_resultats/Creer_une_analyse/Analyse_croise/Intitule_variable.htm" conditions="Default.Restruc OK" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="Analyse avancée" Link="/Analyses_resultats/Creer_une_analyse/Analyse_avancee.htm" ComputedFirstTopic="false" DescendantCount="11">
+                <TocEntry Title="Analyse comparative" Link="/Analyses_resultats/Creer_une_analyse/Realiser_une_analyse_comparative.htm" conditions="Default.Restruc OK" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Matrice Importance/Performance" Link="/Analyses_resultats/Creer_une_analyse/Realiser_une_matrice_importance_performance.htm" conditions="Default.Restruc OK" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Analyse Tétraclasse (matrice Llosa)" Link="/Analyses_resultats/Creer_une_analyse/Analyse_tetraclasse.htm" conditions="Default.Restruc OK" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Analyse NPS" Link="/Analyses_resultats/Creer_une_analyse/Realiser_une_analyse_NPS.htm" conditions="Default.Restruc OK" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Tableau de caractéristiques" Link="/Analyses_resultats/Creer_une_analyse/Realiser_un_tableau_de_caracteristiques.htm" conditions="Default.Restruc OK" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Tableau de forces/faiblesses" Link="/Analyses_resultats/Creer_une_analyse/Realiser_un_tableau_de_force.htm" conditions="Default.Restruc OK" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Analyse factorielle des correspondances" Link="/Analyses_resultats/Creer_une_analyse/Realiser_une_AFC.htm" conditions="Default.Restruc OK" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Analyse en composante principale" Link="/Analyses_resultats/Creer_une_analyse/Realiser_une_ACP.htm" conditions="Default.Restruc OK" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Régression linéaire multiple" Link="/Analyses_resultats/Creer_une_analyse/Regression_lineaire_multiple.htm" conditions="Default.Restruc OK" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Classification K-means" Link="/Analyses_resultats/Creer_une_analyse/Classification_Kmeans.htm" conditions="Default.Restruc OK" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Carte géographique" Link="/Analyses_resultats/Creer_une_analyse/Repartition_carte_geographique.htm" conditions="Default.Restruc OK" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="Tableau personnalisé" Link="/Analyses_resultats/Creer_une_analyse/tableaux_personnalises.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Analyse textuelle" Link="/Analyses_resultats/Creer_une_analyse/Analyse_textuelle.htm" ComputedFirstTopic="false" DescendantCount="15">
+                <TocEntry Title="Exploration lexicale" ComputedFirstTopic="false" DescendantCount="4">
+                    <TocEntry Title="Verbatim" Link="/Analyses_resultats/Creer_une_analyse/Analyse_textuelle/Verbatim.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="Afficher les mots" Link="/Analyses_resultats/Creer_une_analyse/Analyse_textuelle/Afficher_les_mots.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="Regrouper les réponses" Link="/Analyses_resultats/Creer_une_analyse/Analyse_textuelle/Regrouper_reponses.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="Typologie (Classification hiérarchique descendante)" Link="/Analyses_resultats/Creer_une_analyse/Analyse_textuelle/Typologie.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                </TocEntry>
+                <TocEntry Title="Analyse sémantique" ComputedFirstTopic="false" DescendantCount="2">
+                    <TocEntry Title="Afficher les concepts" Link="/Analyses_resultats/Creer_une_analyse/Analyse_textuelle/Afficher_concepts.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="Afficher les orientations" Link="/Analyses_resultats/Creer_une_analyse/Analyse_textuelle/Afficher_les_orientations.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                </TocEntry>
+                <TocEntry Title="Spécificités par contexte" ComputedFirstTopic="false" DescendantCount="3">
+                    <TocEntry Title="Afficher les mots-clés par contexte" Link="/Analyses_resultats/Creer_une_analyse/Analyse_textuelle/Mots_cles_par_contexte.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="Afficher les expressions par contexte" Link="/Analyses_resultats/Creer_une_analyse/Analyse_textuelle/Expression_par_contexte.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="Afficher les concepts par contexte" Link="/Analyses_resultats/Creer_une_analyse/Analyse_textuelle/Concepts_par_contexte.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                </TocEntry>
+                <TocEntry Title="Analyse de contenu" ComputedFirstTopic="false" DescendantCount="3">
+                    <TocEntry Title="Analyse thématique par dictionnaire" Link="/Analyses_resultats/Creer_une_analyse/Analyse_textuelle/Analyse_thematique.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="Codification du verbatim" StartSection="false" Link="/Analyses_resultats/Creer_une_analyse/Analyse_textuelle/Codification_verbatim.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="Recommandation Impact Score" Link="/Analyses_resultats/Creer_une_analyse/Analyse_textuelle/Recommandation_impact_score.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                </TocEntry>
+                <TocEntry Title="Options d'analyse textuelle" ComputedFirstTopic="false" DescendantCount="3">
+                    <TocEntry Title="Choisir les catégories de mots à afficher" Link="/Analyses_resultats/Creer_une_analyse/Analyse_textuelle/Choisir_categories_mots.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="Exclure des mots" Link="/Analyses_resultats/Creer_une_analyse/Analyse_textuelle/Exclure_des_mots.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="Gérer les expressions" Link="/Analyses_resultats/Creer_une_analyse/Analyse_textuelle/Gerer_expressions.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                </TocEntry>
+            </TocEntry>
+            <TocEntry Title="Options communes d'analyses" conditions="Default.Restruc OK" ComputedFirstTopic="false" DescendantCount="14">
+                <TocEntry Title="Ignorer les non-réponses et réduire les données" Link="/Analyses_resultats/Creer_une_analyse/Options_analyses/Ignorer_les_non_reponses.htm" conditions="Default.Restruc OK" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Ignorer les non-concernés" Link="/Analyses_resultats/Creer_une_analyse/Options_analyses/Ignorer_les_non_concernes.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Trier les valeurs" Link="/Analyses_resultats/Creer_une_analyse/Options_analyses/Trier_les_valeurs.htm" conditions="Default.Restruc OK" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Limiter l'affichage" Link="/Analyses_resultats/Creer_une_analyse/Options_analyses/Limiter_l_affichage.htm" conditions="Default.Restruc OK" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Définir un profil" Link="/Analyses_resultats/Creer_une_analyse/Options_analyses/Definir_un_profil.htm" conditions="Default.Restruc OK" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Options de filtrage" Link="/Analyses_resultats/Creer_une_analyse/Options_analyses/Options_filtrage.htm" conditions="Default.Restruc OK" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Nombre de décimales" Link="/Analyses_resultats/Creer_une_analyse/Options_analyses/Nombre_de_decimales.htm" conditions="Default.Restruc OK" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Afficher les variations" Link="/Analyses_resultats/Creer_une_analyse/Options_analyses/Variation.htm" conditions="Default.Restruc OK" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Mises en forme conditionnelles" Link="/Analyses_resultats/Creer_une_analyse/Options_analyses/Mises_en_formes_conditionnelles.htm" conditions="Default.Restruc OK" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Activer un commentaire auto" Link="/Analyses_resultats/Creer_une_analyse/Options_analyses/Commentaire_automatique.htm" conditions="Default.Restruc OK" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Colorier les valeurs significatives" Link="/Analyses_resultats/Creer_une_analyse/Options_analyses/Colorier_les_valeurs_significatives.htm" conditions="Default.Restruc OK" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Insérer une infobulle" Link="/Analyses_resultats/Creer_une_analyse/Options_analyses/Inserer_une_infobulle.htm" conditions="Default.Restruc OK" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Positionner, aligner, retailler et ordonner les objets" Link="/Analyses_resultats/Creer_une_analyse/Options_analyses/Positionner_aligner_retailler_ordonner.htm" conditions="Default.Restruc OK" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Style d'une analyse" Link="/Analyses_resultats/Creer_une_analyse/Options_analyses/Style_analyse.htm" conditions="Default.Restruc OK" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="Interactivité filtre scénarisation" Link="/Analyses_resultats/Creer_une_analyse/Filtre_scenario/Filtre_rapide.htm" conditions="Default.Restruc OK" ComputedFirstTopic="false" DescendantCount="5">
+                <TocEntry Title="Filtre de vue" Link="/Analyses_resultats/Creer_une_analyse/Filtre_scenario/Filtre_rapide.htm" conditions="Default.Restruc OK" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Illustrer une analyse par une vue" Link="/Analyses_resultats/Creer_une_analyse/Filtre_scenario/Illustrer_une_analyse_par_une_vue.htm" conditions="Default.Restruc OK" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Filtrer une analyse" Link="/Analyses_resultats/Creer_une_analyse/Filtre_scenario/Filtrer_une_analyse.htm" conditions="Default.Restruc OK" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Affichage conditionnel" Link="/Analyses_resultats/Creer_une_analyse/Filtre_scenario/Affichage_conditionnel.htm" conditions="Default.Restruc OK" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Insérer un graphe de relation" Link="/Analyses_resultats/Creer_une_analyse/Filtre_scenario/Graphe_de_relation.htm" conditions="Default.Restruc OK" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="Calculer une variable" Link="/Analyses_resultats/Creer_une_analyse/Calculer_une_variable.htm" ComputedFirstTopic="false" DescendantCount="4">
+                <TocEntry Title="Calculer une variable par script" Link="/Analyses_resultats/Creer_une_analyse/Calculer_une_variable_script.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Calculer une variable par IA" Link="/Analyses_resultats/Creer_une_analyse/Calculer_une_variable_par_IA.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Recalculer une variable" Link="/Analyses_resultats/Creer_une_analyse/Recalculer_une_variable.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Définir des variables d'environnement" Link="/Analyses_resultats/Creer_une_analyse/Variables_environnement.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="Substituer une variable" Link="/Analyses_resultats/Creer_une_analyse/Substituer_une_variable.htm" conditions="Default.Restruc OK" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Tests statistiques" Link="/Analyses_resultats/Creer_une_analyse/Tests_statistiques.htm#activer" conditions="Default.Restruc OK" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="Restitution de l'analyse" conditions="Default.Restruc OK" ComputedFirstTopic="false" DescendantCount="28">
+            <TocEntry Title="Représentation d'un tri à plat" Link="/Analyses_resultats/Restitution_analyse/Secteurs_demi_secteurs.htm" conditions="Default.Restruc OK" ComputedFirstTopic="false" DescendantCount="16">
+                <TocEntry Title="Secteurs et demi secteurs" Link="/Analyses_resultats/Restitution_analyse/Secteurs_demi_secteurs.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Anneau et demi anneau" Link="/Analyses_resultats/Restitution_analyse/Anneau_demi_anneau.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Histogramme et barres" Link="/Analyses_resultats/Restitution_analyse/Histogramme_et_barres.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Histogramme et barres empilées 100%" Link="/Analyses_resultats/Restitution_analyse/Histogramme_et_barres_empilees.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Pyramide" Link="/Analyses_resultats/Restitution_analyse/Pyramide.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Courbes et lignes" Link="/Analyses_resultats/Restitution_analyse/Courbes_et_lignes.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Aires et aires lissées" Link="/Analyses_resultats/Restitution_analyse/Aires_lissees.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Pareto" Link="/Analyses_resultats/Restitution_analyse/Pareto.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Jauge" Link="/Analyses_resultats/Restitution_analyse/Jauge.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Indicateur" Link="/Analyses_resultats/Restitution_analyse/Indicateur.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Carte géographique" Link="/Analyses_resultats/Restitution_analyse/Carte_geographique.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Nuage de mots" Link="/Analyses_resultats/Restitution_analyse/Nuage_de_mots.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Images remplissables" Link="/Analyses_resultats/Restitution_analyse/Images_remplissables.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Répartition" Link="/Analyses_resultats/Restitution_analyse/Repartition.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Boîtes à moustache" Link="/Analyses_resultats/Restitution_analyse/Boites_a_moustache.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Treemap" Link="/Analyses_resultats/Restitution_analyse/Treemap.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="Représentation d'une analyse croisée" Link="/Analyses_resultats/Restitution_analyse/Histogramme.htm" conditions="Default.Restruc OK" ComputedFirstTopic="false" DescendantCount="9">
+                <TocEntry Title="Histogramme et barres empilés" Link="/Analyses_resultats/Restitution_analyse/Histogramme.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Aires empilées et aires empilées 100 %" Link="/Analyses_resultats/Restitution_analyse/Aires_empilees.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Aires empilées lissées &amp; aires empilées lissées 100%" Link="/Analyses_resultats/Restitution_analyse/Aires_empilees_lissees.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Barres et colonnes en vis-à-vis" Link="/Analyses_resultats/Restitution_analyse/Barres_et_colonnes_en_vis_a_vis.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Carte de chaleur" Link="/Analyses_resultats/Restitution_analyse/Carte_de_chaleur.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Rose des vents" Link="/Analyses_resultats/Restitution_analyse/Rose_des_vents.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Radar" Link="/Analyses_resultats/Restitution_analyse/Radar.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Bulles groupées" Link="/Analyses_resultats/Restitution_analyse/Bulles_groupees.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Nuage de points et bulles" Link="/Analyses_resultats/Restitution_analyse/Nuage_de_points_et_bulles.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="Représentation d'une analyse multivariée (carte)" Link="/Analyses_resultats/Restitution_analyse/Representation_analyse_multivariee.htm" conditions="Default.Restruc OK" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="Traduire le contenu d'une vue" Link="/Analyses_resultats/Exporter_une_analyse/Traduire_vue.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Exporter une vue" Link="/Analyses_resultats/Exporter_une_analyse/Exporter_une_analyse.htm" conditions="Default.Restruc OK" StartSection="false" SectionNumberReset="continue" VolumeNumberReset="same" ChapterNumberReset="continue" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Utiliser l'IA (Intelligence artificielle)" conditions="General.Masqué" ComputedFirstTopic="false" DescendantCount="6">
+            <TocEntry Title="Interpréter une analyse par IA" Link="/IA/Interpreter_analyse_par_IA.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Créer un codebook par IA" Link="/IA/Creer_codebook_par_IA.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Coder les verbatim" Link="/IA/Coder_verbatim.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Modifier un texte par IA" Link="/IA/Modification_texte_par_IA.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Calculer une variable par IA" Link="/IA/Calculer_une_variable_par_IA.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="FAQ IA" Link="/IA/FAQ_IA.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="Prévisualiser une vue" Link="/Analyses_resultats/Exporter_une_analyse/Previsualiser_une_vue.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Publier et partager une vue" Link="/Analyses_resultats/Exporter_une_analyse/Publier_partager_vue.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Télécharger une vue" Link="/Analyses_resultats/Exporter_une_analyse/Telecharger_une_vue.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Analyses multivariées (ancien environnement)" Link="/Analyses_resultats/Analyses_multivariees/Analyses_multivariees.htm" ComputedFirstTopic="false" DescendantCount="5">
+            <TocEntry Title="Analyse en Composantes Principales (ACP)" Link="/Analyses_resultats/Analyses_multivariees/Analyse_acp.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Analyse Factorielle des Correspondances Multiples (AFCM)" Link="/Analyses_resultats/Analyses_multivariees/Analyse_afcm.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Méthodes de classification" Link="/Analyses_resultats/Analyses_multivariees/Classification.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Méthodes d'explication" Link="/Analyses_resultats/Analyses_multivariees/Explication.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Régression logistique" Link="/Analyses_resultats/Analyses_multivariees/Regression_logistique.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="Atelier lexical (ancien environnement)" Link="/Analyse_textuelle/Analyse_textuelle.htm" ComputedFirstTopic="false" DescendantCount="49">
+            <TocEntry Title="Prise en main" Link="/Analyse_textuelle/Prise_en_main.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Créer une analyse lexicale" Link="/Analyse_textuelle/Creer_une_analyse_lexicale.htm" ComputedFirstTopic="false" DescendantCount="3">
+                <TocEntry Title="Analyser une question ouverte d'une enquête existante" Link="/Analyse_textuelle/Analyse_question_ouverte.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Import de données terrain / documentaire" Link="/Analyse_textuelle/Import_de_donnees_terrain.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Nouvelle analyse lexicale" Link="/Analyse_textuelle/Nouvelle_analyse_lexicale.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="Protocole d'Exploration" Link="/Analyse_textuelle/Exploration/Protocole_exploration.htm" ComputedFirstTopic="false" DescendantCount="24">
+                <TocEntry Title="Utilisation du volet lexique" Link="/Analyse_textuelle/Exploration/Utilisation_du_volet_lexique.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Simplifier le lexique" Link="/Analyse_textuelle/Exploration/Simplifier_le_lexique.htm" ComputedFirstTopic="false" DescendantCount="6">
+                    <TocEntry Title="Grouper des mots ou concepts" Link="/Analyse_textuelle/Exploration/Grouper_des_mots_ou_concepts.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="Exclure des mots ou concepts" Link="/Analyse_textuelle/Exploration/Exclure_des_mots_ou_concepts.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="Renommer des groupes de mots ou concepts" Link="/Analyse_textuelle/Exploration/Des_groupes_de_mots_ou_concepts.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="Éditer les simplifications" Link="/Analyse_textuelle/Exploration/Editer_les_simplifications.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="Reprendre les simplifications" Link="/Analyse_textuelle/Exploration/Reprendre_les_simplifications.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="Construire un dictionnaire" Link="/Analyse_textuelle/Exploration/Construire_un_dictionnaire.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                </TocEntry>
+                <TocEntry Title="Filtrer des éléments du lexique" Link="/Analyse_textuelle/Exploration/Filtrer_des_elements_du_lexique.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Colonnes de la zone de travail" Link="/Analyse_textuelle/Exploration/Colonnes_de_la_zone_de_travail.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Modifier l'affichage du corpus" Link="/Analyse_textuelle/Exploration/Modifier_l_affichage_du_corpus.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Trier les observations du corpus" Link="/Analyse_textuelle/Exploration/Trier_des_observations.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Filtrer par contexte" Link="/Analyse_textuelle/Exploration/Filtrer_par_contexte.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Appliquer une strate au corpus" Link="/Analyse_textuelle/Exploration/Appliquer_une_strate_au_corpus.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Afficher le thésaurus" Link="/Analyse_textuelle/Exploration/Afficher_le_thésaurus.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Exporter un corpus / lexique" Link="/Analyse_textuelle/Exploration/Exporter_un_corpus_lexique.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Explorer le verbatim" Link="/Analyse_textuelle/Exploration/Exploration_du_verbatim.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Analyse des sentiments" Link="/Analyse_textuelle/Exploration/Analyse_des_sentiments.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Gestion des expressions" Link="/Analyse_textuelle/Exploration/Detection_des_expressions.htm" ComputedFirstTopic="false" DescendantCount="3">
+                    <TocEntry Title="Détection des expressions " Link="/Analyse_textuelle/Exploration/Detection_des_expressions.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="Ajouter des expressions" Link="/Analyse_textuelle/Exploration/Application_lexique.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                    <TocEntry Title="Utilisation dans les dictionnaires" Link="/Analyse_textuelle/Exploration/Utilisation_dictionnaire.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                </TocEntry>
+                <TocEntry Title="Créer des dictionnaires thématiques" Link="/Analyse_textuelle/Exploration/Creation_dictionnaire_thematique.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Générer des variables lexicales" Link="/Analyse_textuelle/Exploration/Generation_variable_lexicale.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="Protocole de Codification" Link="/Analyse_textuelle/Codification/Protocole_de_codification.htm" ComputedFirstTopic="false" DescendantCount="5">
+                <TocEntry Title="Construction manuelle d'un Codebook" Link="/Analyse_textuelle/Codification/Construction_manuelle_d_un_codebook.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Codebook automatique" Link="/Analyse_textuelle/Codification/Codebook_automatique.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Coder les observations du corpus" Link="/Analyse_textuelle/Codification/Coder_les_observations_du_corpus.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Extension de codification" Link="/Analyse_textuelle/Codification/Extension_de_codification.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Afficher les résultats du codage" Link="/Analyse_textuelle/Codification/Afficher_les_resultats.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="Protocole de Synthèse" Link="/Analyse_textuelle/Synthese/Protocole_de_synthese.htm" ComputedFirstTopic="false" DescendantCount="10">
+                <TocEntry Title="Afficher une synthèse" Link="/Analyse_textuelle/Synthese/Afficher_une_synthese.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Les différents types de synthèses" Link="/Analyse_textuelle/Synthese/Les_differents_types_de_syntheses.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Ajouter un commentaire à une synthèse" Link="/Analyse_textuelle/Synthese/Ajouter_un_commentaire.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Modifier le nom des classes" Link="/Analyse_textuelle/Synthese/Modifier_le_nom_des_classes.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Afficher le verbatim d'un mot du nuage" Link="/Analyse_textuelle/Synthese/Afficher_le_verbatim.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Modifier les mots affichés dans les nuages et les calculs" Link="/Analyse_textuelle/Synthese/Modifier_les_mots_affiches.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Restreindre l'affichage des mots (verbes, adjectifs, noms,...)" Link="/Analyse_textuelle/Synthese/Restreindre_l_affichage_des_mots.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Changer la variable de contexte d'une synthèse" Link="/Analyse_textuelle/Synthese/Changer_la_variable_de_contexte.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Appliquer une strate à une synthèse" Link="/Analyse_textuelle/Synthese/Appliquer_une_strate.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Exporter une synthèse" Link="/Analyse_textuelle/Synthese/Exporter_une_synthese.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="Gestion des données" StartSection="false" SectionNumberReset="continue" VolumeNumberReset="same" ChapterNumberReset="continue" ReplaceMergeNode="false" ComputedFirstTopic="false" DescendantCount="2">
+                <TocEntry Title="Créer de nouvelles variables lexicales" Link="/Analyse_textuelle/Gestion_des_donnees_variable_lexicale.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Transformer l'étude" Link="/Analyse_textuelle/Eclater_enquete.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+        </TocEntry>
+    </TocEntry>
+    <TocEntry Title="FORMULES DE CALCUL (script)" ComputedFirstTopic="false" DescendantCount="12">
+        <TocEntry Title="Les contextes d'utilisation" Link="/Calculs_basiques/Contextes_utilisation.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Définition et options de calcul" Link="/Calculs_basiques/Definition_options_de_calcul.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Syntaxe du langage" Link="/Calculs_basiques/Syntaxe_du_langage.htm" ComputedFirstTopic="false" DescendantCount="8">
+            <TocEntry Title="Caractéristiques d’une variable" Link="/Calculs_basiques/Caracteristiques_variable.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Fonctions de calcul" Link="/Calculs_basiques/Fonctions_de_calcul.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Fonctions mathématiques" Link="/Calculs_basiques/Fonctions_mathematiques.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Fonctions de texte" Link="/Calculs_basiques/Fonctions_de_texte.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Fonctions de date et d’heure" Link="/Calculs_basiques/Fonctions_de_date_et_heure.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Opérateurs logiques" Link="/Calculs_basiques/Operateurs_logiques.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Structures de contrôle" Link="/Calculs_basiques/Structures_de_controle.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Propriétés de l’étude" Link="/Calculs_basiques/Proprietes_etude.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="Exemples de calculs" Link="/Calculs_basiques/Exemples_de_script.htm" ComputedFirstTopic="false" DescendantCount="0" />
+    </TocEntry>
+    <TocEntry Title="MÉTHODOLOGIE" ComputedFirstTopic="false" DescendantCount="17">
+        <TocEntry Title="Rappel des principes de l'enquete par questionnaire" Link="/Methodologie/Methodologie.htm" SectionNumberReset="continue" VolumeNumberReset="same" ChapterNumberReset="continue" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Les differentes formes d'enquêtes" Link="/Methodologie/Differentes_formes_d_enquetes.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Un modèle pour concevoir un bon questionnaire" Link="/Methodologie/Un_modele_pour_concevoir.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="La manière de poser les questions" Link="/Methodologie/La_maniere_de_poser_les_questions.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Des questions qu'on se pose aux questions qu'on pose" Link="/Methodologie/Des_questions_qu_on_se_pose.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Les formes de l'analyse de données" Link="/Methodologie/Les_formes_d_analyse_de_donnees.htm" ComputedFirstTopic="false" DescendantCount="11">
+            <TocEntry Title="L'analyse univariée" Link="/Methodologie/Analyse_univariee.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="L'analyse bivariée" Link="/Methodologie/Analyse_bivariee1.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="L'analyse bivariée : CHI2 et AFC" Link="/Methodologie/Analyse_bivariee_CHI2.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="L'analyse bivariée : Correlation" Link="/Methodologie/Analyse_bivariee_correlation.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="L'analyse bivariée : analyse de la variance" Link="/Methodologie/Analyse_bivariee.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Analyse multivariée : Objectifs et méthodes" Link="/Methodologie/Analyse_multivariee_objectifs.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="L'analyse factorielle : Les principes" Link="/Methodologie/Analyse_factorielle_les.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="L'analyse factorielle : Interpréter les résultats" Link="/Methodologie/Analyse_factorielle_interpreter.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Corrélation et regréssion multiple" Link="/Methodologie/Correlation_et_regression.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Classification automatique" Link="/Methodologie/Classification_automatique.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Les études « Quali »" Link="/Methodologie/Les_etudes_Quali.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+    </TocEntry>
+    <TocEntry Title="FAQ" Link="/Faq.htm" ComputedFirstTopic="false" DescendantCount="0" />
+</CatapultToc>

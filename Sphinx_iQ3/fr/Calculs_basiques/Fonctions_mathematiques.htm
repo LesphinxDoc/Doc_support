@@ -1,0 +1,1950 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="fr" xml:lang="fr" class="_Skins_Side_navigation_IQ3" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../" data-mc-has-content-body="True" data-mc-toc-path="FORMULES DE CALCUL (script)|Syntaxe du langage" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="msapplication-config" content="../Skins/Favicons/browserconfig.xml" />
+        <link rel="shortcut icon" href="../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="168x168" href="../Skins/Favicons/favicon.png" />
+        <link rel="icon" sizes="32x32" href="../Skins/Favicons/favicon.png" />
+        <link rel="icon" sizes="168x168" href="../Skins/Favicons/favicon.png" /><title>FONCTIONS&#160;MATHÉMATIQUES</title>
+        <link href="../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Resources/Stylesheets/Styles.css" rel="stylesheet" type="text/css" />
+        <link href="../Resources/Scripts/search-dropdown.css" rel="stylesheet" type="text/css" />
+        <style>/*&lt;meta /&gt;*/
+
+.button.remove-highlight-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.separator-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.select-language-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.separator-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.expand-all-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.separator-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.print-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.collapse-all-button
+{
+	-pie-background: linear-gradient(transparent, #ececec);
+}
+
+.needs-pie
+{
+	behavior: url('../Resources/Scripts/PIE-no-motw.htc');
+}
+
+</style>
+        <link href="../Resources/TableStyles/Table.css" rel="stylesheet" data-mc-stylesheet-type="table" />
+        <link href="../Resources/Stylesheets/MainStyles.css" rel="stylesheet" />
+        <link rel="shortcut icon" href="../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="168x168" href="../Skins/Favicons/favicon.png" />
+        <link rel="icon" sizes="32x32" href="../Skins/Favicons/favicon.png" />
+        <link rel="icon" sizes="168x168" href="../Skins/Favicons/favicon.png" />
+        <script src="../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../Resources/Scripts/purify.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/require.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/require.config.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/foundation.6.2.3_custom.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/plugins.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/MadCapAll.js" type="text/javascript" defer="defer">
+        </script>
+        <script type="text/javascript" src="../Resources/Scripts/search-dropdown.js">
+        </script>
+        <script type="text/javascript" src="../Skins/Default/Scripts/TopicToolBar.js">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-right" role="complementary" id="offCanvas" data-off-canvas="" data-position="right" data-mc-ignore="true">
+                    <ul class="off-canvas-accordion vertical menu off-canvas-list" data-accordion-menu="" data-mc-back-link="Retour" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expanded-event="down.zf.accordionMenu up.zf.accordionMenu" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div data-sticky-container="" class="title-bar-container">
+                        <nav class="title-bar tab-bar sticky" aria-label="Main navigation and search" data-sticky="" data-options="marginTop:0" style="width:100%" data-sticky-on="only screen and (max-width: 1279px)" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="#">Passer au contenu principal</a>
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="menu-icon-container relative clearfix">
+                                    <div class="central-account-wrapper">
+                                        <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Compte</span></a>
+                                            <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Paramètres</a>
+                                                <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Déconnexion</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="menu-icon" aria-label="Afficher le volet de navigation" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="title-bar-layout outer-row">
+                                <div class="logo-wrapper"><a class="logo" href="../Home.htm" alt="Logo"></a>
+                                </div>
+                                <div class="navigation-wrapper nocontent">
+                                    <ul class="navigation clearfix" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                        <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="central-account-wrapper">
+                                    <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Compte</span></a>
+                                        <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Paramètres</a>
+                                            <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Déconnexion</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nav-search-wrapper">
+                                    <div class="nav-search row">
+                                        <form class="search" action="#">
+                                            <div class="search-bar search-bar-container needs-pie">
+                                                <input class="search-field needs-pie" type="search" aria-label="Champ de recherche" placeholder="Rechercher" />
+                                                <div class="search-filter-wrapper"><span class="invisible-label" id="search-filters-label">Filtrer&#160;:</span>
+                                                    <div class="search-filter" aria-haspopup="true" aria-controls="sf-content" aria-expanded="false" aria-label="Filtre de recherche" title="Tous les fichiers" role="button" tabindex="0">
+                                                    </div>
+                                                    <div class="search-filter-content" id="sf-content">
+                                                        <ul>
+                                                            <li>
+                                                                <button class="mc-dropdown-item" aria-labelledby="search-filters-label filterSelectorLabel-00001"><span id="filterSelectorLabel-00001">Tous les fichiers</span>
+                                                                </button>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="search-submit-wrapper" dir="ltr">
+                                                    <div class="search-submit" title="Rechercher" role="button" tabindex="0"><span class="invisible-label">Démarrer la recherche</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="main-section">
+                        <div class="row outer-row sidenav-layout">
+                            <nav class="sidenav-wrapper">
+                                <div class="sidenav-container">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expanded-event="down.zf.accordionMenu up.zf.accordionMenu" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
+                                    </ul>
+                                </div>
+                            </nav>
+                            <div class="body-container">
+                                <div data-mc-content-body="True"><a href="#" class="scrollToTop"></a>
+                                    <div class="buttons popup-container clearfix topicToolbarProxy _Skins_TopicToolBar mc-component nocontent" style="float: right; mc-topic-toolbar-items: ;">
+                                        <div class="button-group-container-left">
+                                            <button class="button needs-pie remove-highlight-button" title="Supprimer les surlignages">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                            <div class="button-separator">
+                                            </div>
+                                            <button class="button needs-pie select-language-button" title="Changer de langue">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper" aria-label="Changer de langue">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                            <div class="button-separator">
+                                            </div>
+                                            <button class="button needs-pie expand-all-button" data-state1-class="expand-all-button" data-state2-class="collapse-all-button" data-state2-title="Réduire tout" title="Développer tout" data-state1-title="Développer tout">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper" aria-label="Développer tout">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                            <div class="button-separator">
+                                            </div>
+                                            <button class="button needs-pie print-button" title="Imprimer">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper" aria-label="Imprimer">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="nocontent">
+                                        <div class="MCBreadcrumbsBox_0 breadcrumbs" role="navigation" aria-label="Pistes de navigation" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="3" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">Vous êtes ici&#160;:</span>
+                                        </div>
+                                    </div>
+                                    <div role="main" id="mc-main-content">
+                                        <h1>FONCTIONS&#160;MATHÉMATIQUES</h1>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" /></a><a name="abs"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" aria-expanded="false">Abs&#160;: Calcul de la valeur absolue d’une variable</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p>Renvoie, pour chaque observation, la valeur absolue de la variable indiquée.</p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">Abs(nombre)</p>
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                    <br />Pour obtenir la valeur absolue de la variable «&#160;note&#160;» portant le numéro 1, écrire&#160;: <br />Abs (note) ou Abs (V1)</p>
+                                                <p style="font-weight: bold;">Variables autorisées&#160;et valeurs prises en compte&#160;:</p>
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Table.css');margin-left: 0;margin-right: auto;" class="TableStyle-Table" cellspacing="0">
+                                                    <col class="TableStyle-Table-Column-Column1" style="width: 163px;" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <thead>
+                                                        <tr class="TableStyle-Table-Head-Header1">
+                                                            <th class="TableStyle-Table-HeadE-Column1-Header1">
+                                                                <p style="text-align: center;">Type de variable</p>
+                                                            </th>
+                                                            <th class="TableStyle-Table-HeadD-Column1-Header1">
+                                                                <p style="text-align: center;">Valeur prise en compte</p>
+                                                            </th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                                <p>Numérique</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">
+                                                                <p>Valeur de l’observation</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyB-Column1-Body2">
+                                                                <p>Fermée échelle</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyA-Column1-Body2">
+                                                                <p>Si la variable contient un barème alors la valeur prise en compte est le barème associé à la modalité répondue sinon la valeur est l’index de la modalité.</p>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                <p><a href="Definition_options_de_calcul.htm#_Syntaxe_et_traitement_1">En savoir plus sur la définition des nombres</a>
+                                                </p>
+                                                <p style="font-weight: bold;">Traitement des non-réponses&#160;:</p>
+                                                <p>Calcul de «&#160;Abs&#160;» d’une variable</p>
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Table.css');margin-left: 0;margin-right: auto;" class="TableStyle-Table" cellspacing="0">
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>Obs</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>V1</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>Abs(v1)</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>NR* remplacées par 0</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body1">
+                                                            <p>NR remplacées par la moyenne</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>1</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>- 5</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>5</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>5</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body2">
+                                                            <p>5</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>2</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>10</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>10</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>10</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body1">
+                                                            <p>10</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>3</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>NR</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>NR</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>0</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body2">
+                                                            <p>2.5</p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <p>*NR = Non-réponse</p>
+                                                <p><a href="Definition_options_de_calcul.htm#_Traitement_des_non-réponses">En savoir plus sur le traitement des non-réponses</a>
+                                                </p>
+                                                <p>&#160;</p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="Arctan"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />Arctan&#160;: calcul de l’arc-tangente d’une variable</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p>Renvoie, pour chaque observation, l’arc-tangente de la variable indiquée.</p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">Arctan(nombre) <br />Atn(nombre)</p>
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                    <br />Pour obtenir l’arc-tangente de la variable «&#160;note&#160;» portant le numéro 1, écrire&#160;: <br />arctan(note) ou arctan(V1)</p>
+                                                <p style="font-weight: bold;">Variables autorisées&#160;et valeurs prises en compte&#160;:</p>
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Table.css');margin-left: 0;margin-right: auto;" class="TableStyle-Table" cellspacing="0">
+                                                    <col class="TableStyle-Table-Column-Column1" style="width: 158px;" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <thead>
+                                                        <tr class="TableStyle-Table-Head-Header1">
+                                                            <th class="TableStyle-Table-HeadE-Column1-Header1">
+                                                                <p style="text-align: center;">Type de variable</p>
+                                                            </th>
+                                                            <th class="TableStyle-Table-HeadD-Column1-Header1">
+                                                                <p style="text-align: center;">Valeur prise en compte</p>
+                                                            </th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: left;">
+                                                                <p>Numérique</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1" style="text-align: left;">
+                                                                <p>Valeur de l’observation</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyB-Column1-Body2" style="text-align: left;">
+                                                                <p>Fermée échelle</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyA-Column1-Body2" style="text-align: left;">
+                                                                <p>Si la variable contient un barème alors la valeur prise en compte est le barème associé à la modalité répondue sinon la valeur est l’index de la modalité.</p>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                <p><a href="Definition_options_de_calcul.htm#_Syntaxe_et_traitement_1">En savoir plus sur la définition des nombres</a>
+                                                </p>
+                                                <p style="font-weight: bold;">Traitement des non-réponses&#160;:</p>
+                                                <p>Calcul de «&#160;ArcTan&#160;» d’une variable</p>
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Table.css');margin-left: 0;margin-right: auto;" class="TableStyle-Table" cellspacing="0">
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>Obs</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>V1</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>ArcTan(v1)</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>NR* remplacées par 0</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body1" style="text-align: center;">
+                                                            <p>NR remplacées par moyenne</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>1</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>-1.8</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>-1.06</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>-1.06</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body2" style="text-align: center;">
+                                                            <p>-1.06</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>2</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>1.8</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>1.06</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>1.06</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body1" style="text-align: center;">
+                                                            <p>1.06</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>3</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>10.8</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>1.48</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>1.48</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body2" style="text-align: center;">
+                                                            <p>1.48</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>4</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>NR</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>NR</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>0</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body1" style="text-align: center;">
+                                                            <p>1.3</p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <p>*NR = Non-réponse</p>
+                                                <p><a href="Definition_options_de_calcul.htm#_Traitement_des_non-réponses">En savoir plus sur le traitement des non-réponses</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="arrondi"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />Arrondi&#160;: Retourne la valeur d'un nombre arrondi</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p>Retourne la valeur d'un nombre arrondi à l'entier le plus proche / au nombre spécifié de chiffres fractionnaires.</p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">Arrondi(variable)<br />Arrondi(variable, décimales)<br />Arrondi(nombre, décimales)</p>
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                    <br />Pour obtenir la valeur de la variable « note » arrondie à 3 chiffre après la virgule, écrire <br />Arrondi([note], 3).</p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="Cos"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />Cos&#160;: calcul du cosinus d’une variable</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p>Renvoie, pour chaque observation, le cosinus de la variable indiquée. Celui-ci est calculé sur un angle exprimé en radian.</p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">cos(nombre)</p>
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                    <br />Pour obtenir le cosinus de la variable «&#160;note&#160;», portant le numéro 1, écrire&#160;:<br />cos(note) ou cos(V1)</p>
+                                                <p style="font-weight: bold;">Variables autorisées&#160;et valeurs prises en compte&#160;:</p>
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Table.css');margin-left: 0;margin-right: auto;" class="TableStyle-Table" cellspacing="0">
+                                                    <col class="TableStyle-Table-Column-Column1" style="width: 152px;" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <thead>
+                                                        <tr class="TableStyle-Table-Head-Header1">
+                                                            <th class="TableStyle-Table-HeadE-Column1-Header1">
+                                                                <p style="text-align: center;">Type de variable</p>
+                                                            </th>
+                                                            <th class="TableStyle-Table-HeadD-Column1-Header1">
+                                                                <p style="text-align: center;">Valeur prise en compte</p>
+                                                            </th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                                <p>Numérique</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1" style="text-align: center;">
+                                                                <p>Valeur de l’observation</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyB-Column1-Body2" style="text-align: center;">
+                                                                <p>Fermée échelle</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyA-Column1-Body2" style="text-align: center;">
+                                                                <p>Si la variable contient un barème alors la valeur prise en compte est le barème associé à la modalité répondue sinon la valeur est l’index de la modalité.</p>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                <p><a href="Definition_options_de_calcul.htm#_Syntaxe_et_traitement_1">En savoir plus sur la définition des nombres</a>
+                                                </p>
+                                                <p style="font-weight: bold;">Traitement des non-réponses&#160;:</p>
+                                                <p>Calcul de «&#160;Cos&#160;» d’une variable</p>
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Table.css');margin-left: 0;margin-right: auto;" class="TableStyle-Table" cellspacing="0">
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>Obs</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>V1</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>Cos(v1)</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>NR* remplacées par 0</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body1" style="text-align: center;">
+                                                            <p>NR remplacées par moyenne</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>1</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>-1.8</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>-0.23</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>-0.23</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body2" style="text-align: center;">
+                                                            <p>-0.23</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>2</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>1.8</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>-0.23</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>-0.23</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body1" style="text-align: center;">
+                                                            <p>-0.23</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>3</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>10.8</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>-0.19</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>-0.19</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body2" style="text-align: center;">
+                                                            <p>-0.19</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>4</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>NR</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>NR</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>1</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body1" style="text-align: center;">
+                                                            <p>-0.9</p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <p>*NR = Non-réponse</p>
+                                                <p><a href="Definition_options_de_calcul.htm#_Traitement_des_non-réponses">En savoir plus sur le traitement des non-réponses</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="Exp"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />Exp&#160;: calcul de la fonction exponentielle d’une variable</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p>Renvoie, pour chaque observation, la fonction exponentielle de la variable indiquée.</p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">Exp(nombre)</p>
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                    <br />Pour obtenir la fonction exponentielle de la variable «&#160;note&#160;» portant le numéro 1, écrire&#160;: <br />Exp(note) ou Exp (V1)</p>
+                                                <p style="font-weight: bold;">Variables autorisées&#160;et valeurs prises en compte&#160;:</p>
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Table.css');margin-left: 0;margin-right: auto;" class="TableStyle-Table" cellspacing="0">
+                                                    <col class="TableStyle-Table-Column-Column1" style="width: 151px;" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <thead>
+                                                        <tr class="TableStyle-Table-Head-Header1">
+                                                            <th class="TableStyle-Table-HeadE-Column1-Header1">
+                                                                <p style="text-align: center;">Type de variable</p>
+                                                            </th>
+                                                            <th class="TableStyle-Table-HeadD-Column1-Header1">
+                                                                <p style="text-align: center;">Valeur prise en compte</p>
+                                                            </th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                                <p>Numérique</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">
+                                                                <p>Valeur de l’observation</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyB-Column1-Body2">
+                                                                <p>Fermée échelle</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyA-Column1-Body2">
+                                                                <p>Si la variable contient un barème alors la valeur prise en compte est le barème associé à la modalité répondue sinon la valeur est l’index de la modalité.</p>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                <p><a href="Definition_options_de_calcul.htm#_Syntaxe_et_traitement_1">En savoir plus sur la définition des nombres</a>
+                                                </p>
+                                                <p style="font-weight: bold;">Traitement des non-réponses&#160;:</p>
+                                                <p>Calcul de «&#160;Exp&#160;» d’une variable</p>
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Table.css');margin-left: 0;margin-right: auto;" class="TableStyle-Table" cellspacing="0">
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>Obs</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>V1</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>Exp(v1)</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>NR* remplacées par 0</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body1" style="text-align: center;">
+                                                            <p>NR remplacées par moyenne</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>1</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>-1.8</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>0.17</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>0.17</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body2" style="text-align: center;">
+                                                            <p>0.17</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>2</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>1.8</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>6.05</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>6.05</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body1" style="text-align: center;">
+                                                            <p>6.05</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>3</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>10.8</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>49020.8</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>49020.8</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body2" style="text-align: center;">
+                                                            <p>49020.8</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>4</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>NR</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>NR</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>1</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body1" style="text-align: center;">
+                                                            <p>36.6</p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <p>*NR = Non-réponse</p>
+                                                <p><a href="Definition_options_de_calcul.htm#_Traitement_des_non-réponses">En savoir plus sur le traitement des non-réponses</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="Log"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />Log&#160;: calcul du log népérien d’une variable</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p>Renvoie, pour chaque observation, le logarithme népérien de la variable indiquée.</p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">Log(nombre)</p>
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                    <br />Pour obtenir le logarithme népérien de la variable «&#160;note&#160;» portant le numéro 1, écrire&#160;: <br />Log(note) ou Log(V1)</p>
+                                                <p style="font-weight: bold;">Variables autorisées&#160;et valeurs prises en compte&#160;:</p>
+                                                <p>Cette fonction s’applique sur des variables numériques et échelles de valeur positive et non nulle.</p>
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Table.css');margin-left: 0;margin-right: auto;" class="TableStyle-Table" cellspacing="0">
+                                                    <col class="TableStyle-Table-Column-Column1" style="width: 151px;" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <thead>
+                                                        <tr class="TableStyle-Table-Head-Header1">
+                                                            <th class="TableStyle-Table-HeadE-Column1-Header1">
+                                                                <p style="text-align: center;">Type de variable</p>
+                                                            </th>
+                                                            <th class="TableStyle-Table-HeadD-Column1-Header1">
+                                                                <p style="text-align: center;">Valeur prise en compte</p>
+                                                            </th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                                <p>Numérique</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1" style="text-align: center;">
+                                                                <p>Valeur de l’observation</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyB-Column1-Body2" style="text-align: center;">
+                                                                <p>Fermée échelle</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyA-Column1-Body2" style="text-align: center;">
+                                                                <p>Si la variable contient un barème alors la valeur prise en compte est le barème associé à la modalité répondue sinon la valeur est l’index de la modalité.</p>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                <p><a href="Definition_options_de_calcul.htm#_Syntaxe_et_traitement_1">En savoir plus sur la définition des nombres</a>
+                                                </p>
+                                                <p style="font-weight: bold;">Traitement des non-réponses&#160;:</p>
+                                                <p>Calcul de «&#160;Log&#160;» d’une variable</p>
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Table.css');margin-left: 0;margin-right: auto;" class="TableStyle-Table" cellspacing="0">
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>Obs</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>V1</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>Log(v1)</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>NR* remplacées par 0</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyD-Column1-Body1">
+                                                            <p>NR remplacées par moyenne</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>1</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>-1.8</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>NR</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>0</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyD-Column1-Body2">
+                                                            <p>NR</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>2</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>1.8</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>0.59</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>0.59</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyD-Column1-Body1">
+                                                            <p>0.59</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>3</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>10.8</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>2.38</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>2.38</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyD-Column1-Body2">
+                                                            <p>2.38</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>4</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>NR</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>NR</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>0</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyD-Column1-Body1">
+                                                            <p>1.28</p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <p>*NR = Non-réponse</p>
+                                                <p><a href="Definition_options_de_calcul.htm#_Traitement_des_non-réponses">En savoir plus sur le traitement des non-réponses</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="partie_entiere"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />PartieEntière&#160;: calcul de la partie entière d’une variable</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p>Renvoie, pour chaque observation, la partie entière  d’un nombre ou de la variable décimale indiquée.</p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">PartieEntiere(variable)<br />PartieEntière(nombre)<br />Fix(number)</p>
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                    <br />Pour obtenir la partie entière de la variable «&#160;note&#160;» portant le numéro 1, écrire&#160;: <br />PartieEntiere(note) ou PartieEntiere(V1)</p>
+                                                <p style="font-weight: bold;">Variables autorisées&#160;et valeurs prises en compte&#160;:</p>
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Table.css');margin-left: 0;margin-right: auto;" class="TableStyle-Table" cellspacing="0">
+                                                    <col class="TableStyle-Table-Column-Column1" style="width: 150px;" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <thead>
+                                                        <tr class="TableStyle-Table-Head-Header1">
+                                                            <th class="TableStyle-Table-HeadE-Column1-Header1">
+                                                                <p style="text-align: center;">Type de variable</p>
+                                                            </th>
+                                                            <th class="TableStyle-Table-HeadD-Column1-Header1">
+                                                                <p style="text-align: center;">Valeur prise en compte</p>
+                                                            </th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: left;">
+                                                                <p>Numérique</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1" style="text-align: left;">
+                                                                <p>Valeur de l’observation</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyB-Column1-Body2" style="text-align: left;">
+                                                                <p>Fermée échelle</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyA-Column1-Body2" style="text-align: left;">
+                                                                <p>Si la variable contient un barème alors la valeur prise en compte est le barème associé à la modalité répondue sinon la valeur est l’index de la modalité.</p>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                <p><a href="Definition_options_de_calcul.htm#_Syntaxe_et_traitement_1">En savoir plus sur la définition des nombres</a>
+                                                </p>
+                                                <p style="font-weight: bold;">Traitement des non-réponses&#160;:</p>
+                                                <p>Calcul de «&#160;PartieEntiere&#160;» d’une variable</p>
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Table.css');margin-left: 0;margin-right: auto;" class="TableStyle-Table" cellspacing="0">
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>Obs</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>V1</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>PartieEntiere (v1)</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>NR* remplacées par 0</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body1" style="text-align: center;">
+                                                            <p>NR remplacées par moyenne</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>1</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>-1.8</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>-1</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>-1</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body2" style="text-align: center;">
+                                                            <p>-1</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>2</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>1.8</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>1</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>1</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body1" style="text-align: center;">
+                                                            <p>1</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>3</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>10.8</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>10</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>10</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body2" style="text-align: center;">
+                                                            <p>10</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>4</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>NR</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>NR</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>0</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body1" style="text-align: center;">
+                                                            <p>3</p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <p>*NR = Non-réponse</p>
+                                                <p><a href="Definition_options_de_calcul.htm#_Traitement_des_non-réponses">En savoir plus sur le traitement des non-réponses</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="rac2"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />Rac2&#160;: calcul de la racine carrée d’une variable</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p>Renvoie, pour chaque observation, la racine carrée de la variable indiquée (exécutée uniquement sur des valeurs positives ou nulles).</p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">Rac2(nombre)<br />Sqr(number)</p>
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                    <br />Pour obtenir la racine carrée de la variable «&#160;note&#160;» portant le numéro 1, écrire&#160;: <br />rac2(note) ou rac2(v1)</p>
+                                                <p style="font-weight: bold;">Variables autorisées&#160;et valeurs prises en compte&#160;:</p>
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Table.css');margin-left: 0;margin-right: auto;" class="TableStyle-Table" cellspacing="0">
+                                                    <col class="TableStyle-Table-Column-Column1" style="width: 150px;" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <thead>
+                                                        <tr class="TableStyle-Table-Head-Header1">
+                                                            <th class="TableStyle-Table-HeadE-Column1-Header1">
+                                                                <p style="text-align: center;">Type de variable</p>
+                                                            </th>
+                                                            <th class="TableStyle-Table-HeadD-Column1-Header1">
+                                                                <p style="text-align: center;">Valeur prise en compte</p>
+                                                            </th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                                <p>Numérique</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">
+                                                                <p>Valeur de l’observation</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyB-Column1-Body2">
+                                                                <p>Fermée échelle</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyA-Column1-Body2">
+                                                                <p>Si la variable contient un barème alors la valeur prise en compte est le barème associé à la modalité répondue sinon la valeur est l’index de la modalité.</p>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                <p><a href="Definition_options_de_calcul.htm#_Syntaxe_et_traitement_1">En savoir plus sur la définition des nombres</a>
+                                                </p>
+                                                <p style="font-weight: bold;">Traitement des non-réponses&#160;:</p>
+                                                <p>Calcul de «&#160;Rac2&#160;» d’une variable</p>
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Table.css');margin-left: 0;margin-right: auto;" class="TableStyle-Table" cellspacing="0">
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>Obs</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>V1</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>Rac2(v1)</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>NR* remplacées par 0</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body1">
+                                                            <p>NR remplacées par moyenne</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>1</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>-1.8</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>NR</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>NR</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body2">
+                                                            <p>NR</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>2</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>1.8</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>1.34</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>1.34</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body1">
+                                                            <p>1.34</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>3</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>10.8</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>3.29</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>3.29</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body2">
+                                                            <p>3.29</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>4</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>NR</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>NR</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>0</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body1">
+                                                            <p>1.9</p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <p>*NR = Non-réponse</p>
+                                                <p><a href="Definition_options_de_calcul.htm#_Traitement_des_non-réponses">En savoir plus sur le traitement des non-réponses</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="signe"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />Signe&#160;: Calcul du signe (positif ou négatif) d’une variable</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p>Renvoie, pour chaque observation, le signe de la variable indiquée :</p>
+                                                <ul>
+                                                    <li>
+                                                        <p>«&#160;-1&#160;» si le nombre est négatif</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>0 si le nombre est égal à 0 </p>
+                                                    </li>
+                                                    <li>
+                                                        <p>«&#160;1&#160;» si le nombre est positif</p>
+                                                    </li>
+                                                </ul>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">Signe(variable)</p>
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                    <br />Pour obtenir le signe de la variable «&#160;note&#160;» portant le numéro 1, écrire&#160;: <br />Signe(note) ou Signe(V1)</p>
+                                                <p style="font-weight: bold;">Variables autorisées&#160;et valeurs prises en compte :</p>
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Table.css');margin-left: 0;margin-right: auto;" class="TableStyle-Table" cellspacing="0">
+                                                    <col class="TableStyle-Table-Column-Column1" style="width: 150px;" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <thead>
+                                                        <tr class="TableStyle-Table-Head-Header1">
+                                                            <th class="TableStyle-Table-HeadE-Column1-Header1">
+                                                                <p style="text-align: center;">Type de variable</p>
+                                                            </th>
+                                                            <th class="TableStyle-Table-HeadD-Column1-Header1">
+                                                                <p style="text-align: center;">Valeur prise en compte</p>
+                                                            </th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                                <p>Numérique</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">
+                                                                <p>Valeur de l’observation</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyB-Column1-Body2">
+                                                                <p>Fermée échelle</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyA-Column1-Body2">
+                                                                <p>Si la variable contient un barème alors la valeur prise en compte est le barème associé à la modalité répondue sinon la valeur est l’index de la modalité.</p>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                <p><a href="Definition_options_de_calcul.htm#_Syntaxe_et_traitement_1">En savoir plus sur la définition des nombres</a>
+                                                </p>
+                                                <p style="font-weight: bold;">Traitement des non-réponses&#160;:</p>
+                                                <p>Calcul de «&#160;Signe&#160;» d’une variable</p>
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Table.css');margin-left: 0;margin-right: auto;" class="TableStyle-Table" cellspacing="0">
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>Obs</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>V1</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>Signe(v1)</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>NR* remplacées par 0</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body1" style="text-align: center;">
+                                                            <p>NR remplacées par moyenne</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>1</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>- 5</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>-1</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>-1</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body2" style="text-align: center;">
+                                                            <p>-1</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>2</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>10</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>1</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>1</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body1" style="text-align: center;">
+                                                            <p>1</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>3</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>NR</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>NR</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>0</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body2" style="text-align: center;">
+                                                            <p>1</p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <p>*NR = Non-réponse</p>
+                                                <p><a href="Definition_options_de_calcul.htm#_Traitement_des_non-réponses">En savoir plus sur le traitement des non-réponses</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="Sin"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />Sin&#160;: calcul du sinus d’une variable</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p>Renvoie, pour chaque observation, le sinus de la variable indiquée. Celui-ci est calculé sur un angle exprimé en radian.</p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">sin(variable)</p>
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                    <br />Pour obtenir le sinus de la variable «&#160;note&#160;», il faut écrire&#160;: <br />sin(note)</p>
+                                                <p style="font-weight: bold;">Variables autorisées&#160;et valeurs prises en compte&#160;:</p>
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Table.css');margin-left: 0;margin-right: auto;" class="TableStyle-Table" cellspacing="0">
+                                                    <col class="TableStyle-Table-Column-Column1" style="width: 146px;" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <thead>
+                                                        <tr class="TableStyle-Table-Head-Header1">
+                                                            <th class="TableStyle-Table-HeadE-Column1-Header1">
+                                                                <p style="text-align: center;">Type de variable</p>
+                                                            </th>
+                                                            <th class="TableStyle-Table-HeadD-Column1-Header1">
+                                                                <p style="text-align: center;">Valeur prise en compte</p>
+                                                            </th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                                <p>Numérique</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">
+                                                                <p>Valeur de l’observation</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyB-Column1-Body2">
+                                                                <p>Fermée échelle</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyA-Column1-Body2">
+                                                                <p>Si la variable contient un barème alors la valeur prise en compte est le barème associé à la modalité répondue sinon la valeur est l’index de la modalité.</p>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                <p><a href="Definition_options_de_calcul.htm#_Syntaxe_et_traitement_1">En savoir plus sur la définition des nombres</a>
+                                                </p>
+                                                <p style="font-weight: bold;">Traitement des non-réponses&#160;:</p>
+                                                <p>Calcul de «&#160;Sin&#160;» d’une variable</p>
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Table.css');margin-left: 0;margin-right: auto;" class="TableStyle-Table" cellspacing="0">
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>Obs</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>V1</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>Sin(v1)</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>NR* remplacées par 0</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body1" style="text-align: center;">
+                                                            <p>NR remplacées par moyenne</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>1</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>-1.8</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>-0.97</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>-0.97</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body2" style="text-align: center;">
+                                                            <p>-0.97</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>2</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>1.8</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>0.97</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>0.97</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body1" style="text-align: center;">
+                                                            <p>0.97</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>3</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>10.8</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>-0.98</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p>-0.98</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body2" style="text-align: center;">
+                                                            <p>-0.98</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>4</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>NR</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>NR</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p>0</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body1" style="text-align: center;">
+                                                            <p>-0.44</p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <p>*NR = Non-réponse</p>
+                                                <p><a href="Definition_options_de_calcul.htm#_Traitement_des_non-réponses">En savoir plus sur le traitement des non-réponses</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="Tan"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />Tan&#160;: calcul de la tangente d’une variable</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p class="Notedebasdepage">Renvoie, pour chaque observation, la tangente de la variable indiquée. Celui-ci est calculé sur un angle exprimé en radian.</p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">Tan(variable)</p>
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                    <br />Pour obtenir la tangente de la variable «&#160;note&#160;» portant le numéro 1, il faut écrire&#160;: <br />tan(note) ou  tan(V1)</p>
+                                                <p class="Description" style="font-weight: bold;">Variables autorisées&#160;et valeurs prises en compte&#160;:</p>
+                                                <table class="TableStyle-Table" style="mc-table-style: url('../Resources/TableStyles/Table.css');margin-left: 0;margin-right: auto;" cellspacing="0">
+                                                    <col style="width: 123pt;" class="TableStyle-Table-Column-Column1" />
+                                                    <col style="width: 348pt;" class="TableStyle-Table-Column-Column1" />
+                                                    <thead>
+                                                        <tr class="TableStyle-Table-Head-Header1">
+                                                            <th class="TableStyle-Table-HeadE-Column1-Header1">
+                                                                <p style="text-align: center;">Type de variable</p>
+                                                            </th>
+                                                            <th class="TableStyle-Table-HeadD-Column1-Header1">
+                                                                <p style="text-align: center;">Valeur prise en compte</p>
+                                                            </th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr style="height: 4pt;" class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                                <p class="Paragraphedeliste_1">Numérique</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">
+                                                                <p class="Paragraphedeliste_4">Valeur de l’observation</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr style="height: 39pt;" class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyB-Column1-Body2">
+                                                                <p class="Paragraphedeliste_1">Fermée échelle</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyA-Column1-Body2">
+                                                                <p class="Paragraphedeliste_4">Si la variable contient un barème alors la valeur prise en compte est le barème associé à la modalité répondue sinon la valeur est l’index de la modalité.</p>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                <p><a href="Definition_options_de_calcul.htm#_Syntaxe_et_traitement_1">En savoir plus sur la définition des nombres</a>
+                                                </p>
+                                                <p class="Description" style="font-weight: bold;">Traitement des non-réponses&#160;:</p>
+                                                <p>Calcul de  «&#160;Tan&#160;» d’une variable</p>
+                                                <table class="TableStyle-Table" style="mc-table-style: url('../Resources/TableStyles/Table.css');margin-left: 0;margin-right: auto;" cellspacing="0">
+                                                    <col style="width: 27pt;" class="TableStyle-Table-Column-Column1" />
+                                                    <col style="width: 34pt;" class="TableStyle-Table-Column-Column1" />
+                                                    <col style="width: 85pt;" class="TableStyle-Table-Column-Column1" />
+                                                    <col style="width: 135pt;" class="TableStyle-Table-Column-Column1" />
+                                                    <col style="width: 156pt;" class="TableStyle-Table-Column-Column1" />
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p class="p_19">Obs</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p class="p_19">V1</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p class="p_19">Tan(v1)</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p class="p_19">NR* remplacées par 0</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body1" style="text-align: center;">
+                                                            <p class="p_19">NR remplacées par moyenne</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p class="p_19">1</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p class="p_19">-1.8</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p class="p_19">4.29</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p class="p_19">4.29</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body2" style="text-align: center;">
+                                                            <p class="p_19">4.29</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p class="p_19">2</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p class="p_23">1.8</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p class="p_19">-4.29</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p class="p_19">-4.29</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body1" style="text-align: center;">
+                                                            <p class="p_19">-4.29</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p class="p_19">3</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p class="p_23">10.8</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p class="p_19">5.05</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2" style="text-align: center;">
+                                                            <p class="p_19">5.05</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body2" style="text-align: center;">
+                                                            <p class="p_19">5.05</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p class="p_19">4</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p class="p_23">NR</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p class="p_19">NR</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1" style="text-align: center;">
+                                                            <p class="p_19">0</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body1" style="text-align: center;">
+                                                            <p class="p_19">0.49</p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <p class="p_4">*NR = Non-réponse</p>
+                                                <p><a href="Definition_options_de_calcul.htm#_Traitement_des_non-réponses">En savoir plus sur le traitement des non-réponses</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="Val_aleatoire"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />ValAleatoire&#160;: calcul d’un nombre aléatoire</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p class="Notedebasdepage">Renvoie, pour chaque observation, un nombre aléatoire. </p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">ValAleatoire() <br />Rnd()<br />ValAleatoire(inf, sup)<br />Rnd(inf, sup)</p>
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                    <br />Pour obtenir un nombre aléatoire situé dans l’intervalle ]0,1[, écrire&#160;: <br />ValAleatoire()<br />Pour obtenir un nombre aléatoire entier situé dans l’intervalle [1,10], écrire&#160;:&#160;<br />ValAleatoire(1,10)</p>
+                                                <p class="warning" data-mc-autonum="&lt;b&gt;ATTENTION : &lt;/b&gt;"><span class="autonumber"><span><b>ATTENTION : </b></span></span>La valeur aléatoire se recalculera automatiquement lors de l'enregistrement de la réponse ou lorsqu'elle  est utilisée ailleurs (sur une autre page) dans le calcul d'une autre variable etc... <br />Pour bloquer le calcul de la valeur aléatoire, &#160; il suffit d'indiquer dans la formule que le calcul ne doit être effectué que si cette variable est non-réponse.<br />Exemple : <br /><b>Si V1.estnonreponse alors</b><br style="font-weight: bold;" /><b>V= ValAleatoire(1,10)</b><br style="font-weight: bold;" /><b>Finsi</b><br /></p>
+                                                <p>Calcul de «&#160;ValAleatoire&#160;» d’une variable</p>
+                                                <table class="TableStyle-Table" style="mc-table-style: url('../Resources/TableStyles/Table.css');margin-left: 0;margin-right: auto;" cellspacing="0">
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p class="p_19">Obs</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p class="p_26">ValAleatoire()</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body1">
+                                                            <p class="p_26">ValAleatoire(1,10)</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p class="p_19">1</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p class="p_19">0.27</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body2">
+                                                            <p class="p_19">1</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p class="p_19">2</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p class="p_19">0.85</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body1">
+                                                            <p class="p_19">10</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p class="p_19">3</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p class="p_19">0.86</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body2">
+                                                            <p class="p_19">2</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p class="p_19">4</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p class="p_19">0.36</p>
+                                                        </td>
+                                                        <td class="TableStyle-Table-BodyD-Column1-Body1">
+                                                            <p class="p_19">3</p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <p class="p_4">*NR = Non-réponse</p>
+                                                <p class="Notedebasdepage" style="font-weight: bold;">Cas d’utilisation&#160;:</p>
+                                                <ul>
+                                                    <li>
+                                                        <p>Test des protocoles de collecte&#160;de données&#160;: nous souhaitons comparer la qualité des réponses collectées avec deux formulaires différents&#160;: le premier comprend des images et le second des vidéos à titre d’exemple. Nous adressons au hasard l’un des deux formulaires aux répondants en utilisant la fonction <span class="bold">ValAleatoire</span>. Nous comparons ensuite les résultats des deux sous-échantillons. </p>
+                                                    </li>
+                                                    <li>
+                                                        <p>
+                        Evaluation d’une série de produits&#160;: pour collecter l’avis des répondants sur trois produits différents, nous produisons un formulaire de trois pages, dont chacune reprend l’image du produit et les questions qui s’y rapportent. Pour neutraliser l’effet d’ancrage dû à l’ordre de présentation, les pages sont renvoyées dans un ordre aléatoire. 
+                    </p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="Val_Entiere"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />ValEntière&#160;: Calcul de la valeur entière d’une variable</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p>Renvoie, pour chaque observation, la valeur entière la plus proche dans l’ordre décroissant de la variable décimale indiquée. </p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">ValEntiere(nombre)<br />ValEntière(nombre)<br />Int(number)</p>
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                    <br />Pour obtenir le nombre entier de la variable «&#160;note&#160;» portant le numéro 1, écrire&#160;: <br />ValEntiere(note) ou ValEntiere(V1)</p>
+                                                <p style="font-weight: bold;">Variables autorisées&#160;et valeurs prises en compte&#160;:</p>
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Table.css');margin-left: 0;margin-right: auto;" class="TableStyle-Table" cellspacing="0">
+                                                    <col class="TableStyle-Table-Column-Column1" style="width: 162px;" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <thead>
+                                                        <tr class="TableStyle-Table-Head-Header1">
+                                                            <th class="TableStyle-Table-HeadE-Column1-Header1">
+                                                                <p style="text-align: center;">Type de variable</p>
+                                                            </th>
+                                                            <th class="TableStyle-Table-HeadD-Column1-Header1">
+                                                                <p style="text-align: center;">Valeur prise en compte</p>
+                                                            </th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr class="TableStyle-Table-Body-Body1">
+                                                            <td class="TableStyle-Table-BodyE-Column1-Body1">
+                                                                <p>Numérique</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyD-Column1-Body1">
+                                                                <p>Valeur de l’observation</p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-Table-Body-Body2">
+                                                            <td class="TableStyle-Table-BodyB-Column1-Body2">
+                                                                <p>Fermée échelle</p>
+                                                            </td>
+                                                            <td class="TableStyle-Table-BodyA-Column1-Body2">
+                                                                <p>Si la variable contient un barème alors la valeur prise en compte est le barème associé à la modalité répondue sinon la valeur est l’index de la modalité.</p>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                <p><a href="Definition_options_de_calcul.htm#_Syntaxe_et_traitement_1">En savoir plus sur la définition des nombres</a>
+                                                </p>
+                                                <p style="font-weight: bold;">Traitement des non-réponses&#160;:</p>
+                                                <p>Calcul de «&#160;ValEntiere&#160;» d’une variable</p>
+                                                <table style="mc-table-style: url('../Resources/TableStyles/Table.css');margin-left: 0;margin-right: auto;" class="TableStyle-Table" cellspacing="0">
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <col class="TableStyle-Table-Column-Column1" />
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>Obs</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>V1</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>ValEntiere (v1)</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>NR* remplacées par 0</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyD-Column1-Body1">
+                                                            <p>NR remplacées par moyenne</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>1</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>-1.8</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>-2</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>-2</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyD-Column1-Body2">
+                                                            <p>-2</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>2</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>1.8</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>1</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>1</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyD-Column1-Body1">
+                                                            <p>1</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body2">
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>3</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>10.8</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>10</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body2">
+                                                            <p>10</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyD-Column1-Body2">
+                                                            <p>10</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="TableStyle-Table-Body-Body1">
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>4</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>NR</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>NR</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyE-Column1-Body1">
+                                                            <p>0</p>
+                                                        </td>
+                                                        <td style="text-align: center;" class="TableStyle-Table-BodyD-Column1-Body1">
+                                                            <p>3</p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <p>*NR = Non-réponse</p>
+                                                <p><a href="Definition_options_de_calcul.htm#_Traitement_des_non-réponses">En savoir plus sur le traitement des non-réponses</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="Soustraction"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />–&#160;: Soustraction</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p>Renvoie, pour chaque observation, la soustraction de deux nombres (ou la valeur négative d’une expression numérique).</p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">Nombre1 – Nombre2</p>
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                    <br />Pour obtenir la différence entre les variables DépenseTotale et DépenseHébergement, écrire&#160;: <br />DépenseTotale - DépenseHébergement</p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="Multiplication"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />*&#160;: Multiplication</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p>Renvoie la multiplication de ‘nombre1’ par ‘nombre2’.</p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">Nombre1 * Nombre2</p>
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                    <br />Pour obtenir le produit des variables BudgetRestaurant et NombrePersonnes, écrire&#160;: <br />BudgetRestaurant*NombrePersonnes</p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="Division"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />/&#160;: Division</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p>Renvoie la division de ‘nombre1’ par ’nombre2’. </p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">Nombre1 / Nombre2</p>
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                    <br />Pour obtenir le rapport entre les variables BudgetRestaurant et BudgetGlobal, écrire&#160;: <br />BudgetRestaurant/BudgetGlobal</p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="Division_entiere"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />\&#160;: Division entière</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p>Renvoie la division entière de ‘nombre1’ par ’nombre2’. </p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">Nombre1 \ Nombre2</p>
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                    <br />Pour obtenir la partie entière du rapport entre les variables BudgetRestaurant et BudgetGlobal, écrire&#160;: <br />BudgetRestaurant\BudgetGlobal</p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="Exposant"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />^&#160;: Exposant</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p>Renvoie l’élévation à la puissance de ‘nombre’ par ‘exposant’. </p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">Nombre ^ exposant</p>
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                    <br />Pour obtenir l’élévation au carré de la variable Dépense, écrire&#160;: <br />Dépense^2</p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="Addition"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />+&#160;: Addition</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p>Renvoie l’addition de ‘nombre1’ et ’nombre2’.</p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">Nombre1 + Nombre2</p>
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                    <br />Pour obtenir la somme des variables DépenseHébergement et DépenseRestauration, écrire&#160;: <br />DépenseHébergement + DépenseRestauration</p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="Mod"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />Mod&#160;: Reste de division</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p>Renvoie le reste de la division entière de ‘nombre1’ par ’nombre2’.</p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">Nombre1 Mod Nombre2</p>
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>
+                                                    <br />Pour obtenir le reste de la division de DépenseHébergement et DépenseTotale, écrire&#160;: <br />DépenseTotale Mod DépenseHébergement</p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="e"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />e&#160;: constante de 2.71</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p>Nombre d’Euler de valeur approchée 2.7182818284</p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">e</p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a name="Pi"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Fermé" data-mc-alt2="Ouvert" />Pi&#160;: constante de 3.14</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p style="font-weight: bold;">Description&#160;:</p>
+                                                <p>Nombre de pi de valeur approchée 3.1415926535</p>
+                                                <p style="font-weight: bold;">Syntaxe&#160;:</p>
+                                                <p class="syntaxe">Pi</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><a data-close="true"></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
