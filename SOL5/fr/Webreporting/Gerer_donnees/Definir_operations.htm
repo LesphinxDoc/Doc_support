@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="fr" xml:lang="fr" class="_Skins_Side_navigation_SOL5" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../" data-mc-has-content-body="True" data-mc-toc-path="WEBREPORTING|Gérer les données" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="msapplication-config" content="../../Skins/Favicons/browserconfig.xml" />
+        <link rel="shortcut icon" href="../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="32x32" href="../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="16x16" href="../../Skins/Favicons/favicon-16x16.png" />
+        <meta charset="utf-8" /><title>Définir des opérations à exécuter</title>
+        <link rel="shortcut icon" href="../../Resources/Images/Analyse/iconeQ.png" type="image/png" />
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Fluid/Stylesheets/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="../../Resources/Scripts/search-dropdown.css" />
+        <style>/*&lt;meta /&gt;*/
+
+.button.remove-highlight-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.separator-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.select-language-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.separator-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.expand-all-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.separator-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.print-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.collapse-all-button
+{
+	-pie-background: linear-gradient(transparent, #ececec);
+}
+
+.needs-pie
+{
+	behavior: url('../../Resources/Scripts/PIE-no-motw.htc');
+}
+
+</style>
+        <link rel="shortcut icon" href="../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="32x32" href="../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="16x16" href="../../Skins/Favicons/favicon-16x16.png" />
+        <script src="../../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/purify.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/foundation.6.2.3_custom.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js" type="text/javascript" defer="defer">
+        </script>
+        <script type="text/javascript" src="../../Resources/Scripts/search-dropdown.js">
+        </script>
+        <script type="text/javascript" src="../../Skins/Default/Scripts/TopicToolBar.js">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-right" role="complementary" id="offCanvas" data-off-canvas="" data-position="right" data-mc-ignore="true">
+                    <ul class="off-canvas-accordion vertical menu off-canvas-list" data-accordion-menu="" data-mc-back-link="Retour" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expanded-event="down.zf.accordionMenu up.zf.accordionMenu" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div data-sticky-container="" class="title-bar-container">
+                        <nav class="title-bar tab-bar sticky" aria-label="Main navigation and search" data-sticky="" data-options="marginTop:0" style="width:100%" data-sticky-on="only screen and (max-width: 1279px)" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="#">Passer au contenu principal</a>
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="menu-icon-container relative clearfix">
+                                    <div class="central-account-wrapper">
+                                        <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Compte</span></a>
+                                            <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Paramètres</a>
+                                                <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Déconnexion</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="menu-icon" aria-label="Afficher le volet de navigation" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="title-bar-layout outer-row">
+                                <div class="logo-wrapper"><a class="logo" href="../../Home_Sol5.htm" alt="Logo"></a>
+                                </div>
+                                <div class="navigation-wrapper nocontent">
+                                    <ul class="navigation clearfix" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                        <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="central-account-wrapper">
+                                    <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Compte</span></a>
+                                        <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Paramètres</a>
+                                            <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Déconnexion</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nav-search-wrapper">
+                                    <div class="nav-search row">
+                                        <form class="search" action="#">
+                                            <div class="search-bar search-bar-container needs-pie">
+                                                <input class="search-field needs-pie" type="search" aria-label="Champ de recherche" placeholder="Rechercher" />
+                                                <div class="search-filter-wrapper"><span class="invisible-label" id="search-filters-label">Filtrer&#160;:</span>
+                                                    <div class="search-filter" aria-haspopup="true" aria-controls="sf-content" aria-expanded="false" aria-label="Filtre de recherche" title="Tous les fichiers" role="button" tabindex="0">
+                                                    </div>
+                                                    <div class="search-filter-content" id="sf-content">
+                                                        <ul>
+                                                            <li>
+                                                                <button class="mc-dropdown-item" aria-labelledby="search-filters-label filterSelectorLabel-00001"><span id="filterSelectorLabel-00001">Tous les fichiers</span>
+                                                                </button>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="search-submit-wrapper" dir="ltr">
+                                                    <div class="search-submit" title="Rechercher" role="button" tabindex="0"><span class="invisible-label">Démarrer la recherche</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="main-section">
+                        <div class="row outer-row sidenav-layout">
+                            <nav class="sidenav-wrapper">
+                                <div class="sidenav-container">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expanded-event="down.zf.accordionMenu up.zf.accordionMenu" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
+                                    </ul>
+                                </div>
+                            </nav>
+                            <div class="body-container">
+                                <div data-mc-content-body="True"><a href="#" class="scrollToTop"></a>
+                                    <div class="buttons popup-container clearfix topicToolbarProxy _Skins_TopicToolBar mc-component nocontent" style="float: right; mc-topic-toolbar-items: ;">
+                                        <div class="button-group-container-left">
+                                            <button class="button needs-pie remove-highlight-button" title="Supprimer les surlignages">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                            <div class="button-separator">
+                                            </div>
+                                            <button class="button needs-pie select-language-button" title="Changer de langue">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper" aria-label="Changer de langue">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                            <div class="button-separator">
+                                            </div>
+                                            <button class="button needs-pie expand-all-button" data-state1-class="expand-all-button" data-state2-class="collapse-all-button" data-state2-title="Réduire tout" title="Développer tout" data-state1-title="Développer tout">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper" aria-label="Développer tout">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                            <div class="button-separator">
+                                            </div>
+                                            <button class="button needs-pie print-button" title="Imprimer">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper" aria-label="Imprimer">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="nocontent">
+                                        <div class="MCBreadcrumbsBox_0 breadcrumbs" role="navigation" aria-label="Pistes de navigation" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="3" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">Vous êtes ici: </span>
+                                        </div>
+                                    </div>
+                                    <div role="main" id="mc-main-content">
+                                        <h1 class="Titre1">Définir des opérations à exécuter</h1>
+                                        <p>L'accès aux résultats d’une enquête peut être précédé par une mise à jour des données. Vous avez la possibilité d'utiliser trois opérations prédéfinies ou de définir manuellement une liste de plusieurs opérations à exécuter.</p>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" alt="Fermé" data-mc-alt2="Ouvert" />Télécharger et importer un fichier de données</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p>Cette opération permet d’importer un fichier de données. Selon votre choix, ce fichier pourra :</p>
+                                                <ul>
+                                                    <li>
+                                                        <p>Ajouter ou modifier des données ;</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Remplacer entièrement le fichier de données existant.</p>
+                                                        <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../../Resources/Images/Webreporting/tel_import_fichier_donnees.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="852" data-mc-height="87" src="../../Resources/Images/Webreporting/tel_import_fichier_donnees.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a>
+                                                        </p>
+                                                    </li>
+                                                </ul>
+                                                <p>Étapes à suivre :</p>
+                                                <ol>
+                                                    <li value="1">
+                                                        <p>Sélectionnez l’option <span class="bold">Ajouter/modifier</span> ou <span class="bold">Remplacer</span>, selon l’action souhaitée.</p>
+                                                    </li>
+                                                    <li value="2">
+                                                        <p>Choisissez le format de fichier à importer : <span class="bold">.txt, .csv, .xls</span> ou <span class="bold">.xlsx</span>.</p>
+                                                    </li>
+                                                    <li value="3">
+                                                        <p>(Facultatif) Par défaut, les variables automatiques seront recalculées sur l’ensemble des données.</p>
+                                                        <p>Si vous souhaitez effectuer ce calcul uniquement sur les données importées, cochez l’option <span class="bold">Recalculer les variables automatiques uniquement sur les données importées</span>.</p>
+                                                    </li>
+                                                    <li value="4">
+                                                        <p>(Facultatif) Si vous souhaitez bloquer l’importation en cas de données incohérentes, cochez l’option <span class="bold">Données incohérentes</span>.</p>
+                                                    </li>
+                                                    <li value="5">
+                                                        <p><a href="Execution_operations.htm">Paramétrez l'exécution de l'opération</a>.</p>
+                                                        <p>(Facultatif) Vous pouvez cliquer sur <span class="bold">Exécuter l’opération maintenant...</span> pour lancer immédiatement l’opération de votre côté.</p>
+                                                    </li>
+                                                </ol>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" alt="Fermé" data-mc-alt2="Ouvert" />Rassembler avec une autre enquête</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p>Cette opération permet de rassembler l'enquête avec une autre.</p>
+                                                <ol>
+                                                    <li value="1">
+                                                        <p>Sélectionnez <span class="bold">Rassembler avec une autre enquête</span>.</p>
+                                                    </li>
+                                                    <li value="2">
+                                                        <p>Sélectionnez l'enquête concernée depuis le menu déroulant.</p>
+                                                    </li>
+                                                    <li value="3">
+                                                        <p><a href="Execution_operations.htm">Paramétrez l'exécution de l'opération</a>.</p>
+                                                        <p>(Facultatif) Vous pouvez cliquer sur <span class="bold">Exécuter l’opération maintenant...</span> pour lancer immédiatement l’opération de votre côté.</p>
+                                                    </li>
+                                                </ol>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" alt="Fermé" data-mc-alt2="Ouvert" />Fusionner avec une autre enquête</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p>Cette opération permet de fusionner l'enquête avec une autre.</p>
+                                                <ol>
+                                                    <li value="1">
+                                                        <p>Sélectionnez <span class="bold">Fusionner avec une autre enquête</span>.</p>
+                                                    </li>
+                                                    <li value="2">
+                                                        <p>Sélectionnez l'enquête concernée depuis le menu déroulant.</p>
+                                                    </li>
+                                                    <li value="3">
+                                                        <p><a href="Execution_operations.htm">Paramétrez l'exécution de l'opération</a>.</p>
+                                                        <p>(Facultatif) Vous pouvez cliquer sur <span class="bold">Exécuter l’opération maintenant...</span> pour lancer immédiatement l’opération de votre côté.</p>
+                                                    </li>
+                                                </ol>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" alt="Fermé" data-mc-alt2="Ouvert" />Définir manuellement une liste d'opérations</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <ol>
+                                                    <li value="1">
+                                                        <p>Cliquez sur <span class="bold">voir la liste</span>. </p>
+                                                    </li>
+                                                    <li value="2">
+                                                        <p>Cliquez sur le bouton <span class="bold">+</span> pour ajouter une opération.</p>
+                                                    </li>
+                                                    <li value="3">
+                                                        <p>Sélectionnez l'opération à paramétrer.</p>
+                                                        <ul>
+                                                            <li>
+                                                                <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" alt="Fermé" data-mc-alt2="Ouvert" />Télécharger un fichier</a></span>
+                                                                    <div class="MCDropDownBody dropDownBody">
+                                                                        <p>Cette opération permet de télécharger un fichier depuis votre disque qui sera par la suite ajouté aux fichiers complémentaires (onglet <span class="bold">Avancés</span>).</p>
+                                                                        <ol>
+                                                                            <li value="1">
+                                                                                <p>Indiquez le nom du fichier qui sera téléchargé.</p>
+                                                                            </li>
+                                                                        </ol>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" alt="Fermé" data-mc-alt2="Ouvert" />Importer des données</a></span>
+                                                                    <div class="MCDropDownBody dropDownBody">
+                                                                        <p>Cette opération permet d'importer un fichier de données.</p>
+                                                                        <ol>
+                                                                            <li value="1">
+                                                                                <p>Indiquez le nom du fichier à importer (présent dans vos fichiers complémentaires) ou précisez la source de données en saisissant l’URL du fichier s’il est hébergé en dehors de votre compte.</p>
+                                                                            </li>
+                                                                            <li value="2">
+                                                                                <p>Sélectionnez l’option <span class="bold">Ajouter/modifier les observations</span> ou <span class="bold">Remplacer les observations</span>, selon l’action souhaitée.</p>
+                                                                            </li>
+                                                                            <li value="3">
+                                                                                <p>Choisissez le format de fichier à importer : <span class="bold">.txt, .csv, .xls</span> ou <span class="bold">.xlsx</span>.</p>
+                                                                            </li>
+                                                                            <li value="4">
+                                                                                <p>(Facultatif) Par défaut, les variables automatiques seront recalculées sur l’ensemble des données.</p>
+                                                                                <p>Si vous souhaitez effectuer ce calcul uniquement sur les données importées, cochez l’option <span class="bold">Recalculer les variables automatiques uniquement sur les données importées</span>.</p>
+                                                                            </li>
+                                                                            <li value="5">
+                                                                                <p>(Facultatif) Si vous souhaitez bloquer l’importation en cas de données incohérentes, cochez l’option <span class="bold">Données incohérentes</span>.</p>
+                                                                            </li>
+                                                                        </ol>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" alt="Fermé" data-mc-alt2="Ouvert" />Exporter les données</a></span>
+                                                                    <div class="MCDropDownBody dropDownBody">
+                                                                        <p>Cette opération permet d'exporter les données de votre étude.</p>
+                                                                        <ol>
+                                                                            <li value="1">
+                                                                                <p>Indiquez le nom du fichier dans lequel les données seront exportées.</p>
+                                                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>Nom_du_fichier.csv</p>
+                                                                                <p class="warning" data-mc-autonum="&lt;b&gt;ATTENTION : &lt;/b&gt;"><span class="autonumber"><span><b>ATTENTION : </b></span></span>Ce fichier doit être présent dans la liste des fichiers complémentaires.</p>
+                                                                            </li>
+                                                                        </ol>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" alt="Fermé" data-mc-alt2="Ouvert" />Rassembler avec une enquête</a></span>
+                                                                    <div class="MCDropDownBody dropDownBody">
+                                                                        <p>Cette opération permet de rassembler les données (lignes du tableur) de deux études. Seules les variables de l'étude de référence seront conservées.</p>
+                                                                        <p>Elle est utile pour centraliser les résultats dans un seul jeu de données pour analyse. Elle permet notamment de :</p>
+                                                                        <ul>
+                                                                            <li>
+                                                                                <p>Gagner du temps en évitant une saisie ou une recopie manuelle.</p>
+                                                                            </li>
+                                                                            <li>
+                                                                                <p>Réaliser des analyses transversales sur plusieurs populations ayant répondu à un même questionnaire.</p>
+                                                                            </li>
+                                                                            <li>
+                                                                                <p>Comparer les résultats selon l’origine des données.</p>
+                                                                            </li>
+                                                                        </ul>
+                                                                        <p>Pour configurer l'opération :</p>
+                                                                        <ol>
+                                                                            <li value="1">
+                                                                                <p>Sélectionnez l'enquête à rassembler depuis le menu déroulant.</p>
+                                                                            </li>
+                                                                            <li value="2">
+                                                                                <p>Sélectionnez la variable d'identification.</p>
+                                                                                <p>Cette variable permet d’indiquer l’étude d’origine des observations importées. Elle sera préremplie avec le nom de l’étude à rassembler.</p>
+                                                                                <p>Elle doit avoir été créée au préalable et doit être de type <span class="bold">fermée unique</span>.</p>
+                                                                            </li>
+                                                                        </ol>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" alt="Fermé" data-mc-alt2="Ouvert" />Fusionner avec une enquête</a></span>
+                                                                    <div class="MCDropDownBody dropDownBody">
+                                                                        <p>Cette opération permet de rassembler les variables de deux enquêtes. Si l’une des enquêtes contient des variables supplémentaires, celles-ci seront ajoutées à l’enquête sur laquelle la fusion est effectuée. Les observations provenant d’enquêtes identiques seront également fusionnées.</p>
+                                                                        <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>Vous avez réalisé deux enquêtes distinctes auprès de la même cible :<br />- une enquête sur les habitudes d’achat,<br />- une enquête sur la notoriété de votre marque.<br />En fusionnant les deux, vous obtenez un fichier unique permettant de croiser les réponses et d’analyser, par exemple, si les habitudes d’achat influencent la perception de la marque.<br /></p>
+                                                                        <ol>
+                                                                            <li value="1">
+                                                                                <p>Sélectionnez l'enquête à fusionner depuis le menu déroulant.</p>
+                                                                            </li>
+                                                                            <li value="2">
+                                                                                <p>Sélectionnez la variable clé.</p>
+                                                                                <p>Cette variable permet d’identifier de manière unique chaque répondant ou observation dans les deux enquêtes. Elle garantit que les réponses concernant la même personne ou entité sont correctement fusionnées dans le fichier de données.</p>
+                                                                            </li>
+                                                                        </ol>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" alt="Fermé" data-mc-alt2="Ouvert" />Dédoublonner</a></span>
+                                                                    <div class="MCDropDownBody dropDownBody">
+                                                                        <p>Cette opération permet d’identifier les doublons présents dans un fichier de données et de supprimer automatiquement l’observation la plus récente, ou les observations les plus récentes, pour chaque doublon détecté.</p>
+                                                                        <p>Un doublon est défini comme deux (ou plusieurs) observations partageant la même valeur pour une ou plusieurs variables clés.</p>
+                                                                        <ul>
+                                                                            <li>
+                                                                                <p>Sélectionnez les variables sur lesquelles l’opération de dédoublonnage se basera. Pour ce faire :</p>
+                                                                                <ol>
+                                                                                    <li value="1">
+                                                                                        <p>Cliquez sur <span class="bold">Gérer les variables</span>.</p>
+                                                                                    </li>
+                                                                                    <li value="2">
+                                                                                        <p>Glissez déposez les variables souhaitées vers la colonne de droite.</p>
+                                                                                        <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../../Resources/Images/Webreporting/liste_variables_selectionnees.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="667" data-mc-height="237" src="../../Resources/Images/Webreporting/liste_variables_selectionnees.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a>
+                                                                                        </p>
+                                                                                        <p class="note" data-mc-autonum="&lt;b&gt;REMARQUE : &lt;/b&gt;"><span class="autonumber"><span><b>REMARQUE : </b></span></span>L’ordre d’affichage des colonnes (variables) peut être modifié à l’aide des flèches haut et bas.</p>
+                                                                                    </li>
+                                                                                </ol>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" alt="Fermé" data-mc-alt2="Ouvert" />Recalculer les variables</a></span>
+                                                                    <div class="MCDropDownBody dropDownBody">
+                                                                        <p>Cette opération permet :</p>
+                                                                        <ul>
+                                                                            <li>
+                                                                                <p>De recalculer les variables automatiques et, si nécessaire, d’appliquer les calculs d’analyse textuelle et sémantique.</p>
+                                                                            </li>
+                                                                            <li>
+                                                                                <p>Ou d’exécuter un calcul personnalisé.</p>
+                                                                            </li>
+                                                                        </ul>
+                                                                        <p>Pour recalculer les variables :</p>
+                                                                        <ol>
+                                                                            <li value="1">
+                                                                                <p>Sélectionnez <span class="bold">Recalculer les variables</span>.</p>
+                                                                            </li>
+                                                                            <li value="2">
+                                                                                <p>Si nécessaire, cochez <span class="bold">Appliquer les calculs d’analyse textuelle et sémantique</span>.</p>
+                                                                            </li>
+                                                                        </ol>
+                                                                        <p>Pour exécuter un calcul :</p>
+                                                                        <ol>
+                                                                            <li value="1">
+                                                                                <p>Sélectionnez <span class="bold">Exécuter un calcul</span>.</p>
+                                                                            </li>
+                                                                            <li value="2">
+                                                                                <p>Renseignez la formule à utiliser dans le champ prévu à cet effet.</p>
+                                                                            </li>
+                                                                        </ol>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" alt="Fermé" data-mc-alt2="Ouvert" />Supprimer des observations</a></span>
+                                                                    <div class="MCDropDownBody dropDownBody">
+                                                                        <p>Cette opération vous permet de supprimer l’ensemble des observations ou uniquement celles associées à un profil spécifique.</p>
+                                                                        <ul>
+                                                                            <li>
+                                                                                <p>Pour supprimer toutes les observations, sélectionnez <span class="bold">Toutes les observations</span>.</p>
+                                                                            </li>
+                                                                            <li>
+                                                                                <p>Pour supprimer les observations liées à un profil, sélectionnez <span class="bold">Définir un profil</span> puis indiquez le profil à utiliser.</p>
+                                                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>[Sexe] = "Un Homme"</p>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" alt="Fermé" data-mc-alt2="Ouvert" />Mettre à jour un fichier</a></span>
+                                                                    <div class="MCDropDownBody dropDownBody">
+                                                                        <p>Cette fonctionnalité vous permet de remplacer un fichier existant par sa version la plus récente dans votre étude.</p>
+                                                                        <ol>
+                                                                            <li value="1">
+                                                                                <p>Saisissez l’URL de mise à jour. Il s’agit du lien vers la dernière version du fichier que vous souhaitez utiliser.</p>
+                                                                            </li>
+                                                                            <li value="2">
+                                                                                <p>Renseignez le nom exact du fichier à mettre à jour dans le champ <span class="bold">Nom du fichier</span>.</p>
+                                                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>Mon_fichier.xlsx</p>
+                                                                            </li>
+                                                                            <li value="3">
+                                                                                <p>Choisissez le dossier dans lequel vous souhaitez enregistrer le fichier dans votre liste de fichiers complémentaires : <span class="bold">Ressources</span> ou <span class="bold">Avancés</span>.</p>
+                                                                                <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../../Resources/Images/Webreporting/mise_a_jour_fichier.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="617" data-mc-height="115" src="../../Resources/Images/Webreporting/mise_a_jour_fichier.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a>
+                                                                                </p>
+                                                                            </li>
+                                                                        </ol>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" alt="Fermé" data-mc-alt2="Ouvert" />Analyse lexicale (verbes, noms, adjectifs)</a></span>
+                                                                    <div class="MCDropDownBody dropDownBody">
+                                                                        <p>Cette opération permet de redéfinir les noms, verbes, adjectifs pour chaque variable texte préalablement lemmatisée (MAVAR_L, MAVAR_MOTS...).</p>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" alt="Fermé" data-mc-alt2="Ouvert" />Transfert FTP</a></span>
+                                                                    <div class="MCDropDownBody dropDownBody">
+                                                                        <p>Cette opération permet d'envoyer des fichiers ou de télécharger des fichiers.</p>
+                                                                        <p class="warning" data-mc-autonum="&lt;b&gt;ATTENTION : &lt;/b&gt;"><span class="autonumber"><span><b>ATTENTION : </b></span></span>Le paramétrage de cette opération requiert l’intervention de votre service informatique afin de renseigner certains champs techniques, tels que l’hôte, le port ou le type de chiffrement.</p>
+                                                                        <p class="note" data-mc-autonum="&lt;b&gt;REMARQUE : &lt;/b&gt;"><span class="autonumber"><span><b>REMARQUE : </b></span></span>En cas d'erreur lors du transfert FTP, merci de prendre contact avec le support technique.</p>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" alt="Fermé" data-mc-alt2="Ouvert" />Fonctions avancées</a></span>
+                                                                    <div class="MCDropDownBody dropDownBody">
+                                                                        <p>Les fonctions avancées permettre de personnaliser certaines opérations de gestion de données. Ces fonctions avancées sont appelées des "macros".</p>
+                                                                        <p class="warning" data-mc-autonum="&lt;b&gt;ATTENTION : &lt;/b&gt;"><span class="autonumber"><span><b>ATTENTION : </b></span></span>Cette fonctionnalité requiert des connaissances avancées en programmation. Nous vous recommandons de solliciter l’assistance de votre service informatique afin de vous accompagner dans sa mise en œuvre.</p>
+                                                                        <p>Les fonctions avancées permettent de :</p>
+                                                                        <ul>
+                                                                            <li>
+                                                                                <p>Importer un fichier de données (pour mettre à jour automatiquement des tableaux de bord)</p>
+                                                                            </li>
+                                                                            <li>
+                                                                                <p>Fusionner deux enquêtes (pour intégrer des données complémentaires dans une enquête)</p>
+                                                                            </li>
+                                                                            <li>
+                                                                                <p>Rassembler plusieurs enquêtes (pour les dépouiller conjointement)</p>
+                                                                            </li>
+                                                                            <li>
+                                                                                <p>Dédoublonner les observations d'une enquête (pour supprimer les saisies en double)</p>
+                                                                            </li>
+                                                                            <li>
+                                                                                <p>Regrouper les observations d'une enquête (pour changer l'unité statistique en regroupant des observations ayant une même caractéristique)</p>
+                                                                            </li>
+                                                                            <li>
+                                                                                <p>Exporter les données (tableau, fichier texte, ...)</p>
+                                                                            </li>
+                                                                        </ul>
+                                                                        <p>Les macros sont écrites en <span class="bold">XML</span>,<a href="https://asp.ergole.fr/config/help/macro_fulltemplate.xml" target="_blank">un fichier contenant les spécifications techniques des fonctions disponibles est à votre disposition.</a></p>
+                                                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" alt="Fermé" data-mc-alt2="Ouvert" />Importer</a></span>
+                                                                            <div class="MCDropDownBody dropDownBody">
+                                                                                <p>La fonction permet d'importer des données externes pouvant provenir d'un fichier (.txt, .csv, .xls ou .xlsx) stocké localement sur le serveur ou bien d'une URL ou encore d'une base de données.</p>
+                                                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span><span class="bold">1</span> Importation d'un fichier Excel : les données sont sur la première feuille du fichier, les noms des colonnes ne sont pas les mêmes dans l'enquête et le fichier Excel. Les données remplacent les données existantes.</p>
+                                                                                <div class="codeSnippet"><a class="codeSnippetCopyButton" role="button" href="javascript:void(0);">Copier</a>
+                                                                                    <div style="mc-code-lang: XML;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="True"><pre><span class="codeSnippetLineNumbers" style="border-right: #AAA 2px solid;" aria-hidden="true">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+</span><code><span style="color: #63a35c; ">&lt;task <span style="color: #795da3; ">name</span><span style="color: #df5000; ">="importerXLS"</span> <span style="color: #795da3; ">function</span><span style="color: #df5000; ">="import"</span>&gt;</span><br /><span style="color: #63a35c; ">&lt;input&gt;</span><br /><span style="color: #63a35c; ">&lt;survey&gt;</span>Enquete<span style="color: #63a35c; ">&lt;/survey&gt;</span><br /><span style="color: #63a35c; ">&lt;source&gt;</span><br /><span style="color: #63a35c; ">&lt;name&gt;</span>donnees.xls<span style="color: #63a35c; ">&lt;/name&gt;</span><br /><span style="color: #63a35c; ">&lt;/source&gt;</span><br /><span style="color: #63a35c; ">&lt;columns&gt;</span><br /><span style="color: #63a35c; ">&lt;matching&gt;</span>Nom;Prénom;Sexe;;;;Agence<span style="color: #63a35c; ">&lt;/matching&gt;</span><br /><span style="color: #63a35c; ">&lt;/columns&gt;</span><br /><span style="color: #63a35c; ">&lt;lines <span style="color: #795da3; ">mode</span><span style="color: #df5000; ">="replace"</span> /&gt;</span><br /><span style="color: #63a35c; ">&lt;/input&gt;</span><br /><span style="color: #63a35c; ">&lt;output&gt;</span><br /><span style="color: #63a35c; ">&lt;survey&gt;</span>Enquete<span style="color: #63a35c; ">&lt;/survey&gt;</span><br /><span style="color: #63a35c; ">&lt;/output&gt;</span><br /><span style="color: #63a35c; ">&lt;/task&gt;</span></code></pre>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span><span class="bold">2</span> Importation d'un fichier csv, les données complètent les données existantes, en se basant sur l'identificateur unique (UniqueID) d'une observation.</p>
+                                                                                <div class="codeSnippet"><a class="codeSnippetCopyButton" role="button" href="javascript:void(0);">Copier</a>
+                                                                                    <div style="mc-code-lang: XML;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="True"><pre><span class="codeSnippetLineNumbers" style="border-right: #AAA 2px solid;" aria-hidden="true">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+</span><code><span style="color: #63a35c; ">&lt;task <span style="color: #795da3; ">name</span><span style="color: #df5000; ">="importerCSV"</span> <span style="color: #795da3; ">function</span><span style="color: #df5000; ">="import"</span>&gt;</span><br /><span style="color: #63a35c; ">&lt;input&gt;</span><br /><span style="color: #63a35c; ">&lt;survey&gt;</span>Enquete<span style="color: #63a35c; ">&lt;/survey&gt;</span><br /><span style="color: #63a35c; ">&lt;source&gt;</span><br /><span style="color: #63a35c; ">&lt;name&gt;</span>donnees.csv<span style="color: #63a35c; ">&lt;/name&gt;</span><br /><span style="color: #63a35c; ">&lt;/source&gt;</span><br /><span style="color: #63a35c; ">&lt;lines <span style="color: #795da3; ">key</span><span style="color: #df5000; ">="UniqueID"</span> <span style="color: #795da3; ">mode</span><span style="color: #df5000; ">="modify"</span> <span style="color: #795da3; ">match</span><span style="color: #df5000; ">="value"</span> <span style="color: #795da3; ">new</span><span style="color: #df5000; ">="true"</span> /&gt;</span><br /><span style="color: #63a35c; ">&lt;/input&gt;</span><br /><span style="color: #63a35c; ">&lt;output&gt;</span><br /><span style="color: #63a35c; ">&lt;survey&gt;</span>Enquete<span style="color: #63a35c; ">&lt;/survey&gt;</span><br /><span style="color: #63a35c; ">&lt;/output&gt;</span><br /><span style="color: #63a35c; ">&lt;/task&gt;</span></code></pre>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" alt="Fermé" data-mc-alt2="Ouvert" />Fusionner</a></span>
+                                                                            <div class="MCDropDownBody dropDownBody">
+                                                                                <p>La fonction permet de compléter les observations de l'enquête avec des données complémentaires qui sont dans une autre enquête.</p>
+                                                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>Dans l'enquête "Factures", on veut insérer des informations que l'on trouve dans l'enquête "Clients" les variables ont été créées au préalable dans l'enquête "Factures".</p>
+                                                                                <div class="codeSnippet"><a class="codeSnippetCopyButton" role="button" href="javascript:void(0);">Copier</a>
+                                                                                    <div style="mc-code-lang: XML;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="True"><pre><span class="codeSnippetLineNumbers" style="border-right: #AAA 2px solid;" aria-hidden="true">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+</span><code><span style="color: #63a35c; ">&lt;task <span style="color: #795da3; ">name</span><span style="color: #df5000; ">="Fusionner"</span> <span style="color: #795da3; ">function</span><span style="color: #df5000; ">="import"</span>&gt;</span><br /><span style="color: #63a35c; ">&lt;input&gt;</span><br /><span style="color: #63a35c; ">&lt;survey&gt;</span>Factures<span style="color: #63a35c; ">&lt;/survey&gt;</span><br /><span style="color: #63a35c; ">&lt;source&gt;</span><br /><span style="color: #63a35c; ">&lt;name&gt;</span>Clients<span style="color: #63a35c; ">&lt;/name&gt;</span><br /><span style="color: #63a35c; ">&lt;/source&gt;</span><br /><span style="color: #63a35c; ">&lt;lines <span style="color: #795da3; ">key</span><span style="color: #df5000; ">="refClient"</span> <span style="color: #795da3; ">mode</span><span style="color: #df5000; ">="modify"</span> <span style="color: #795da3; ">new</span><span style="color: #df5000; ">="false"</span> /&gt;</span><br /><span style="color: #63a35c; ">&lt;/input&gt;</span><br /><span style="color: #63a35c; ">&lt;output&gt;</span><br /><span style="color: #63a35c; ">&lt;survey&gt;</span>Factures<span style="color: #63a35c; ">&lt;/survey&gt;</span><br /><span style="color: #63a35c; ">&lt;/output&gt;</span><br /><span style="color: #63a35c; ">&lt;/task&gt;</span></code></pre>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" alt="Fermé" data-mc-alt2="Ouvert" />Rassembler</a></span>
+                                                                            <div class="MCDropDownBody dropDownBody">
+                                                                                <p>La fonction rassembler permet de réunir les observations de plusieurs enquêtes dans une seule.</p>
+                                                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>Les deux enquêtes "Hiver" et "Eté" sont similaires mais pas identiques. Elles sont rassemblées dans une seule enquête "Station" dans laquelle une variable "Saison" est rajoutée pour identifier la provenance de chaque observation.</p>
+                                                                                <div class="codeSnippet"><a class="codeSnippetCopyButton" role="button" href="javascript:void(0);">Copier</a>
+                                                                                    <div style="mc-code-lang: XML;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="True"><pre><span class="codeSnippetLineNumbers" style="border-right: #AAA 2px solid;" aria-hidden="true">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+</span><code><span style="color: #63a35c; ">&lt;task <span style="color: #795da3; ">name</span><span style="color: #df5000; ">="rassembler"</span> <span style="color: #795da3; ">function</span><span style="color: #df5000; ">="import"</span>&gt;</span><br /><span style="color: #63a35c; ">&lt;input&gt;</span><br /><span style="color: #63a35c; ">&lt;survey&gt;</span>Station<span style="color: #63a35c; ">&lt;/survey&gt;</span><br /><span style="color: #63a35c; ">&lt;sources&gt;</span><br /><span style="color: #63a35c; ">&lt;source&gt;</span><br /><span style="color: #63a35c; ">&lt;name&gt;</span>Ete<span style="color: #63a35c; ">&lt;/name&gt;</span><br /><span style="color: #63a35c; ">&lt;/source&gt;</span><br /><span style="color: #63a35c; ">&lt;source&gt;</span><br /><span style="color: #63a35c; ">&lt;name&gt;</span>Hiver<span style="color: #63a35c; ">&lt;/name&gt;</span><br /><span style="color: #63a35c; ">&lt;/source&gt;</span><br /><span style="color: #63a35c; ">&lt;/sources&gt;</span><br /><span style="color: #63a35c; ">&lt;varsrc <span style="color: #795da3; ">enabled</span><span style="color: #df5000; ">="true"</span> <span style="color: #795da3; ">name</span><span style="color: #df5000; ">="saison"</span> /&gt;</span><br /><span style="color: #63a35c; ">&lt;/input&gt;</span><br /><span style="color: #63a35c; ">&lt;output&gt;</span><br /><span style="color: #63a35c; ">&lt;survey&gt;</span>Station<span style="color: #63a35c; ">&lt;/survey&gt;</span><br /><span style="color: #63a35c; ">&lt;/output&gt;</span><br /><span style="color: #63a35c; ">&lt;/task&gt;</span></code></pre>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" alt="Fermé" data-mc-alt2="Ouvert" />Dédoublonner</a></span>
+                                                                            <div class="MCDropDownBody dropDownBody">
+                                                                                <p>La fonction permet de repérer ou de supprimer les doublons présents parmi les observations d'une enquête.</p>
+                                                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span><span class="bold">1</span> On supprime les doublons identifiés par la variable "CodeClient" et on ne garde que la dernière observation.</p>
+                                                                                <div class="codeSnippet"><a class="codeSnippetCopyButton" role="button" href="javascript:void(0);">Copier</a>
+                                                                                    <div style="mc-code-lang: XML;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="True"><pre><span class="codeSnippetLineNumbers" style="border-right: #AAA 2px solid;" aria-hidden="true">1
+2
+3
+4
+5
+6
+7
+8
+9
+</span><code><span style="color: #63a35c; ">&lt;task <span style="color: #795da3; ">name</span><span style="color: #df5000; ">="dedoublonner"</span> <span style="color: #795da3; ">function</span><span style="color: #df5000; ">="dupdelete"</span>&gt;</span><br /><span style="color: #63a35c; ">&lt;input&gt;</span><br /><span style="color: #63a35c; ">&lt;survey&gt;</span>Enquete<span style="color: #63a35c; ">&lt;/survey&gt;</span><br /><span style="color: #63a35c; ">&lt;variables&gt;</span>CodeClient<span style="color: #63a35c; ">&lt;/variables&gt;</span><br /><span style="color: #63a35c; ">&lt;/input&gt;</span><br /><span style="color: #63a35c; ">&lt;output&gt;</span><br /><span style="color: #63a35c; ">&lt;survey&gt;</span>Enquete<span style="color: #63a35c; ">&lt;/survey&gt;</span><br /><span style="color: #63a35c; ">&lt;/output&gt;</span><br /><span style="color: #63a35c; ">&lt;/task&gt;</span></code></pre>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span><span class="bold">2</span> Les doublons sont identifiés par plusieurs variables (Nom, Prénom, DateNaissance). les doublons sont repérés et on conserve :<br />- dans la variable NumIdem le numéro de l'observation qui possède des doublons,<br />- dans la variable Position, la position de l'observation (Unique;Mini;Inter;Maxi;).<br />On insère ces deux variables à la fin.</p>
+                                                                                <div class="codeSnippet"><a class="codeSnippetCopyButton" role="button" href="javascript:void(0);">Copier</a>
+                                                                                    <div style="mc-code-lang: XML;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="True"><pre><span class="codeSnippetLineNumbers" style="border-right: #AAA 2px solid;" aria-hidden="true">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+</span><code><span style="color: #63a35c; ">&lt;task <span style="color: #795da3; ">name</span><span style="color: #df5000; ">="dedoublonner"</span> <span style="color: #795da3; ">function</span><span style="color: #df5000; ">="dupmark"</span>&gt;</span><br /><span style="color: #63a35c; ">&lt;input&gt;</span><br /><span style="color: #63a35c; ">&lt;survey&gt;</span>Enquete<span style="color: #63a35c; ">&lt;/survey&gt;</span><br /><span style="color: #63a35c; ">&lt;variables&gt;</span>Nom;Prenom;DateNaissance<span style="color: #63a35c; ">&lt;/variables&gt;</span><br /><span style="color: #63a35c; ">&lt;position <span style="color: #795da3; ">mode</span><span style="color: #df5000; ">="recordorder"</span> <span style="color: #795da3; ">location</span><span style="color: #df5000; ">="last"</span> <span style="color: #795da3; ">varidemname</span><span style="color: #df5000; ">="NombreIdem"</span> <span style="color: #795da3; ">varposname</span><span style="color: #df5000; ">="Position"</span> /&gt;</span><br /><span style="color: #63a35c; ">&lt;/input&gt;</span><br /><span style="color: #63a35c; ">&lt;output&gt;</span><br /><span style="color: #63a35c; ">&lt;survey&gt;</span>Enquete<span style="color: #63a35c; ">&lt;/survey&gt;</span><br /><span style="color: #63a35c; ">&lt;/output&gt;</span><br /><span style="color: #63a35c; ">&lt;/task&gt;</span></code></pre>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" alt="Fermé" data-mc-alt2="Ouvert" />Regrouper</a></span>
+                                                                            <div class="MCDropDownBody dropDownBody">
+                                                                                <p>La fonction permet d'effectuer un changement d'unité statistique. Toutes les observations ayant le même identifiant dans l'enquête source donnera lieu à une seule observation dans l'enquête.</p>
+                                                                                <p>Pour chaque variable, on choisit le mode de regroupement :</p>
+                                                                                <ul>
+                                                                                    <li>
+                                                                                        <p>Ignorer</p>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <p>Conserver la première ou la dernière valeur rencontrée</p>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <p>Conserver la valeur minimum ou la valeur maximum</p>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <p>Concaténer dans une variable texte</p>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <p>Calculer la moyenne ou la somme (variables numériques)</p>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <p>Fusionner dans une variable fermée multiple (variables fermées)</p>
+                                                                                    </li>
+                                                                                </ul>
+                                                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>L'enquête "visites" est regroupée dans une enquête patient. L'identifiant du patient est PatientID, on garde la dernière valeur pour Sexe et Datenaissance, on concatène les Diagnostics, on fait la somme pour le MontantMédicaments, la variable MotifPrincipal est une variable fermée unique qui devient fermée multiple dans l'enquête regroupée.</p>
+                                                                                <div class="codeSnippet"><a class="codeSnippetCopyButton" role="button" href="javascript:void(0);">Copier</a>
+                                                                                    <div style="mc-code-lang: XML;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="True"><pre><span class="codeSnippetLineNumbers" style="border-right: #AAA 2px solid;" aria-hidden="true">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+</span><code><span style="color: #63a35c; ">&lt;task <span style="color: #795da3; ">id</span><span style="color: #df5000; ">="regrouper"</span> <span style="color: #795da3; ">function</span><span style="color: #df5000; ">="dupgroupby"</span>&gt;</span><br /><span style="color: #63a35c; ">&lt;input&gt;</span><br /><span style="color: #63a35c; ">&lt;survey&gt;</span>visites<span style="color: #63a35c; ">&lt;/survey&gt;</span><br /><span style="color: #63a35c; ">&lt;variables&gt;</span>PatientID<span style="color: #63a35c; ">&lt;/variables&gt;</span><br /><span style="color: #63a35c; ">&lt;group&gt;</span> <span style="color: #969896; ">&lt;!--op=keepfirst/keeplast/minimum/maximum/average/sum/mergetext/mergemultiple--&gt;</span><br /><span style="color: #63a35c; ">&lt;groupby <span style="color: #795da3; ">name</span><span style="color: #df5000; ">="Sexe"</span> <span style="color: #795da3; ">op</span><span style="color: #df5000; ">="keepfirst"</span> /&gt;</span><br /><span style="color: #63a35c; ">&lt;groupby <span style="color: #795da3; ">name</span><span style="color: #df5000; ">="Datenaissance"</span> <span style="color: #795da3; ">op</span><span style="color: #df5000; ">="keepfirst"</span> /&gt;</span><br /><span style="color: #63a35c; ">&lt;groupby <span style="color: #795da3; ">name</span><span style="color: #df5000; ">="Diagnostics"</span> <span style="color: #795da3; ">op</span><span style="color: #df5000; ">="mergetext"</span> /&gt;</span><br /><span style="color: #63a35c; ">&lt;groupby <span style="color: #795da3; ">name</span><span style="color: #df5000; ">="MontantMédicaments"</span> <span style="color: #795da3; ">op</span><span style="color: #df5000; ">="sum"</span> /&gt;</span><br /><span style="color: #63a35c; ">&lt;groupby <span style="color: #795da3; ">name</span><span style="color: #df5000; ">="MotifPrincipal"</span> <span style="color: #795da3; ">op</span><span style="color: #df5000; ">="mergemultiple"</span> /&gt;</span><br /><span style="color: #63a35c; ">&lt;/group&gt;</span><br /><span style="color: #63a35c; ">&lt;/input&gt;</span><br /><span style="color: #63a35c; ">&lt;output&gt;</span><br /><span style="color: #63a35c; ">&lt;survey&gt;</span>patients<span style="color: #63a35c; ">&lt;/survey&gt;</span><br /><span style="color: #63a35c; ">&lt;/output&gt;</span><br /><span style="color: #63a35c; ">&lt;/task&gt;</span></code></pre>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" alt="Fermé" data-mc-alt2="Ouvert" />Exporter</a></span>
+                                                                            <div class="MCDropDownBody dropDownBody">
+                                                                                <p>La fonction permet d’exporter tout ou partie du jeu de données. Par exemple cette fonction sera appelée à heure fixe.</p>
+                                                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span><span class="bold">1</span> Exportation au format Excel des variables Nom, Prénom, Email des observations de la strate "personnes mécontentes".</p>
+                                                                                <div class="codeSnippet"><a class="codeSnippetCopyButton" role="button" href="javascript:void(0);">Copier</a>
+                                                                                    <div style="mc-code-lang: XML;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="True"><pre><span class="codeSnippetLineNumbers" style="border-right: #AAA 2px solid;" aria-hidden="true">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+</span><code><span style="color: #63a35c; ">&lt;task <span style="color: #795da3; ">id</span><span style="color: #df5000; ">="exporterXLS"</span> <span style="color: #795da3; ">function</span><span style="color: #df5000; ">="export"</span>&gt;</span><br /><span style="color: #63a35c; ">&lt;input&gt;</span><br /><span style="color: #63a35c; ">&lt;survey&gt;</span>satisfaction<span style="color: #63a35c; ">&lt;/survey&gt;</span><br /><span style="color: #63a35c; ">&lt;selection&gt;</span><br /><span style="color: #63a35c; ">&lt;item <span style="color: #795da3; ">name</span><span style="color: #df5000; ">="Nom"</span> /&gt;</span><br /><span style="color: #63a35c; ">&lt;item <span style="color: #795da3; ">name</span><span style="color: #df5000; ">="Prénom"</span> /&gt;</span><br /><span style="color: #63a35c; ">&lt;item <span style="color: #795da3; ">name</span><span style="color: #df5000; ">="Email"</span> /&gt;</span><br /><span style="color: #63a35c; ">&lt;/selection&gt;</span><br /><span style="color: #63a35c; ">&lt;/input&gt;</span><br /><span style="color: #63a35c; ">&lt;output&gt;</span><br /><span style="color: #63a35c; ">&lt;target&gt;</span><br /><span style="color: #63a35c; ">&lt;name&gt;</span>pas_contents.xls<span style="color: #63a35c; ">&lt;/name&gt;</span><br /><span style="color: #63a35c; ">&lt;/target&gt;</span><br /><span style="color: #63a35c; ">&lt;sample&gt;</span><br /><span style="color: #63a35c; ">&lt;type&gt;</span>byname<span style="color: #63a35c; ">&lt;/type&gt;</span><br /><span style="color: #63a35c; ">&lt;value&gt;</span><span style="color: #a71d5d; ">&lt;![CDATA[personnes mécontentes]]&gt;</span><span style="color: #63a35c; ">&lt;/value&gt;</span><br /><span style="color: #63a35c; ">&lt;/sample&gt;</span><br /><span style="color: #63a35c; ">&lt;/output&gt;</span><br /><span style="color: #63a35c; ">&lt;/task&gt;</span></code></pre>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span><span class="bold">2</span> Exportation au format .CSV de toute la table des données. Les variables fermées multiples sont exportées avec une colonne par modalité (1 si la modalité est cochée, cellule vide sinon). La première ligne contient le nom des variables, la seconde contient le libellé des questions.</p>
+                                                                                <div class="codeSnippet"><a class="codeSnippetCopyButton" role="button" href="javascript:void(0);">Copier</a>
+                                                                                    <div style="mc-code-lang: XML;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="True"><pre><span class="codeSnippetLineNumbers" style="border-right: #AAA 2px solid;" aria-hidden="true">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+</span><code><span style="color: #63a35c; ">&lt;task <span style="color: #795da3; ">id</span><span style="color: #df5000; ">="exporterCSV"</span> <span style="color: #795da3; ">function</span><span style="color: #df5000; ">="export"</span>&gt;</span><br /><span style="color: #63a35c; ">&lt;input&gt;</span><br /><span style="color: #63a35c; ">&lt;survey&gt;</span>satisfaction<span style="color: #63a35c; ">&lt;/survey&gt;</span><br /><span style="color: #63a35c; ">&lt;defaults&gt;</span><br /><span style="color: #63a35c; ">&lt;multiple <span style="color: #795da3; ">format</span><span style="color: #df5000; ">="onebymodality"</span> <span style="color: #795da3; ">bittruevalue</span><span style="color: #df5000; ">="1"</span> <span style="color: #795da3; ">bitfalsevalue</span><span style="color: #df5000; ">=""</span> /&gt;</span><br /><span style="color: #63a35c; ">&lt;/defaults&gt;</span><br /><span style="color: #63a35c; ">&lt;headers&gt;</span><br /><span style="color: #63a35c; ">&lt;header <span style="color: #795da3; ">type</span><span style="color: #df5000; ">="name"</span> /&gt;</span><br /><span style="color: #63a35c; ">&lt;header <span style="color: #795da3; ">type</span><span style="color: #df5000; ">="label"</span> /&gt;</span><br /><span style="color: #63a35c; ">&lt;/headers&gt;</span><br /><span style="color: #63a35c; ">&lt;/input&gt;</span><br /><span style="color: #63a35c; ">&lt;output&gt;</span><br /><span style="color: #63a35c; ">&lt;target&gt;</span><br /><span style="color: #63a35c; ">&lt;name&gt;</span>satisfaction.csv<span style="color: #63a35c; ">&lt;/name&gt;</span><br /><span style="color: #63a35c; ">&lt;/target&gt;</span><br /><span style="color: #63a35c; ">&lt;/output&gt;</span><br /><span style="color: #63a35c; ">&lt;/task&gt;</span></code></pre>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li value="4">
+                                                        <p>Donnez un nom à l'opération.</p>
+                                                    </li>
+                                                    <li value="5">
+                                                        <p>(Facultatif) Donnez un numéro de séquence à l'opération si vous souhaitez exécuter des opérations séparément.</p>
+                                                    </li>
+                                                    <li value="6">
+                                                        <p>Cliquez sur <span class="bold">OK</span> pour valider.</p>
+                                                    </li>
+                                                    <li value="7">
+                                                        <p><a href="Execution_operations.htm">Paramétrez l'exécution de l'opération</a>.</p>
+                                                        <p>(Facultatif) Vous pouvez cliquer sur <span class="bold">Exécuter l’opération maintenant...</span> pour lancer immédiatement les opérations de votre côté.</p>
+                                                    </li>
+                                                </ol>
+                                            </div>
+                                        </div>
+                                        <h3>Gérer l'ordre et l'état des opérations :</h3>
+                                        <p>Vous disposez des options suivantes pour organiser les opérations :</p>
+                                        <ul>
+                                            <li>
+                                                <p>Remonter ou descendre une opération dans la liste afin de modifier son ordre d’exécution.</p>
+                                                <p class="note" data-mc-autonum="&lt;b&gt;REMARQUE : &lt;/b&gt;"><span class="autonumber"><span><b>REMARQUE : </b></span></span>Lorsque plusieurs opérations sont définies, leur ordre d'exécution est important. Par exemple, exécuter l’action <span class="bold">Recalculer toutes les variables</span> avant l’import de données n’a pas de sens, car les données à traiter ne seraient pas encore disponibles.</p>
+                                            </li>
+                                            <li>
+                                                <p>Supprimer une opération en cliquant sur l’icône en forme de croix.</p>
+                                            </li>
+                                            <li>
+                                                <p>Désactiver temporairement une opération en décochant l’option <span class="bold">Active</span> ; l’opération sera ignorée lors de l’exécution.</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><a data-close="true"></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

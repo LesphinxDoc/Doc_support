@@ -1,0 +1,404 @@
+@namespace MadCap url(http://www.madcapsoftware.com/Schemas/MadCap.xsd);
+/*<meta />*/
+
+@font-face 
+{
+	font-family: 'Raleway';
+	src: url(../fonts/Raleway-Regular.ttf);
+}
+
+body
+{
+	font-family: Arial;
+	line-height: 1.7em;
+}
+
+a.MCBreadcrumbsLink
+{
+	font-style: italic;
+	text-decoration: underline;
+}
+
+a.MCBreadcrumbsLink:visited
+{
+	color: #000000;
+}
+
+a.MCBreadcrumbsLink:hover
+{
+	color: #BED230;
+}
+
+div.TopicContent
+{
+	padding-top: 25px;
+	padding-left: 15px;
+	padding-right: 0px;
+	margin-left: 30px;
+}
+
+h1
+{
+	font-weight: normal;
+	margin-bottom: 8px;
+	margin-top: 20px;
+	padding-bottom: 10px;
+	font-family: Raleway;
+	font-size: 2.0 em;
+	line-height: 1.4;
+}
+
+h2
+{
+	font-weight: normal;
+	margin-top: 20px;
+	font-family: Raleway;
+	font-size: 1.5em;
+	margin-bottom: 25px;
+	line-height: normal;
+	padding-left: 10px;
+	border-left: solid 5px #000000;
+	border-left-color: #632459;
+}
+
+h3
+{
+	font-weight: normal;
+	margin-bottom: 4px;
+	margin-top: 16px;
+	font-size: 1.2em;
+}
+
+h4
+{
+	
+}
+
+li
+{
+	margin-bottom: 6px;
+	margin-top: 6px;
+}
+
+MadCap|breadcrumbsProxy
+{
+	border-bottom: none;
+	font-size: .7em;
+	font-style: italic;
+	mc-breadcrumbs-prefix: 'Vous êtes ici: ';
+}
+
+MadCap|xref
+{
+	color: #2D8DCC;
+	font-weight: bold;
+	mc-format: '{para}';
+	text-decoration: underline;
+}
+
+MadCap|xref:hover
+{
+	color: #BED230;
+}
+
+p
+{
+	margin-bottom: 8px;
+	margin-top: 8px;
+	text-align: justify;
+	font-family: raleway;
+}
+
+div.sideContent
+{
+	margin-bottom: 10px;
+	margin-left: 0px;
+	margin-right: 20px;
+	width: 33%;
+	float: left;
+}
+
+p.Sansinterligne
+{
+	text-align: center;
+	font-family: Arial;
+	color: #00a8c4;
+}
+
+p.note
+{
+	color: #000000;
+	border-left: solid 4px #125C85;
+	border-radius: 4px;
+	background-color: #E0F6F9;
+	padding-bottom: 10px;
+	padding-left: 45px;
+	padding-right: 20px;
+	padding-top: 10px;
+	background-image: url('../Images/p_remarque.png');
+	background-repeat: no-repeat;
+	background-position: 10px 10px;
+	background-size: 26px 25px;
+	margin: 20px 10px 20px 0;
+	mc-auto-number-format: '{b}REMARQUE : {/b}';
+}
+
+p.warning
+{
+	color: #000000;
+	border-left: solid 4px #FFB300;
+	border-radius: 4px;
+	background-color: #FFF2D0;
+	padding-bottom: 10px;
+	padding-left: 45px;
+	padding-right: 20px;
+	padding-top: 10px;
+	background-image: url('../Images/p_attention.png');
+	background-repeat: no-repeat;
+	background-position: 10px 10px;
+	background-size: 29px 20px;
+	margin: 20px 10px 20px 0;
+	mc-auto-number-format: '{b}ATTENTION : {/b}';
+}
+
+p.exemple
+{
+	color: #000000;
+	border-left: solid 4px #216634;
+	border-radius: 4px;
+	background-color: #EAF6ED;
+	padding-bottom: 10px;
+	padding-left: 45px;
+	padding-right: 20px;
+	padding-top: 10px;
+	background-image: url('../Images/p_example.png');
+	background-repeat: no-repeat;
+	background-position: 10px 10px;
+	background-size: 21px 26px;
+	margin: 20px 10px 20px 0;
+	mc-auto-number-format: '{b}EXEMPLE : {/b}';
+}
+
+p.prem
+{
+	color: #2B292A;
+	border: solid 1px #6A8288;
+	background-color: #BEBDBC;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	padding: 14px 20px;
+}
+
+p.pdfdownload
+{
+	color: #ffffff;
+	border: solid 1px #6A8288;
+	background-color: #c02f8e;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	padding: 14px 20px;
+	mc-auto-number-format: '{b}NOTE : {/b}';
+}
+
+/* base state: hidden (no flash), pinned, on top */
+
+a.scrollToTop
+{
+	position: fixed;
+	right: 40px;
+	bottom: 75px;
+	width: 64px;
+	height: 64px;
+	display: block;
+	/* keep it in layout; we'll hide via opacity/visibility */
+	background: url('../Images/Ui/top.svg') no-repeat center center;
+	background-size: contain;
+	z-index: 9999;
+	opacity: 0;
+	visibility: hidden;
+	pointer-events: none;
+	transition: opacity .2s ease, visibility .2s ease;
+}
+
+/* visible after scroll */
+
+a.scrollToTop.is-visible
+{
+	opacity: 1;
+	visibility: visible;
+	pointer-events: auto;
+}
+
+/* hover */
+
+a.scrollToTop:hover
+{
+	background: url('../Images/Ui/tophover.svg') no-repeat center center;
+	background-size: contain;
+	text-decoration: none;
+}
+
+span.bold
+{
+	font-weight: bold;
+	font-style: normal;
+	font-family: raleway;
+}
+
+div.ContentRow	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.ContentRow::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.ContentRow::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.ContentRow > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.ContentRow > div:nth-child(1)
+{
+	width: 58.333%;
+	margin-left: 0%;
+}
+
+div.ContentRow > div:nth-child(2)
+{
+	width: 33.333%;
+	margin-left: 8.3333%;
+}
+
+img.popup
+{
+	visibility: visible;
+	mso-wrap-style: square;
+	mc-thumbnail: popup;
+	mc-thumbnail-max-width: 300px;
+	mc-thumbnail-max-height: 300px;
+}
+
+.MCPopupContainer
+{
+	z-index: 2 !important;
+}
+
+MadCap|dropDown
+{
+	border-bottom-style: solid;
+	mc-closed-image: url('../Images/chevron-right-solid-full.svg');
+	mc-open-image: url('../Images/chevron-down-solid-full.svg');
+	border-bottom-width: 1px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	mc-image-spacing: 20px;
+	color: #4d4b4b;
+	border-bottom-color: #d0d3d5;
+}
+
+MadCap|dropDown.DropDown2
+{
+	padding-left: 10px;
+	mc-closed-image: url('../Images/Analyse/arrow_Circle.png');
+	mc-open-image: url('../Images/Analyse/arrow_Circle-down.png');
+}
+
+MadCap|dropDownHead
+{
+	font-weight: bold;
+	font-variant: normal;
+	font-family: Raleway;
+	font-size: 14pt;
+	color: #4d4b4b;
+}
+
+MadCap|dropDownHotspot
+{
+	color: #4d4b4b;
+}
+
+MadCap|dropDownHotspot:focus
+{
+	
+}
+
+MadCap|dropDownHotspot:hover
+{
+	color: #a13ab0;
+}
+
+MadCap|dropDownBody
+{
+	
+}
+
+MadCap|breadcrumbsProxy.EN
+{
+	border-bottom: none;
+	font-size: .7em;
+	font-style: italic;
+	mc-breadcrumbs-prefix: 'You are here: ';
+}
+
+span.SearchHighlight
+{
+	background-color: #f8f486;
+}
+
+iframe.questionnaire
+{
+	border: solid 1px #000000;
+}
+
+ol
+{
+	
+}
+
+object.video
+{
+	width: 560px;
+	height: 315px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-left-color: ;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: ;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: ;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: ;
+	margin-left: 4px;
+	margin-right: 4px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+

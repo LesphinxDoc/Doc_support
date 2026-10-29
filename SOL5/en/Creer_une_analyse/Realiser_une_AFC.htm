@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en" xml:lang="en" class="_Skins_Side_navigation_SOL5" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../" data-mc-has-content-body="True" data-mc-toc-path="ANALYSIS|Advanced analysis" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="msapplication-config" content="../Skins/Favicons/browserconfig.xml" />
+        <link rel="shortcut icon" href="../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="32x32" href="../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="16x16" href="../Skins/Favicons/favicon-16x16.png" />
+        <meta charset="utf-8" /><title>Conduct a Correspondence Factorial analysis</title>
+        <link rel="shortcut icon" href="../Resources/Images/Dataviv/iconeQ.png" type="image/png" />
+        <link href="../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="../Resources/Scripts/search-dropdown.css" />
+        <style>/*&lt;meta /&gt;*/
+
+.button.remove-highlight-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.separator-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.select-language-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.separator-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.expand-all-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.separator-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.print-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.collapse-all-button
+{
+	-pie-background: linear-gradient(transparent, #ececec);
+}
+
+.needs-pie
+{
+	behavior: url('../Resources/Scripts/PIE-no-motw.htc');
+}
+
+</style>
+        <link rel="shortcut icon" href="../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="32x32" href="../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="16x16" href="../Skins/Favicons/favicon-16x16.png" />
+        <script src="../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../Resources/Scripts/purify.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/require.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/require.config.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/foundation.6.2.3_custom.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/plugins.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/MadCapAll.js" type="text/javascript" defer="defer">
+        </script>
+        <script type="text/javascript" src="../Resources/Scripts/search-dropdown.js">
+        </script>
+        <script type="text/javascript" src="../Skins/Default/Scripts/TopicToolBar.js">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-right" role="complementary" id="offCanvas" data-off-canvas="" data-position="right" data-mc-ignore="true">
+                    <ul class="off-canvas-accordion vertical menu off-canvas-list" data-accordion-menu="" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expanded-event="down.zf.accordionMenu up.zf.accordionMenu" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div data-sticky-container="" class="title-bar-container">
+                        <nav class="title-bar tab-bar sticky" aria-label="Main navigation and search" data-sticky="" data-options="marginTop:0" style="width:100%" data-sticky-on="only screen and (max-width: 1279px)" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="#">Skip To Main Content</a>
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="menu-icon-container relative clearfix">
+                                    <div class="central-account-wrapper">
+                                        <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                            <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                                <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="menu-icon" aria-label="Show Navigation Panel" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="title-bar-layout outer-row">
+                                <div class="logo-wrapper"><a class="logo" href="../Home_Sol5.htm" alt="Logo"></a>
+                                </div>
+                                <div class="navigation-wrapper nocontent">
+                                    <ul class="navigation clearfix" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                        <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="central-account-wrapper">
+                                    <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                        <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                            <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nav-search-wrapper">
+                                    <div class="nav-search row">
+                                        <form class="search" action="#">
+                                            <div class="search-bar search-bar-container needs-pie">
+                                                <input class="search-field needs-pie" type="search" aria-label="Search Field" placeholder="Search" />
+                                                <div class="search-filter-wrapper"><span class="invisible-label" id="search-filters-label">Filter: </span>
+                                                    <div class="search-filter" aria-haspopup="true" aria-controls="sf-content" aria-expanded="false" aria-label="Search Filter" title="All Files" role="button" tabindex="0">
+                                                    </div>
+                                                    <div class="search-filter-content" id="sf-content">
+                                                        <ul>
+                                                            <li>
+                                                                <button class="mc-dropdown-item" aria-labelledby="search-filters-label filterSelectorLabel-00001"><span id="filterSelectorLabel-00001">All Files</span>
+                                                                </button>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="search-submit-wrapper" dir="ltr">
+                                                    <div class="search-submit" title="Search" role="button" tabindex="0"><span class="invisible-label">Submit Search</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="main-section">
+                        <div class="row outer-row sidenav-layout">
+                            <nav class="sidenav-wrapper">
+                                <div class="sidenav-container">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expanded-event="down.zf.accordionMenu up.zf.accordionMenu" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
+                                    </ul>
+                                </div>
+                            </nav>
+                            <div class="body-container">
+                                <div data-mc-content-body="True"><a href="#" class="scrollToTop"></a>
+                                    <div class="buttons popup-container clearfix topicToolbarProxy _Skins_TopicToolBar mc-component nocontent" style="float: right; mc-topic-toolbar-items: ;">
+                                        <div class="button-group-container-left">
+                                            <button class="button needs-pie remove-highlight-button" title="Remove Highlights">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper" aria-label="Remove Highlights">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                            <div class="button-separator">
+                                            </div>
+                                            <button class="button needs-pie select-language-button" title="Change language">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper" aria-label="Change language">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                            <div class="button-separator">
+                                            </div>
+                                            <button class="button needs-pie expand-all-button" data-state1-class="expand-all-button" data-state2-class="collapse-all-button" data-state2-title="Collapse all" title="Expand all" data-state1-title="Expand all">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper" aria-label="Expand all">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                            <div class="button-separator">
+                                            </div>
+                                            <button class="button needs-pie print-button" title="Print">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper" aria-label="Print">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="nocontent">
+                                        <div class="MCBreadcrumbsBox_0 breadcrumbs" role="navigation" aria-label="Breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="3" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here:</span>
+                                        </div>
+                                    </div>
+                                    <div role="main" id="mc-main-content">
+                                        <h1>Conduct a Correspondence Factorial analysis</h1>
+                                        <p><span class="bold">Correspondence Factorial Analysis</span>: This is a simplification of multidimensional data by extracting factors that summarize the initial information provided by nominal variables by placing the observations in relation to this information.</p>
+                                        <p class="exemple" style="text-align: left;">
+                                            <br /><span class="bold">-</span> In the surveys, the respondents’ <span class="bold">behaviors</span> and <span class="bold">identities</span> are described by modalities that characterize them.  The multiple correspondence factorial analysis helps identify profiles and highlight the remarkable associations by synthesizing the data according to their affinities.<br /><span class="bold">-</span> The <span class="bold">Lexical analysis</span> makes it possible to associate with each answer to the open survey questions or to each fragment of the analyzed corpus the list of the significant (or the most frequent) words that compose them. The factorial analysis then makes it possible to highlight the most frequently associated terms by defining factors corresponding to these "constellations". We can summarize the situations variety or linguistic forms by profiles that differentiate respondents or themes mentioned in the analyzed text.</p>
+                                        <p>In order to perform Correspondence Factorial Analysis (CFA), proceed as follows:</p>
+                                        <ol>
+                                            <li value="1">
+                                                <p>Click on the <img src="../Resources/Images/Dataviv/bouton-ajout_19x18.png" style="visibility: visible;mso-wrap-style: square;width: 19;height: 18;" alt="" /> button.</p>
+                                            </li>
+                                            <li value="2">
+                                                <p>Select <span class="bold">advanced analysis</span>.</p>
+                                            </li>
+                                            <li value="3">
+                                                <p>Click on  <span class="bold">Correspondence Factorial Analysis</span>.</p>
+                                            </li>
+                                            <li value="4">
+                                                <p>Make a drag and drop of the variables in rows and columns from the list of available variables.</p>
+                                                <p style="text-align: left;"><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/Dataviv/Realiser_une_AFC_1.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="900" data-mc-height="618" src="../Resources/Images/Dataviv/Realiser_une_AFC_1.png" alt="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a>
+                                                </p>
+                                            </li>
+                                        </ol>
+                                        <p>Once the CFA is created, it is possible to change the variables by selecting the analysis and clicking <img src="../Resources/Images/Dataviv/Edition_analyse_1_24x22.png" style="visibility: visible;mso-wrap-style: square;width: 24;height: 22;" alt="" /> or by right clicking <span class="bold">edit</span> on the analysis.</p>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" alt="Closed" data-mc-alt2="Open" />OPTIONS AND CFA ANALYSIS</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p>In the <span class="bold">options</span> tab, <span class="bold">calculation</span> category, three specific options to the map appear.</p>
+                                                <p style="text-align: center;">
+                                                    <img src="../Resources/Images/Dataviv/Options_et_analyse_AFC.png" style="visibility: visible;mso-wrap-style: square;" alt="" />
+                                                </p>
+                                                <ul>
+                                                    <li>
+                                                        <p><span class="bold">Size proportional to frequencies</span>: allows you to assign to each bubble a size according to the represented modality size.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p><span class="bold">Only significant elements</span>: allows you to display on the map only the most significant modalities (according to the tests in force), the others do not appear in order to make the reading more synthetic.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p><span class="bold">Link over-represented pairs</span>: allows you to display on the map the over-represented modalities ‘couples by linking them.</p>
+                                                    </li>
+                                                </ul>
+                                                <p>In the case of a CFA, there can be many variables which makes the graph's readability difficult. You can then zoom in on certain sections to see more closely an interesting area during the preview.</p>
+                                                <p>To <span class="bold">zoom</span>, select <span class="bold">allow zoom</span> in the chart elements.</p>
+                                                <p style="text-align: center;">
+                                                    <img src="../Resources/Images/Dataviv/Options_et_analyse_AFC_1.png" style="visibility: visible;mso-wrap-style: square;" alt="" />
+                                                </p>
+                                                <p>In the preview, place the cursor on a part of the graph, click drag and make a square around the area to be zoomed. Then it will be possible to cancel the zoom by clicking on the button <img src="../Resources/Images/Dataviv/Options_de_presentation_1.png" style="visibility: visible;mso-wrap-style: square;" alt="" />. </p>
+                                                <p>Three map productions are useful for understanding the displayed results:</p>
+                                                <ul>
+                                                    <li>
+                                                        <p>The <span class="bold">correspondence map</span> on the first two components.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>The <span class="bold">variables contributions</span> to the factorial axis.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>The <span class="bold">percentage of variance</span> explained by the factorial axis.</p>
+                                                    </li>
+                                                </ul>
+                                                <p>It is possible to display more analysis regarding the modalities of the analysis (the contributions, the coordinates and the modalities squared cosines) by selecting <span class="bold">detailed results</span> below the map. These can be exported to Excel by clicking on the button <img src="../Resources/Images/Dataviv/Options_et_analyse_AFC_2.png" style="visibility: visible;mso-wrap-style: square;" alt="" />.</p>
+                                                <p style="text-align: center;"><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/Dataviv/Options_et_analyse_AFC_3.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="900" data-mc-height="789" src="../Resources/Images/Dataviv/Options_et_analyse_AFC_3.png" alt="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a>
+                                                </p>
+                                                <p>The statistical results can be displayed during the preview by selecting <span class="bold">show "Detailed results" in runtime mode</span> in the chart elements.</p>
+                                                <p style="text-align: center;">
+                                                    <img src="../Resources/Images/Dataviv/Options_et_analyse_AFC_4.png" style="visibility: visible;mso-wrap-style: square;" alt="" />
+                                                </p>
+                                                <p style="text-align: center;"><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/Dataviv/Options_et_analyse_AFC_5.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="829" data-mc-height="503" src="../Resources/Images/Dataviv/Options_et_analyse_AFC_5.png" alt="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a>
+                                                </p>
+                                                <p><span class="bold">Reading the correspondence map:</span>
+                                                </p>
+                                                <p>Away from the map are so-called "<span class="bold">original</span>" modalities, such as service employee, gastronomy or rafting / swim. In the center of the map are the so-called "<span class="bold">no surprises</span>" modalities such as liberal professions /executives, retired, lazing and walking. This means that liberal profession / executives and activities practicing by retired are close to those of the population interviewed and that lazing and walking reflect the weight of each SPC of the sample.</p>
+                                                <p>When two modalities are <span class="bold">close</span> to each other, this indicates an attraction. This means that the count responding the following two conditions are more numerous than the count that would have resulted from a proportional distribution. In the above example, individuals who are "retired" have also chosen the "walking" activity.</p>
+                                                <p>When two modalities are <span class="bold">distant</span> from each other, this indicates repulsion. In the example above, the individuals who are "service employee” did not choose the "rafting /swim" activity.</p>
+                                                <p><span class="bold">The modalities’ contribution to factorial axis:</span>
+                                                </p>
+                                                <p>The weights of each modality on the axis make it possible to understand the map ‘reading.</p>
+                                                <p>In the example above, axis 1 weighs 36.9% and axis 2 for 20.3%. Axis 1 makes it possible to understand the map.</p>
+                                                <p>On the right, there are some rather expensive activities practiced by high-income SPC, such as gastronomy, tennis or visits. On the left, it is rather free activities, such as swimming, hiking or lazing practiced by low income SPC.</p>
+                                                <p><span class="bold">The explained variance’ percentage:</span>
+                                                </p>
+                                                <p>On each axis of the map are the percentages of the link connecting the data, this corresponds to the sum of the attractions-repulsions. The greater the sum of the axis’ percentages, the more the map represents reality. For the CFA from the threshold of 50% the restitution is of good quality.</p>
+                                                <p>In the example above, the axis 1 weighs for 36,9% and the axis 2 for 20, 3%, so the map restores 57,2% of the information, it is therefore a good representation.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><a data-close="true"></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

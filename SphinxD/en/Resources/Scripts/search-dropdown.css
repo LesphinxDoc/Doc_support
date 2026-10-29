@@ -1,0 +1,112 @@
+﻿/* Search wrappers (harmless if not used) */
+.search-bar, .search-field { position: relative; }
+
+/* ---- Violet theme (same as FR) ---- */
+:root{
+  --accent: #7c3aed;          /* violet */
+  --text-strong:#111827;
+  --text-muted:#6b7280;
+  --brd:#e5e7eb;
+  --bg:#ffffff;
+
+  /* Item hover (violet tint) */
+  --hover-bg:#f5f3ff;
+  --hover-brd:#e9d5ff;
+
+  /* Banner (top line) */
+  --banner-bg:#faf5ff;
+  --banner-brd:#efeaff;
+  --banner-text:#5b21b6;
+}
+
+/* ---- Panel ---- */
+/* No top/left/position here — JS sets placement (works for FR or body-mounted EN) */
+#searchResultsDropdown{
+  background: var(--bg);
+  border: 1px solid var(--brd);
+  border-radius: 14px;
+  box-shadow: 0 22px 48px rgba(17,24,39,.16), 0 2px 6px rgba(17,24,39,.06);
+  padding: 8px;
+  margin: 0;
+  list-style: none;
+  max-height: 70vh;
+  overflow: auto;
+  z-index: 2147483640;
+  visibility: hidden;       /* JS toggles this/display */
+
+  /* Typography (Raleway) */
+  font-family: "Raleway", "Segoe UI", Roboto, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Little “notch” at the top-right of the panel */
+#searchResultsDropdown::before{
+  content:"";
+  position:absolute; top:-8px; right:18px;
+  width:14px; height:14px; transform: rotate(45deg);
+  background: var(--bg);
+  border-left:1px solid var(--brd);
+  border-top:1px solid var(--brd);
+}
+
+/* ---- Top banner: “Showing X results…” ---- */
+#searchResultsDropdown li.show-all{
+  position: sticky; top: 0;
+  background: var(--banner-bg);
+  color: var(--banner-text);
+  font-size: .82rem;
+  padding: 10px 12px;
+  margin: -8px -8px 6px;
+  border-bottom: 1px solid var(--banner-brd);
+  border-radius: 14px 14px 0 0;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+/* ---- Results items ---- */
+#searchResultsDropdown li.result{
+  padding: 12px 12px;
+  border-radius: 12px;
+  border:1px solid transparent;
+  cursor: pointer;
+  transition: background .15s ease, border-color .15s ease, box-shadow .15s ease;
+}
+#searchResultsDropdown li.result:hover{
+  background: var(--hover-bg);
+  border-color: var(--hover-brd);
+  box-shadow: 0 1px 0 rgba(0,0,0,.03);
+}
+
+/* Titles + preview text */
+#searchResultsDropdown .title{
+  font-weight: 600;          /* Raleway looks better slightly bolder */
+  letter-spacing: .01em;
+  line-height: 1.25;
+  color: var(--text-strong);
+  margin-bottom: 2px;
+}
+#searchResultsDropdown .preview{
+  font-size: .88rem;
+  color: var(--text-muted);
+  font-weight: 400;
+  line-height: 1.35;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;     /* 2 lines max */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Keyboard focus ring */
+#searchResultsDropdown li.result:focus,
+#searchResultsDropdown li.result:focus-visible{
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(124, 58, 237, .25); /* violet focus */
+}
+
+/* Subtle underline on hover for the title */
+#searchResultsDropdown li.result:hover .title{
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+}

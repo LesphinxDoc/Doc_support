@@ -1,0 +1,616 @@
+/*<meta />*/
+
+@media only screen and (max-width: 767px)
+{
+	.search-bar
+	{
+		width: 100%;
+	}
+
+	.knowledge-panel-container.micro-content-truncated-mode .micro-response
+	{
+		max-height: 200px;
+	}
+
+	.buttons._Skins_TopicToolBar.mc-component
+	{
+		display: none;
+	}
+
+	._Skins_TopicToolBar.mc-component .button
+	{
+		background-repeat: no-repeat;
+		background: transparent;
+		background: -moz-linear-gradient(top, transparent 0%, transparent 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,transparent));
+		background: -webkit-linear-gradient(top, transparent 0%, transparent 100%);
+		background: -o-linear-gradient(top, transparent 0%,transparent 100%);
+		background: -ms-linear-gradient(top, transparent 0%,transparent 100%);
+		background: linear-gradient(transparent 0%,transparent 100%);
+		-pie-background: linear-gradient(transparent, transparent);
+		background-position: center center;
+	}
+
+	._Skins_TopicToolBar.mc-component .button > div
+	{
+		
+	}
+
+	._Skins_TopicToolBar.mc-component .button .button-icon-wrapper
+	{
+		
+	}
+
+	._Skins_TopicToolBar.mc-component .button .button-text
+	{
+		
+	}
+
+	._Skins_TopicToolBar.mc-component .button.collapse-all-button
+	{
+		background-repeat: no-repeat;
+		background: #ececec;
+		background: -moz-linear-gradient(top, transparent 0%, #ececec 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,#ececec));
+		background: -webkit-linear-gradient(top, transparent 0%, #ececec 100%);
+		background: -o-linear-gradient(top, transparent 0%,#ececec 100%);
+		background: -ms-linear-gradient(top, transparent 0%,#ececec 100%);
+		background: linear-gradient(transparent 0%,#ececec 100%);
+		-pie-background: linear-gradient(transparent, #ececec);
+		background-position: center center;
+	}
+
+	._Skins_TopicToolBar.mc-component .button.current-topic-index-button
+	{
+		background-repeat: no-repeat;
+		background: transparent;
+		background: -moz-linear-gradient(top, transparent 0%, transparent 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,transparent));
+		background: -webkit-linear-gradient(top, transparent 0%, transparent 100%);
+		background: -o-linear-gradient(top, transparent 0%,transparent 100%);
+		background: -ms-linear-gradient(top, transparent 0%,transparent 100%);
+		background: linear-gradient(transparent 0%,transparent 100%);
+		-pie-background: linear-gradient(transparent, transparent);
+		background-position: center center;
+	}
+
+	._Skins_TopicToolBar.mc-component .button.expand-all-button
+	{
+		background-repeat: no-repeat;
+		background: transparent;
+		background: -moz-linear-gradient(top, transparent 0%, transparent 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,transparent));
+		background: -webkit-linear-gradient(top, transparent 0%, transparent 100%);
+		background: -o-linear-gradient(top, transparent 0%,transparent 100%);
+		background: -ms-linear-gradient(top, transparent 0%,transparent 100%);
+		background: linear-gradient(transparent 0%,transparent 100%);
+		-pie-background: linear-gradient(transparent, transparent);
+		background-position: center center;
+	}
+
+	._Skins_TopicToolBar.mc-component .button.login-button
+	{
+		background-repeat: no-repeat;
+		background: transparent;
+		background: -moz-linear-gradient(top, transparent 0%, transparent 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,transparent));
+		background: -webkit-linear-gradient(top, transparent 0%, transparent 100%);
+		background: -o-linear-gradient(top, transparent 0%,transparent 100%);
+		background: -ms-linear-gradient(top, transparent 0%,transparent 100%);
+		background: linear-gradient(transparent 0%,transparent 100%);
+		-pie-background: linear-gradient(transparent, transparent);
+		background-position: center center;
+	}
+
+	._Skins_TopicToolBar.mc-component .button.next-topic-button
+	{
+		background-repeat: no-repeat;
+		background: transparent;
+		background: -moz-linear-gradient(top, transparent 0%, transparent 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,transparent));
+		background: -webkit-linear-gradient(top, transparent 0%, transparent 100%);
+		background: -o-linear-gradient(top, transparent 0%,transparent 100%);
+		background: -ms-linear-gradient(top, transparent 0%,transparent 100%);
+		background: linear-gradient(transparent 0%,transparent 100%);
+		-pie-background: linear-gradient(transparent, transparent);
+		background-position: center center;
+	}
+
+	._Skins_TopicToolBar.mc-component .button.previous-topic-button
+	{
+		background-repeat: no-repeat;
+		background: transparent;
+		background: -moz-linear-gradient(top, transparent 0%, transparent 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,transparent));
+		background: -webkit-linear-gradient(top, transparent 0%, transparent 100%);
+		background: -o-linear-gradient(top, transparent 0%,transparent 100%);
+		background: -ms-linear-gradient(top, transparent 0%,transparent 100%);
+		background: linear-gradient(transparent 0%,transparent 100%);
+		-pie-background: linear-gradient(transparent, transparent);
+		background-position: center center;
+	}
+
+	._Skins_TopicToolBar.mc-component .button.print-button
+	{
+		background-repeat: no-repeat;
+		background: transparent;
+		background: -moz-linear-gradient(top, transparent 0%, transparent 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,transparent));
+		background: -webkit-linear-gradient(top, transparent 0%, transparent 100%);
+		background: -o-linear-gradient(top, transparent 0%,transparent 100%);
+		background: -ms-linear-gradient(top, transparent 0%,transparent 100%);
+		background: linear-gradient(transparent 0%,transparent 100%);
+		-pie-background: linear-gradient(transparent, transparent);
+		background-position: center center;
+	}
+
+	._Skins_TopicToolBar.mc-component .button.remove-highlight-button
+	{
+		background-repeat: no-repeat;
+		background: transparent;
+		background: -moz-linear-gradient(top, transparent 0%, transparent 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,transparent));
+		background: -webkit-linear-gradient(top, transparent 0%, transparent 100%);
+		background: -o-linear-gradient(top, transparent 0%,transparent 100%);
+		background: -ms-linear-gradient(top, transparent 0%,transparent 100%);
+		background: linear-gradient(transparent 0%,transparent 100%);
+		-pie-background: linear-gradient(transparent, transparent);
+		background-position: center center;
+	}
+
+	._Skins_TopicToolBar.mc-component .button.select-language-button
+	{
+		background-repeat: no-repeat;
+		background: transparent;
+		background: -moz-linear-gradient(top, transparent 0%, transparent 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,transparent));
+		background: -webkit-linear-gradient(top, transparent 0%, transparent 100%);
+		background: -o-linear-gradient(top, transparent 0%,transparent 100%);
+		background: -ms-linear-gradient(top, transparent 0%,transparent 100%);
+		background: linear-gradient(transparent 0%,transparent 100%);
+		-pie-background: linear-gradient(transparent, transparent);
+		background-position: center center;
+	}
+
+	._Skins_TopicToolBar.mc-component .button.select-skin-button
+	{
+		background-repeat: no-repeat;
+		background: transparent;
+		background: -moz-linear-gradient(top, transparent 0%, transparent 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,transparent));
+		background: -webkit-linear-gradient(top, transparent 0%, transparent 100%);
+		background: -o-linear-gradient(top, transparent 0%,transparent 100%);
+		background: -ms-linear-gradient(top, transparent 0%,transparent 100%);
+		background: linear-gradient(transparent 0%,transparent 100%);
+		-pie-background: linear-gradient(transparent, transparent);
+		background-position: center center;
+	}
+
+	._Skins_TopicToolBar.mc-component .button.topic-ratings-empty-button
+	{
+		background: transparent url('Images/star-empty.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Default/Stylesheets/Components/Images/star-empty.png') no-repeat center center;
+		background-size: 16px 16px;
+	}
+
+	._Skins_TopicToolBar.mc-component .toolbar-button-drop-down
+	{
+		background-color: #FFFFFF;
+	}
+
+	._Skins_TopicToolBar.mc-component .toolbar-button-drop-down.select-language-drop-down
+	{
+		background-color: #FFFFFF;
+	}
+
+	._Skins_TopicToolBar.mc-component .toolbar-button-drop-down.select-language-drop-down ul li:hover
+	{
+		background-color: #E5EFF7;
+	}
+
+	._Skins_TopicToolBar.mc-component .toolbar-button-drop-down.select-skin-drop-down
+	{
+		background-color: #FFFFFF;
+	}
+
+	._Skins_TopicToolBar.mc-component .toolbar-button-drop-down.select-skin-drop-down ul li:hover
+	{
+		background-color: #E5EFF7;
+	}
+
+	._Skins_TopicToolBar.mc-component .button-separator
+	{
+		background-color: #651f5b;
+	}
+
+	._Skins_Search_results.mc-component .featured-snippets-container
+	{
+		
+	}
+
+	._Skins_Search_results.mc-component #knowledge-panel
+	{
+		order: 0;
+		display: none;
+	}
+
+	._Skins_Search_results.mc-component #search-results-flex
+	{
+		
+	}
+
+	._Skins_Search_results.mc-component .knowledge-panel-container
+	{
+		
+	}
+
+	._Skins_Search_results.mc-component #knowledge-panel-middle
+	{
+		display: block;
+	}
+
+	._Skins_Search_results.mc-component .knowledge-panel-container .micro-content-drop-down-button
+	{
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+
+	._Skins_Search_results.mc-component .knowledge-panel-container .micro-content-expanded .micro-content-drop-down-button
+	{
+		background: transparent url('Images/arrow-up.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Default/Stylesheets/Components/Images/arrow-up.png') no-repeat center center;
+	}
+
+	._Skins_Search_results.mc-component .knowledge-panel-container .micro-content-collapsed .micro-content-drop-down-button
+	{
+		background: transparent url('Images/arrow-down.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Default/Stylesheets/Components/Images/arrow-down.png') no-repeat center center;
+	}
+
+	._Skins_Search_results.mc-component .knowledge-panel-container .micro-content-phrase span
+	{
+		
+	}
+
+	._Skins_Search_results.mc-component .knowledge-panel-container .micro-content-phrase
+	{
+		
+	}
+
+	._Skins_Search_results.mc-component .knowledge-panel-container.micro-content-optional-phrase .micro-content-phrase
+	{
+		
+	}
+
+	._Skins_Search_results.mc-component .knowledge-panel-container .micro-response
+	{
+		
+	}
+
+	._Skins_Search_results.mc-component .knowledge-panel-container.micro-content-truncated-mode .micro-response
+	{
+		max-height: 200px;
+	}
+
+	._Skins_Search_results.mc-component .knowledge-panel-container .micro-response-title a
+	{
+		
+	}
+
+	._Skins_Search_results.mc-component .knowledge-panel-container .micro-response-title
+	{
+		
+	}
+
+	._Skins_Search_results.mc-component .knowledge-panel-container .micro-response-title a:visited
+	{
+		
+	}
+
+	._Skins_Search_results.mc-component #resultList .glossary .term a:visited
+	{
+		
+	}
+
+	._Skins_Search_results.mc-component .featured-snippets-container .micro-response-title a:visited
+	{
+		
+	}
+
+	._Skins_Search_results.mc-component #resultList h3.title a:visited
+	{
+		
+	}
+
+	._Skins_Search_results.mc-component .knowledge-panel-container .micro-response-title a:focus
+	{
+		
+	}
+
+	._Skins_Search_results.mc-component #resultList .glossary .term a:focus
+	{
+		
+	}
+
+	._Skins_Search_results.mc-component .featured-snippets-container .micro-response-title a:focus
+	{
+		
+	}
+
+	._Skins_Search_results.mc-component #resultList h3.title a:focus
+	{
+		
+	}
+
+	._Skins_Search_results.mc-component .knowledge-panel-container .micro-response-title a:hover
+	{
+		
+	}
+
+	._Skins_Search_results.mc-component #resultList .glossary .term a:hover
+	{
+		
+	}
+
+	._Skins_Search_results.mc-component .featured-snippets-container .micro-response-title a:hover
+	{
+		
+	}
+
+	._Skins_Search_results.mc-component #pagination a:hover
+	{
+		
+	}
+
+	._Skins_Search_results.mc-component #resultList h3.title a:hover
+	{
+		
+	}
+
+	._Skins_Search_results.mc-component .knowledge-panel-container .micro-response-title a:active
+	{
+		
+	}
+
+	._Skins_Search_results.mc-component #resultList .glossary .term a:active
+	{
+		
+	}
+
+	._Skins_Search_results.mc-component .featured-snippets-container .micro-response-title a:active
+	{
+		
+	}
+
+	._Skins_Search_results.mc-component #resultList h3.title a:active
+	{
+		
+	}
+
+	._Skins_Search_results.mc-component .knowledge-panel-container .micro-response-url cite
+	{
+		
+	}
+
+	._Skins_Search_results.mc-component .knowledge-panel-container .micro-response-url
+	{
+		
+	}
+
+	._Skins_Search_results.mc-component .knowledge-panel-container .micro-content
+	{
+		background-position: center center;
+	}
+
+	._Skins_Search_results.mc-component .knowledge-panel-container .micro-content-expand
+	{
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+
+	._Skins_Search_results.mc-component .knowledge-panel-container .micro-content-expanded .micro-content-expand
+	{
+		background: transparent url('Images/arrow-up.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Default/Stylesheets/Components/Images/arrow-up.png') no-repeat center center;
+	}
+
+	._Skins_Search_results.mc-component .knowledge-panel-container .micro-content-collapsed .micro-content-expand
+	{
+		background: transparent url('Images/arrow-down.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Default/Stylesheets/Components/Images/arrow-down.png') no-repeat center center;
+	}
+
+	._Skins_Search_results.mc-component .knowledge-panel-container.micro-content-truncated-mode .micro-content-expand-transition
+	{
+		background: -moz-linear-gradient(top, transparent 0%, #ffffff 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,#ffffff));
+		background: -webkit-linear-gradient(top, transparent 0%, #ffffff 100%);
+		background: -o-linear-gradient(top, transparent 0%,#ffffff 100%);
+		background: -ms-linear-gradient(top, transparent 0%,#ffffff 100%);
+		background: linear-gradient(transparent 0%,#ffffff 100%);
+		-pie-background: linear-gradient(transparent, #ffffff);
+	}
+
+	._Skins_Search_results.mc-component #resultList .glossary .definition
+	{
+		
+	}
+
+	._Skins_Search_results.mc-component #resultList .glossary
+	{
+		background-position: center center;
+	}
+
+	._Skins_Search_results.mc-component #resultList .glossary .term
+	{
+		
+	}
+
+	._Skins_Search_results.mc-component #resultList .glossary .term a
+	{
+		
+	}
+
+	._Skins_Search_results.mc-component h1#results-heading
+	{
+		
+	}
+
+	._Skins_Search_results.mc-component #results-heading
+	{
+		
+	}
+
+	._Skins_Search_results.mc-component .featured-snippets-container .micro-content-drop-down-button
+	{
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+
+	._Skins_Search_results.mc-component .featured-snippets-container .micro-content-expanded .micro-content-drop-down-button
+	{
+		background: transparent url('Images/arrow-up.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Default/Stylesheets/Components/Images/arrow-up.png') no-repeat center center;
+	}
+
+	._Skins_Search_results.mc-component .featured-snippets-container .micro-content-collapsed .micro-content-drop-down-button
+	{
+		background: transparent url('Images/arrow-down.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Default/Stylesheets/Components/Images/arrow-down.png') no-repeat center center;
+	}
+
+	._Skins_Search_results.mc-component .featured-snippets-container .micro-content-phrase span
+	{
+		
+	}
+
+	._Skins_Search_results.mc-component .featured-snippets-container .micro-content-phrase
+	{
+		
+	}
+
+	._Skins_Search_results.mc-component .featured-snippets-container.micro-content-optional-phrase .micro-content-phrase
+	{
+		
+	}
+
+	._Skins_Search_results.mc-component .featured-snippets-container .micro-response
+	{
+		
+	}
+
+	._Skins_Search_results.mc-component .featured-snippets-container.micro-content-truncated-mode .micro-response
+	{
+		
+	}
+
+	._Skins_Search_results.mc-component .featured-snippets-container .micro-content-expand
+	{
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+
+	._Skins_Search_results.mc-component .featured-snippets-container .micro-content-expanded .micro-content-expand
+	{
+		background: transparent url('Images/arrow-up.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Default/Stylesheets/Components/Images/arrow-up.png') no-repeat center center;
+	}
+
+	._Skins_Search_results.mc-component .featured-snippets-container .micro-content-collapsed .micro-content-expand
+	{
+		background: transparent url('Images/arrow-down.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Default/Stylesheets/Components/Images/arrow-down.png') no-repeat center center;
+	}
+
+	._Skins_Search_results.mc-component .featured-snippets-container.micro-content-truncated-mode .micro-content-expand-transition
+	{
+		background: -moz-linear-gradient(top, transparent 0%, #ffffff 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,#ffffff));
+		background: -webkit-linear-gradient(top, transparent 0%, #ffffff 100%);
+		background: -o-linear-gradient(top, transparent 0%,#ffffff 100%);
+		background: -ms-linear-gradient(top, transparent 0%,#ffffff 100%);
+		background: linear-gradient(transparent 0%,#ffffff 100%);
+		-pie-background: linear-gradient(transparent, #ffffff);
+	}
+
+	._Skins_Search_results.mc-component .featured-snippets-container .micro-response-title a
+	{
+		
+	}
+
+	._Skins_Search_results.mc-component .featured-snippets-container .micro-response-title
+	{
+		
+	}
+
+	._Skins_Search_results.mc-component .featured-snippets-container .micro-response-url cite
+	{
+		
+	}
+
+	._Skins_Search_results.mc-component .featured-snippets-container .micro-response-url
+	{
+		
+	}
+
+	._Skins_Search_results.mc-component .featured-snippets-container .micro-content
+	{
+		background-position: center center;
+	}
+
+	._Skins_Search_results.mc-component #pagination
+	{
+		line-height: 2.5em;
+	}
+
+	._Skins_Search_results.mc-component #pagination a
+	{
+		
+	}
+
+	._Skins_Search_results.mc-component #pagination a#selected
+	{
+		
+	}
+
+	._Skins_Search_results.mc-component #resultList .description
+	{
+		
+	}
+
+	._Skins_Search_results.mc-component #resultList .gs-snippet
+	{
+		
+	}
+
+	._Skins_Search_results.mc-component #resultList h3.title a
+	{
+		
+	}
+
+	._Skins_Search_results.mc-component #resultList h3.title
+	{
+		
+	}
+
+	._Skins_Search_results.mc-component #resultList .url cite
+	{
+		
+	}
+
+	._Skins_Search_results.mc-component #resultList
+	{
+		
+	}
+
+	._Skins_Search_results.mc-component .phrase-suggest
+	{
+		
+	}
+
+	._Skins_Search_results.mc-component .phrase-suggest a
+	{
+		
+	}
+}
+

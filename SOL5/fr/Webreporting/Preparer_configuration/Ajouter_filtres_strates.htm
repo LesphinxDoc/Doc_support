@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="fr" xml:lang="fr" class="_Skins_Side_navigation_SOL5" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../" data-mc-has-content-body="True" data-mc-toc-path="WEBREPORTING|Préparer les configurations" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="msapplication-config" content="../../Skins/Favicons/browserconfig.xml" />
+        <link rel="shortcut icon" href="../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="32x32" href="../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="16x16" href="../../Skins/Favicons/favicon-16x16.png" />
+        <meta charset="utf-8" /><title>Ajouter des filtres et des strates</title>
+        <link rel="shortcut icon" href="../../Resources/Images/Analyse/iconeQ.png" type="image/png" />
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Fluid/Stylesheets/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="../../Resources/Scripts/search-dropdown.css" />
+        <style>/*&lt;meta /&gt;*/
+
+.button.remove-highlight-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.separator-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.select-language-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.separator-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.expand-all-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.separator-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.print-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.collapse-all-button
+{
+	-pie-background: linear-gradient(transparent, #ececec);
+}
+
+.needs-pie
+{
+	behavior: url('../../Resources/Scripts/PIE-no-motw.htc');
+}
+
+</style>
+        <link rel="shortcut icon" href="../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="32x32" href="../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="16x16" href="../../Skins/Favicons/favicon-16x16.png" />
+        <script src="../../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/purify.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/foundation.6.2.3_custom.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js" type="text/javascript" defer="defer">
+        </script>
+        <script type="text/javascript" src="../../Resources/Scripts/search-dropdown.js">
+        </script>
+        <script type="text/javascript" src="../../Skins/Default/Scripts/TopicToolBar.js">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-right" role="complementary" id="offCanvas" data-off-canvas="" data-position="right" data-mc-ignore="true">
+                    <ul class="off-canvas-accordion vertical menu off-canvas-list" data-accordion-menu="" data-mc-back-link="Retour" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expanded-event="down.zf.accordionMenu up.zf.accordionMenu" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div data-sticky-container="" class="title-bar-container">
+                        <nav class="title-bar tab-bar sticky" aria-label="Main navigation and search" data-sticky="" data-options="marginTop:0" style="width:100%" data-sticky-on="only screen and (max-width: 1279px)" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="#">Passer au contenu principal</a>
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="menu-icon-container relative clearfix">
+                                    <div class="central-account-wrapper">
+                                        <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Compte</span></a>
+                                            <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Paramètres</a>
+                                                <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Déconnexion</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="menu-icon" aria-label="Afficher le volet de navigation" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="title-bar-layout outer-row">
+                                <div class="logo-wrapper"><a class="logo" href="../../Home_Sol5.htm" alt="Logo"></a>
+                                </div>
+                                <div class="navigation-wrapper nocontent">
+                                    <ul class="navigation clearfix" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                        <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="central-account-wrapper">
+                                    <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Compte</span></a>
+                                        <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Paramètres</a>
+                                            <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Déconnexion</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nav-search-wrapper">
+                                    <div class="nav-search row">
+                                        <form class="search" action="#">
+                                            <div class="search-bar search-bar-container needs-pie">
+                                                <input class="search-field needs-pie" type="search" aria-label="Champ de recherche" placeholder="Rechercher" />
+                                                <div class="search-filter-wrapper"><span class="invisible-label" id="search-filters-label">Filtrer&#160;:</span>
+                                                    <div class="search-filter" aria-haspopup="true" aria-controls="sf-content" aria-expanded="false" aria-label="Filtre de recherche" title="Tous les fichiers" role="button" tabindex="0">
+                                                    </div>
+                                                    <div class="search-filter-content" id="sf-content">
+                                                        <ul>
+                                                            <li>
+                                                                <button class="mc-dropdown-item" aria-labelledby="search-filters-label filterSelectorLabel-00001"><span id="filterSelectorLabel-00001">Tous les fichiers</span>
+                                                                </button>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="search-submit-wrapper" dir="ltr">
+                                                    <div class="search-submit" title="Rechercher" role="button" tabindex="0"><span class="invisible-label">Démarrer la recherche</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="main-section">
+                        <div class="row outer-row sidenav-layout">
+                            <nav class="sidenav-wrapper">
+                                <div class="sidenav-container">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expanded-event="down.zf.accordionMenu up.zf.accordionMenu" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
+                                    </ul>
+                                </div>
+                            </nav>
+                            <div class="body-container">
+                                <div data-mc-content-body="True"><a href="#" class="scrollToTop"></a>
+                                    <div class="buttons popup-container clearfix topicToolbarProxy _Skins_TopicToolBar mc-component nocontent" style="float: right; mc-topic-toolbar-items: ;">
+                                        <div class="button-group-container-left">
+                                            <button class="button needs-pie remove-highlight-button" title="Supprimer les surlignages">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                            <div class="button-separator">
+                                            </div>
+                                            <button class="button needs-pie select-language-button" title="Changer de langue">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper" aria-label="Changer de langue">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                            <div class="button-separator">
+                                            </div>
+                                            <button class="button needs-pie expand-all-button" data-state1-class="expand-all-button" data-state2-class="collapse-all-button" data-state2-title="Réduire tout" title="Développer tout" data-state1-title="Développer tout">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper" aria-label="Développer tout">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                            <div class="button-separator">
+                                            </div>
+                                            <button class="button needs-pie print-button" title="Imprimer">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper" aria-label="Imprimer">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="nocontent">
+                                        <div class="MCBreadcrumbsBox_0 breadcrumbs" role="navigation" aria-label="Pistes de navigation" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="3" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">Vous êtes ici: </span>
+                                        </div>
+                                    </div>
+                                    <div role="main" id="mc-main-content">
+                                        <h1>Ajouter des filtres et des strates</h1>
+                                        <p>Dans un rapport en ligne, il est possible d’obtenir des résultats après l’application de filtres et/ou de strates. Ces filtres peuvent provenir de :</p>
+                                        <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../../Resources/Images/Webreporting/choix_filtres_strates.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="858" data-mc-height="230" src="../../Resources/Images/Webreporting/choix_filtres_strates.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a>
+                                        </p>
+                                        <ul>
+                                            <li>
+                                                <p>De l'utilisation d'un filtre période</p>
+                                            </li>
+                                            <li>
+                                                <p>De l'utilisation de filtres automatiques</p>
+                                            </li>
+                                            <li>
+                                                <p>De l'utilisation d'une des strates prédéfinies dans l'enquête (partie <span class="bold">Données</span>)</p>
+                                            </li>
+                                            <li>
+                                                <p>De l’utilisation d'un filtre personnalisé</p>
+                                            </li>
+                                            <li>
+                                                <p>De l'utilisation d'action <span class="bold">Filtre</span> dans le bandeau de commande.</p>
+                                            </li>
+                                            <li>
+                                                <p>D'un <a href="../Definir_utilisateurs/Definir_profils.htm">profil</a> attribué dans l'accès restreint.</p>
+                                            </li>
+                                        </ul>
+                                        <p>Les étapes ci-dessous décrivent comment, depuis l’éditeur de configuration, sélectionner et configurer les filtres et strates qui seront disponibles lors de l’exécution.</p>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" alt="Fermé" data-mc-alt2="Ouvert" />Afficher un filtre période</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p>Ce filtre permet de filtrer les résultats du rapport en ligne sur une période personnalisée.</p>
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>En tant que directeur de camping, visualiser les résultats du samedi au samedi sur le mois de juillet, puis du samedi au samedi de la semaine suivante ou encore afficher les résultats pour un week-end donné.</p>
+                                                <ol>
+                                                    <li value="1">
+                                                        <p>Cochez l'option <span class="bold">Filtre période</span>.</p>
+                                                    </li>
+                                                    <li value="2">
+                                                        <p>Sélectionnez une variable de type date dans le menu <span class="bold">Début</span>.</p>
+                                                    </li>
+                                                    <li value="3">
+                                                        <p>Sélectionnez une variable de type date dans le menu <span class="bold">Fin</span>. </p>
+                                                        <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../../Resources/Images/Webreporting/date_filtre_periode.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="720" data-mc-height="62" src="../../Resources/Images/Webreporting/date_filtre_periode.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a>
+                                                        </p>
+                                                        <p class="note" data-mc-autonum="&lt;b&gt;REMARQUE : &lt;/b&gt;"><span class="autonumber"><span><b>REMARQUE : </b></span></span>Il est possible de sélectionner la <span class="bold">même variable</span> pour la date de début et la date de fin.</p>
+                                                        <p class="note" data-mc-autonum="&lt;b&gt;REMARQUE : &lt;/b&gt;"><span class="autonumber"><span><b>REMARQUE : </b></span></span>Seules les variables dates contenant au moins le format <span class="bold">JJ/MM/AAAA</span> peuvent être sélectionnées.</p>
+                                                    </li>
+                                                </ol>
+                                                <p>Le filtre période s'affiche au-dessus des filtres automatiques et permet de filtrer les résultats en fonction d'une période spécifique.</p>
+                                                <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../../Resources/Images/Webreporting/selection_filtre_periode.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="614" data-mc-height="134" src="../../Resources/Images/Webreporting/selection_filtre_periode.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" alt="Fermé" data-mc-alt2="Ouvert" />Afficher des filtres automatiques</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p>Cocher <span class="bold">Afficher des filtres automatiques</span> indique qu'à l'exécution du rapport en ligne l'utilisateur aura accès directement aux filtres automatiques définis dans la zone de texte. </p>
+                                                <p>Pour sélectionner les variables à afficher comme filtres automatiques, </p>
+                                                <ol>
+                                                    <li value="1">
+                                                        <p>Cliquez sur <span class="bold">Gérer les variables</span>.</p>
+                                                    </li>
+                                                    <li value="2">
+                                                        <p>Glissez-déposez les variables souhaitées vers la colonne de droite.</p>
+                                                        <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../../Resources/Images/Webreporting/filtres_automatiques.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="816" data-mc-height="265" src="../../Resources/Images/Webreporting/filtres_automatiques.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a>
+                                                        </p>
+                                                        <p class="note" data-mc-autonum="&lt;b&gt;REMARQUE : &lt;/b&gt;"><span class="autonumber"><span><b>REMARQUE : </b></span></span>Cochez l’option <span class="bold">Permettre la sélection multiple</span> afin d’autoriser les utilisateurs à sélectionner plusieurs modalités dans un filtre automatique.</p>
+                                                        <p class="note" data-mc-autonum="&lt;b&gt;REMARQUE : &lt;/b&gt;"><span class="autonumber"><span><b>REMARQUE : </b></span></span>L’ordre d’affichage des colonnes (variables) peut être modifié à l’aide des flèches haut et bas.</p>
+                                                    </li>
+                                                </ol>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" alt="Fermé" data-mc-alt2="Ouvert" />Afficher le bouton "Limiter à un profil"</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p>Cocher <span class="bold">Afficher le bouton "Limiter à un profil"</span> indique qu'à l'exécution du rapport en ligne l'utilisateur aura accès à la création de filtre personnalisé et au changement de filtre automatique. </p>
+                                                <p>Le texte définit l'intitulé du lien permettant l'accès à la gestion des filtres personnalisés et automatiques. Si des filtres automatiques sont choisis et que l'option <span class="bold">Afficher le bouton "Limiter à un profil"</span> n'est pas cochée, l'utilisateur du rapport en ligne ne pourra pas changer de filtres automatiques. </p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" alt="Fermé" data-mc-alt2="Ouvert" />Afficher les strates enregistrées</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p>Cocher <span class="bold">Afficher les strates enregistrées</span> indique qu'à l'exécution du rapport en ligne, l'utilisateur aura accès aux <span class="bold">strates enregistrées</span>.</p>
+                                                <p>Il est possible de choisir la strate sur laquelle est chargé le rapport en ligne au démarrage en choisissant une des strates dans la liste <span class="bold">Démarrer avec</span>.</p>
+                                                <p>  En donnant la possibilité à l'utilisateur de choisir ses filtres automatiques et/ou filtre personnalisé, il est possible de donner la possibilité de sauvegarder les filtres personnalisés créés pour une utilisation ultérieure.</p>
+                                                <p>Pour cela, cochez la dernière option <span class="bold">Permettre l'enregistrement et la gestion des strates</span>. À l'exécution du rapport en ligne en cliquant sur <span class="bold">Limiter à un profil</span>, il est possible d'ajouter le filtre personnalisé aux strates enregistrées :</p>
+                                                <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../../Resources/Images/Webreporting/enregistrer_gestion_strates.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="732" data-mc-height="725" src="../../Resources/Images/Webreporting/enregistrer_gestion_strates.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><a data-close="true"></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

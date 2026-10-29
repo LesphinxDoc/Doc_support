@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="fr" xml:lang="fr" class="_Skins_Side_navigation_Declic" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../" data-mc-has-content-body="True" data-mc-toc-path="ANALYSE|Analyse textuelle|Analyse de contenu" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="msapplication-config" content="../../Skins/Favicons/browserconfig.xml" />
+        <link rel="shortcut icon" href="../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="32x32" href="../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="16x16" href="../../Skins/Favicons/favicon-16x16.png" />
+        <meta charset="utf-8" /><title>Recommandation Impact Score</title>
+        <link rel="shortcut icon" href="../../Resources/Images/Analyse/iconeQ.png" type="image/png" />
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Fluid/Stylesheets/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="../../Resources/Scripts/search-dropdown.css" />
+        <style>/*&lt;meta /&gt;*/
+
+.button.remove-highlight-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.separator-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.select-language-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.separator-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.expand-all-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.separator-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.print-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.collapse-all-button
+{
+	-pie-background: linear-gradient(transparent, #ececec);
+}
+
+.needs-pie
+{
+	behavior: url('../../Resources/Scripts/PIE-no-motw.htc');
+}
+
+</style>
+        <link rel="shortcut icon" href="../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="32x32" href="../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="16x16" href="../../Skins/Favicons/favicon-16x16.png" />
+        <script src="../../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/purify.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/foundation.6.2.3_custom.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js" type="text/javascript" defer="defer">
+        </script>
+        <script type="text/javascript" src="../../Resources/Scripts/search-dropdown.js">
+        </script>
+        <script type="text/javascript" src="../../Skins/Default/Scripts/TopicToolBar.js">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-right" role="complementary" id="offCanvas" data-off-canvas="" data-position="right" data-mc-ignore="true">
+                    <ul class="off-canvas-accordion vertical menu off-canvas-list" data-accordion-menu="" data-mc-back-link="Retour" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expanded-event="down.zf.accordionMenu up.zf.accordionMenu" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div data-sticky-container="" class="title-bar-container">
+                        <nav class="title-bar tab-bar sticky" aria-label="Main navigation and search" data-sticky="" data-options="marginTop:0" style="width:100%" data-sticky-on="only screen and (max-width: 1279px)" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="#">Passer au contenu principal</a>
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="menu-icon-container relative clearfix">
+                                    <div class="central-account-wrapper">
+                                        <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Compte</span></a>
+                                            <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Paramètres</a>
+                                                <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Déconnexion</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="menu-icon" aria-label="Afficher le volet de navigation" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="title-bar-layout outer-row">
+                                <div class="logo-wrapper"><a class="logo" href="../../Home.htm" alt="Logo"></a>
+                                </div>
+                                <div class="navigation-wrapper nocontent">
+                                    <ul class="navigation clearfix" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                        <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="central-account-wrapper">
+                                    <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Compte</span></a>
+                                        <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Paramètres</a>
+                                            <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Déconnexion</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nav-search-wrapper">
+                                    <div class="nav-search row">
+                                        <form class="search" action="#">
+                                            <div class="search-bar search-bar-container needs-pie">
+                                                <input class="search-field needs-pie" type="search" aria-label="Champ de recherche" placeholder="Rechercher" />
+                                                <div class="search-filter-wrapper"><span class="invisible-label" id="search-filters-label">Filtrer&#160;:</span>
+                                                    <div class="search-filter" aria-haspopup="true" aria-controls="sf-content" aria-expanded="false" aria-label="Filtre de recherche" title="Tous les fichiers" role="button" tabindex="0">
+                                                    </div>
+                                                    <div class="search-filter-content" id="sf-content">
+                                                        <ul>
+                                                            <li>
+                                                                <button class="mc-dropdown-item" aria-labelledby="search-filters-label filterSelectorLabel-00001"><span id="filterSelectorLabel-00001">Tous les fichiers</span>
+                                                                </button>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="search-submit-wrapper" dir="ltr">
+                                                    <div class="search-submit" title="Rechercher" role="button" tabindex="0"><span class="invisible-label">Démarrer la recherche</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="main-section">
+                        <div class="row outer-row sidenav-layout">
+                            <nav class="sidenav-wrapper">
+                                <div class="sidenav-container">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expanded-event="down.zf.accordionMenu up.zf.accordionMenu" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
+                                    </ul>
+                                </div>
+                            </nav>
+                            <div class="body-container">
+                                <div data-mc-content-body="True"><a href="#" class="scrollToTop"> </a>
+                                    <div class="buttons popup-container clearfix topicToolbarProxy _Skins_TopicToolBar mc-component nocontent" style="float: right; mc-topic-toolbar-items: ;">
+                                        <div class="button-group-container-left">
+                                            <button class="button needs-pie remove-highlight-button" title="Supprimer les surlignages">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                            <div class="button-separator">
+                                            </div>
+                                            <button class="button needs-pie select-language-button" title="Changer de langue">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper" aria-label="Changer de langue">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                            <div class="button-separator">
+                                            </div>
+                                            <button class="button needs-pie expand-all-button" data-state1-class="expand-all-button" data-state2-class="collapse-all-button" data-state2-title="Réduire tout" title="Développer tout" data-state1-title="Développer tout">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper" aria-label="Développer tout">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                            <div class="button-separator">
+                                            </div>
+                                            <button class="button needs-pie print-button" title="Imprimer">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper" aria-label="Imprimer">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="nocontent">
+                                        <div class="MCBreadcrumbsBox_0 breadcrumbs" role="navigation" aria-label="Pistes de navigation" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="3" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">Vous êtes ici: </span>
+                                        </div>
+                                    </div>
+                                    <div role="main" id="mc-main-content">
+                                        <h1>Recommandation Impact Score</h1>
+                                        <p>Mesurez l'impact des thématiques exprimées dans vos verbatim sur une évaluation globale. Pour chaque thème issu d'une codification, visualisez dans quelle mesure son évocation, positive ou négative, influence la note moyenne des répondants.</p>
+                                        <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>Dans une étude portant sur le tourisme, vous pouvez identifier les thématiques issues des commentaires des voyageurs qui influencent le plus leur satisfaction globale, afin de distinguer les facteurs clés de succès des priorités d'action.</p>
+                                        <p>Pour réaliser une matrice RIS, procédez comme suit :</p>
+                                        <ol>
+                                            <li value="1">
+                                                <p>Cliquez sur le bouton <img src="../../Resources/Images/Analyse/bouton-ajout_19x18.png" style="visibility: visible;mso-wrap-style: square;width: 19;height: 18;" alt="" />.</p>
+                                            </li>
+                                            <li value="2">
+                                                <p> Sélectionner <span class="bold">Analyse textuelle et sémantique</span> puis sur <span class="bold">Recommandation Impact Score</span>.</p>
+                                            </li>
+                                            <li value="3">
+                                                <p>Sélectionnez la variable texte à analyser.</p>
+                                                <p class="note" data-mc-autonum="&lt;b&gt;REMARQUE : &lt;/b&gt;"><span class="autonumber"><span><b>REMARQUE : </b></span></span>La variable texte sélectionnée doit avoir fait l'objet d'une <a href="Codification_verbatim.htm">codification des verbatim par phrase</a> au préalable.</p>
+                                            </li>
+                                            <li value="4">
+                                                <p>Sélectionnez la variable d'évaluation à mettre en corrélation avec les thématiques issues de la codification. Il s'agit généralement de la variable de satisfaction globale.</p>
+                                                <p style="text-align: left;"><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../../Resources/Images/matrice_RIS.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="572" data-mc-height="476" src="../../Resources/Images/matrice_RIS.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a>
+                                                </p>
+                                                <p>Les thématiques sont représentées sur une matrice selon deux dimensions :</p>
+                                                <ul>
+                                                    <li>
+                                                        <p style="text-align: left;">Axe <span class="bold">vertical</span>&#160;:&#160;<span class="bold">l'impact</span></p>
+                                                        <p>L'impact mesure l'influence de chaque thématique sur l'évaluation globale. Il est calculé à partir de la corrélation entre l'évocation de la thématique dans les verbatim et la note d'évaluation globale. Plus l'impact est élevé, plus la thématique influence la satisfaction globale des répondants.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p style="text-align: left;">Axe <span class="bold">horizontal</span>&#160;: <span class="bold">l'orientation</span></p>
+                                                        <p>L'orientation indique si une thématique est principalement associée à des verbatim positifs ou négatifs. Les thématiques situées à droite de la matrice sont majoritairement évoquées de manière positive, tandis que celles situées à gauche sont davantage associées à des verbatim négatifs.</p>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li value="5">
+                                                <p style="text-align: left;">(Optionnel) Modifiez le nom des axes et des différents quadrants si besoin.</p>
+                                            </li>
+                                            <li value="6">
+                                                <p style="text-align: left;">Cliquez sur <span class="bold">OK</span>.</p>
+                                                <p>Une fois la matrice réalisée, il est possible de changer les variables en sélectionnant l’analyse et en cliquant sur <img src="../../Resources/Images/Analyse/Edition_analyse_1.png" style="visibility: visible;mso-wrap-style: square;" alt="" /> ou en faisant clic droit <span class="bold">éditer</span> sur l’analyse.</p>
+                                                <ul>
+                                                    <li>
+                                                        <p>Pour améliorer la lisibilité de la matrice, vous pouvez masquer les thématiques dont l'effectif est inférieur à une valeur définie. Dans la rubrique <span class="bold">Calcul</span>, cochez l'option <span class="bold">Masquer les thèmes inférieurs à l'effectif</span> puis indiquez l'effectif minimal.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Pour améliorer la précision de l’orientation des thématiques, cochez l’option <span class="bold">Corriger les orientations</span>, puis sélectionnez la variable d’évaluation à utiliser.</p>
+                                                        <p>Cette variable permet de prendre en compte le contexte de la réponse lors de la détection de l’orientation des verbatim.</p>
+                                                        <p class="note" data-mc-autonum="&lt;b&gt;REMARQUE : &lt;/b&gt;"><span class="autonumber"><span><b>REMARQUE : </b></span></span>Sélectionnez une variable contenant une note de satisfaction, par exemple une note de recommandation comprise entre 0 et 10.</p>
+                                                    </li>
+                                                </ul>
+                                                <p>La matrice RIS peut être présentée sous la forme d'une carte ou d'une grille :</p>
+                                                <table style="width: 100%;">
+                                                    <col />
+                                                    <col />
+                                                    <tbody>
+                                                        <tr>
+                                                            <td style="text-align: center;border-left-style: solid;border-left-width: 0px;border-left-color: #000000;border-right-style: solid;border-right-width: 0px;border-right-color: #000000;border-top-style: solid;border-top-width: 0px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 0px;border-bottom-color: #000000;">
+                                                                <p style="text-align: center;"><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../../Resources/Images/RIS_carte.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="891" data-mc-height="619" src="../../Resources/Images/RIS_carte.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a>
+                                                                </p>
+                                                                <p style="text-align: center;"><span class="bold">Carte</span>
+                                                                </p>
+                                                            </td>
+                                                            <td style="text-align: center;border-left-style: solid;border-left-width: 0px;border-left-color: #000000;border-right-style: solid;border-right-width: 0px;border-right-color: #000000;border-top-style: solid;border-top-width: 0px;border-top-color: #000000;border-bottom-style: solid;border-bottom-width: 0px;border-bottom-color: #000000;">
+                                                                <p style="text-align: center;"><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../../Resources/Images/RIS_grille.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="700" data-mc-height="608" src="../../Resources/Images/RIS_grille.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a>
+                                                                </p>
+                                                                <p style="text-align: center;"><span class="bold">Grille</span>
+                                                                </p>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </li>
+                                        </ol>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" alt="Fermé" data-mc-alt2="Ouvert" />OPTIONS&#160;DE&#160;PRÉSENTATION&#160;ET&#160;ANALYSE&#160;DE&#160;LA&#160;MATRICE RIS</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p>Dans l’onglet <span class="bold">options</span>, catégorie <span class="bold">graphique</span>, il est possible de sélectionner <span class="bold">taille proportionnelle aux effectifs</span>. Ainsi, la taille des bulles sera proportionnelle aux effectifs des variables étudiées. </p>
+                                                <p>La matrice RIS est composée de quatre zones&#160;:</p>
+                                                <ul>
+                                                    <li>
+                                                        <p><span class="bold">Facteurs clés de succès</span>&#160;: Les thématiques présentes dans cette zone ont un impact positif sur l'évaluation globale et sont majoritairement associées à des verbatim positifs. Elles représentent les principaux leviers de satisfaction et les points forts à préserver.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p><span class="bold">Priorités d'action</span>&#160;: Les thématiques de cette zone ont un impact important sur l'évaluation globale, mais sont principalement associées à des verbatim négatifs. Elles constituent les axes d'amélioration prioritaires, car leur perception influence fortement la note globale.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p><span class="bold">Critères secondaires</span>&#160;: Les thématiques de cette zone sont principalement associées à des verbatim négatifs, mais leur influence sur l'évaluation globale reste limitée. Elles peuvent être prises en compte dans une démarche d'amélioration, sans constituer une priorité.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p><span class="bold">Points forts secondaires</span>&#160;: Les thématiques de cette zone sont associées à des verbatim positifs, mais leur impact sur l'évaluation globale est faible. Elles mettent en évidence des aspects appréciés par les répondants, sans être des facteurs déterminants de leur satisfaction.</p>
+                                                    </li>
+                                                </ul>
+                                                <p>Comme pour les autres analyses, lorsque de nombreuses thématiques sont affichées, la lisibilité du graphique peut être réduite. Vous pouvez alors zoomer sur une zone spécifique lors de la prévisualisation afin d'examiner plus facilement les thématiques qui la composent.</p>
+                                                <p>Pour <span class="bold">zoomer</span>, il faut sélectionner <span class="bold">permettre le zoom en mode lecture</span>  dans les éléments du graphique. </p>
+                                                <p>Dans la prévisualisation il faut placer le curseur sur une partie du graphique, cliquer glisser et faire un carré autour de la zone à zoomer. Ensuite il sera possible d’annuler le zoom en cliquant sur le bouton <img src="../../Resources/Images/Analyse/Options_de_presentation_1.png" style="visibility: visible;mso-wrap-style: square;" alt="" />. </p>
+                                                <p style="text-align: center;"><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../../Resources/Images/RIS_zoom.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="874" data-mc-height="595" src="../../Resources/Images/RIS_zoom.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><a data-close="true"></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

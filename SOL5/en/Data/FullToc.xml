@@ -1,0 +1,440 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc Version="1" DescendantCount="353">
+    <TocEntry Title="GETTING STARTED" ComputedFirstTopic="false" DescendantCount="31">
+        <TocEntry Title="Create a study by importing data" Link="/Prise_en_main_outil/Creer_un_projet.htm" ComputedResetPageLayout="true" ComputedFirstTopic="true" DescendantCount="0" />
+        <TocEntry Title="Import a study from a zip file" Link="/Prise_en_main_outil/Importer_zip_enquete.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Manage my studies" Link="/Prise_en_main_outil/Gerer_projet.htm" ComputedFirstTopic="false" DescendantCount="6">
+            <TocEntry Title="Duplicate a study" Link="/Prise_en_main_outil/Gerer_projet/Dupliquer_un_projet.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Download a study" Link="/Prise_en_main_outil/Gerer_projet/Telecharger_un_projet.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Label a study" Link="/Prise_en_main_outil/Gerer_projet/Etiqueter_un_projet.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Sort the study list" Link="/Prise_en_main_outil/Gerer_projet/Trier_projets.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Merge studies" Link="/Prise_en_main_outil/Gerer_projet/Rassembler_des_projets.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Delete a study" Link="/Prise_en_main_outil/Gerer_projet/Supprimer_un_projet.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="Manage my account" Link="/Prise_en_main_outil/Gerer_mon_compte.htm" ComputedFirstTopic="false" DescendantCount="10">
+            <TocEntry Title="Change account email address" Link="/Prise_en_main_outil/Gerer_mon_compte.htm#Email" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Change the password" Link="/Prise_en_main_outil/Gerer_mon_compte.htm#motdepasse" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Modify the profile" Link="/Prise_en_main_outil/Gerer_mon_compte.htm#Profil" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Two-factor authentication" Link="/Prise_en_main_outil/Gerer_mon_compte.htm#deuxetapes" ComputedFirstTopic="false" DescendantCount="2">
+                <TocEntry Title="Set up a security key" Link="/Prise_en_main_outil/Gerer_mon_compte.htm#cle_securite" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Add an authenticator application" Link="/Prise_en_main_outil/Gerer_mon_compte.htm#Authentification" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="API personal access tokens" Link="/Prise_en_main_outil/Gerer_mon_compte.htm#jetonsAPI" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Download personal data" Link="/Prise_en_main_outil/Gerer_mon_compte.htm#donneesperso" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Add a sending domain" Link="/Prise_en_main_outil/Gerer_mon_compte.htm#Ajout_domaine" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Track credit usage" Link="/Prise_en_main_outil/Gerer_mon_compte.htm#conso_credits" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="Account administration" ComputedFirstTopic="false" DescendantCount="10">
+            <TocEntry Title="Create an account" StartSection="false" SectionNumberReset="continue" VolumeNumberReset="same" ChapterNumberReset="continue" Link="/Prise_en_main_outil/Creer_un_utilisateur.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Create a shared account" StartSection="false" SectionNumberReset="continue" VolumeNumberReset="same" ChapterNumberReset="continue" Link="/Prise_en_main_outil/Creer_un_compte_collaboratif.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Manage accounts" Link="/Prise_en_main_outil/Gerer_comptes_utilisateurs/Consulter_un_compte.htm" ComputedFirstTopic="false" DescendantCount="7">
+                <TocEntry Title="View an account" Link="/Prise_en_main_outil/Gerer_comptes_utilisateurs/Consulter_un_compte.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Edit an account" Link="/Prise_en_main_outil/Gerer_comptes_utilisateurs/Modifier_un_compte.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Copy surveys between accounts" Link="/Prise_en_main_outil/Gerer_comptes_utilisateurs/Copier_des_enquetes.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Login to user account" Link="/Prise_en_main_outil/Gerer_comptes_utilisateurs/Connexion_compte_user.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Delete an account" Link="/Prise_en_main_outil/Gerer_comptes_utilisateurs/Suppression_compte.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Export account list" Link="/Prise_en_main_outil/Gerer_comptes_utilisateurs/Exporter_liste_comptes.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Resend activation e-mail" Link="/Prise_en_main_outil/Gerer_comptes_utilisateurs/Renvoi_mail_activation.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+        </TocEntry>
+        <TocEntry Title="Sphinx API" Link="/Prise_en_main_outil/API_Sphinx.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" ComputedFirstTopic="false" DescendantCount="0" />
+    </TocEntry>
+    <TocEntry Title="STUDY" ComputedFirstTopic="false" DescendantCount="11">
+        <TocEntry Title="Control response input" Link="/Conception_questionnaire/Controles_acces/Controler_saisie.htm" ComputedFirstTopic="false" DescendantCount="3">
+            <TocEntry Title="Disable response input" Link="/Conception_questionnaire/Controles_acces/Acces_enquete.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Protect access with a password" Link="/Conception_questionnaire/Controles_acces/Acces_motdepasse.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Allow input only from an Email/SMS channel" Link="/Conception_questionnaire/Controles_acces/Acces_mail_sms.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="Set entry quotas" Link="/Conception_questionnaire/Controles_acces/Definir_quota.htm" ComputedFirstTopic="false" DescendantCount="1">
+            <TocEntry Title="Insert panelist redirection links" Link="/Conception_questionnaire/Controles_acces/Definir_quota.htm#Liens_panelistes" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="Add a language" Link="/Donnees/Langues.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Upload additional files" Link="/Conception_questionnaire/Ajout_fichiers_complementaires.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Manage links" Link="/Conception_questionnaire/Gestion_des_liens.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Generate a tracking link" Link="/Conception_questionnaire/Generer_un_lien_suivi.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Set up automatic alerts" Link="/Conception_questionnaire/Alertes_automatiques.htm" ComputedFirstTopic="false" DescendantCount="0" />
+    </TocEntry>
+    <TocEntry Title="DISTRIBUTION" ComputedFirstTopic="false" DescendantCount="54">
+        <TocEntry Title="Create a distribution channel" Link="/Diffusion_et_collecte/Creer_canal.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Direct link" Link="/Diffusion_et_collecte/Lien_anonyme.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Emailing" Link="/Diffusion_et_collecte/Emailing/Creer_canal_email.htm" ComputedFirstTopic="false" DescendantCount="8">
+            <TocEntry Title="Create an Email channel" Link="/Diffusion_et_collecte/Emailing/Creer_canal_email.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Write the email message" Link="/Diffusion_et_collecte/Emailing/Rediger_message_email.htm" ComputedFirstTopic="false" DescendantCount="3">
+                <TocEntry Title="Embed a question in the message" Link="/Diffusion_et_collecte/Emailing/Question_integree.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Test the message" Link="/Diffusion_et_collecte/Emailing/Apercu_message.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Additional tools and functions" Link="/Diffusion_et_collecte/Emailing/Outils_complementaires.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="Create an email invitation/reminder" Link="/Diffusion_et_collecte/Emailing/Creer_envoi_email.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Modify the regulation options" Link="/Diffusion_et_collecte/Emailing/Options_regulation.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Manage the blacklist" Link="/Diffusion_et_collecte/Emailing/Liste_noire.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="SMS" Link="/Diffusion_et_collecte/Sms/Creer_canal_sms.htm" ComputedFirstTopic="false" DescendantCount="3">
+            <TocEntry Title="Create an SMS channel" Link="/Diffusion_et_collecte/Sms/Creer_canal_sms.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Write the SMS message" Link="/Diffusion_et_collecte/Sms/Rediger_message_sms.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Create an SMS invitation/reminder" Link="/Diffusion_et_collecte/Sms/Creer_envoi_sms.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="RCS message" Link="/Diffusion_et_collecte/RCS/Creer_canal_rcs.htm" ComputedFirstTopic="false" DescendantCount="3">
+            <TocEntry Title="Create an RCS channel" Link="/Diffusion_et_collecte/RCS/Creer_canal_rcs.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Write the RCS message" Link="/Diffusion_et_collecte/RCS/Rediger_message_rcs.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Create an RCS message invitation/reminder" Link="/Diffusion_et_collecte/RCS/Creer_envoi_rcs.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="WhatsApp" Link="/Diffusion_et_collecte/WhatsApp/Creer_canal_WhatsApp.htm" ComputedFirstTopic="false" DescendantCount="3">
+            <TocEntry Title="Create a WhatsApp channel" Link="/Diffusion_et_collecte/WhatsApp/Creer_canal_WhatsApp.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Write the WhatsApp message" Link="/Diffusion_et_collecte/WhatsApp/Rediger_message_WhatsApp.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Create a WhatsApp invitation/reminder" Link="/Diffusion_et_collecte/WhatsApp/Creer_envoi_WhatsApp.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="Add recipients" Link="/Diffusion_et_collecte/Emailing/Ajouter_des_destinataires.htm" ComputedFirstTopic="false" DescendantCount="5">
+            <TocEntry Title="Enter recipients manually or copy and paste" Link="/Diffusion_et_collecte/Emailing/Saisie_manuelle_copier_coller.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Import a recipient file" Link="/Diffusion_et_collecte/Emailing/Import_fichier_destinataires.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Use recipients from another survey" Link="/Diffusion_et_collecte/Emailing/Adresses_enquete.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Use recipients from another campaign" Link="/Diffusion_et_collecte/Emailing/Adresses_autre_campagne.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Recipient automatic update" Link="/Diffusion_et_collecte/Emailing/Mise_a_jour_auto_destinataires.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="Set the response type" Link="/Diffusion_et_collecte/Emailing/Type_reponses.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Select the recipients to contact" Link="/Diffusion_et_collecte/Emailing/Selectionner_destinataires.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Send or schedule an invitation/reminder" Link="/Diffusion_et_collecte/Emailing/Envoyer_programmer_invitation.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Automate the sending of an invitation/reminder" Link="/Diffusion_et_collecte/Emailing/Automatiser_envoi.htm" StartSection="false" SectionNumberReset="continue" VolumeNumberReset="same" ChapterNumberReset="continue" ReplaceMergeNode="false" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Export an emailing file" Link="/Diffusion_et_collecte/Emailing/Publipostage.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Sending statistics &amp; recipient status" Link="/Diffusion_et_collecte/Suivi_canal.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Manage recipient over-solicitation" Link="/Diffusion_et_collecte/Sur_sollicitation.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Web integration" ComputedFirstTopic="false" DescendantCount="2">
+            <TocEntry Title="Iframe" Link="/Diffusion_et_collecte/Integration_web/Iframe.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Popin" Link="/Diffusion_et_collecte/Integration_web/Popin.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="Sharing a QR Code" Link="/Diffusion_et_collecte/Qr_code.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Direct entry" Link="/Diffusion_et_collecte/Effectuer_saisie_direct.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Input monitoring" StartSection="false" SectionNumberReset="continue" VolumeNumberReset="same" ChapterNumberReset="continue" Link="/Diffusion_et_collecte/Suivi_saisies.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Print the questionnaire" Link="/Diffusion_et_collecte/Imprimer_questionnaire.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="SphinxSurvey app" Link="/Diffusion_et_collecte/SphinxMobile/Parametrage_prerequis.htm" ComputedFirstTopic="false" DescendantCount="11">
+            <TocEntry Title="Requirements &amp; settings from SphinxDeclic" Link="/Diffusion_et_collecte/SphinxMobile/Parametrage_prerequis.htm" ComputedFirstTopic="false" DescendantCount="5">
+                <TocEntry Title="Authorize the use of SphinxSurvey" Link="/Diffusion_et_collecte/SphinxMobile/Parametrage_prerequis.htm#Autorise_sphinxMobile" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Allow responses to be modified" Link="/Diffusion_et_collecte/SphinxMobile/Parametrage_prerequis.htm#Permettre_modif_reponses" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Optimise forms" Link="/Diffusion_et_collecte/SphinxMobile/Parametrage_prerequis.htm#Optimisation" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Define a personalized welcome image" Link="/Diffusion_et_collecte/SphinxMobile/Parametrage_prerequis.htm#Image_libreservice" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Activate automatic synchronisation" Link="/Diffusion_et_collecte/SphinxMobile/Parametrage_prerequis.htm#Synchro_auto" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="Setting up the SphinxSurvey application" Link="/Diffusion_et_collecte/SphinxMobile/Parametrage_SphinxMobile.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Download a survey on SphinxSurvey" Link="/Diffusion_et_collecte/SphinxMobile/Telecharger_enquete.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Add, modify and delete responses" Link="/Diffusion_et_collecte/SphinxMobile/Saisir_des_reponses.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Synchronize responses" Link="/Diffusion_et_collecte/SphinxMobile/Synchroniser_reponses.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Synchronization history" Link="/Diffusion_et_collecte/SphinxMobile/Historique_synchronisations.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+    </TocEntry>
+    <TocEntry Title="DATA" Link="/Donnees.htm" ComputedFirstTopic="false" DescendantCount="20">
+        <TocEntry Title="View the data file" Link="/Donnees/Consulter_les_donnees.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Variable management" Link="/Donnees/Choix_variables.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Define a sample" Link="/Donnees/Definir_strate.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Consult and print observations" Link="/Donnees/Consulter_observations.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Export data" Link="/Donnees/Exporter_donnees.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="View downloaded documents" Link="/Donnees/Documents_telecharges.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Modify, add or delete responses" Link="/Donnees/Modifier_fichier_donnees.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Update the data file" Link="/Donnees/Mise_a_jour_donnees.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Calculate a variable" Link="/Donnees/Calculer_une_variable.htm" ComputedFirstTopic="false" DescendantCount="3">
+            <TocEntry Title="Calculate a variable by script" Link="/Donnees/Calculer_une_variable_script.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Calculate a variable by AI" Link="/Donnees/Calculer_une_variable_par_IA.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Recalculate a variable" Link="/Donnees/Recalculer_une_variable.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="Combine variables" Link="/Donnees/Combiner_des_variables/Combiner_des_variables.htm" ComputedFirstTopic="false" DescendantCount="3">
+            <TocEntry Title="Transpose" Link="/Donnees/Combiner_des_variables/Transposer.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Simple merge" Link="/Donnees/Combiner_des_variables/Fusion_simple.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Multiple merge" Link="/Donnees/Combiner_des_variables/Fusion_multiple.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="Clean up personal data" Link="/Donnees/Gestion_donnees_personnelles.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Data set quality" Link="/Donnees/Qualite_jeu_donnees.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Manage variables of a data import study" Link="/Donnees/Gerer_liste_variables.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Use data connectors" ComputedFirstTopic="false" DescendantCount="1">
+            <TocEntry Title="Use Zapier" Link="/Donnees/Zapier.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+    </TocEntry>
+    <TocEntry Title="ANALYSIS" Link="/Analyse.htm" ComputedFirstTopic="false" DescendantCount="137">
+        <TocEntry Title="Get started" Link="/Prise_en_main/Explorer_les_vues.htm" ComputedFirstTopic="false" DescendantCount="22">
+            <TocEntry Title="Explore the views" Link="/Prise_en_main/Explorer_les_vues.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Quick results overview" Link="/Prise_en_main/Apercu_rapide.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Create/edit a view" Link="/Prise_en_main/Creer_nouvelle_vue.htm" ComputedFirstTopic="false" DescendantCount="2">
+                <TocEntry Title="Generate an automatic report" Link="/Prise_en_main/Depouillement_automatique.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Table Generator" Link="/Prise_en_main/Generateur_tris.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="Import a view" Link="/Prise_en_main/Importer_une_vue.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Add a label to a view" Link="/Prise_en_main/Etiquettes_vue.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Import pages from another view" Link="/Prise_en_main/Importer_pages_vue.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Create a Mobile view" Link="/Prise_en_main/Creer_vue_smartphone.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Environment of a view" Link="/Prise_en_main/Environnement_vue.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Define an adjustment" Link="/Prise_en_main/Redressement.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Edit an analysis" Link="/Prise_en_main/Editer_une_analyse.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Dialog box" Link="/Prise_en_main/Boites_de_dialogue.htm" ComputedFirstTopic="false" DescendantCount="3">
+                <TocEntry Title="Options tab" Link="/Prise_en_main/Boites_de_dialogue.htm#Option" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Advanced tab" Link="/Prise_en_main/Boites_de_dialogue.htm#Avance" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Scenario tab" Link="/Prise_en_main/Boites_de_dialogue.htm#Scenario" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="Add a new item" Link="/Prise_en_main/Ajouter_nouvel_element.htm" ComputedFirstTopic="false" DescendantCount="4">
+                <TocEntry Title="Analysis &amp; filter" Link="/Prise_en_main/Ajouter_nouvel_element.htm#ANALYSES" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Text box" Link="/Prise_en_main/Ajouter_nouvel_element.htm#TEXTE" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Image" Link="/Prise_en_main/Ajouter_nouvel_element.htm#IMAGE" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Shape" Link="/Prise_en_main/Ajouter_nouvel_element.htm#FORME" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="Copy an item" Link="/Prise_en_main/Copier_element.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="Univariate analysis" Link="/Creer_une_analyse/Analyse_une_variable/Realiser_un_tri_a_plat.htm" ComputedFirstTopic="false" DescendantCount="11">
+            <TocEntry Title="Change and combine a variable" Link="/Creer_une_analyse/Analyse_une_variable/Changer_et_accoler_une_variable.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Classifying numerical question" Link="/Creer_une_analyse/Analyse_une_variable/Mise_en_classe_des_questions.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Group modalities" Link="/Creer_une_analyse/Analyse_une_variable/Regrouper_modalites.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Apply weights" Link="/Creer_une_analyse/Analyse_une_variable/Choisir_bareme.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Charts" Link="/Creer_une_analyse/Analyse_une_variable/Les_graphiques.htm" ComputedFirstTopic="false" DescendantCount="6">
+                <TocEntry Title="Axes and grid lines" Link="/Creer_une_analyse/Analyse_une_variable/Les_graphiques.htm#1" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Legend and data labels" Link="/Creer_une_analyse/Analyse_une_variable/Les_graphiques.htm#2" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Diameter, width and height" Link="/Creer_une_analyse/Analyse_une_variable/Les_graphiques.htm#3" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Limit values" Link="/Creer_une_analyse/Analyse_une_variable/Les_graphiques.htm#4" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Add trendline" Link="/Creer_une_analyse/Analyse_une_variable/Les_graphiques.htm#5" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Modify color" Link="/Creer_une_analyse/Analyse_une_variable/Les_graphiques.htm#6" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+        </TocEntry>
+        <TocEntry Title="Bivariate/multivariate analysis" Link="/Creer_une_analyse/Analyse_croise/Realiser_un_tri_croise.htm" ComputedFirstTopic="false" DescendantCount="3">
+            <TocEntry Title="Change and swap variables" Link="/Creer_une_analyse/Analyse_croise/Changer_et_permuter_les_variables.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Configure tables" Link="/Creer_une_analyse/Analyse_croise/Les_tableaux.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Modify column heading labels" Link="/Creer_une_analyse/Analyse_croise/Intitule_variable.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="Advanced analysis" Link="/Creer_une_analyse/Analyse_avancee.htm" ComputedFirstTopic="false" DescendantCount="12">
+            <TocEntry Title="Comparative analysis" Link="/Creer_une_analyse/Realiser_une_analyse_comparative.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Importance/Performance matrix" Link="/Creer_une_analyse/Realiser_une_matrice_importance_performance.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Tetraclass analysis (Llosa matrix)" Link="/Creer_une_analyse/Analyse_tetraclasse.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Net Promoter Score analysis" Link="/Creer_une_analyse/Realiser_une_analyse_NPS.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Table of&#160;characteristics" Link="/Creer_une_analyse/Realiser_un_tableau_de_caracteristiques.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Strengths/Weaknesses table" Link="/Creer_une_analyse/Realiser_un_tableau_de_force.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Correspondence Factorial analysis" Link="/Creer_une_analyse/Realiser_une_AFC.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Principal component analysis" Link="/Creer_une_analyse/Realiser_une_ACP.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Multiple linear regression" Link="/Creer_une_analyse/Regression_lineaire_multiple.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="K-means classification " Link="/Creer_une_analyse/Classification_Kmeans.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Geographic map" Link="/Creer_une_analyse/Repartition_carte_geographique.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Multichannel campaign" Link="/Creer_une_analyse/CampagneMulticanal.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="Custom table" Link="/Creer_une_analyse/tableaux_personnalises.htm" StartSection="false" SectionNumberReset="continue" VolumeNumberReset="same" ChapterNumberReset="continue" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Textual analysis" Link="/Creer_une_analyse/Analyse_textuelle.htm" ComputedFirstTopic="false" DescendantCount="16">
+            <TocEntry Title="Lexical exploration" ComputedFirstTopic="false" DescendantCount="4">
+                <TocEntry Title="Show verbatim" Link="/Creer_une_analyse/Analyse textuelle/Verbatim.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Show words" Link="/Creer_une_analyse/Analyse textuelle/Afficher_les_mots.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Group responses" Link="/Creer_une_analyse/Analyse textuelle/Regrouper_reponses.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Thematic classification" Link="/Creer_une_analyse/Analyse textuelle/Typologie.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="Automatic lexical analysis" ComputedFirstTopic="false" DescendantCount="2">
+                <TocEntry Title="Show concepts" Link="/Creer_une_analyse/Analyse textuelle/Afficher_concepts.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Show orientations" Link="/Creer_une_analyse/Analyse textuelle/Afficher_les_orientations.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="Influences and specificities by context" ComputedFirstTopic="false" DescendantCount="3">
+                <TocEntry Title="Show keywords by context" Link="/Creer_une_analyse/Analyse textuelle/Mots_cles_par_contexte.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Show expressions by context" Link="/Creer_une_analyse/Analyse textuelle/Expression_par_contexte.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Show concepts by context" Link="/Creer_une_analyse/Analyse textuelle/Concepts_par_contexte.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="Thematic analysis" ComputedFirstTopic="false" DescendantCount="4">
+                <TocEntry Title="Thematic analysis by dictionary" Link="/Creer_une_analyse/Analyse textuelle/Analyse_thematique.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Verbatim codification" StartSection="false" Link="/Creer_une_analyse/Analyse textuelle/Codification_verbatim.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Themes/orientations crossings" Link="/Creer_une_analyse/Analyse textuelle/Croisement_themes_orientations.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Recommendation Impact Score" Link="/Creer_une_analyse/Analyse textuelle/Recommandation_impact_score.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="Textual analysis options" ComputedFirstTopic="false" DescendantCount="3">
+                <TocEntry Title="Select the word categories to display" Link="/Creer_une_analyse/Analyse textuelle/Choisir_categories_mots.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Exclude words" Link="/Creer_une_analyse/Analyse textuelle/Exclure_des_mots.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Manage expressions" Link="/Creer_une_analyse/Analyse textuelle/Gerer_expressions.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+        </TocEntry>
+        <TocEntry Title="Common analysis options" Link="/Creer_une_analyse/Options_analyses/Ignorer_les_non_reponses.htm" ComputedFirstTopic="false" DescendantCount="14">
+            <TocEntry Title="Ignore non-responses &amp; reduce data" Link="/Creer_une_analyse/Options_analyses/Ignorer_les_non_reponses.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Ignore irrelevant responses" Link="/Creer_une_analyse/Options_analyses/Ignorer_les_non_concernes.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Sort values" Link="/Creer_une_analyse/Options_analyses/Trier_les_valeurs.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Limit the display" Link="/Creer_une_analyse/Options_analyses/Limiter_l_affichage.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Define a filter" Link="/Creer_une_analyse/Options_analyses/Definir_un_profil.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Filtering options" Link="/Creer_une_analyse/Options_analyses/Options_filtrage.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Number of decimals" Link="/Creer_une_analyse/Options_analyses/Nombre_de_decimales.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Show cell variation" Link="/Creer_une_analyse/Options_analyses/Variation.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Conditional formatting" Link="/Creer_une_analyse/Options_analyses/Mises_en_formes_conditionnelles.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Activate a commentary" Link="/Creer_une_analyse/Options_analyses/Commentaire_automatique.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Highlight the significant values" Link="/Creer_une_analyse/Options_analyses/Colorier_les_valeurs_significatives.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Insert a tooltip" Link="/Creer_une_analyse/Options_analyses/Inserer_une_infobulle.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Position, align, resize and organize the objects" Link="/Creer_une_analyse/Options_analyses/Positionner_aligner_retailler_ordonner.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Analysis style" Link="/Creer_une_analyse/Options_analyses/Style_analyse.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="Filters &amp; scenario" Link="/Creer_une_analyse/Filtre_scenario/Filtre_rapide.htm" ComputedFirstTopic="false" DescendantCount="5">
+            <TocEntry Title="View filter" Link="/Creer_une_analyse/Filtre_scenario/Filtre_rapide.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Illustrate an analysis with a view" Link="/Creer_une_analyse/Filtre_scenario/Illustrer_une_analyse_par_une_vue.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Filter an analysis" Link="/Creer_une_analyse/Filtre_scenario/Filtrer_une_analyse.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Conditional display" Link="/Creer_une_analyse/Filtre_scenario/Affichage_conditionnel.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Insert a relationship diagram" Link="/Creer_une_analyse/Filtre_scenario/Graphe_de_relation.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="Analysis output" Link="/Restitution_analyse/Secteurs_demi_secteurs.htm" ComputedFirstTopic="false" DescendantCount="28">
+            <TocEntry Title="Univariate analysis output" Link="/Restitution_analyse/Secteurs_demi_secteurs.htm" ComputedFirstTopic="false" DescendantCount="16">
+                <TocEntry Title="Pie chart and half pie chart" Link="/Restitution_analyse/Secteurs_demi_secteurs.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Donut/semi-circle donut chart" Link="/Restitution_analyse/Anneau_demi_anneau.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Column and bar chart" Link="/Restitution_analyse/Histogramme_et_barres.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="100 % Stacked column bar &amp; stacked bar chart" Link="/Restitution_analyse/Histogramme_et_barres_empilees.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Pyramid" Link="/Restitution_analyse/Pyramide.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Spline and line chart" Link="/Restitution_analyse/Courbes_et_lignes.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Area and spline area chart" Link="/Restitution_analyse/Aires_lissees.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Pareto" Link="/Restitution_analyse/Pareto.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Gauge" Link="/Restitution_analyse/Jauge.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Value indicator" Link="/Restitution_analyse/Indicateur.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Geographical map" Link="/Restitution_analyse/Carte_geographique.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Words cloud" Link="/Restitution_analyse/Nuage_de_mots.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Fill icon" Link="/Restitution_analyse/Images_remplissables.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Net promoter score chart" Link="/Restitution_analyse/Repartition.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Boxplot" Link="/Restitution_analyse/Boites_a_moustache.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Treemap" Link="/Restitution_analyse/Treemap.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="Bivariate analysis output" Link="/Restitution_analyse/Histogramme.htm" ComputedFirstTopic="false" DescendantCount="9">
+                <TocEntry Title="Stacked column bar &amp; stacked bar chart" Link="/Restitution_analyse/Histogramme.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Stacked area &amp; 100% stacked area chart" Link="/Restitution_analyse/Aires_empilees.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Stacked spline area &amp; 100% stacked spline area chart" Link="/Restitution_analyse/Aires_empilees_lissees.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Positive negative bar &amp; opposite column chart" Link="/Restitution_analyse/Barres_et_colonnes_en_vis_a_vis.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Heat map" Link="/Restitution_analyse/Carte_de_chaleur.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Wind rose" Link="/Restitution_analyse/Rose_des_vents.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Radar" Link="/Restitution_analyse/Radar.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Bubble grid" Link="/Restitution_analyse/Bulles_groupees.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Scatter plot &amp; bubble chart" Link="/Restitution_analyse/Nuage_de_points_et_bulles.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="Multivariate analysis output" Link="/Restitution_analyse/Representation_analyse_multivariee.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="Calculate a variable" Link="/Creer_une_analyse/Calculer_une_variable.htm" ComputedFirstTopic="false" DescendantCount="4">
+            <TocEntry Title="Calculate a variable by script" Link="/Creer_une_analyse/Calculer_une_variable_script.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Calculate a variable by IA" Link="/Creer_une_analyse/Calculer_une_variable_par_IA.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Recalculate a variable" Link="/Creer_une_analyse/Recalculer_une_variable.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Define environment variables" Link="/Creer_une_analyse/Variables_environnement.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="Substitute a variable" Link="/Creer_une_analyse/Substituer_une_variable.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Statistical tests" Link="/Creer_une_analyse/Tests_statistiques.htm#Activer" StartSection="false" SectionNumberReset="continue" VolumeNumberReset="same" ChapterNumberReset="continue" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Translate the content of a view" Link="/Exporter_une_analyse/Traduire_vue.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Export the view" Link="/Exporter_une_analyse/Exporter_une_analyse.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Share the view" Link="/Exporter_une_analyse/Lien_de_partage.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        <TocEntry Title="Using AI" ComputedFirstTopic="false" DescendantCount="7">
+            <TocEntry Title="Interpreting an analysis with AI" Link="/IA/Interpreter_analyse_par_IA.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Create a codebook with AI" Link="/IA/Creer_codebook_par_IA.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Coding verbatim with AI" Link="/IA/Coder_verbatim.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Continuous codification with AI" Link="/IA/Codification_en_continu.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Modify a text with AI" Link="/IA/Modification_texte_par_IA.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Calculate a variable by AI" Link="/IA/Calculer_une_variable_par_IA.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="IA FAQ" Link="/IA/FAQ_IA.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+    </TocEntry>
+    <TocEntry Title="WEBREPORTING" Link="/Webreporting/Realiser_un_reporting.htm" ComputedFirstTopic="false" DescendantCount="55">
+        <TocEntry Title="Prepare configurations" ComputedFirstTopic="false" DescendantCount="40">
+            <TocEntry Title="Create a configuration" Link="/Webreporting/Preparer_configuration/Creer_une_configuration.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Import or delete a configuration" Link="/Webreporting/Preparer_configuration/Importer_supprimer_configuration.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Modify configuration layout" Link="/Webreporting/Preparer_configuration/Mise_en_forme_configuration.htm" ComputedFirstTopic="false" DescendantCount="6">
+                <TocEntry Title="Modify menu colors" Link="/Webreporting/Preparer_configuration/Mise_en_forme_configuration.htm#CouleursMenu" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Add a logo" Link="/Webreporting/Preparer_configuration/Mise_en_forme_configuration.htm#Logo" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Add a title" Link="/Webreporting/Preparer_configuration/Mise_en_forme_configuration.htm#Titre" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Add a help page" Link="/Webreporting/Preparer_configuration/Mise_en_forme_configuration.htm#PageAide" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Add a home page" Link="/Webreporting/Preparer_configuration/Mise_en_forme_configuration.htm#PageAccueil" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Translate the configuration content" Link="/Webreporting/Preparer_configuration/Mise_en_forme_configuration.htm#Traduire" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="Add an action" Link="/Webreporting/Preparer_configuration/Ajouter_une_action.htm" ComputedFirstTopic="false" DescendantCount="25">
+                <TocEntry Title="Data entry" Link="/Webreporting/Preparer_configuration/Ajouter_une_action.htm#Saisir" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Modify one observation" Link="/Webreporting/Preparer_configuration/Ajouter_une_action.htm#Modifier" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Consult observations" Link="/Webreporting/Preparer_configuration/Ajouter_une_action.htm#Consulter" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Observations table" Link="/Webreporting/Preparer_configuration/Ajouter_une_action.htm#TableObs" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Questions/variables table" Link="/Webreporting/Preparer_configuration/Ajouter_une_action.htm#Tables_questions" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Analysis view" Link="/Webreporting/Preparer_configuration/Ajouter_une_action.htm#Vue_analyse" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Raw/automatic report" Link="/Webreporting/Preparer_configuration/Ajouter_une_action.htm#Depouillement" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Single tables" Link="/Webreporting/Preparer_configuration/Ajouter_une_action.htm#Tableau_a_plat" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Cross tables" Link="/Webreporting/Preparer_configuration/Ajouter_une_action.htm#Tableaux_croises" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Multiple tables" Link="/Webreporting/Preparer_configuration/Ajouter_une_action.htm#Tableaux_multiples" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Verbatim" Link="/Webreporting/Preparer_configuration/Ajouter_une_action.htm#Verbatim" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Word cloud" Link="/Webreporting/Preparer_configuration/Ajouter_une_action.htm#Nuage_de_mots" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Comparative text analysis" Link="/Webreporting/Preparer_configuration/Ajouter_une_action.htm#Analyse_comparative" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Themes/orientations crossings" Link="/Webreporting/Preparer_configuration/Ajouter_une_action.htm#theme_orientation" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Net Promoter Score" Link="/Webreporting/Preparer_configuration/Ajouter_une_action.htm#Nps" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Show a web page / file" Link="/Webreporting/Preparer_configuration/Ajouter_une_action.htm#pageHtml_fichier" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Redirect to a website" Link="/Webreporting/Preparer_configuration/Ajouter_une_action.htm#Site" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Activity monitoring" Link="/Webreporting/Preparer_configuration/Ajouter_une_action.htm#Suivi_activite" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Call another configuration" Link="/Webreporting/Preparer_configuration/Ajouter_une_action.htm#Configuration" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Text (no action associated)" Link="/Webreporting/Preparer_configuration/Ajouter_une_action.htm#Texte_sans_effet" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Print / Export" Link="/Webreporting/Preparer_configuration/Ajouter_une_action.htm#Imprimer_exporter" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Action associated filter" Link="/Webreporting/Preparer_configuration/Ajouter_une_action.htm#Filtre_actions" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Restricted access management" Link="/Webreporting/Preparer_configuration/Ajouter_une_action.htm#Configurer_acces_restreint" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Data update" Link="/Webreporting/Preparer_configuration/Ajouter_une_action.htm#Actualisation_donnees" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Statistics workshop" Link="/Webreporting/Preparer_configuration/Ajouter_une_action.htm#Atelier_statistique" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="Edit, move, duplicate or delete an action" Link="/Webreporting/Preparer_configuration/Modifier_dupliquer_supprimer_action.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Add filters" Link="/Webreporting/Preparer_configuration/Ajouter_filtres_strates.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Enable access with the Sphinx Report application" Link="/Webreporting/Preparer_configuration/SphinxReport.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Advanced options" Link="/Webreporting/Preparer_configuration/Options_avancees.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Preview the reporting" Link="/Webreporting/Preparer_configuration/Previsualiser_reporting.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="Manage access to the WebReporting" ComputedFirstTopic="false" DescendantCount="10">
+            <TocEntry Title="Protect access with a password" Link="/Webreporting/Definir_utilisateurs/Acces_WR_mdp.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Put the WebReporting in free access" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Configure restricted access" ComputedFirstTopic="false" DescendantCount="8">
+                <TocEntry Title="Restricted access via Sphinx Authentication" Link="/Webreporting/Definir_utilisateurs/Authentification_sphinx.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Restricted access via a Sphinx survey" Link="/Webreporting/Definir_utilisateurs/Enquete_sphinx.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Restricted access via internal database" Link="/Webreporting/Definir_utilisateurs/Base_de_donnees_interne.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Restricted access via multi-survey database" Link="/Webreporting/Definir_utilisateurs/Base_de_donnees_multi_enquete.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Restricted access via SSO Authentication" Link="/Webreporting/Definir_utilisateurs/Authentification_sso.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Define profiles" Link="/Webreporting/Definir_utilisateurs/Definir_profils.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Edit or delete users" Link="/Webreporting/Definir_utilisateurs/Modifier_supprimer_utilisateur.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="View the users connection logs" Link="/Webreporting/Definir_utilisateurs/Historique_logs.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="Customize the login page" Link="/Webreporting/Definir_utilisateurs/Page_connexion.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="Manage data" ComputedFirstTopic="false" DescendantCount="3">
+            <TocEntry Title="Define a list of operations" Link="/Webreporting/Gerer_donnees/Definir_operations.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Set up the execution of operations" Link="/Webreporting/Gerer_donnees/Execution_operations.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Manage additional files" Link="/Webreporting/Gerer_donnees/Gerer_fichiers_complementaires.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="Distribute the reporting" ComputedFirstTopic="false" DescendantCount="2">
+            <TocEntry Title="Distribute the reporting via email" Link="/Webreporting/Diffuser_rapport/Diffuser_reporting.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Manage access to the reporting" Link="/Webreporting/Diffuser_rapport/Gerer_acces_rapport.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+    </TocEntry>
+    <TocEntry Title="COMMUNITY" ComputedFirstTopic="false" DescendantCount="41">
+        <TocEntry Title="Get started" Link="/Community/Prise_en_main/Prise_en_main.htm" ChapterNumberReset="continue" StartSection="false" SectionNumberReset="continue" VolumeNumberReset="same" BreakType="none" PageNumberReset="continue" ComputedFirstTopic="false" DescendantCount="6">
+            <TocEntry Title="Software organization" Link="/Community/Prise_en_main/Organisation_logiciel.htm" StartSection="false" SectionNumberReset="continue" VolumeNumberReset="same" ChapterNumberReset="continue" ComputeToc="false" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Preliminary steps" StartSection="false" ComputedFirstTopic="false" DescendantCount="3">
+                <TocEntry Title="Create a panel from SphinxOnline" Link="/Community/Prise_en_main/Etapes_prealables.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Set up a profile survey" Link="/Community/Prise_en_main/Enquete.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Add members" Link="/Community/Prise_en_main/Ajouter_membre.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="Quick start: distribute a campaign" Link="/Community/Prise_en_main/Demarrage_rapide.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Home page" Link="/Community/Prise_en_main/Accueil.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="Manage my members" Link="/Community/Gerer_mes_membres/Gerer_membres.htm" ChapterNumberReset="continue" StartSection="false" SectionNumberReset="continue" VolumeNumberReset="same" BreakType="none" PageNumberReset="continue" ComputedFirstTopic="false" DescendantCount="12">
+            <TocEntry Title="Recruit members" Link="/Community/Gerer_mes_membres/Recruter_membres.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Add members" Link="/Community/Gerer_mes_membres/Ajouter_membre.htm" ComputedFirstTopic="false" DescendantCount="2">
+                <TocEntry Title="Manually" Link="/Community/Gerer_mes_membres/Ajouter_membre.htm#ajout_manuel" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Import" Link="/Community/Gerer_mes_membres/Ajouter_membre.htm#_Import" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="Consult my members" Link="/Community/Gerer_mes_membres/Consulter_membres.htm" ComputedFirstTopic="false" DescendantCount="2">
+                <TocEntry Title="Edit profile" Link="/Community/Gerer_mes_membres/Consulter_membres.htm#editer_profil" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Delete member(s)" Link="/Community/Gerer_mes_membres/Consulter_membres.htm#supprimer_membre" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="Members area" Link="/Community/Gerer_mes_membres/Espace_personnel.htm" ComputedFirstTopic="false" DescendantCount="3">
+                <TocEntry Title="Presentation" Link="/Community/Gerer_mes_membres/Espace_personnel.htm#Presentation" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Sign up / Manage your space" Link="/Community/Gerer_mes_membres/Espace_personnel.htm#Inscription" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Interface functions" Link="/Community/Gerer_mes_membres/Espace_personnel.htm#Fonction" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="Monitor the members' activity" Link="/Community/Gerer_mes_membres/Suivre_membres.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="Manage my campaign" Link="/Community/Gerer_ma_campagne/Gerer_campagne.htm" ChapterNumberReset="continue" StartSection="false" SectionNumberReset="continue" VolumeNumberReset="same" BreakType="none" PageNumberReset="continue" ComputedFirstTopic="false" DescendantCount="8">
+            <TocEntry Title="Create a campaign" Link="/Community/Gerer_ma_campagne/Campagne.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Register members to a campaign" Link="/Community/Gerer_ma_campagne/Inscriptions_membres.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Distribute a campaign" Link="/Community/Gerer_ma_campagne/Diffusion_campagne.htm" ComputedFirstTopic="false" DescendantCount="3">
+                <TocEntry Title="E-mailing" Link="/Community/Gerer_ma_campagne/Emailing.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="History and invitations/reminders messages" Link="/Community/Gerer_ma_campagne/Suivi_envois.htm" ComputedFirstTopic="false" DescendantCount="0" />
+                <TocEntry Title="Members area" Link="/Community/Gerer_ma_campagne/Espace_personnel.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            </TocEntry>
+            <TocEntry Title="Analyze results" Link="/Community/Gerer_ma_campagne/Analyses_resultats.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Apply quotas" Link="/Community/Gerer_ma_campagne/Quotas.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="Management" Link="/Community/Animation_de_la_communaute/Animation.htm" ChapterNumberReset="continue" StartSection="false" SectionNumberReset="continue" VolumeNumberReset="same" BreakType="none" PageNumberReset="continue" ComputedFirstTopic="false" DescendantCount="3">
+            <TocEntry Title="E-mailing" Link="/Community/Animation_de_la_communaute/Mailing.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="News management" Link="/Community/Animation_de_la_communaute/Gestion_news.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Incentives" Link="/Community/Animation_de_la_communaute/Retributions.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+        <TocEntry Title="Settings" Link="/Community/Configuration/Configuration.htm" ChapterNumberReset="continue" StartSection="false" SectionNumberReset="continue" VolumeNumberReset="same" BreakType="none" PageNumberReset="continue" ComputedFirstTopic="false" DescendantCount="7">
+            <TocEntry Title="Connection page" Link="/Community/Configuration/Page_connexion.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Members area" Link="/Community/Configuration/Espace_personnel.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Configure your community" Link="/Community/Configuration/Configuration_communaute.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="E-mail messages" Link="/Community/Configuration/Messages_e_mail.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Multilingual management" Link="/Community/Configuration/Gestion_multi_langues.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Sponsorship" Link="/Community/Configuration/Parrainage.htm" ComputedFirstTopic="false" DescendantCount="0" />
+            <TocEntry Title="Reward store" Link="/Community/Configuration/Espace_cadeaux.htm" ComputedFirstTopic="false" DescendantCount="0" />
+        </TocEntry>
+    </TocEntry>
+    <TocEntry Title="GLOSSARY" Link="/Glossaire.htm" ComputedFirstTopic="false" DescendantCount="0" />
+</CatapultToc>

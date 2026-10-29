@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="fr" xml:lang="fr" class="_Skins_Side_navigation_SOL5" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../" data-mc-has-content-body="True" data-mc-toc-path="ÉTUDE" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="msapplication-config" content="../Skins/Favicons/browserconfig.xml" />
+        <link rel="shortcut icon" href="../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="32x32" href="../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="16x16" href="../Skins/Favicons/favicon-16x16.png" />
+        <meta charset="utf-8" /><title>Mettre en place des alertes automatiques</title>
+        <link rel="shortcut icon" href="../Resources/Images/Analyse/iconeQ.png" type="image/png" />
+        <link href="../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="../Resources/Scripts/search-dropdown.css" />
+        <style>/*&lt;meta /&gt;*/
+
+.button.remove-highlight-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.separator-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.select-language-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.separator-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.expand-all-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.separator-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.print-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.collapse-all-button
+{
+	-pie-background: linear-gradient(transparent, #ececec);
+}
+
+.needs-pie
+{
+	behavior: url('../Resources/Scripts/PIE-no-motw.htc');
+}
+
+</style>
+        <link rel="shortcut icon" href="../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="32x32" href="../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="16x16" href="../Skins/Favicons/favicon-16x16.png" />
+        <script src="../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../Resources/Scripts/purify.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/require.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/require.config.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/foundation.6.2.3_custom.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/plugins.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/MadCapAll.js" type="text/javascript" defer="defer">
+        </script>
+        <script type="text/javascript" src="../Resources/Scripts/search-dropdown.js">
+        </script>
+        <script type="text/javascript" src="../Skins/Default/Scripts/TopicToolBar.js">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-right" role="complementary" id="offCanvas" data-off-canvas="" data-position="right" data-mc-ignore="true">
+                    <ul class="off-canvas-accordion vertical menu off-canvas-list" data-accordion-menu="" data-mc-back-link="Retour" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expanded-event="down.zf.accordionMenu up.zf.accordionMenu" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div data-sticky-container="" class="title-bar-container">
+                        <nav class="title-bar tab-bar sticky" aria-label="Main navigation and search" data-sticky="" data-options="marginTop:0" style="width:100%" data-sticky-on="only screen and (max-width: 1279px)" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="#">Passer au contenu principal</a>
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="menu-icon-container relative clearfix">
+                                    <div class="central-account-wrapper">
+                                        <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Compte</span></a>
+                                            <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Paramètres</a>
+                                                <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Déconnexion</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="menu-icon" aria-label="Afficher le volet de navigation" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="title-bar-layout outer-row">
+                                <div class="logo-wrapper"><a class="logo" href="../Home_Sol5.htm" alt="Logo"></a>
+                                </div>
+                                <div class="navigation-wrapper nocontent">
+                                    <ul class="navigation clearfix" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                        <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="central-account-wrapper">
+                                    <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Compte</span></a>
+                                        <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Paramètres</a>
+                                            <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Déconnexion</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nav-search-wrapper">
+                                    <div class="nav-search row">
+                                        <form class="search" action="#">
+                                            <div class="search-bar search-bar-container needs-pie">
+                                                <input class="search-field needs-pie" type="search" aria-label="Champ de recherche" placeholder="Rechercher" />
+                                                <div class="search-filter-wrapper"><span class="invisible-label" id="search-filters-label">Filtrer&#160;:</span>
+                                                    <div class="search-filter" aria-haspopup="true" aria-controls="sf-content" aria-expanded="false" aria-label="Filtre de recherche" title="Tous les fichiers" role="button" tabindex="0">
+                                                    </div>
+                                                    <div class="search-filter-content" id="sf-content">
+                                                        <ul>
+                                                            <li>
+                                                                <button class="mc-dropdown-item" aria-labelledby="search-filters-label filterSelectorLabel-00001"><span id="filterSelectorLabel-00001">Tous les fichiers</span>
+                                                                </button>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="search-submit-wrapper" dir="ltr">
+                                                    <div class="search-submit" title="Rechercher" role="button" tabindex="0"><span class="invisible-label">Démarrer la recherche</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="main-section">
+                        <div class="row outer-row sidenav-layout">
+                            <nav class="sidenav-wrapper">
+                                <div class="sidenav-container">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expanded-event="down.zf.accordionMenu up.zf.accordionMenu" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
+                                    </ul>
+                                </div>
+                            </nav>
+                            <div class="body-container">
+                                <div data-mc-content-body="True"><a href="#" class="scrollToTop"></a>
+                                    <div class="buttons popup-container clearfix topicToolbarProxy _Skins_TopicToolBar mc-component nocontent" style="float: right; mc-topic-toolbar-items: ;">
+                                        <div class="button-group-container-left">
+                                            <button class="button needs-pie remove-highlight-button" title="Supprimer les surlignages">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                            <div class="button-separator">
+                                            </div>
+                                            <button class="button needs-pie select-language-button" title="Changer de langue">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper" aria-label="Changer de langue">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                            <div class="button-separator">
+                                            </div>
+                                            <button class="button needs-pie expand-all-button" data-state1-class="expand-all-button" data-state2-class="collapse-all-button" data-state2-title="Réduire tout" title="Développer tout" data-state1-title="Développer tout">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper" aria-label="Développer tout">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                            <div class="button-separator">
+                                            </div>
+                                            <button class="button needs-pie print-button" title="Imprimer">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper" aria-label="Imprimer">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="nocontent">
+                                        <div class="MCBreadcrumbsBox_0 breadcrumbs" role="navigation" aria-label="Pistes de navigation" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="3" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">Vous êtes ici: </span>
+                                        </div>
+                                    </div>
+                                    <div role="main" id="mc-main-content">
+                                        <h1 class="Titre2">Mettre en place des alertes automatiques</h1>
+                                        <p>La fonctionnalité Alerte automatique vous permet de surveiller l’évolution d’un indicateur sans avoir à effectuer de vérifications manuelles régulières. Elle permet d’être automatiquement averti lorsqu’un indicateur clé présente une variation significative à la hausse ou à la baisse, entre deux périodes d’analyse définies. Cette détection rapide facilite l’identification d’éventuelles ruptures de tendance ou anomalies, vous aidant ainsi à réagir plus rapidement.</p>
+                                        <p><span class="bold">Accès rapide aux sections</span>
+                                        </p>
+                                        <ul>
+                                            <li>
+                                                <p><a href="#Creer_alerte">Créer une alerte automatique</a>
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p><a href="#Exemples_alertes">Exemples de configuration des conditions de déclenchement d’une alerte</a>
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p><a href="#editer_alerte">Éditer, dupliquer ou supprimer une alerte</a>
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p><a href="#Consulter_alertes">Consulter l’historique des alertes</a>
+                                                </p>
+                                            </li>
+                                        </ul>
+                                        <h2><a name="Creer_alerte"></a>Créer une alerte automatique</h2>
+                                        <p>Pour créer une alerte automatique, procédez comme suit : </p>
+                                        <ol>
+                                            <li value="1">
+                                                <p>Depuis la partie <span class="bold" data-mc-conditions="General.SOL&#160;5,General.DTV_by_Sphinx">Étude</span>, cliquez sur <span class="bold">Alertes</span> dans le menu latéral.</p>
+                                            </li>
+                                            <li value="2">
+                                                <p>Cliquez sur <span class="bold">Créer une alerte</span>.</p>
+                                            </li>
+                                            <li value="3">
+                                                <p>Définissez le <span class="bold">nom de l'alerte</span> ainsi que sa <span class="bold">période de validité</span> en renseignant les champs <span class="bold">Démarrer le /&#160;Arrêter le</span>.</p>
+                                                <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/nom_periode_alerte.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="1104" data-mc-height="59" src="../Resources/Images/nom_periode_alerte.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a>
+                                                </p>
+                                                <p>Si vous ne souhaitez pas fixer de date de fin, décochez la case <span class="bold">Arrêter le</span>.</p>
+                                            </li>
+                                            <li value="4">
+                                                <p>Définissez les <span class="bold">conditions de déclenchement</span> de l'alerte :</p>
+                                                <ol>
+                                                    <li value="1">
+                                                        <p>Sélectionnez la variable sur-laquelle l'alerte doit se baser ainsi que l'indicateur à utiliser depuis le champ <span class="bold">Indicateur</span>.</p>
+                                                        <p>Indicateurs disponibles selon le type de la variable sélectionnée : <span class="bold">Moyenne</span>, <span class="bold">Médiane</span>, <span class="bold">Score NPS</span>, <span class="bold">Réponses effectives</span>.</p>
+                                                    </li>
+                                                    <li value="2">
+                                                        <p>Définissez la condition en sélectionnant un critère selon un <span class="bold">seuil fixe</span> ou selon une <span class="bold">évolution</span> puis indiquez une valeur : </p>
+                                                        <ul style="list-style-type: circle;">
+                                                            <li>
+                                                                <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" alt="Fermé" data-mc-alt2="Ouvert" />Seuil fixe</a></span>
+                                                                    <div class="MCDropDownBody dropDownBody">
+                                                                        <ul style="list-style-type: square;">
+                                                                            <li>
+                                                                                <p>Supérieur à ;</p>
+                                                                            </li>
+                                                                            <li>
+                                                                                <p>Supérieur ou égal à ;</p>
+                                                                            </li>
+                                                                            <li>
+                                                                                <p>Inférieur à ;</p>
+                                                                            </li>
+                                                                            <li>
+                                                                                <p>Inférieur ou égal à.</p>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" alt="Fermé" data-mc-alt2="Ouvert" />Évolution</a></span>
+                                                                    <div class="MCDropDownBody dropDownBody">
+                                                                        <ul style="list-style-type: square;">
+                                                                            <li>
+                                                                                <p>En hausse (pts) ;</p>
+                                                                            </li>
+                                                                            <li>
+                                                                                <p>En baisse (pts) ;</p>
+                                                                            </li>
+                                                                            <li>
+                                                                                <p>En hausse ou en baisse (pts) ;</p>
+                                                                            </li>
+                                                                            <li>
+                                                                                <p>En hausse (%) ;</p>
+                                                                            </li>
+                                                                            <li>
+                                                                                <p>En baisse (%) ;</p>
+                                                                            </li>
+                                                                            <li>
+                                                                                <p>En hausse ou en baisse (%).</p>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li value="3">
+                                                        <p>Sélectionnez la période sur laquelle les conditions de déclenchement doivent se baser :</p>
+                                                        <ul>
+                                                            <li>
+                                                                <p>Sur l'<span class="bold">ensemble des données</span> ;</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>Sur une <span class="bold">période glissante</span> en définissant le nombre des <span class="bold">x derniers jours</span> et la variable sur-laquelle se baser.</p>
+                                                                <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/periode_glissante.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="500" data-mc-height="250" src="../Resources/Images/periode_glissante.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a>
+                                                                </p>
+                                                            </li>
+                                                        </ul>
+                                                        <p>Pour un critère selon une <span class="bold">évolution</span>, vous devez également sélectionner  la <span class="bold">période de comparaison</span>. Celle-ci peut être :</p>
+                                                        <ul>
+                                                            <li>
+                                                                <p>Sur l'<span class="bold">ensemble des données</span> ;</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>Sur une <span class="bold">période glissante</span>, en définissant le nombre des <span class="bold">x jours précédents</span>.</p>
+                                                                <p class="note" data-mc-autonum="&lt;b&gt;REMARQUE : &lt;/b&gt;"><span class="autonumber"><span><b>REMARQUE : </b></span></span>La période de comparaison est la période immédiatement antérieure à la période d'analyse.</p>
+                                                            </li>
+                                                        </ul>
+                                                        <p class="note" data-mc-autonum="&lt;b&gt;REMARQUE : &lt;/b&gt;"><span class="autonumber"><span><b>REMARQUE : </b></span></span>Il est possible d’ajouter un seuil minimal de réponses nécessaires pour déclencher l’alerte. Pour cela, cochez "<span class="bold">Seuil minimal de nombre de réponses</span>" puis indiquez une valeur. Ce seuil s'applique à toutes les périodes définies.</p>
+                                                        <p>Si nécessaire, vous pouvez restreindre l’alerte à un profil spécifique, cochez l'option <span class="bold">Restreindre l'alerte à un profil</span> puis cliquez sur <span class="bold">Sélection</span> pour choisir le profil concerné.</p>
+                                                        <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/Conditions_declenchement_alerte.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="686" data-mc-height="243" src="../Resources/Images/Conditions_declenchement_alerte.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a>
+                                                        </p>
+                                                        <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>Nous souhaitons être notifiés dès que la moyenne de satisfaction des personnes ayant séjourné à l’hôtel passe en dessous de 9.</p>
+                                                    </li>
+                                                </ol>
+                                            </li>
+                                            <li value="5">
+                                                <p>Définissez la <span class="bold">fréquence de vérification et d'envoi</span> :</p>
+                                                <ul>
+                                                    <li>
+                                                        <p><span class="bold">Rythme de vérification</span> : sélectionnez la fréquence d'exécution parmi <span class="bold">Heures / Jours / Semaines /&#160;Mois</span> puis configurez les options correspondantes :</p>
+                                                        <ul style="list-style-type: circle;">
+                                                            <li>
+                                                                <p>Pour une fréquence en <span class="bold">Heures / Jours</span> : indiquez une valeur dans le champ <span class="bold">Exécuter tous les</span>.</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>Pour une fréquence en <span class="bold">Semaines</span> : sélectionnez les jours de la semaine à utiliser pour la vérification puis définissez l'heure d'exécution.</p>
+                                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>La vérification sera effectuée  chaque semaine, les lundis et jeudis, à 10:00.<br /><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/exemple_semaines.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="1040" data-mc-height="127" src="../Resources/Images/exemple_semaines.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>Pour une fréquence en <span class="bold">Mois</span>, plusieurs options sont possibles :</p>
+                                                                <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" alt="Fermé" data-mc-alt2="Ouvert" />Le même jour du mois :</a></span>
+                                                                    <div class="MCDropDownBody dropDownBody">
+                                                                        <p>La vérification sera effectuée le <span class="bold">x</span> de chaque mois à <span class="bold">x</span> heure (la date est à définir dans le champ <span class="bold">Chaque</span> et l'heure à définir dans le champ <span class="bold">Heure d'exécution</span>).</p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" alt="Fermé" data-mc-alt2="Ouvert" />Tous les premiers :</a></span>
+                                                                    <div class="MCDropDownBody dropDownBody">
+                                                                        <p>La vérification sera effectuée tous les premiers (jour de la semaine à définir) du mois à <span class="bold">x</span> heure (l'heure à définir dans le champ <span class="bold">Heure d'exécution</span>).</p>
+                                                                        <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>La vérification sera effectuée tous les premiers vendredis du mois, à 10:00.<br /><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/exemple_touslespremiers.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="598" data-mc-height="175" src="../Resources/Images/exemple_touslespremiers.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a></p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" alt="Fermé" data-mc-alt2="Ouvert" />Tous les derniers :</a></span>
+                                                                    <div class="MCDropDownBody dropDownBody">
+                                                                        <p>La vérification sera effectuée tous les derniers (jour de la semaine à définir) du mois à <span class="bold">x</span> heure (l'heure à définir dans le champ <span class="bold">Heure d'exécution</span>).</p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" alt="Fermé" data-mc-alt2="Ouvert" />Le premier jour du mois :</a></span>
+                                                                    <div class="MCDropDownBody dropDownBody">
+                                                                        <p>La vérification sera effectuée le premier jour de chaque mois à <span class="bold">x</span> heure (l'heure à définir dans le champ <span class="bold">Heure d'exécution</span>).</p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" alt="Fermé" data-mc-alt2="Ouvert" />Le dernier jour du mois :</a></span>
+                                                                    <div class="MCDropDownBody dropDownBody">
+                                                                        <p>La vérification sera effectuée le dernier jour de chaque mois à <span class="bold">x</span> heure (l'heure à définir dans le champ <span class="bold">Heure d'exécution</span>).</p>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li value="6">
+                                                <p>Sélectionnez l'<span class="bold">adresse d'expéditeur</span> à utiliser et définissez le <span class="bold">nom d'expéditeur</span>.</p>
+                                            </li>
+                                            <li value="7">
+                                                <p>
+                                                    <MadCap:conditionalText data-mc-conditions="General.SOL&#160;5">Ajoutez les <span class="bold">destinataires</span> à notifier.</MadCap:conditionalText> </p>
+                                                <ul data-mc-conditions="General.SOL&#160;5">
+                                                    <li>
+                                                        <p>Saisissez les adresses e-mail, séparées par un point-virgule, dans le champ <span class="bold">Utiliser des adresses email définies</span>.</p>
+                                                    </li>
+                                                </ul>
+                                                <p data-mc-conditions="General.SOL&#160;5">ou</p>
+                                                <ul data-mc-conditions="General.SOL&#160;5">
+                                                    <li>
+                                                        <p>Utilisez les <span class="bold">adresses email définies par les accès restreints du webreporting</span>.</p>
+                                                        <p class="note" data-mc-autonum="&lt;b&gt;REMARQUE : &lt;/b&gt;"><span class="autonumber"><span><b>REMARQUE : </b></span></span>Pour chaque utilisateur, l'alerte est envoyée si les données, filtrées selon les variables de profil renseignées dans son accès webReprting, respectent les conditions de déclenchement.</p>
+                                                        <p class="note" data-mc-autonum="&lt;b&gt;REMARQUE : &lt;/b&gt;"><span class="autonumber"><span><b>REMARQUE : </b></span></span>Cette option n'est utilisable que si vous avez défini une configuration webreporting en accès restreint via une <a href="../Webreporting/Definir_utilisateurs/Authentification_sphinx.htm">Authentification Sphinx</a> dans votre étude.</p>
+                                                        <p>Dans le cas où vos utilisateurs ont accès à des configurations différentes, vous pouvez filtrer les destinataires des alertes selon ces configurations. Ainsi, sélectionnez une configuration spécifique pour cibler uniquement les utilisateurs qui y ont accès. Pour les utilisateurs ayant accès à l'ensemble des configurations, sélectionnez « <span class="bold">Utilisateurs ayant accès à toutes les configurations </span>».</p>
+                                                        <p>Vous avez également la possibilité de transmettre chaque alerte associée aux utilisateurs en accès restreint à une ou plusieurs adresses e-mail, en les saisissant dans le champ « <span class="bold">Envoyer également à</span> ».</p>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li value="8">
+                                                <p>Sélectionnez la <span class="bold">langue</span> du message à envoyer.</p>
+                                                <p>Un <span class="bold">message par défaut</span> est envoyé aux destinataires. Il contient le nom de l'étude, nom de l'alerte, ainsi que la date et les conditions de déclenchement.</p>
+                                                <p>Si vous souhaitez personnaliser l'objet et le contenu du message, cliquez sur <span class="bold">Message personnalisé</span>.</p>
+                                                <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/message_personnalise_alerte_auto.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="720" data-mc-height="625" src="../Resources/Images/message_personnalise_alerte_auto.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a>
+                                                </p>
+                                                <p class="note" data-mc-autonum="&lt;b&gt;REMARQUE : &lt;/b&gt;"><span class="autonumber"><span><b>REMARQUE : </b></span></span>Le contenu des champs de fusion présents dans le message personnalisé s'affiche dans la langue sélectionnée à l'étape précédente. </p>
+                                                <p>Pour rétablir le message par défaut, cliquez sur <span class="bold">Réinitialiser l'objet et le contenu de l'email par défaut</span>.</p>
+                                            </li>
+                                            <li value="9">
+                                                <p>Cliquez sur <span class="bold">Enregistrer</span>.</p>
+                                            </li>
+                                        </ol>
+                                        <p>Si, lors d'une vérification, les conditions définies sont remplies, un message automatique est envoyé aux adresses renseignées.</p>
+                                        <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/exemple_msg_alerte.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="721" data-mc-height="380" src="../Resources/Images/exemple_msg_alerte.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a>
+                                        </p>
+                                        <h2><a name="Exemples_alertes"></a>Exemples de configuration des conditions de déclenchement d’une alerte</h2>
+                                        <p>Les exemples ci-dessous illustrent différentes configurations possibles d’alertes automatiques selon le type de condition, la période d’analyse et les indicateurs utilisés.</p>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" alt="Fermé" data-mc-alt2="Ouvert" />Exemple 1 — Seuil fixe : détection d’un taux de satisfaction faible (sur l'ensemble des données)</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>Vous souhaitez être averti si la <span class="bold">satisfaction concernant la propreté de la chambre</span> devient trop faible.<br />Configuration de l'alerte :<br />- <span class="bold">Variable analysée</span> : Propreté de la chambre<br />- <span class="bold">Indicateur</span> : Moyenne<br />- <span class="bold">Condition</span> : Inférieur à <span class="bold">7.5</span><br />- <span class="bold">Période d'analyse</span> : <span class="bold">ensemble des données</span><br /><br />L’alerte se déclenche si la moyenne calculée pour la variable <span class="bold">Propreté de la chambre</span>, sur <span class="bold">l’ensemble des données définies pour l’alerte</span>, devient <span class="bold">inférieure à 7,5</span>.<br />Exemple :<br />- Moyenne actuelle sur l’ensemble des données : <span class="bold">7,2</span><br />→ La moyenne étant <span class="bold">inférieure à 7,5</span>, l’alerte est déclenchée.</p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" alt="Fermé" data-mc-alt2="Ouvert" />Exemple 2 — Seuil fixe : détection d’une satisfaction faible sur une période glissante</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>Vous souhaitez être averti si la satisfaction concernant la qualité de l’accueil devient trop faible sur une période récente.<br />Configuration de l'alerte :<br /><span class="bold">Variable analysée</span> : Qualité de l’accueil<br /><span class="bold">Indicateur</span> : Moyenne<br /><span class="bold">Condition</span> : Inférieur à <span class="bold">8</span><br /><span class="bold">Période d’analyse</span> : <span class="bold">10 derniers jours</span> (période glissante)<br /><span class="bold">Sur la base de la variable</span> : Date d'enregistrement de la réponse<br /><br />L’alerte se déclenche si la moyenne calculée pour la variable <span class="bold">Qualité de l’accueil</span>, sur les <span class="bold">10 derniers jours sur la base de la variable Date d'enregistrement de la réponse</span>, est <span class="bold">inférieure à 8</span>.<br />Exemple :<br />Moyenne du 5 au 14 mai : <span class="bold">7,6</span><br />La moyenne étant <span class="bold">inférieure à 8</span>, l’alerte est déclenchée.</p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" alt="Fermé" data-mc-alt2="Ouvert" />Exemple 3 — Évolution : détection d’une baisse rapide de satisfaction (période glissante)</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>Vous souhaitez être averti si la <span class="bold">moyenne de satisfaction</span> diminue fortement sur une courte période.<br />Configuration de l’alerte :<br />- <span class="bold">Variable analysée</span> : Satisfaction globale de séjour<br />- <span class="bold">Indicateur</span> : Moyenne<br />- <span class="bold">Condition</span> : En baisse de <span class="bold">1 point</span><br />- <span class="bold">Période d’analyse</span> : <span class="bold">7 derniers jours</span> (période glissante)<br />- <span class="bold">Sur la base de la variable</span> : Date de séjour<br />- <span class="bold">Période de comparaison</span> : <span class="bold">7 jours précédents</span><br /><br />L’alerte se déclenche si la moyenne calculée pour la variable <span class="bold">Satisfaction globale du séjour</span>, sur les <span class="bold">7 derniers jours sur la base de la variable Date de séjour</span>, est <span class="bold">inférieure d’au moins 1 point</span> à celle calculée sur les <span class="bold">7 jours précédents</span>.<br />Exemple : <br />- Moyenne du 1 au 7 mars : <span class="bold">8,6</span><br />- Moyenne du 8 au 14 mars : <span class="bold">7,4</span><br />→ La baisse est de <span class="bold">1,2 point</span> : l’alerte est déclenchée.</p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" alt="Fermé" data-mc-alt2="Ouvert" />Exemple 4 — Évolution : détection d’une hausse du NPS</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>Vous souhaitez être informé lorsqu’une amélioration significative du Score NPS est observée.<br />Configuration de l’alerte :
+<br />- <span class="bold">Variable analysée</span> : Recommanderiez-vous cet hôtel à un proche ?
+<br />- <span class="bold">Indicateur</span> : Score NPS
+
+<br />- <span class="bold">Condition</span> : En hausse de <span class="bold">10 %</span><![CDATA[
+]]><br />- <span class="bold">Période d’analyse : 30 derniers jours
+</span><![CDATA[
+]]><br />- <span class="bold">Sur la base de la variable</span> : Date de séjour<br />- <span class="bold">Période de comparaison : 30 jours précédents
+</span><br /><br />L’alerte se déclenche si le Score NPS calculé sur la variable <span class="bold">Recommanderiez-vous cet hôtel à un proche ?</span>, pour les <span class="bold">30 derniers jours sur la base de la variable Date de séjour</span>, est supérieur d'au moins 10 % à celui des <span class="bold">30 jours précédents</span>.<br />Exemple :
+<br />- NPS du mois précédent : <span class="bold">40
+</span><br />- NPS des 30 derniers jours : <span class="bold">46
+</span><![CDATA[
+]]><br />→ Le NPS a augmenté de <span class="bold">15 %</span> : l’alerte est déclenchée.<br /></p>
+                                            </div>
+                                        </div>
+                                        <h2><a name="editer_alerte"></a>Éditer, dupliquer ou supprimer une alerte automatique</h2>
+                                        <p>Vous pouvez à tout moment <span class="bold">modifier</span>, <span class="bold">dupliquer</span> ou <span class="bold">supprimer</span> une alerte, notamment pour l’activer ou la désactiver, en cliquant sur les icônes correspondantes dans la colonne <span class="bold">Actions</span> de la liste des alertes.</p>
+                                        <p>
+                                            <img src="../Resources/Images/edit_dup_sup_alerte.png" alt="" title="" />
+                                        </p>
+                                        <h2><a name="Consulter_alertes"></a>Consulter l'historique des alertes</h2>
+                                        <p>Pour accéder à l'historique des alertes,</p>
+                                        <ul>
+                                            <li>
+                                                <p>Depuis la partie <span class="bold" data-mc-conditions="General.SOL&#160;5,General.DTV_by_Sphinx">Étude</span> ,    cliquez sur <span class="bold">Alertes</span> puis sur <span class="bold">Historique alertes</span> dans le menu latéral.</p>
+                                                <p>Un tableau s’affiche avec le nom de l’alerte, la date de déclenchement ainsi qu’un résumé.</p>
+                                                <p>Vous pouvez filtrer cette liste et l’exporter au format Excel.</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><a data-close="true"></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

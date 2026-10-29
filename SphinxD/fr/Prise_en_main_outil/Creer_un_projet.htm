@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="fr" xml:lang="fr" class="_Skins_Side_navigation_Declic" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../" data-mc-has-content-body="True" data-mc-toc-path="PRISE EN MAIN" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="msapplication-config" content="../Skins/Favicons/browserconfig.xml" />
+        <link rel="shortcut icon" href="../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="32x32" href="../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="16x16" href="../Skins/Favicons/favicon-16x16.png" />
+        <meta charset="utf-8" /><title>Créer une étude par import de données</title>
+        <link rel="shortcut icon" href="../Resources/Images/Analyse/iconeQ.png" type="image/png" />
+        <link href="../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="../Resources/Scripts/search-dropdown.css" />
+        <style>/*&lt;meta /&gt;*/
+
+.button.remove-highlight-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.separator-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.select-language-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.separator-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.expand-all-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.separator-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.print-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.collapse-all-button
+{
+	-pie-background: linear-gradient(transparent, #ececec);
+}
+
+.needs-pie
+{
+	behavior: url('../Resources/Scripts/PIE-no-motw.htc');
+}
+
+</style>
+        <link rel="shortcut icon" href="../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="32x32" href="../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="16x16" href="../Skins/Favicons/favicon-16x16.png" />
+        <script src="../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../Resources/Scripts/purify.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/require.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/require.config.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/foundation.6.2.3_custom.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/plugins.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/MadCapAll.js" type="text/javascript" defer="defer">
+        </script>
+        <script type="text/javascript" src="../Resources/Scripts/search-dropdown.js">
+        </script>
+        <script type="text/javascript" src="../Skins/Default/Scripts/TopicToolBar.js">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-right" role="complementary" id="offCanvas" data-off-canvas="" data-position="right" data-mc-ignore="true">
+                    <ul class="off-canvas-accordion vertical menu off-canvas-list" data-accordion-menu="" data-mc-back-link="Retour" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expanded-event="down.zf.accordionMenu up.zf.accordionMenu" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div data-sticky-container="" class="title-bar-container">
+                        <nav class="title-bar tab-bar sticky" aria-label="Main navigation and search" data-sticky="" data-options="marginTop:0" style="width:100%" data-sticky-on="only screen and (max-width: 1279px)" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="#">Passer au contenu principal</a>
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="menu-icon-container relative clearfix">
+                                    <div class="central-account-wrapper">
+                                        <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Compte</span></a>
+                                            <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Paramètres</a>
+                                                <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Déconnexion</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="menu-icon" aria-label="Afficher le volet de navigation" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="title-bar-layout outer-row">
+                                <div class="logo-wrapper"><a class="logo" href="../Home.htm" alt="Logo"></a>
+                                </div>
+                                <div class="navigation-wrapper nocontent">
+                                    <ul class="navigation clearfix" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                        <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="central-account-wrapper">
+                                    <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Compte</span></a>
+                                        <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Paramètres</a>
+                                            <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Déconnexion</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nav-search-wrapper">
+                                    <div class="nav-search row">
+                                        <form class="search" action="#">
+                                            <div class="search-bar search-bar-container needs-pie">
+                                                <input class="search-field needs-pie" type="search" aria-label="Champ de recherche" placeholder="Rechercher" />
+                                                <div class="search-filter-wrapper"><span class="invisible-label" id="search-filters-label">Filtrer&#160;:</span>
+                                                    <div class="search-filter" aria-haspopup="true" aria-controls="sf-content" aria-expanded="false" aria-label="Filtre de recherche" title="Tous les fichiers" role="button" tabindex="0">
+                                                    </div>
+                                                    <div class="search-filter-content" id="sf-content">
+                                                        <ul>
+                                                            <li>
+                                                                <button class="mc-dropdown-item" aria-labelledby="search-filters-label filterSelectorLabel-00001"><span id="filterSelectorLabel-00001">Tous les fichiers</span>
+                                                                </button>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="search-submit-wrapper" dir="ltr">
+                                                    <div class="search-submit" title="Rechercher" role="button" tabindex="0"><span class="invisible-label">Démarrer la recherche</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="main-section">
+                        <div class="row outer-row sidenav-layout">
+                            <nav class="sidenav-wrapper">
+                                <div class="sidenav-container">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expanded-event="down.zf.accordionMenu up.zf.accordionMenu" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
+                                    </ul>
+                                </div>
+                            </nav>
+                            <div class="body-container">
+                                <div data-mc-content-body="True"><a href="#" class="scrollToTop"> </a>
+                                    <div class="buttons popup-container clearfix topicToolbarProxy _Skins_TopicToolBar mc-component nocontent" style="float: right; mc-topic-toolbar-items: ;">
+                                        <div class="button-group-container-left">
+                                            <button class="button needs-pie remove-highlight-button" title="Supprimer les surlignages">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                            <div class="button-separator">
+                                            </div>
+                                            <button class="button needs-pie select-language-button" title="Changer de langue">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper" aria-label="Changer de langue">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                            <div class="button-separator">
+                                            </div>
+                                            <button class="button needs-pie expand-all-button" data-state1-class="expand-all-button" data-state2-class="collapse-all-button" data-state2-title="Réduire tout" title="Développer tout" data-state1-title="Développer tout">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper" aria-label="Développer tout">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                            <div class="button-separator">
+                                            </div>
+                                            <button class="button needs-pie print-button" title="Imprimer">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper" aria-label="Imprimer">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="nocontent">
+                                        <div class="MCBreadcrumbsBox_0 breadcrumbs" role="navigation" aria-label="Pistes de navigation" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="3" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">Vous êtes ici: </span>
+                                        </div>
+                                    </div>
+                                    <div role="main" id="mc-main-content">
+                                        <h1>Créer une étude par import de données</h1>
+                                        <p>Explorer et analyser les données depuis différentes sources de données. Pour créer une nouvelle étude via import de fichiers, procédez comme suit :</p>
+                                        <ol>
+                                            <li value="1">
+                                                <p>Depuis la page d'accueil, cliquez sur le bouton <span class="bold">Nouvelle étude</span>.</p>
+                                                <p>
+                                                    <img src="../Resources/Images/Standalone/nouveau_projet.png" alt="" title="" />
+                                                </p>
+                                            </li>
+                                            <li value="2">
+                                                <p>Sélectionnez le type d'import à utiliser en fonction de la source de vos données.</p>
+                                                <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/Standalone/importer_les_donnees.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="974" data-mc-height="322" src="../Resources/Images/Standalone/importer_les_donnees.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a>
+                                                </p>
+                                                <p>Sources de données disponibles : fichier <span class="bold">CSV</span>, fichier <span class="bold">XLSX</span>, fichier <span class="bold">SPSS</span> et fichier <span class="bold">Triple-S</span>.</p>
+                                                <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" alt="Fermé" data-mc-alt2="Ouvert" />IMPORTER&#160;DES&#160;DONNÉES&#160;DEPUIS&#160;UN&#160;FICHIER&#160;CSV</a></span>
+                                                    <div class="MCDropDownBody dropDownBody">
+                                                        <p>Pour importer des données depuis un fichier <span class="bold">CSV</span> :</p>
+                                                        <ol>
+                                                            <li value="1">
+                                                                <p>Depuis l'interface d'import de données, cliquez sur &#160;"<span class="bold">Fichier CSV</span>".</p>
+                                                                <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/Standalone/Import_csv.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="981" data-mc-height="351" src="../Resources/Images/Standalone/Import_csv.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a>
+                                                                </p>
+                                                            </li>
+                                                            <li value="2">
+                                                                <p>Cliquez par la suite sur le bouton "<span class="bold">Sélectionner le fichier...</span>" pour ajouter votre fichier de données.</p>
+                                                                <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/Standalone/import_fichier_csv.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="617" data-mc-height="270" src="../Resources/Images/Standalone/import_fichier_csv.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a>
+                                                                </p>
+                                                                <p class="note" data-mc-autonum="&lt;b&gt;REMARQUE : &lt;/b&gt;"><span class="autonumber"><span><b>REMARQUE : </b></span></span>Le fichier de données doit être au format <span class="bold">.csv</span>, <span class="bold">.txt</span>.</p>
+                                                            </li>
+                                                            <li value="3">
+                                                                <p>Paramétrez les options d'import avant de finaliser l'import de votre fichier.</p>
+                                                                <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/Standalone/options_import.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="1478" data-mc-height="163" src="../Resources/Images/Standalone/options_import.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a>
+                                                                </p>
+                                                                <ul>
+                                                                    <li>
+                                                                        <p>Choisir le type de <span class="bold">séparateur</span> : virgule, point virgule ou tabulation. Par défaut c'est le séparateur <span class="bold">Point-virgule</span> qui est sélectionnée.</p>
+                                                                    </li>
+                                                                    <li>
+                                                                        <p>L'<span class="bold">encodage</span> : automatique, windows-1252, utf-8, utf-16 et utf-16BE.</p>
+                                                                    </li>
+                                                                    <li>
+                                                                        <p><span class="bold">Détection des valeurs</span> : cette option permet d'interpréter correctement les formats de dates et des décimales en fonction du format régional sélectionné.</p>
+                                                                        <p>Supposons que votre fichier de données contient des dates affichées au format américain, à savoir MM/JJ/AAAA. </p>
+                                                                        <p>Pour les interpréter correctement au format français (JJ/MM/AAAA), sélectionnez "<span class="bold">Français</span>" depuis le menu <span class="bold">Détection des valeurs</span>.</p>
+                                                                        <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/detection_auto.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="663" data-mc-height="298" src="../Resources/Images/detection_auto.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a>
+                                                                        </p>
+                                                                    </li>
+                                                                    <li>
+                                                                        <p><span class="bold">Langue du rapport</span> : sélectionnez la langue de votre étude.</p>
+                                                                    </li>
+                                                                    <li>
+                                                                        <p><span class="bold">La deuxième ligne contient le libellé des variables</span> : cochez cette option si vous avez inséré le libellé des variables à la 2e ligne.</p>
+                                                                        <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/Standalone/libelle_de_variable.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="705" data-mc-height="223" src="../Resources/Images/Standalone/libelle_de_variable.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a>
+                                                                        </p>
+                                                                        <p>Une fois cette option  cochée, la deuxième ligne (contenant le libellé des variables) disparaîtra et chaque libellé sera affecté à la variable correspondante.</p>
+                                                                    </li>
+                                                                    <li>
+                                                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" alt="Fermé" data-mc-alt2="Ouvert" /><span class="bold">Ignorer les lignes au début</span></a></span>
+                                                                            <div class="MCDropDownBody dropDownBody">
+                                                                                <p>Cette option vous permet d'ignorer <span class="bold">x</span> lignes au début.</p>
+                                                                                <p style="text-align: left;">
+                                                                                    <img src="../Resources/Images/Standalone/ignorer_les_lignes.png" alt="" title="" />
+                                                                                </p>
+                                                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>Dans le fichier csv ci-dessous, les deux premières lignes contiennent le nom de l'étude/le nom de l'enquêteur et la 3e ligne contient les noms des variables.<br /><br /><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/Standalone/enquete_csv.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="790" data-mc-height="160" src="../Resources/Images/Standalone/enquete_csv.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a><br />Lors de l'import de ce fichier, le nom de l’étude sera considéré comme nom de variable étant donné que la première ligne est réservée aux noms des variables.<br />Dans ce cas, il faut ignorer les <span class="bold">deux</span> premières lignes pour que les noms de variables soient affichés à la première ligne.<br /><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/Standalone/apercu_donnes_variables.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="959" data-mc-height="212" src="../Resources/Images/Standalone/apercu_donnes_variables.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a><br /><i>Aperçu des données après la suppression des deux premières lignes</i></p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li>
+                                                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" alt="Fermé" data-mc-alt2="Ouvert" /><span class="bold">Détection des variables à valeurs multiples</span></a></span>
+                                                                            <div class="MCDropDownBody dropDownBody">
+                                                                                <ul>
+                                                                                    <li>
+                                                                                        <p>Dans les logiciels Sphinx, les réponses des variables à valeurs multiples sont contenues dans une seule colonne et sont séparées par des points-virgules. Si elles sont ordonnées, l'ordre détermine le rang. Dans votre fichier, si chaque modalité de réponse correspond à une colonne, il convient de les regrouper en une seule colonne avant import du fichier ou via les options ci-dessous :</p>
+                                                                                        <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/Standalone/gestion_colonnes_multiples.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="520" data-mc-height="147" src="../Resources/Images/Standalone/gestion_colonnes_multiples.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a>
+                                                                                        </p>
+                                                                                        <ul style="list-style-type: circle;">
+                                                                                            <li>
+                                                                                                <p><span class="bold">Grouper les colonnes portant des noms consécutifs</span>
+                                                                                                </p>
+                                                                                                <p>Cette option regroupe en une seule colonne les colonnes portant des noms d'en-têtes consécutifs tels que : choix1, choix2, choix3 ou encore choix_1, choix_2, choix_3. L'outil sera ainsi en mesure de traiter cette colonne comme une variable fermée à valeurs multiples.</p>
+                                                                                                <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/noms_consecutifs.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="624" data-mc-height="414" src="../Resources/Images/noms_consecutifs.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a>
+                                                                                                </p>
+                                                                                            </li>
+                                                                                            <li>
+                                                                                                <p><span class="bold">Grouper les colonnes de même nom</span>
+                                                                                                </p>
+                                                                                                <p>Cette option regroupe en une seule colonne les colonnes ayant des noms d'en-têtes strictement identiques. L'outil sera ainsi en mesure de traiter cette colonne comme une variable fermée à valeurs multiples.</p>
+                                                                                                <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/meme_noms.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="622" data-mc-height="345" src="../Resources/Images/meme_noms.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a>
+                                                                                                </p>
+                                                                                            </li>
+                                                                                            <li>
+                                                                                                <p><span class="bold">Prendre en compte une colonne unique contenant un séparateur</span>
+                                                                                                </p>
+                                                                                                <p>Cette option permet d'identifier les colonnes contenant des modalités séparées par le signe de votre choix (par exemple "<span class="bold">;</span>" ou "<span class="bold">,</span>") comme des variables à valeurs multiples.</p>
+                                                                                                <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/seperateur_colonne.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="549" data-mc-height="237" src="../Resources/Images/seperateur_colonne.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a>
+                                                                                                </p>
+                                                                                            </li>
+                                                                                        </ul>
+                                                                                    </li>
+                                                                                </ul>
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li>
+                                                                        <p><span class="bold">Paramétrage d'une variable</span>
+                                                                        </p>
+                                                                        <p>Lors de l'étape d'import, depuis l'aperçu des données, cliquez sur le crayon situé à côté de chaque variable pour afficher ses paramètres :</p>
+                                                                        <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/Standalone/parametres_variables.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="552" data-mc-height="478" src="../Resources/Images/Standalone/parametres_variables.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a>
+                                                                        </p>
+                                                                        <p>Il est possible de modifier le nom/libellé de la variable ainsi que le type de données.</p>
+                                                                        <p>Cliquez sur le bouton <span class="bold">Valider</span> pour enregistrer les modifications apportées.</p>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                            <li value="4">
+                                                                <p>Donnez un nom à votre étude puis cliquez sur le bouton <span class="bold">Créer l'étude</span> pour finaliser l'étape de l'import des données.</p>
+                                                                <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/creer_projet.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="869" data-mc-height="95" src="../Resources/Images/creer_projet.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a>
+                                                                </p>
+                                                            </li>
+                                                        </ol>
+                                                        <p><iframe class="youtube-player_video_0" src="https://www.youtube.com/embed/Zvddr_mo9QY?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" alt="Fermé" data-mc-alt2="Ouvert" />IMPORTER&#160;DES&#160;DONNÉES&#160;DEPUIS&#160;UN&#160;FICHIER&#160;XLSX</a></span>
+                                                    <div class="MCDropDownBody dropDownBody">
+                                                        <p>Pour importer des données depuis un fichier <span class="bold">XLSX</span> :</p>
+                                                        <ol>
+                                                            <li value="1">
+                                                                <p>Depuis l'interface d'import de données, cliquez sur  "<span class="bold">Fichier Excel</span>".</p>
+                                                                <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/Standalone/Import_xlsx.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="974" data-mc-height="338" src="../Resources/Images/Standalone/Import_xlsx.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a>
+                                                                </p>
+                                                            </li>
+                                                            <li value="2">
+                                                                <p>Cliquez par la suite sur le bouton "<span class="bold">Sélectionner le fichier...</span>" pour ajouter votre fichier de données.</p>
+                                                                <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/Standalone/import_fichier_xlsx.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="621" data-mc-height="284" src="../Resources/Images/Standalone/import_fichier_xlsx.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a>
+                                                                </p>
+                                                                <p class="note" data-mc-autonum="&lt;b&gt;REMARQUE : &lt;/b&gt;"><span class="autonumber"><span><b>REMARQUE : </b></span></span>Le fichier de données doit être au format <span class="bold">.xlsx</span>.</p>
+                                                            </li>
+                                                            <li value="3">
+                                                                <p>Paramétrez les options d'import avant de finaliser l'import de votre fichier.</p>
+                                                                <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/options_import_excel.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="1393" data-mc-height="139" src="../Resources/Images/options_import_excel.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a>
+                                                                </p>
+                                                                <ul>
+                                                                    <li>
+                                                                        <p><span class="bold">Langue</span> : sélectionnez la langue de votre étude.</p>
+                                                                    </li>
+                                                                    <li>
+                                                                        <p><span class="bold">Détection des valeurs</span> : cette option permet d'interpréter correctement les formats de dates et des décimales en fonction du format régional sélectionné.</p>
+                                                                        <p>Supposons que votre fichier de données contient des dates affichées au format américain, à savoir MM/JJ/AAAA. </p>
+                                                                        <p>Pour les interpréter correctement au format français (JJ/MM/AAAA), sélectionnez "<span class="bold">Français</span>" depuis le menu <span class="bold">Détection des valeurs</span>.</p>
+                                                                        <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/detection_auto.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="663" data-mc-height="298" src="../Resources/Images/detection_auto.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a>
+                                                                        </p>
+                                                                    </li>
+                                                                    <li>
+                                                                        <p><span class="bold">La deuxième ligne contient le libellé des variables</span> : cochez cette option si vous avez inséré le libellé des variables à la 2e ligne.</p>
+                                                                        <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/Standalone/libelle_de_variable.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="705" data-mc-height="223" src="../Resources/Images/Standalone/libelle_de_variable.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a>
+                                                                        </p>
+                                                                        <p>Une fois cette option cochée, la deuxième ligne (contenant le libellé des variables) disparaîtra et chaque libellé sera affecté à la variable correspondante.</p>
+                                                                    </li>
+                                                                    <li>
+                                                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" alt="Fermé" data-mc-alt2="Ouvert" /><span class="bold">Ignorer les lignes au début</span></a></span>
+                                                                            <div class="MCDropDownBody dropDownBody">
+                                                                                <p>Cette option vous permet d'ignorer <span class="bold">x</span> lignes au début.</p>
+                                                                                <p style="text-align: left;">
+                                                                                    <img src="../Resources/Images/Standalone/ignorer_les_lignes.png" alt="" title="" />
+                                                                                </p>
+                                                                                <p class="exemple" data-mc-autonum="&lt;b&gt;EXEMPLE : &lt;/b&gt;"><span class="autonumber"><span><b>EXEMPLE : </b></span></span>Dans le fichier Excel ci-dessous, les deux premières lignes contiennent le nom de l'enquête/le nom de l'enquêteur et la 3e ligne contient les noms des variables.<br /><br /><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/Standalone/enquete_csv.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="790" data-mc-height="160" src="../Resources/Images/Standalone/enquete_csv.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a><br />Lors de l'import de ce fichier, le nom de l’enquête sera considéré comme nom de variable étant donné que la première ligne est réservée aux noms des variables.<br />Dans ce cas, il faut ignorer les <span class="bold">deux</span> premières lignes pour que les noms de variables soient affichés à la première ligne.<br /><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/Standalone/apercu_donnes_variables.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="959" data-mc-height="212" src="../Resources/Images/Standalone/apercu_donnes_variables.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a><br /><i>Aperçu des données après la suppression des deux premières lignes</i><br /></p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li>
+                                                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" alt="Fermé" data-mc-alt2="Ouvert" /><span class="bold">Détection des variables à valeurs multiples</span></a></span>
+                                                                            <div class="MCDropDownBody dropDownBody">
+                                                                                <ul>
+                                                                                    <li>
+                                                                                        <p>Dans les logiciels Sphinx, les réponses des variables à valeurs multiples sont contenues dans une seule colonne et sont séparées par des points-virgules. Si elles sont ordonnées, l'ordre détermine le rang. Dans votre fichier, si chaque modalité de réponse correspond à une colonne, il convient de les regrouper en une seule colonne avant import du fichier ou via les options ci-dessous :</p>
+                                                                                        <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/Standalone/gestion_colonnes_multiples.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="520" data-mc-height="147" src="../Resources/Images/Standalone/gestion_colonnes_multiples.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a>
+                                                                                        </p>
+                                                                                        <ul style="list-style-type: circle;">
+                                                                                            <li>
+                                                                                                <p><span class="bold">Grouper les colonnes portant des noms consécutifs</span>
+                                                                                                </p>
+                                                                                                <p>Cette option regroupe en une seule colonne les colonnes portant des noms d'en-têtes consécutifs tels que : choix1, choix2, choix3 ou encore choix_1, choix_2, choix_3. Sphinx sera ainsi en mesure de traiter cette colonne comme une variable fermée à valeurs multiples.</p>
+                                                                                                <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/noms_consecutifs.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="624" data-mc-height="414" src="../Resources/Images/noms_consecutifs.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a>
+                                                                                                </p>
+                                                                                            </li>
+                                                                                            <li>
+                                                                                                <p><span class="bold">Grouper les colonnes de même nom</span>
+                                                                                                </p>
+                                                                                                <p>Cette option regroupe en une seule colonne les colonnes ayant des noms d'en-têtes strictement identiques. Sphinx sera ainsi en mesure de traiter cette colonne comme une variable fermée à valeurs multiples.</p>
+                                                                                                <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/meme_noms.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="622" data-mc-height="345" src="../Resources/Images/meme_noms.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a>
+                                                                                                </p>
+                                                                                            </li>
+                                                                                            <li>
+                                                                                                <p><span class="bold">Prendre en compte une colonne unique contenant un séparateur</span>
+                                                                                                </p>
+                                                                                                <p>Cette option permet d'identifier les colonnes contenant des modalités séparées par le signe de votre choix (par exemple "<span class="bold">;</span>" ou "<span class="bold">,</span>") comme des variables à valeurs multiples.</p>
+                                                                                                <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/seperateur_colonne.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="549" data-mc-height="237" src="../Resources/Images/seperateur_colonne.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a>
+                                                                                                </p>
+                                                                                            </li>
+                                                                                        </ul>
+                                                                                    </li>
+                                                                                </ul>
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li>
+                                                                        <p><span class="bold">Paramétrage d'une variable</span>
+                                                                        </p>
+                                                                        <p>Lors de l'étape d'import, depuis l'aperçu des données, cliquez sur le crayon situé à côté de chaque variable pour afficher ses paramètres :</p>
+                                                                        <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/Standalone/parametres_variables.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="552" data-mc-height="478" src="../Resources/Images/Standalone/parametres_variables.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a>
+                                                                        </p>
+                                                                        <p>Il est possible de modifier le nom/libellé de la variable ainsi que le type de données.</p>
+                                                                        <p>Cliquez sur le bouton <span class="bold">Valider</span> pour enregistrer les modifications apportées.</p>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                            <li value="4">
+                                                                <p>Donnez un nom à votre étude puis cliquez sur le bouton <span class="bold">Créer l'étude</span> pour finaliser l'étape de l'import des données.</p>
+                                                                <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/creer_projet.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="869" data-mc-height="95" src="../Resources/Images/creer_projet.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a>
+                                                                </p>
+                                                            </li>
+                                                        </ol>
+                                                        <p><iframe class="youtube-player_video_0" src="https://www.youtube.com/embed/rfm5lk9EL3I?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" alt="Fermé" data-mc-alt2="Ouvert" />IMPORTER&#160;DES&#160;DONNÉES&#160;DEPUIS&#160;UN&#160;FICHIER SPSS</a></span>
+                                                    <div class="MCDropDownBody dropDownBody">
+                                                        <p>Pour importer des données depuis un fichier <span class="bold">SPSS</span> :</p>
+                                                        <ol>
+                                                            <li value="1">
+                                                                <p>Depuis l'interface d'import de données, cliquez sur "<span class="bold">Fichier SPSS</span>".</p>
+                                                                <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/Standalone/Import_spss.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="989" data-mc-height="333" src="../Resources/Images/Standalone/Import_spss.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a>
+                                                                </p>
+                                                            </li>
+                                                            <li value="2">
+                                                                <p>Cliquez par la suite sur le bouton "<span class="bold">Sélectionner le fichier...</span>" pour ajouter votre fichier de données.</p>
+                                                                <p style="text-align: left;"><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/Standalone/import_fichier_spss.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="631" data-mc-height="270" src="../Resources/Images/Standalone/import_fichier_spss.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a>
+                                                                </p>
+                                                                <p class="note" data-mc-autonum="&lt;b&gt;REMARQUE : &lt;/b&gt;"><span class="autonumber"><span><b>REMARQUE : </b></span></span>Le fichier de données doit être au format <span class="bold">.sav</span>.</p>
+                                                            </li>
+                                                            <li value="3">
+                                                                <p>Paramétrez les options d'import avant de finaliser l'import de votre fichier.</p>
+                                                                <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/Standalone/options_import_spss.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="658" data-mc-height="107" src="../Resources/Images/Standalone/options_import_spss.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a>
+                                                                </p>
+                                                                <ul>
+                                                                    <li>
+                                                                        <p><span class="bold">Langue</span> : sélectionnez la langue de votre étude.</p>
+                                                                    </li>
+                                                                    <li>
+                                                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" alt="Fermé" data-mc-alt2="Ouvert" /><span class="bold">Détection des variables à valeurs multiples</span></a></span>
+                                                                            <div class="MCDropDownBody dropDownBody">
+                                                                                <ul>
+                                                                                    <li>
+                                                                                        <p>Dans les logiciels Sphinx, les réponses des variables à valeurs multiples sont contenues dans une seule colonne et sont séparées par des points-virgules. Si elles sont ordonnées, l'ordre détermine le rang. Dans votre fichier, si chaque modalité de réponse correspond à une colonne, il convient de les regrouper en une seule colonne avant import du fichier ou via les options ci-dessous :</p>
+                                                                                        <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/Standalone/gestion_colonnes_multiples.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="520" data-mc-height="147" src="../Resources/Images/Standalone/gestion_colonnes_multiples.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a>
+                                                                                        </p>
+                                                                                        <ul style="list-style-type: circle;">
+                                                                                            <li>
+                                                                                                <p><span class="bold">Grouper les colonnes portant des noms consécutifs</span>
+                                                                                                </p>
+                                                                                                <p>Cette option regroupe en une seule colonne les colonnes portant des noms d'en-têtes consécutifs tels que : choix1, choix2, choix3 ou encore choix_1, choix_2, choix_3. Sphinx sera ainsi en mesure de traiter cette colonne comme une variable fermée à valeurs multiples.</p>
+                                                                                                <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/noms_consecutifs.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="624" data-mc-height="414" src="../Resources/Images/noms_consecutifs.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a>
+                                                                                                </p>
+                                                                                            </li>
+                                                                                            <li>
+                                                                                                <p><span class="bold">Grouper les colonnes de même nom</span>
+                                                                                                </p>
+                                                                                                <p>Cette option regroupe en une seule colonne les colonnes ayant des noms d'en-têtes strictement identiques. Sphinx sera ainsi en mesure de traiter cette colonne comme une variable fermée à valeurs multiples.</p>
+                                                                                                <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/meme_noms.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="622" data-mc-height="345" src="../Resources/Images/meme_noms.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a>
+                                                                                                </p>
+                                                                                            </li>
+                                                                                            <li>
+                                                                                                <p><span class="bold">Prendre en compte une colonne unique contenant un séparateur</span>
+                                                                                                </p>
+                                                                                                <p>Cette option permet d'identifier les colonnes contenant des modalités séparées par le signe de votre choix (par exemple "<span class="bold">;</span>" ou "<span class="bold">,</span>") comme des variables à valeurs multiples.</p>
+                                                                                                <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/seperateur_colonne.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="549" data-mc-height="237" src="../Resources/Images/seperateur_colonne.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a>
+                                                                                                </p>
+                                                                                            </li>
+                                                                                        </ul>
+                                                                                    </li>
+                                                                                </ul>
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li>
+                                                                        <p><span class="bold">Paramétrage d'une variable</span>
+                                                                        </p>
+                                                                        <p>Lors de l'étape d'import, depuis l'aperçu des données, cliquez sur le crayon situé à côté de chaque variable pour afficher ses paramètres :</p>
+                                                                        <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/Standalone/parametres_variables.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="552" data-mc-height="478" src="../Resources/Images/Standalone/parametres_variables.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a>
+                                                                        </p>
+                                                                        <p>Il est possible de modifier le nom/libellé de la variable ainsi que le type de données.</p>
+                                                                        <p>Cliquez sur le bouton <span class="bold">Valider</span> pour enregistrer les modifications apportées.</p>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                            <li value="4">
+                                                                <p>Donnez un nom à votre étude puis cliquez sur le bouton <span class="bold">Créer l'étude</span> pour finaliser l'étape de l'import des données.</p>
+                                                                <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/creer_projet.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="869" data-mc-height="95" src="../Resources/Images/creer_projet.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a>
+                                                                </p>
+                                                            </li>
+                                                        </ol>
+                                                    </div>
+                                                </div>
+                                                <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" alt="Fermé" data-mc-alt2="Ouvert" />IMPORTER&#160;DES&#160;DONNÉES&#160;DEPUIS&#160;UN&#160;FICHIER TRIPLE-S</a></span>
+                                                    <div class="MCDropDownBody dropDownBody">
+                                                        <p>Pour importer des données depuis un fichier <span class="bold">TRIPLE-S</span> :</p>
+                                                        <ol>
+                                                            <li value="1">
+                                                                <p>Depuis l'interface d'import de données, cliquez sur "<span class="bold">Fichier Triple-S</span>".</p>
+                                                                <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/Standalone/Import_triple_s.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="969" data-mc-height="355" src="../Resources/Images/Standalone/Import_triple_s.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a>
+                                                                </p>
+                                                            </li>
+                                                            <li value="2">
+                                                                <p>Cliquez par la suite sur le bouton "<span class="bold">Sélectionner le fichier...</span>" pour ajouter votre fichier de données.</p>
+                                                                <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/Standalone/import_fichier_triple-s.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="555" data-mc-height="269" src="../Resources/Images/Standalone/import_fichier_triple-s.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a>
+                                                                </p>
+                                                                <p class="note" data-mc-autonum="&lt;b&gt;REMARQUE : &lt;/b&gt;"><span class="autonumber"><span><b>REMARQUE : </b></span></span>Le fichier de données doit être au format <span class="bold">.zip</span>.</p>
+                                                            </li>
+                                                            <li value="3">
+                                                                <p>Paramétrez les options d'import avant de finaliser l'import de votre fichier.</p>
+                                                                <ul>
+                                                                    <li><span class="bold">Langue</span> : sélectionnez la langue de votre étude.</li>
+                                                                    <li>
+                                                                        <p><span class="bold">Détection des valeurs</span> : cette option permet d'interpréter correctement les formats de dates et des décimales en fonction du format régional sélectionné.</p>
+                                                                        <p>Supposons que votre fichier de données contient des dates affichées au format américain, à savoir MM/JJ/AAAA. </p>
+                                                                        <p>Pour les interpréter correctement au format français (JJ/MM/AAAA), sélectionnez "<span class="bold">Français</span>" depuis le menu <span class="bold">Détection des valeurs</span>.</p>
+                                                                        <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/detection_auto.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="663" data-mc-height="298" src="../Resources/Images/detection_auto.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a>
+                                                                        </p>
+                                                                    </li>
+                                                                </ul>
+                                                                <p>Lors de l'étape d'import, depuis l'aperçu des données, cliquez sur le crayon situé à coté de chaque variable pour afficher les options correspondantes :</p>
+                                                                <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/Standalone/parametres_variables.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="552" data-mc-height="478" src="../Resources/Images/Standalone/parametres_variables.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a>
+                                                                </p>
+                                                                <p>Il est possible de modifier le nom/libellé de la variable ainsi que le type de données.</p>
+                                                                <p>Cliquez sur le bouton <span class="bold">Valider</span> pour enregistrer les modifications apportées.</p>
+                                                            </li>
+                                                            <li value="4">
+                                                                <p>Donnez un nom à votre étude puis cliquez sur le bouton <span class="bold">Créer l'étude</span> pour finaliser l'étape de l'import des données.</p>
+                                                                <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/creer_projet.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="869" data-mc-height="95" src="../Resources/Images/creer_projet.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a>
+                                                                </p>
+                                                            </li>
+                                                        </ol>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ol>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><a data-close="true"></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

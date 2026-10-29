@@ -1,0 +1,123 @@
+﻿/* Le conteneur du champ doit être en positionnement relatif */
+.search-bar, .search-field { position: relative; }
+
+/* ---- Palette (adapte si besoin) ---- */
+:root{
+  --accent: #7c3aed;          /* violet Sphinx */
+  --text-strong:#111827;      /* titres */
+  --text-muted:#6b7280;       /* aperçus / méta */
+  --brd:#e5e7eb;              /* bordures */
+  --bg:#ffffff;               /* panneau */
+  --bg-hover:#f5f3ff;         /* hover item */
+}
+
+/* ---- Panneau ---- */
+#searchResultsDropdown{
+  position:absolute;
+  top: calc(100% + 10px);
+  right: 0;                 /* aligne sous le champ à droite */
+  left: auto;
+  width: min(560px, 92vw);
+  background: var(--bg);
+  border: 1px solid var(--brd);
+  border-radius: 14px;
+  box-shadow: 0 22px 48px rgba(17,24,39,.16), 0 2px 6px rgba(17,24,39,.06);
+  padding: 8px;
+  margin: 0;
+  list-style: none;
+  visibility: hidden;       /* affiché par le JS */
+  z-index: 9999;
+  max-height: 70vh;         /* scroll si trop long */
+  overflow: auto;
+}
+
+/* petit “bec” pointant le champ */
+#searchResultsDropdown::before{
+  content:"";
+  position:absolute; top:-8px; right:18px;
+  width:14px; height:14px; transform: rotate(45deg);
+  background: var(--bg);
+  border-left:1px solid var(--brd);
+  border-top:1px solid var(--brd);
+}
+
+/* ---- Bandeau "x résultats..." ---- */
+#searchResultsDropdown li.show-all{
+  position: sticky; top: 0;
+  background: #faf5ff;
+  color: color-mix(in oklab, var(--accent) 80%, black);
+  font-size: .82rem;
+  padding: 10px 12px;
+  margin: -8px -8px 6px;
+  border-bottom: 1px solid #efeaff;
+  border-radius: 14px 14px 0 0;
+}
+
+/* ---- Items ---- */
+#searchResultsDropdown li.result{
+  padding: 12px 12px;
+  border-radius: 12px;
+  border:1px solid transparent;
+  cursor: pointer;
+  transition: background .15s ease, border-color .15s ease, box-shadow .15s ease;
+}
+#searchResultsDropdown li.result:hover{
+  background: var(--bg-hover);
+  border-color: #e9d5ff;
+  box-shadow: 0 1px 0 rgba(0,0,0,.03);
+}
+
+/* Titre + aperçu */
+#searchResultsDropdown .title{
+  font-weight: 700;
+  color: var(--text-strong);
+  margin-bottom: 2px;
+}
+#searchResultsDropdown .preview{
+  font-size: .88rem;
+  color: var(--text-muted);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;       /* 2 lignes max */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Accessibilité focus clavier */
+#searchResultsDropdown li.result:focus{
+  outline: none;
+  box-shadow: 0 0 0 3px color-mix(in oklab, var(--accent) 28%, white);
+}
+
+/* --- Typo Raleway pour tout le panneau dropdown --- */
+#searchResultsDropdown{
+  font-family: "Raleway", "Segoe UI", Roboto, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Titre + aperçu en Raleway avec harmonisation des poids/espaces */
+#searchResultsDropdown .title{
+  font-weight: 600;           /* Raleway est un peu fine : 600 passe bien */
+  letter-spacing: .01em;      /* léger tracking pour la lisibilité */
+  line-height: 1.25;
+}
+#searchResultsDropdown .preview{
+  font-weight: 400;
+  line-height: 1.35;
+  hyphens: auto;              /* césure FR si dispo */
+}
+
+/* Bandeau "x résultats…" en semi-bold pour mieux ressortir */
+#searchResultsDropdown li.show-all{
+  font-family: "Raleway", "Segoe UI", Roboto, Arial, sans-serif;
+  font-weight: 500;
+}
+
+/* Micro-effet au survol : soulignement doux du titre */
+#searchResultsDropdown li.result:hover .title{
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+}
+
+#searchResultsDropdown li.show-all { cursor: pointer; }

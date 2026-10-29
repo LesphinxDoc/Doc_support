@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en" xml:lang="en" class="_Skins_Side_navigation_SOL5" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../" data-mc-has-content-body="True" data-mc-toc-path="ANALYSIS|Get started" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="msapplication-config" content="../Skins/Favicons/browserconfig.xml" />
+        <link rel="shortcut icon" href="../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="32x32" href="../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="16x16" href="../Skins/Favicons/favicon-16x16.png" />
+        <meta charset="utf-8" /><title>Add a new item (analysis, filter, text, image, shape)</title>
+        <link rel="shortcut icon" href="../Resources/Images/Dataviv/iconeQ.png" type="image/png" />
+        <link href="../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="../Resources/Scripts/search-dropdown.css" />
+        <style>/*&lt;meta /&gt;*/
+
+.button.remove-highlight-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.separator-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.select-language-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.separator-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.expand-all-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.separator-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.print-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.collapse-all-button
+{
+	-pie-background: linear-gradient(transparent, #ececec);
+}
+
+.needs-pie
+{
+	behavior: url('../Resources/Scripts/PIE-no-motw.htc');
+}
+
+</style>
+        <link rel="shortcut icon" href="../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="32x32" href="../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="16x16" href="../Skins/Favicons/favicon-16x16.png" />
+        <script src="../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../Resources/Scripts/purify.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/require.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/require.config.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/foundation.6.2.3_custom.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/plugins.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/MadCapAll.js" type="text/javascript" defer="defer">
+        </script>
+        <script type="text/javascript" src="../Resources/Scripts/search-dropdown.js">
+        </script>
+        <script type="text/javascript" src="../Skins/Default/Scripts/TopicToolBar.js">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-right" role="complementary" id="offCanvas" data-off-canvas="" data-position="right" data-mc-ignore="true">
+                    <ul class="off-canvas-accordion vertical menu off-canvas-list" data-accordion-menu="" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expanded-event="down.zf.accordionMenu up.zf.accordionMenu" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div data-sticky-container="" class="title-bar-container">
+                        <nav class="title-bar tab-bar sticky" aria-label="Main navigation and search" data-sticky="" data-options="marginTop:0" style="width:100%" data-sticky-on="only screen and (max-width: 1279px)" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="#">Skip To Main Content</a>
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="menu-icon-container relative clearfix">
+                                    <div class="central-account-wrapper">
+                                        <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                            <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                                <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="menu-icon" aria-label="Show Navigation Panel" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="title-bar-layout outer-row">
+                                <div class="logo-wrapper"><a class="logo" href="../Home_Sol5.htm" alt="Logo"></a>
+                                </div>
+                                <div class="navigation-wrapper nocontent">
+                                    <ul class="navigation clearfix" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                        <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="central-account-wrapper">
+                                    <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                        <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                            <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nav-search-wrapper">
+                                    <div class="nav-search row">
+                                        <form class="search" action="#">
+                                            <div class="search-bar search-bar-container needs-pie">
+                                                <input class="search-field needs-pie" type="search" aria-label="Search Field" placeholder="Search" />
+                                                <div class="search-filter-wrapper"><span class="invisible-label" id="search-filters-label">Filter: </span>
+                                                    <div class="search-filter" aria-haspopup="true" aria-controls="sf-content" aria-expanded="false" aria-label="Search Filter" title="All Files" role="button" tabindex="0">
+                                                    </div>
+                                                    <div class="search-filter-content" id="sf-content">
+                                                        <ul>
+                                                            <li>
+                                                                <button class="mc-dropdown-item" aria-labelledby="search-filters-label filterSelectorLabel-00001"><span id="filterSelectorLabel-00001">All Files</span>
+                                                                </button>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="search-submit-wrapper" dir="ltr">
+                                                    <div class="search-submit" title="Search" role="button" tabindex="0"><span class="invisible-label">Submit Search</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="main-section">
+                        <div class="row outer-row sidenav-layout">
+                            <nav class="sidenav-wrapper">
+                                <div class="sidenav-container">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expanded-event="down.zf.accordionMenu up.zf.accordionMenu" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
+                                    </ul>
+                                </div>
+                            </nav>
+                            <div class="body-container">
+                                <div data-mc-content-body="True"><a href="#" class="scrollToTop"></a>
+                                    <div class="buttons popup-container clearfix topicToolbarProxy _Skins_TopicToolBar mc-component nocontent" style="float: right; mc-topic-toolbar-items: ;">
+                                        <div class="button-group-container-left">
+                                            <button class="button needs-pie remove-highlight-button" title="Remove Highlights">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper" aria-label="Remove Highlights">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                            <div class="button-separator">
+                                            </div>
+                                            <button class="button needs-pie select-language-button" title="Change language">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper" aria-label="Change language">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                            <div class="button-separator">
+                                            </div>
+                                            <button class="button needs-pie expand-all-button" data-state1-class="expand-all-button" data-state2-class="collapse-all-button" data-state2-title="Collapse all" title="Expand all" data-state1-title="Expand all">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper" aria-label="Expand all">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                            <div class="button-separator">
+                                            </div>
+                                            <button class="button needs-pie print-button" title="Print">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper" aria-label="Print">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="nocontent">
+                                        <div class="MCBreadcrumbsBox_0 breadcrumbs" role="navigation" aria-label="Breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="3" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here:</span>
+                                        </div>
+                                    </div>
+                                    <div role="main" id="mc-main-content">
+                                        <h1>Add a new item (analysis, filter, text, image, shape)</h1>
+                                        <p>When hovering over the button <img src="../Resources/Images/Dataviv/bouton-ajout_23x23.png" style="visibility: visible;mso-wrap-style: square;width: 23;height: 23;" alt="" /> on the right, next to the dialog boxes, 9 analysis options appear.</p>
+                                        <p style="text-align: center;"><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/Dataviv/ajout-element.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="279" data-mc-height="556" src="../Resources/Images/Dataviv/ajout-element.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a>
+                                        </p>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" alt="Closed" data-mc-alt2="Open" /></a><a name="ANALYSES"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" aria-expanded="false">ANALYSIS AND&#160;FILTER</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <ul>
+                                                    <li>
+                                                        <p>The <span class="bold">One way table</span> allows you to do a basic sorting using one variable.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>The <span class="bold">Cross analysis</span> allows you to do cross sorting or multivariate analysis with at least two variables analyzed simultaneously.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>The <span class="bold">Advanced analysis</span> allows you to perform a satisfaction analysis, a KeyViews, data analysis, classification and map representation.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>The <span class="bold">Custom table</span> allows you to create advanced analyzes where you can define profiles that will act on the variables to be displayed in your rows and columns.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>The <span class="bold">Textual and semantic analysis</span> allows you to explore your textual data through the display of verbatim, keyword cloud, influences and specificities by context, automatic lexical analysis or through a thematic analysis.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>The <span class="bold">View filter</span> allows you to add a filter, which will be effective on all pages of the view, to study only a specific category of respondents.</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" alt="Closed" data-mc-alt2="Open" /></a><a name="TEXTE"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" aria-expanded="false">TEXT</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p>The <span class="bold">text</span> button is used to illustrate the analysis with a text zone that can be edited according to its size, color or font.</p>
+                                                <p style="text-align: left;"><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/Dataviv/Zone_de_texte.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="741" data-mc-height="142" src="../Resources/Images/Dataviv/Zone_de_texte.png" alt="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a>
+                                                </p>
+                                                <p>To create a text box, proceed as follows:</p>
+                                                <ol>
+                                                    <li value="1">
+                                                        <p>Click on the <img src="../Resources/Images/Dataviv/bouton-ajout_23x23.png" style="visibility: visible;mso-wrap-style: square;width: 23;height: 23;" alt="" />  button.</p>
+                                                    </li>
+                                                    <li value="2">
+                                                        <p>Click on <b>text</b>.</p>
+                                                        <p class="noteEN" data-mc-autonum="&lt;b&gt;NOTE: &lt;/b&gt;"><span class="autonumber"><span><b>NOTE: </b></span></span>It is possible to add a text box by double-clicking the area of the page where you want to place it.</p>
+                                                    </li>
+                                                    <li value="3">
+                                                        <p>Fill in your text in the field.</p>
+                                                    </li>
+                                                    <li value="4">
+                                                        <p>(Optional) Change its appearance (color, background color, border).</p>
+                                                    </li>
+                                                    <li value="5">
+                                                        <p>(Optional) Apply a preset style (Title 1, Title 2, Title 3, Normal, Quotation).</p>
+                                                    </li>
+                                                    <li value="6">
+                                                        <p>(Optional) Change the proportions/change the orientation of the text area using the <img src="../Resources/Images/Dataviv/Zone_de_texte_1.png" style="visibility: visible;mso-wrap-style: square;" alt="" /> icon.</p>
+                                                        <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/Dataviv/style_texte.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="587" data-mc-height="198" src="../Resources/Images/Dataviv/style_texte.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a>
+                                                        </p>
+                                                    </li>
+                                                </ol>
+                                                <p>
+                                                    <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" alt="Closed" data-mc-alt2="Open" />Apply filtering options to a text field and define the number of decimals to display</a></span>
+                                                        <div class="MCDropDownBody dropDownBody">
+                                                            <p>It is possible to apply filtering options to a text field that contains a calculation formula and also to define the number of decimal places to be displayed.</p>
+                                                            <p class="exampleEN" data-mc-autonum="&lt;b&gt;EXAMPLE: &lt;/b&gt;"><span class="autonumber"><span><b>EXAMPLE: </b></span></span>In a view that displays the results for the year 2022, we want to recall the turnover achieved in 2021 via a calculation formula inserted in a text box that should not be filtered when using the view filters.<br /><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/options_filtrage_zone_de_texte.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="952" data-mc-height="538" src="../Resources/Images/options_filtrage_zone_de_texte.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a></p>
+                                                            <p>To do this:</p>
+                                                            <ol>
+                                                                <li value="1">
+                                                                    <p>Select the text box containing the calculation formula.</p>
+                                                                </li>
+                                                                <li value="2">
+                                                                    <p>From the <span class="bold">Advanced</span> tab, <span class="bold">Calculation</span> section, click on <span class="bold">Filtering options</span>.</p>
+                                                                </li>
+                                                                <li value="3">
+                                                                    <p>Select the filtering option to use.</p>
+                                                                    <p>Learn more about <a href="../Creer_une_analyse/Options_analyses/Options_filtrage.htm" target="_blank">filtering options.</a></p>
+                                                                </li>
+                                                                <li value="4">
+                                                                    <p>From the <span class="bold">Format</span> section, set the number of decimals to be displayed.</p>
+                                                                </li>
+                                                            </ol>
+                                                        </div>
+                                                    </div>
+                                                    <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" alt="Closed" data-mc-alt2="Open" />Insert a hyperlink in a text box</a></span>
+                                                        <div class="MCDropDownBody dropDownBody">
+                                                            <p>To insert a hyperlink in your text box, proceed as follows:</p>
+                                                            <ol>
+                                                                <li value="1">
+                                                                    <p>Select your text.</p>
+                                                                </li>
+                                                                <li value="2">
+                                                                    <p> Click the button <img src="../Resources/Images/Dataviv/bouton_hypertexte.png" alt="" title="" />.</p>
+                                                                </li>
+                                                                <li value="3">
+                                                                    <p>Insert the web address to use.</p>
+                                                                    <p class="noteEN" data-mc-autonum="&lt;b&gt;NOTE: &lt;/b&gt;"><span class="autonumber"><span><b>NOTE: </b></span></span>To generate an email to an address when a person clicks on the link, add the term <span class="bold">"mailto:</span>" in the <span class="bold">Web Address</span> field.<br /><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/Dataviv/mailto.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="404" data-mc-height="238" src="../Resources/Images/Dataviv/mailto.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a><br /><img src="../Resources/Images/Dataviv/mailto_outlook.png" alt="" title="" /></p>
+                                                                </li>
+                                                            </ol>
+                                                            <ol data-mc-continue="true">
+                                                                <li value="4">
+                                                                    <p>(optional) Fill in a tooltip (which will display a text when the link is hovered).</p>
+                                                                </li>
+                                                            </ol>
+                                                        </div>
+                                                    </div>
+                                                    <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" alt="Closed" data-mc-alt2="Open" />Assign an action to a text box</a></span>
+                                                        <div class="MCDropDownBody dropDownBody">
+                                                            <p>To assign an action to a text box, proceed as follows:</p>
+                                                            <ol>
+                                                                <li value="1">
+                                                                    <p>Select the text box.</p>
+                                                                </li>
+                                                                <li value="2">
+                                                                    <p>From the <span class="bold">Scenario</span> tab, choose an action:</p>
+                                                                    <p style="text-align: left;">
+                                                                        <img src="../Resources/Images/image_action.png" alt="" title="" />
+                                                                    </p>
+                                                                </li>
+                                                            </ol>
+                                                            <ul>
+                                                                <li>
+                                                                    <p><span class="bold">Illustrate with a view</span>: allows you to display a view in a popup when clicking on the text.</p>
+                                                                </li>
+                                                                <li>
+                                                                    <p><span class="bold">Filter analyses</span>: select the analyses to be filtered and then define the filter to be used.</p>
+                                                                    <p class="exampleEN" data-mc-autonum="&lt;b&gt;EXAMPLE: &lt;/b&gt;"><span class="autonumber"><span><b>EXAMPLE: </b></span></span>In this example, we have defined a filter "Gender among Man" on the text box "Man".<br /><br /><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/filtre_texte.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="782" data-mc-height="562" src="../Resources/Images/filtre_texte.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a></p>
+                                                                </li>
+                                                                <li>
+                                                                    <p><span class="bold">Navigate to an external link</span>: enter the URL then choose the target (open in a new tab or in the current tab).</p>
+                                                                </li>
+                                                                <li>
+                                                                    <p><span class="bold">Navigate to a page</span>: choose the page to display when clicking on the text box.</p>
+                                                                </li>
+                                                                <li>
+                                                                    <p><span class="bold">Go to a view</span>: choose the view to display when clicking on the text box.</p>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" alt="Closed" data-mc-alt2="Open" />Insert a study parameter in a text box</a></span>
+                                                        <div class="MCDropDownBody dropDownBody">
+                                                            <p>You can  insert a parameter (s) of the study into your view.</p>
+                                                            <p class="exampleEN" data-mc-autonum="&lt;b&gt;EXAMPLE: &lt;/b&gt;"><span class="autonumber"><span><b>EXAMPLE: </b></span></span>Display automatically the page number and the total number of pages.<br /><img src="../Resources/Images/exemple_legende_auto.png" alt="" /></p>
+                                                            <p>To do so:</p>
+                                                            <ol>
+                                                                <li value="1">
+                                                                    <p>Double-click on the text box.</p>
+                                                                </li>
+                                                                <li value="2">
+                                                                    <p>Click on the <span class="bold">Auto legend</span> drop-down menu.</p>
+                                                                </li>
+                                                                <li value="3">
+                                                                    <p>Select the setting to use.</p>
+                                                                    <p style="text-align: left;"><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/Dataviv/legende-auto.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="585" data-mc-height="270" src="../Resources/Images/Dataviv/legende-auto.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a>
+                                                                    </p>
+                                                                </li>
+                                                            </ol>
+                                                        </div>
+                                                    </div>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" alt="Closed" data-mc-alt2="Open" /></a><a name="IMAGE"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" aria-expanded="false">IMAGE</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p>The <span class="bold">image</span> button can be used to illustrate an analysis by adding images or pictograms to the page.</p>
+                                                <ul>
+                                                    <li>
+                                                        <p>Images can be imported from the computer or the internet.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>The pictograms can be displayed by category from the category menu or by searching them directly from the search bar.</p>
+                                                    </li>
+                                                </ul>
+                                                <p>To import an image / pictogram, proceed as follows:</p>
+                                                <ol>
+                                                    <li value="1">
+                                                        <p>Click on the <img src="../Resources/Images/Dataviv/bouton-ajout_23x23.png" style="visibility: visible;mso-wrap-style: square;width: 23;height: 23;" alt="" /> button.</p>
+                                                    </li>
+                                                    <li value="2">
+                                                        <p>Click on <span class="bold">Image</span>.</p>
+                                                    </li>
+                                                    <li value="3">
+                                                        <p>Select the image from the gallery or click on the <span class="bold">Add Image</span> tab to import one from your computer or from the internet.</p>
+                                                        <p style="text-align: left;"><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/Dataviv/Image.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="900" data-mc-height="534" src="../Resources/Images/Dataviv/Image.png" alt="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a>
+                                                        </p>
+                                                    </li>
+                                                    <li value="4">
+                                                        <p>Click <span class="bold">OK</span> to validate.</p>
+                                                    </li>
+                                                    <li value="5">
+                                                        <p>(optional) Modify its style (color of the pictogram, add a colored layer for the images).</p>
+                                                        <p style="text-align: left;"><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/calque_colore.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="585" data-mc-height="504" src="../Resources/Images/calque_colore.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a>
+                                                        </p>
+                                                    </li>
+                                                    <li value="6">
+                                                        <p>(optional) Change the proportions/change the orientation of the image using the <img src="../Resources/Images/Zone_de_texte_1.png" alt="" /> icon.</p>
+                                                    </li>
+                                                </ol>
+                                                <p>It is possible to assign an action to an image, to do this:</p>
+                                                <ol>
+                                                    <li value="1">
+                                                        <p>Select the image.</p>
+                                                    </li>
+                                                    <li value="2">
+                                                        <p>From the <span class="bold">Scenario</span> tab, choose an action:</p>
+                                                        <p style="text-align: left;">
+                                                            <img src="../Resources/Images/image_action.png" alt="" title="" />
+                                                        </p>
+                                                    </li>
+                                                </ol>
+                                                <ul>
+                                                    <li>
+                                                        <p><span class="bold">Illustrate with a view</span>: allows you to display a view in a popup when you click on the image.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p><span class="bold">Filter analyzes</span>: select the analyzes to be filtered and the define the filter to be used.</p>
+                                                        <p class="exampleEN" data-mc-autonum="&lt;b&gt;EXAMPLE: &lt;/b&gt;"><span class="autonumber"><span><b>EXAMPLE: </b></span></span>In this example, we have defined a filter "Gender among Man" on the pictogram in blue. as shown below.<br /><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/image_filtre.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="785" data-mc-height="558" src="../Resources/Images/image_filtre.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a></p>
+                                                    </li>
+                                                    <li>
+                                                        <p><span class="bold">Navigate to an external link</span>: enter the URL and choose the target (open in a new tab or in the same tab).</p>
+                                                    </li>
+                                                    <li>
+                                                        <p><span class="bold">Navigate to a page</span>: choose the page to display when clicking on the image.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p><span class="bold">Go to a view</span>: choose the view to display when clicking on the image.</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" alt="Closed" data-mc-alt2="Open" /></a><a name="FORME"></a><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_" aria-expanded="false">SHAPE</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p>The <span class="bold">Shape</span> button allows you to add figures to better illustrate the analysis.</p>
+                                                <p>To add a graphic shape, do the following:</p>
+                                                <ol>
+                                                    <li value="1">
+                                                        <p>Click on the <img src="../Resources/Images/Dataviv/bouton-ajout_23x23.png" style="visibility: visible;mso-wrap-style: square;width: 23;height: 23;" alt="" /> button.</p>
+                                                    </li>
+                                                    <li value="2">
+                                                        <p>Click on the <span class="bold">Shape</span> icon.</p>
+                                                    </li>
+                                                    <li value="3">
+                                                        <p>Choose the shape to use.</p>
+                                                    </li>
+                                                    <li value="4">
+                                                        <p>(optional) Change its style (color, border).</p>
+                                                    </li>
+                                                    <li value="5">
+                                                        <p>(optional) Change the proportions / change the orientation of the shape using the <img src="../Resources/Images/Zone_de_texte_1.png" alt="" /> icon.</p>
+                                                        <p style="text-align: left;"><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/Dataviv/style_forme_graphique.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="679" data-mc-height="283" src="../Resources/Images/Dataviv/style_forme_graphique.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a>
+                                                        </p>
+                                                        <p style="text-align: left;"><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../Resources/Images/Dataviv/formes_graphique.png" data-mc-popup-alt=""><img class="MCPopupThumbnail img imgpopup" data-mc-width="1187" data-mc-height="160" src="../Resources/Images/Dataviv/formes_graphique.png" alt="" title="" tabindex="" style="max-width: 300px;max-height: 300px;" /></a>
+                                                        </p>
+                                                    </li>
+                                                </ol>
+                                                <p>It is possible to assign an action to a shape, to do this:</p>
+                                                <ul>
+                                                    <li>
+                                                        <p>Select the shape.</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>From the <span class="bold">Scenario</span> tab, choose an action:</p>
+                                                        <p style="text-align: left;">
+                                                            <img src="../Resources/Images/image_action.png" alt="" title="" />
+                                                        </p>
+                                                        <ul>
+                                                            <li>
+                                                                <p><span class="bold">Illustrate with a view</span>: allows you to display a view in a popup when you click on the shape.</p>
+                                                            </li>
+                                                            <li>
+                                                                <p><span class="bold">Filter analyzes</span>: select the analyzes to be filtered and the define the filter to be used.</p>
+                                                            </li>
+                                                            <li>
+                                                                <p><span class="bold">Navigate to an external link</span>: enter the URL and choose the target (open in a new tab or in the same tab).</p>
+                                                            </li>
+                                                            <li>
+                                                                <p><span class="bold">Navigate to a page</span>: choose the page to display when clicking on the shape.</p>
+                                                            </li>
+                                                            <li>
+                                                                <p><span class="bold">Go to a view</span>: choose the view to display when clicking on the shape.</p>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <h2>ADD ELEMENTS&#160;TO&#160;THE&#160;MASK</h2>
+                                        <p>Text boxes, images and shapes can be added to the mask in order to display them on all the pages in your view.</p>
+                                        <p>To do this:</p>
+                                        <ol>
+                                            <li value="1">
+                                                <p>Select the elements (image, text box or shape).</p>
+                                            </li>
+                                            <li value="2">
+                                                <p>Right click and click <span class="bold">Add to the mask</span>.</p>
+                                            </li>
+                                        </ol>
+                                        <p class="noteEN" data-mc-autonum="&lt;b&gt;NOTE: &lt;/b&gt;"><span class="autonumber"><span><b>NOTE: </b></span></span>Once added to the mask, the elements can only be edited from the first page of the view.</p>
+                                        <p>To remove an object from the mask area, do the following:</p>
+                                        <ol>
+                                            <li value="1">
+                                                <p>Select the element.</p>
+                                            </li>
+                                            <li value="2">
+                                                <p>Right click on it then click <span class="bold">Remove from the mask</span>.</p>
+                                            </li>
+                                        </ol>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><a data-close="true"></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,35 @@
+﻿
+p.MyStyle
+{
+	font-family: Arial;
+	font-size: 12pt;
+	margin: 0px;
+}
+
+img
+{
+	border: none;
+}
+
+a.Popup
+{
+
+}
+
+
+#header .logo.selected
+{
+border : 2px white solid;
+	-moz-border-radius: 5px;
+    	-webkit-border-radius: 5px;
+    	border-radius: 5px;
+}
+.hide-extras.active #navigation[role="complementary"]
+{
+   width: 80%;
+}
+
+.active #contentBody[role="main"]
+{
+   margin-right: -80%;
+}
